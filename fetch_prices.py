@@ -42,24 +42,47 @@ def format_prices(raw_data):
         vendor = parts[0] if len(parts) > 1 else "unknown"
         model = "/".join(parts[1:]) if len(parts) > 1 else model_name
         
-        # LiteLLM 数据格式: input_cost_per_token, output_cost_per_token
-        input_price = info.get("input_cost_per_token", 0)
-        output_price = info.get("output_cost_per_token", 0)
+        # 原始价格数据（每 token）
+        input_cost_per_token = info.get("input_cost_per_token", 0)
+        output_cost_per_token = info.get("output_cost_per_token", 0)
         
-        # 转换为每百万 tokens 的价格
-        input_price_per_million = input_price * 1_000_000 if input_price else 0
-        output_price_per_million = output_price * 1_000_000 if output_price else 0
+        # 转换为每百万 tokens 的价格（加工后的数据）
+        input_price_per_million = input_cost_per_token * 1_000_000 if input_cost_per_token else 0
+        output_price_per_million = output_cost_per_token * 1_000_000 if output_cost_per_token else 0
         
-        formatted_data["models"].append({
+        # 构建模型数据：原始数据 + 加工后的数据
+        model_data = {
+            # 基础标识信息
             "vendor": vendor,
             "model": model,
             "full_name": model_name,
-            "input_price": input_price_per_million,
-            "output_price": output_price_per_million,
-            "context_window": info.get("max_tokens", "N/A"),
-            "currency": "USD",
-            "unit": "per_1M_tokens"
-        })
+            
+            # 原始数据（从 LiteLLM 源数据直接保留）
+            "raw": {
+                "input_cost_per_token": input_cost_per_token,
+                "output_cost_per_token": output_cost_per_token,
+                "litellm_provider": info.get("litellm_provider"),
+                "max_input_tokens": info.get("max_input_tokens"),
+                "max_output_tokens": info.get("max_output_tokens"),
+                "max_tokens": info.get("max_tokens"),
+                "mode": info.get("mode"),
+                "supports_function_calling": info.get("supports_function_calling"),
+                "supports_reasoning": info.get("supports_reasoning"),
+                "supports_response_schema": info.get("supports_response_schema"),
+                "supports_tool_choice": info.get("supports_tool_choice"),
+            },
+            
+            # 加工后的数据（计算得出）
+            "processed": {
+                "input_price_per_million": input_price_per_million,
+                "output_price_per_million": output_price_per_million,
+                "currency": "USD",
+                "unit": "per_1M_tokens",
+                "context_window": info.get("max_tokens", "N/A")
+            }
+        }
+        
+        formatted_data["models"].append(model_data)
     
     formatted_data["total_models"] = len(formatted_data["models"])
     print(f"✅ 格式化完成，共 {formatted_data['total_models']} 个模型")
