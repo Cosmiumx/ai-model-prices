@@ -1,0 +1,45 @@
+# Python 虚拟环境
+venv/
+env/
+ENV/
+.venv/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 生成的数据文件
+# model_prices.json 需要提交到仓库，所以不忽略
+*.json
+!model_prices.json
+
+# 分发/打包
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 测试
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 环境变量
+.env
+.env.local
+
+# 日志
+*.log
+
