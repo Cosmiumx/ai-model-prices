@@ -1,6 +1,6 @@
 {
-  "updated_at": "2025-11-18T01:58:17.007199",
-  "total_models": 1770,
+  "updated_at": "2025-11-19T01:58:02.257402",
+  "total_models": 1775,
   "models": [
     {
       "vendor": "unknown",
@@ -1084,10 +1084,10 @@
       "raw": {
         "input_cost_per_token": 1e-06,
         "output_cost_per_token": 5e-06,
-        "litellm_provider": "bedrock",
+        "litellm_provider": "bedrock_converse",
         "max_input_tokens": 200000,
-        "max_output_tokens": 8192,
-        "max_tokens": 8192,
+        "max_output_tokens": 64000,
+        "max_tokens": 64000,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -1099,7 +1099,7 @@
         "output_price_per_million": 5.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8192
+        "context_window": 64000
       }
     },
     {
@@ -1109,10 +1109,10 @@
       "raw": {
         "input_cost_per_token": 1e-06,
         "output_cost_per_token": 5e-06,
-        "litellm_provider": "bedrock",
+        "litellm_provider": "bedrock_converse",
         "max_input_tokens": 200000,
-        "max_output_tokens": 8192,
-        "max_tokens": 8192,
+        "max_output_tokens": 64000,
+        "max_tokens": 64000,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -1124,7 +1124,7 @@
         "output_price_per_million": 5.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8192
+        "context_window": 64000
       }
     },
     {
@@ -1909,10 +1909,10 @@
       "raw": {
         "input_cost_per_token": 1.1e-06,
         "output_cost_per_token": 5.5e-06,
-        "litellm_provider": "bedrock",
+        "litellm_provider": "bedrock_converse",
         "max_input_tokens": 200000,
-        "max_output_tokens": 8192,
-        "max_tokens": 8192,
+        "max_output_tokens": 64000,
+        "max_tokens": 64000,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -1924,7 +1924,7 @@
         "output_price_per_million": 5.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8192
+        "context_window": 64000
       }
     },
     {
@@ -15309,10 +15309,10 @@
       "raw": {
         "input_cost_per_token": 1.1e-06,
         "output_cost_per_token": 5.5e-06,
-        "litellm_provider": "bedrock",
+        "litellm_provider": "bedrock_converse",
         "max_input_tokens": 200000,
-        "max_output_tokens": 8192,
-        "max_tokens": 8192,
+        "max_output_tokens": 64000,
+        "max_tokens": 64000,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -15324,7 +15324,7 @@
         "output_price_per_million": 5.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8192
+        "context_window": 64000
       }
     },
     {
@@ -16404,6 +16404,31 @@
     },
     {
       "vendor": "fireworks_ai",
+      "model": "accounts/fireworks/models/deepseek-v3p1-terminus",
+      "full_name": "fireworks_ai/accounts/fireworks/models/deepseek-v3p1-terminus",
+      "raw": {
+        "input_cost_per_token": 5.6e-07,
+        "output_cost_per_token": 1.68e-06,
+        "litellm_provider": "fireworks_ai",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.56,
+        "output_price_per_million": 1.68,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "fireworks_ai",
       "model": "accounts/fireworks/models/firefunction-v2",
       "full_name": "fireworks_ai/accounts/fireworks/models/firefunction-v2",
       "raw": {
@@ -16550,6 +16575,31 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 131072
+      }
+    },
+    {
+      "vendor": "fireworks_ai",
+      "model": "accounts/fireworks/models/kimi-k2-thinking",
+      "full_name": "fireworks_ai/accounts/fireworks/models/kimi-k2-thinking",
+      "raw": {
+        "input_cost_per_token": 6e-07,
+        "output_cost_per_token": 2.5e-06,
+        "litellm_provider": "fireworks_ai",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "max_tokens": 262144,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.6,
+        "output_price_per_million": 2.5,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 262144
       }
     },
     {
@@ -18254,6 +18304,31 @@
     },
     {
       "vendor": "unknown",
+      "model": "gemini-3-pro-preview",
+      "full_name": "gemini-3-pro-preview",
+      "raw": {
+        "input_cost_per_token": 2e-06,
+        "output_cost_per_token": 1.2e-05,
+        "litellm_provider": "vertex_ai-language-models",
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65535,
+        "max_tokens": 65535,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 2.0,
+        "output_price_per_million": 12.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65535
+      }
+    },
+    {
+      "vendor": "unknown",
       "model": "gemini-2.5-pro-exp-03-25",
       "full_name": "gemini-2.5-pro-exp-03-25",
       "raw": {
@@ -19454,6 +19529,31 @@
     },
     {
       "vendor": "gemini",
+      "model": "gemini-3-pro-preview",
+      "full_name": "gemini/gemini-3-pro-preview",
+      "raw": {
+        "input_cost_per_token": 2e-06,
+        "output_cost_per_token": 1.2e-05,
+        "litellm_provider": "gemini",
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65535,
+        "max_tokens": 65535,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 2.0,
+        "output_price_per_million": 12.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65535
+      }
+    },
+    {
+      "vendor": "gemini",
       "model": "gemini-2.5-pro-exp-03-25",
       "full_name": "gemini/gemini-2.5-pro-exp-03-25",
       "raw": {
@@ -20136,8 +20236,8 @@
         "output_cost_per_token": 5.5e-06,
         "litellm_provider": "bedrock_converse",
         "max_input_tokens": 200000,
-        "max_output_tokens": 8192,
-        "max_tokens": 8192,
+        "max_output_tokens": 64000,
+        "max_tokens": 64000,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -20149,7 +20249,7 @@
         "output_price_per_million": 5.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8192
+        "context_window": 64000
       }
     },
     {
@@ -24284,10 +24384,10 @@
       "raw": {
         "input_cost_per_token": 1.1e-06,
         "output_cost_per_token": 5.5e-06,
-        "litellm_provider": "bedrock",
+        "litellm_provider": "bedrock_converse",
         "max_input_tokens": 200000,
-        "max_output_tokens": 8192,
-        "max_tokens": 8192,
+        "max_output_tokens": 64000,
+        "max_tokens": 64000,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -24299,7 +24399,7 @@
         "output_price_per_million": 5.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8192
+        "context_window": 64000
       }
     },
     {
@@ -35279,31 +35379,6 @@
     },
     {
       "vendor": "unknown",
-      "model": "text-embedding-ada-002-v2",
-      "full_name": "text-embedding-ada-002-v2",
-      "raw": {
-        "input_cost_per_token": 1e-07,
-        "output_cost_per_token": 0.0,
-        "litellm_provider": "openai",
-        "max_input_tokens": 8191,
-        "max_output_tokens": null,
-        "max_tokens": 8191,
-        "mode": "embedding",
-        "supports_function_calling": null,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": null
-      },
-      "processed": {
-        "input_price_per_million": 0.09999999999999999,
-        "output_price_per_million": 0,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 8191
-      }
-    },
-    {
-      "vendor": "unknown",
       "model": "text-embedding-large-exp-03-07",
       "full_name": "text-embedding-large-exp-03-07",
       "raw": {
@@ -36809,10 +36884,10 @@
       "raw": {
         "input_cost_per_token": 1.1e-06,
         "output_cost_per_token": 5.5e-06,
-        "litellm_provider": "bedrock",
+        "litellm_provider": "bedrock_converse",
         "max_input_tokens": 200000,
-        "max_output_tokens": 8192,
-        "max_tokens": 8192,
+        "max_output_tokens": 64000,
+        "max_tokens": 64000,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -36824,7 +36899,7 @@
         "output_price_per_million": 5.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8192
+        "context_window": 64000
       }
     },
     {
@@ -37036,11 +37111,11 @@
         "output_cost_per_token": 5.5e-06,
         "litellm_provider": "bedrock_converse",
         "max_input_tokens": 200000,
-        "max_output_tokens": 8192,
-        "max_tokens": 8192,
+        "max_output_tokens": 64000,
+        "max_tokens": 64000,
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_reasoning": null,
+        "supports_reasoning": true,
         "supports_response_schema": true,
         "supports_tool_choice": true
       },
@@ -37049,7 +37124,7 @@
         "output_price_per_million": 5.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8192
+        "context_window": 64000
       }
     },
     {
@@ -41681,6 +41756,56 @@
       "vendor": "vertex_ai",
       "model": "veo-3.0-generate-preview",
       "full_name": "vertex_ai/veo-3.0-generate-preview",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "vertex_ai-video-models",
+        "max_input_tokens": 1024,
+        "max_output_tokens": null,
+        "max_tokens": 1024,
+        "mode": "video_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 1024
+      }
+    },
+    {
+      "vendor": "vertex_ai",
+      "model": "veo-3.0-fast-generate-001",
+      "full_name": "vertex_ai/veo-3.0-fast-generate-001",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "vertex_ai-video-models",
+        "max_input_tokens": 1024,
+        "max_output_tokens": null,
+        "max_tokens": 1024,
+        "mode": "video_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 1024
+      }
+    },
+    {
+      "vendor": "vertex_ai",
+      "model": "veo-3.0-generate-001",
+      "full_name": "vertex_ai/veo-3.0-generate-001",
       "raw": {
         "input_cost_per_token": 0,
         "output_cost_per_token": 0,
