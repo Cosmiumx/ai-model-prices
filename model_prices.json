@@ -1,6 +1,6 @@
 {
-  "updated_at": "2025-11-20T01:56:36.395514",
-  "total_models": 1784,
+  "updated_at": "2025-11-21T01:57:30.071381",
+  "total_models": 1803,
   "models": [
     {
       "vendor": "unknown",
@@ -2379,6 +2379,106 @@
     },
     {
       "vendor": "azure",
+      "model": "eu/gpt-5.1",
+      "full_name": "azure/eu/gpt-5.1",
+      "raw": {
+        "input_cost_per_token": 1.38e-06,
+        "output_cost_per_token": 1.1e-05,
+        "litellm_provider": "azure",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1.38,
+        "output_price_per_million": 11.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "azure",
+      "model": "eu/gpt-5.1-chat",
+      "full_name": "azure/eu/gpt-5.1-chat",
+      "raw": {
+        "input_cost_per_token": 1.38e-06,
+        "output_cost_per_token": 1.1e-05,
+        "litellm_provider": "azure",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1.38,
+        "output_price_per_million": 11.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "azure",
+      "model": "eu/gpt-5.1-codex",
+      "full_name": "azure/eu/gpt-5.1-codex",
+      "raw": {
+        "input_cost_per_token": 1.38e-06,
+        "output_cost_per_token": 1.1e-05,
+        "litellm_provider": "azure",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1.38,
+        "output_price_per_million": 11.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "azure",
+      "model": "eu/gpt-5.1-codex-mini",
+      "full_name": "azure/eu/gpt-5.1-codex-mini",
+      "raw": {
+        "input_cost_per_token": 2.75e-07,
+        "output_cost_per_token": 2.2e-06,
+        "litellm_provider": "azure",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.275,
+        "output_price_per_million": 2.2,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "azure",
       "model": "eu/gpt-5-nano-2025-08-07",
       "full_name": "azure/eu/gpt-5-nano-2025-08-07",
       "raw": {
@@ -2625,6 +2725,106 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 16384
+      }
+    },
+    {
+      "vendor": "azure",
+      "model": "global/gpt-5.1",
+      "full_name": "azure/global/gpt-5.1",
+      "raw": {
+        "input_cost_per_token": 1.25e-06,
+        "output_cost_per_token": 1e-05,
+        "litellm_provider": "azure",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1.25,
+        "output_price_per_million": 10.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "azure",
+      "model": "global/gpt-5.1-chat",
+      "full_name": "azure/global/gpt-5.1-chat",
+      "raw": {
+        "input_cost_per_token": 1.25e-06,
+        "output_cost_per_token": 1e-05,
+        "litellm_provider": "azure",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1.25,
+        "output_price_per_million": 10.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "azure",
+      "model": "global/gpt-5.1-codex",
+      "full_name": "azure/global/gpt-5.1-codex",
+      "raw": {
+        "input_cost_per_token": 1.25e-06,
+        "output_cost_per_token": 1e-05,
+        "litellm_provider": "azure",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1.25,
+        "output_price_per_million": 10.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "azure",
+      "model": "global/gpt-5.1-codex-mini",
+      "full_name": "azure/global/gpt-5.1-codex-mini",
+      "raw": {
+        "input_cost_per_token": 2.5e-07,
+        "output_cost_per_token": 2e-06,
+        "litellm_provider": "azure",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.25,
+        "output_price_per_million": 2.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
       }
     },
     {
@@ -4150,6 +4350,106 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 400000
+      }
+    },
+    {
+      "vendor": "azure",
+      "model": "gpt-5.1",
+      "full_name": "azure/gpt-5.1",
+      "raw": {
+        "input_cost_per_token": 1.25e-06,
+        "output_cost_per_token": 1e-05,
+        "litellm_provider": "azure",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1.25,
+        "output_price_per_million": 10.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "azure",
+      "model": "gpt-5.1-chat",
+      "full_name": "azure/gpt-5.1-chat",
+      "raw": {
+        "input_cost_per_token": 1.25e-06,
+        "output_cost_per_token": 1e-05,
+        "litellm_provider": "azure",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1.25,
+        "output_price_per_million": 10.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "azure",
+      "model": "gpt-5.1-codex",
+      "full_name": "azure/gpt-5.1-codex",
+      "raw": {
+        "input_cost_per_token": 1.25e-06,
+        "output_cost_per_token": 1e-05,
+        "litellm_provider": "azure",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1.25,
+        "output_price_per_million": 10.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "azure",
+      "model": "gpt-5.1-codex-mini",
+      "full_name": "azure/gpt-5.1-codex-mini",
+      "raw": {
+        "input_cost_per_token": 2.5e-07,
+        "output_cost_per_token": 2e-06,
+        "litellm_provider": "azure",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.25,
+        "output_price_per_million": 2.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
       }
     },
     {
@@ -5722,6 +6022,106 @@
       "processed": {
         "input_price_per_million": 0.055,
         "output_price_per_million": 0.44,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "azure",
+      "model": "us/gpt-5.1",
+      "full_name": "azure/us/gpt-5.1",
+      "raw": {
+        "input_cost_per_token": 1.38e-06,
+        "output_cost_per_token": 1.1e-05,
+        "litellm_provider": "azure",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1.38,
+        "output_price_per_million": 11.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "azure",
+      "model": "us/gpt-5.1-chat",
+      "full_name": "azure/us/gpt-5.1-chat",
+      "raw": {
+        "input_cost_per_token": 1.38e-06,
+        "output_cost_per_token": 1.1e-05,
+        "litellm_provider": "azure",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1.38,
+        "output_price_per_million": 11.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "azure",
+      "model": "us/gpt-5.1-codex",
+      "full_name": "azure/us/gpt-5.1-codex",
+      "raw": {
+        "input_cost_per_token": 1.38e-06,
+        "output_cost_per_token": 1.1e-05,
+        "litellm_provider": "azure",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1.38,
+        "output_price_per_million": 11.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "azure",
+      "model": "us/gpt-5.1-codex-mini",
+      "full_name": "azure/us/gpt-5.1-codex-mini",
+      "raw": {
+        "input_cost_per_token": 2.75e-07,
+        "output_cost_per_token": 2.2e-06,
+        "litellm_provider": "azure",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.275,
+        "output_price_per_million": 2.2,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 128000
@@ -18535,6 +18935,31 @@
         "input_cost_per_token": 2e-06,
         "output_cost_per_token": 1.2e-05,
         "litellm_provider": "vertex_ai-language-models",
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65535,
+        "max_tokens": 65535,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 2.0,
+        "output_price_per_million": 12.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65535
+      }
+    },
+    {
+      "vendor": "vertex_ai",
+      "model": "gemini-3-pro-preview",
+      "full_name": "vertex_ai/gemini-3-pro-preview",
+      "raw": {
+        "input_cost_per_token": 2e-06,
+        "output_cost_per_token": 1.2e-05,
+        "litellm_provider": "vertex_ai",
         "max_input_tokens": 1048576,
         "max_output_tokens": 65535,
         "max_tokens": 65535,
@@ -40829,6 +41254,31 @@
     },
     {
       "vendor": "vertex_ai",
+      "model": "gemini-2.5-flash-image",
+      "full_name": "vertex_ai/gemini-2.5-flash-image",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "vertex_ai-language-models",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "vertex_ai",
       "model": "imagegeneration@006",
       "full_name": "vertex_ai/imagegeneration@006",
       "raw": {
@@ -40906,6 +41356,31 @@
       "vendor": "vertex_ai",
       "model": "imagen-3.0-generate-002",
       "full_name": "vertex_ai/imagen-3.0-generate-002",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "vertex_ai-image-models",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "vertex_ai",
+      "model": "imagen-3.0-capability-001",
+      "full_name": "vertex_ai/imagen-3.0-capability-001",
       "raw": {
         "input_cost_per_token": 0,
         "output_cost_per_token": 0,
