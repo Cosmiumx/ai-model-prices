@@ -1,6 +1,6 @@
 {
-  "updated_at": "2025-11-22T01:53:35.853641",
-  "total_models": 1813,
+  "updated_at": "2025-11-23T02:12:20.942221",
+  "total_models": 1818,
   "models": [
     {
       "vendor": "unknown",
@@ -1386,6 +1386,31 @@
         "output_cost_per_token": 1.5e-05,
         "litellm_provider": "bedrock_converse",
         "max_input_tokens": 1000000,
+        "max_output_tokens": 64000,
+        "max_tokens": 64000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 3.0,
+        "output_price_per_million": 15.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 64000
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "full_name": "anthropic.claude-sonnet-4-5-20250929-v1:0",
+      "raw": {
+        "input_cost_per_token": 3e-06,
+        "output_cost_per_token": 1.5e-05,
+        "litellm_provider": "bedrock_converse",
+        "max_input_tokens": 200000,
         "max_output_tokens": 64000,
         "max_tokens": 64000,
         "mode": "chat",
@@ -9204,6 +9229,31 @@
     },
     {
       "vendor": "bedrock",
+      "model": "us-gov-east-1/claude-sonnet-4-5-20250929-v1:0",
+      "full_name": "bedrock/us-gov-east-1/claude-sonnet-4-5-20250929-v1:0",
+      "raw": {
+        "input_cost_per_token": 3.3e-06,
+        "output_cost_per_token": 1.65e-05,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 4096,
+        "max_tokens": 4096,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 3.3000000000000003,
+        "output_price_per_million": 16.5,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 4096
+      }
+    },
+    {
+      "vendor": "bedrock",
       "model": "us-gov-east-1/meta.llama3-70b-instruct-v1:0",
       "full_name": "bedrock/us-gov-east-1/meta.llama3-70b-instruct-v1:0",
       "raw": {
@@ -9472,6 +9522,31 @@
       "processed": {
         "input_price_per_million": 0.3,
         "output_price_per_million": 1.5,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 4096
+      }
+    },
+    {
+      "vendor": "bedrock",
+      "model": "us-gov-west-1/claude-sonnet-4-5-20250929-v1:0",
+      "full_name": "bedrock/us-gov-west-1/claude-sonnet-4-5-20250929-v1:0",
+      "raw": {
+        "input_cost_per_token": 3.3e-06,
+        "output_cost_per_token": 1.65e-05,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 4096,
+        "max_tokens": 4096,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 3.3000000000000003,
+        "output_price_per_million": 16.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 4096
@@ -10585,6 +10660,31 @@
         "input_cost_per_token": 3e-06,
         "output_cost_per_token": 1.5e-05,
         "litellm_provider": "anthropic",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 64000,
+        "max_tokens": 64000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 3.0,
+        "output_price_per_million": 15.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 64000
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "claude-sonnet-4-5-20250929-v1:0",
+      "full_name": "claude-sonnet-4-5-20250929-v1:0",
+      "raw": {
+        "input_cost_per_token": 3e-06,
+        "output_cost_per_token": 1.5e-05,
+        "litellm_provider": "bedrock",
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
         "max_tokens": 64000,
@@ -36104,6 +36204,31 @@
     },
     {
       "vendor": "unknown",
+      "model": "text-embedding-ada-002-v2",
+      "full_name": "text-embedding-ada-002-v2",
+      "raw": {
+        "input_cost_per_token": 1e-07,
+        "output_cost_per_token": 0.0,
+        "litellm_provider": "openai",
+        "max_input_tokens": 8191,
+        "max_output_tokens": null,
+        "max_tokens": 8191,
+        "mode": "embedding",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.09999999999999999,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8191
+      }
+    },
+    {
+      "vendor": "unknown",
       "model": "text-embedding-large-exp-03-07",
       "full_name": "text-embedding-large-exp-03-07",
       "raw": {
@@ -41357,24 +41482,24 @@
       "model": "gemini-2.5-flash-image",
       "full_name": "vertex_ai/gemini-2.5-flash-image",
       "raw": {
-        "input_cost_per_token": 0,
-        "output_cost_per_token": 0,
+        "input_cost_per_token": 3e-07,
+        "output_cost_per_token": 2.5e-06,
         "litellm_provider": "vertex_ai-language-models",
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "max_tokens": null,
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
         "mode": "image_generation",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": null
+        "supports_response_schema": true,
+        "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 0,
-        "output_price_per_million": 0,
+        "input_price_per_million": 0.3,
+        "output_price_per_million": 2.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": "N/A"
+        "context_window": 32768
       }
     },
     {
