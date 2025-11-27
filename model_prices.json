@@ -1,6 +1,6 @@
 {
-  "updated_at": "2025-11-26T01:59:56.758814",
-  "total_models": 1826,
+  "updated_at": "2025-11-27T01:57:20.451352",
+  "total_models": 1830,
   "models": [
     {
       "vendor": "unknown",
@@ -16054,6 +16054,31 @@
     },
     {
       "vendor": "unknown",
+      "model": "embed-multilingual-light-v3.0",
+      "full_name": "embed-multilingual-light-v3.0",
+      "raw": {
+        "input_cost_per_token": 0.0001,
+        "output_cost_per_token": 0.0,
+        "litellm_provider": "cohere",
+        "max_input_tokens": 1024,
+        "max_output_tokens": null,
+        "max_tokens": 1024,
+        "mode": "embedding",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 100.0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 1024
+      }
+    },
+    {
+      "vendor": "unknown",
       "model": "eu.amazon.nova-lite-v1:0",
       "full_name": "eu.amazon.nova-lite-v1:0",
       "raw": {
@@ -17350,6 +17375,31 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 96000
+      }
+    },
+    {
+      "vendor": "fireworks_ai",
+      "model": "accounts/fireworks/models/glm-4p6",
+      "full_name": "fireworks_ai/accounts/fireworks/models/glm-4p6",
+      "raw": {
+        "input_cost_per_token": 5.5e-07,
+        "output_cost_per_token": 2.19e-06,
+        "litellm_provider": "fireworks_ai",
+        "max_input_tokens": 202800,
+        "max_output_tokens": 202800,
+        "max_tokens": 202800,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.55,
+        "output_price_per_million": 2.1900000000000004,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 202800
       }
     },
     {
@@ -30825,6 +30875,31 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 64000
+      }
+    },
+    {
+      "vendor": "openrouter",
+      "model": "anthropic/claude-opus-4.5",
+      "full_name": "openrouter/anthropic/claude-opus-4.5",
+      "raw": {
+        "input_cost_per_token": 5e-06,
+        "output_cost_per_token": 2.5e-05,
+        "litellm_provider": "openrouter",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 32000,
+        "max_tokens": 32000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 5.0,
+        "output_price_per_million": 25.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32000
       }
     },
     {
@@ -44500,6 +44575,31 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 8192
+      }
+    },
+    {
+      "vendor": "watsonx",
+      "model": "whisper-large-v3-turbo",
+      "full_name": "watsonx/whisper-large-v3-turbo",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "watsonx",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "audio_transcription",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
       }
     },
     {
