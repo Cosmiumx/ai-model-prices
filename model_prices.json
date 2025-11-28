@@ -1,6 +1,6 @@
 {
-  "updated_at": "2025-11-27T01:57:20.451352",
-  "total_models": 1830,
+  "updated_at": "2025-11-28T01:57:09.146199",
+  "total_models": 1840,
   "models": [
     {
       "vendor": "unknown",
@@ -586,6 +586,31 @@
         "output_cost_per_token": 0,
         "litellm_provider": "aiml",
         "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "amazon.nova-canvas-v1:0",
+      "full_name": "amazon.nova-canvas-v1:0",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 2600,
         "max_output_tokens": null,
         "max_tokens": null,
         "mode": "image_generation",
@@ -34025,6 +34050,231 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 12000
+      }
+    },
+    {
+      "vendor": "publicai",
+      "model": "swiss-ai/apertus-8b-instruct",
+      "full_name": "publicai/swiss-ai/apertus-8b-instruct",
+      "raw": {
+        "input_cost_per_token": 0.0,
+        "output_cost_per_token": 0.0,
+        "litellm_provider": "publicai",
+        "max_input_tokens": 8192,
+        "max_output_tokens": 4096,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "publicai",
+      "model": "swiss-ai/apertus-70b-instruct",
+      "full_name": "publicai/swiss-ai/apertus-70b-instruct",
+      "raw": {
+        "input_cost_per_token": 0.0,
+        "output_cost_per_token": 0.0,
+        "litellm_provider": "publicai",
+        "max_input_tokens": 8192,
+        "max_output_tokens": 4096,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "publicai",
+      "model": "aisingapore/Gemma-SEA-LION-v4-27B-IT",
+      "full_name": "publicai/aisingapore/Gemma-SEA-LION-v4-27B-IT",
+      "raw": {
+        "input_cost_per_token": 0.0,
+        "output_cost_per_token": 0.0,
+        "litellm_provider": "publicai",
+        "max_input_tokens": 8192,
+        "max_output_tokens": 4096,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "publicai",
+      "model": "BSC-LT/salamandra-7b-instruct-tools-16k",
+      "full_name": "publicai/BSC-LT/salamandra-7b-instruct-tools-16k",
+      "raw": {
+        "input_cost_per_token": 0.0,
+        "output_cost_per_token": 0.0,
+        "litellm_provider": "publicai",
+        "max_input_tokens": 16384,
+        "max_output_tokens": 4096,
+        "max_tokens": 16384,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 16384
+      }
+    },
+    {
+      "vendor": "publicai",
+      "model": "BSC-LT/ALIA-40b-instruct_Q8_0",
+      "full_name": "publicai/BSC-LT/ALIA-40b-instruct_Q8_0",
+      "raw": {
+        "input_cost_per_token": 0.0,
+        "output_cost_per_token": 0.0,
+        "litellm_provider": "publicai",
+        "max_input_tokens": 8192,
+        "max_output_tokens": 4096,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "publicai",
+      "model": "allenai/Olmo-3-7B-Instruct",
+      "full_name": "publicai/allenai/Olmo-3-7B-Instruct",
+      "raw": {
+        "input_cost_per_token": 0.0,
+        "output_cost_per_token": 0.0,
+        "litellm_provider": "publicai",
+        "max_input_tokens": 32768,
+        "max_output_tokens": 4096,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "publicai",
+      "model": "aisingapore/Qwen-SEA-LION-v4-32B-IT",
+      "full_name": "publicai/aisingapore/Qwen-SEA-LION-v4-32B-IT",
+      "raw": {
+        "input_cost_per_token": 0.0,
+        "output_cost_per_token": 0.0,
+        "litellm_provider": "publicai",
+        "max_input_tokens": 32768,
+        "max_output_tokens": 4096,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "publicai",
+      "model": "allenai/Olmo-3-7B-Think",
+      "full_name": "publicai/allenai/Olmo-3-7B-Think",
+      "raw": {
+        "input_cost_per_token": 0.0,
+        "output_cost_per_token": 0.0,
+        "litellm_provider": "publicai",
+        "max_input_tokens": 32768,
+        "max_output_tokens": 4096,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "publicai",
+      "model": "allenai/Olmo-3-32B-Think",
+      "full_name": "publicai/allenai/Olmo-3-32B-Think",
+      "raw": {
+        "input_cost_per_token": 0.0,
+        "output_cost_per_token": 0.0,
+        "litellm_provider": "publicai",
+        "max_input_tokens": 32768,
+        "max_output_tokens": 4096,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
       }
     },
     {
