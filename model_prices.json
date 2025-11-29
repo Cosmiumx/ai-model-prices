@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-11-28T01:57:09.146199",
+  "updated_at": "2025-11-29T01:56:56.921809",
   "total_models": 1840,
   "models": [
     {
@@ -2209,7 +2209,7 @@
       "raw": {
         "input_cost_per_token": 1e-06,
         "output_cost_per_token": 5e-06,
-        "litellm_provider": "azure_anthropic",
+        "litellm_provider": "azure_ai",
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
         "max_tokens": 64000,
@@ -2234,7 +2234,7 @@
       "raw": {
         "input_cost_per_token": 1.5e-05,
         "output_cost_per_token": 7.5e-05,
-        "litellm_provider": "azure_anthropic",
+        "litellm_provider": "azure_ai",
         "max_input_tokens": 200000,
         "max_output_tokens": 32000,
         "max_tokens": 32000,
@@ -2259,7 +2259,7 @@
       "raw": {
         "input_cost_per_token": 3e-06,
         "output_cost_per_token": 1.5e-05,
-        "litellm_provider": "azure_anthropic",
+        "litellm_provider": "azure_ai",
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
         "max_tokens": 64000,
