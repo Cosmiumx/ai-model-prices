@@ -1,6 +1,6 @@
 {
-  "updated_at": "2025-12-01T02:25:27.211191",
-  "total_models": 1840,
+  "updated_at": "2025-12-02T02:01:39.442908",
+  "total_models": 1841,
   "models": [
     {
       "vendor": "unknown",
@@ -17500,6 +17500,31 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 131072
+      }
+    },
+    {
+      "vendor": "fireworks_ai",
+      "model": "accounts/fireworks/models/kimi-k2-instruct-0905",
+      "full_name": "fireworks_ai/accounts/fireworks/models/kimi-k2-instruct-0905",
+      "raw": {
+        "input_cost_per_token": 6e-07,
+        "output_cost_per_token": 2.5e-06,
+        "litellm_provider": "fireworks_ai",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 32768,
+        "max_tokens": 262144,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.6,
+        "output_price_per_million": 2.5,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 262144
       }
     },
     {
