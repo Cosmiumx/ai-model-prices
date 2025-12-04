@@ -1,6 +1,6 @@
 {
-  "updated_at": "2025-12-03T02:01:05.495197",
-  "total_models": 1873,
+  "updated_at": "2025-12-04T02:02:28.576448",
+  "total_models": 1880,
   "models": [
     {
       "vendor": "unknown",
@@ -16153,6 +16153,31 @@
       }
     },
     {
+      "vendor": "deepseek",
+      "model": "deepseek-v3.2",
+      "full_name": "deepseek/deepseek-v3.2",
+      "raw": {
+        "input_cost_per_token": 2.8e-07,
+        "output_cost_per_token": 4e-07,
+        "litellm_provider": "deepseek",
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.28,
+        "output_price_per_million": 0.39999999999999997,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
       "vendor": "unknown",
       "model": "deepseek.v3-v1:0",
       "full_name": "deepseek.v3-v1:0",
@@ -18582,8 +18607,8 @@
       "model": "ft:babbage-002",
       "full_name": "ft:babbage-002",
       "raw": {
-        "input_cost_per_token": 4e-07,
-        "output_cost_per_token": 4e-07,
+        "input_cost_per_token": 1.6e-06,
+        "output_cost_per_token": 1.6e-06,
         "litellm_provider": "text-completion-openai",
         "max_input_tokens": 16384,
         "max_output_tokens": 4096,
@@ -18595,8 +18620,8 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 0.39999999999999997,
-        "output_price_per_million": 0.39999999999999997,
+        "input_price_per_million": 1.5999999999999999,
+        "output_price_per_million": 1.5999999999999999,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 16384
@@ -18607,8 +18632,8 @@
       "model": "ft:davinci-002",
       "full_name": "ft:davinci-002",
       "raw": {
-        "input_cost_per_token": 2e-06,
-        "output_cost_per_token": 2e-06,
+        "input_cost_per_token": 1.2e-05,
+        "output_cost_per_token": 1.2e-05,
         "litellm_provider": "text-completion-openai",
         "max_input_tokens": 16384,
         "max_output_tokens": 4096,
@@ -18620,8 +18645,8 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 2.0,
-        "output_price_per_million": 2.0,
+        "input_price_per_million": 12.0,
+        "output_price_per_million": 12.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 16384
@@ -18825,6 +18850,106 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 16384
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "ft:gpt-4.1-2025-04-14",
+      "full_name": "ft:gpt-4.1-2025-04-14",
+      "raw": {
+        "input_cost_per_token": 3e-06,
+        "output_cost_per_token": 1.2e-05,
+        "litellm_provider": "openai",
+        "max_input_tokens": 1047576,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 3.0,
+        "output_price_per_million": 12.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "ft:gpt-4.1-mini-2025-04-14",
+      "full_name": "ft:gpt-4.1-mini-2025-04-14",
+      "raw": {
+        "input_cost_per_token": 8e-07,
+        "output_cost_per_token": 3.2e-06,
+        "litellm_provider": "openai",
+        "max_input_tokens": 1047576,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.7999999999999999,
+        "output_price_per_million": 3.1999999999999997,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "ft:gpt-4.1-nano-2025-04-14",
+      "full_name": "ft:gpt-4.1-nano-2025-04-14",
+      "raw": {
+        "input_cost_per_token": 2e-07,
+        "output_cost_per_token": 8e-07,
+        "litellm_provider": "openai",
+        "max_input_tokens": 1047576,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.19999999999999998,
+        "output_price_per_million": 0.7999999999999999,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "ft:o4-mini-2025-04-16",
+      "full_name": "ft:o4-mini-2025-04-16",
+      "raw": {
+        "input_cost_per_token": 4e-06,
+        "output_cost_per_token": 1.6e-05,
+        "litellm_provider": "openai",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 100000,
+        "max_tokens": 100000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 4.0,
+        "output_price_per_million": 16.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 100000
       }
     },
     {
@@ -31754,6 +31879,31 @@
     },
     {
       "vendor": "openrouter",
+      "model": "deepseek/deepseek-v3.2",
+      "full_name": "openrouter/deepseek/deepseek-v3.2",
+      "raw": {
+        "input_cost_per_token": 2.8e-07,
+        "output_cost_per_token": 4e-07,
+        "litellm_provider": "openrouter",
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.28,
+        "output_price_per_million": 0.39999999999999997,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "openrouter",
       "model": "deepseek/deepseek-v3.2-exp",
       "full_name": "openrouter/deepseek/deepseek-v3.2-exp",
       "raw": {
@@ -39081,6 +39231,31 @@
       "vendor": "unknown",
       "model": "us.anthropic.claude-opus-4-5-20251101-v1:0",
       "full_name": "us.anthropic.claude-opus-4-5-20251101-v1:0",
+      "raw": {
+        "input_cost_per_token": 5e-06,
+        "output_cost_per_token": 2.5e-05,
+        "litellm_provider": "bedrock_converse",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 64000,
+        "max_tokens": 64000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 5.0,
+        "output_price_per_million": 25.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 64000
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "global.anthropic.claude-opus-4-5-20251101-v1:0",
+      "full_name": "global.anthropic.claude-opus-4-5-20251101-v1:0",
       "raw": {
         "input_cost_per_token": 5e-06,
         "output_cost_per_token": 2.5e-05,
