@@ -1,6 +1,6 @@
 {
-  "updated_at": "2025-12-06T01:56:07.721082",
-  "total_models": 1888,
+  "updated_at": "2025-12-07T02:11:49.537551",
+  "total_models": 1892,
   "models": [
     {
       "vendor": "unknown",
@@ -24425,6 +24425,106 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 262144
+      }
+    },
+    {
+      "vendor": "amazon-nova",
+      "model": "nova-micro-v1",
+      "full_name": "amazon-nova/nova-micro-v1",
+      "raw": {
+        "input_cost_per_token": 3.5e-08,
+        "output_cost_per_token": 1.4e-07,
+        "litellm_provider": "amazon_nova",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 10000,
+        "max_tokens": 10000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.035,
+        "output_price_per_million": 0.14,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 10000
+      }
+    },
+    {
+      "vendor": "amazon-nova",
+      "model": "nova-lite-v1",
+      "full_name": "amazon-nova/nova-lite-v1",
+      "raw": {
+        "input_cost_per_token": 6e-08,
+        "output_cost_per_token": 2.4e-07,
+        "litellm_provider": "amazon_nova",
+        "max_input_tokens": 300000,
+        "max_output_tokens": 10000,
+        "max_tokens": 10000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.06,
+        "output_price_per_million": 0.24,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 10000
+      }
+    },
+    {
+      "vendor": "amazon-nova",
+      "model": "nova-premier-v1",
+      "full_name": "amazon-nova/nova-premier-v1",
+      "raw": {
+        "input_cost_per_token": 2.5e-06,
+        "output_cost_per_token": 1.25e-05,
+        "litellm_provider": "amazon_nova",
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 10000,
+        "max_tokens": 10000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 2.5,
+        "output_price_per_million": 12.5,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 10000
+      }
+    },
+    {
+      "vendor": "amazon-nova",
+      "model": "nova-pro-v1",
+      "full_name": "amazon-nova/nova-pro-v1",
+      "raw": {
+        "input_cost_per_token": 8e-07,
+        "output_cost_per_token": 3.2e-06,
+        "litellm_provider": "amazon_nova",
+        "max_input_tokens": 300000,
+        "max_output_tokens": 10000,
+        "max_tokens": 10000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.7999999999999999,
+        "output_price_per_million": 3.1999999999999997,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 10000
       }
     },
     {
