@@ -1,6 +1,6 @@
 {
-  "updated_at": "2025-12-15T02:09:39.957662",
-  "total_models": 2173,
+  "updated_at": "2025-12-16T02:06:37.289479",
+  "total_models": 2182,
   "models": [
     {
       "vendor": "unknown",
@@ -11061,8 +11061,8 @@
         "output_cost_per_token": 1.5e-05,
         "litellm_provider": "anthropic",
         "max_input_tokens": 200000,
-        "max_output_tokens": 128000,
-        "max_tokens": 128000,
+        "max_output_tokens": 64000,
+        "max_tokens": 64000,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -11074,7 +11074,7 @@
         "output_price_per_million": 15.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 64000
       }
     },
     {
@@ -11086,8 +11086,8 @@
         "output_cost_per_token": 1.5e-05,
         "litellm_provider": "anthropic",
         "max_input_tokens": 200000,
-        "max_output_tokens": 128000,
-        "max_tokens": 128000,
+        "max_output_tokens": 64000,
+        "max_tokens": 64000,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -11099,7 +11099,7 @@
         "output_price_per_million": 15.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 64000
       }
     },
     {
@@ -18240,7 +18240,7 @@
         "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
-        "supports_reasoning": null,
+        "supports_reasoning": true,
         "supports_response_schema": true,
         "supports_tool_choice": true
       },
@@ -18265,7 +18265,7 @@
         "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
-        "supports_reasoning": null,
+        "supports_reasoning": true,
         "supports_response_schema": true,
         "supports_tool_choice": true
       },
@@ -18290,7 +18290,7 @@
         "max_tokens": 163840,
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_reasoning": null,
+        "supports_reasoning": true,
         "supports_response_schema": true,
         "supports_tool_choice": true
       },
@@ -18340,7 +18340,7 @@
         "max_tokens": 96000,
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_reasoning": null,
+        "supports_reasoning": true,
         "supports_response_schema": true,
         "supports_tool_choice": true
       },
@@ -18365,7 +18365,7 @@
         "max_tokens": 96000,
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_reasoning": null,
+        "supports_reasoning": true,
         "supports_response_schema": true,
         "supports_tool_choice": true
       },
@@ -18390,7 +18390,7 @@
         "max_tokens": 202800,
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_reasoning": null,
+        "supports_reasoning": true,
         "supports_response_schema": true,
         "supports_tool_choice": true
       },
@@ -18415,7 +18415,7 @@
         "max_tokens": 131072,
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_reasoning": null,
+        "supports_reasoning": true,
         "supports_response_schema": true,
         "supports_tool_choice": true
       },
@@ -18440,7 +18440,7 @@
         "max_tokens": 131072,
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_reasoning": null,
+        "supports_reasoning": true,
         "supports_response_schema": true,
         "supports_tool_choice": true
       },
@@ -24407,8 +24407,8 @@
       "model": "gpt-image-1",
       "full_name": "gpt-image-1",
       "raw": {
-        "input_cost_per_token": 0,
-        "output_cost_per_token": 0,
+        "input_cost_per_token": 5e-06,
+        "output_cost_per_token": 4e-05,
         "litellm_provider": "openai",
         "max_input_tokens": null,
         "max_output_tokens": null,
@@ -24420,8 +24420,8 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 0,
-        "output_price_per_million": 0,
+        "input_price_per_million": 5.0,
+        "output_price_per_million": 40.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": "N/A"
@@ -33779,6 +33779,156 @@
     },
     {
       "vendor": "openrouter",
+      "model": "mistralai/devstral-2512:free",
+      "full_name": "openrouter/mistralai/devstral-2512:free",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openrouter",
+        "max_input_tokens": 262144,
+        "max_output_tokens": null,
+        "max_tokens": 262144,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 262144
+      }
+    },
+    {
+      "vendor": "openrouter",
+      "model": "mistralai/devstral-2512",
+      "full_name": "openrouter/mistralai/devstral-2512",
+      "raw": {
+        "input_cost_per_token": 1.5e-07,
+        "output_cost_per_token": 6e-07,
+        "litellm_provider": "openrouter",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 65536,
+        "max_tokens": 262144,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.15,
+        "output_price_per_million": 0.6,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 262144
+      }
+    },
+    {
+      "vendor": "openrouter",
+      "model": "mistralai/ministral-3b-2512",
+      "full_name": "openrouter/mistralai/ministral-3b-2512",
+      "raw": {
+        "input_cost_per_token": 1e-07,
+        "output_cost_per_token": 1e-07,
+        "litellm_provider": "openrouter",
+        "max_input_tokens": 131072,
+        "max_output_tokens": null,
+        "max_tokens": 131072,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.09999999999999999,
+        "output_price_per_million": 0.09999999999999999,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 131072
+      }
+    },
+    {
+      "vendor": "openrouter",
+      "model": "mistralai/ministral-8b-2512",
+      "full_name": "openrouter/mistralai/ministral-8b-2512",
+      "raw": {
+        "input_cost_per_token": 1.5e-07,
+        "output_cost_per_token": 1.5e-07,
+        "litellm_provider": "openrouter",
+        "max_input_tokens": 262144,
+        "max_output_tokens": null,
+        "max_tokens": 262144,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.15,
+        "output_price_per_million": 0.15,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 262144
+      }
+    },
+    {
+      "vendor": "openrouter",
+      "model": "mistralai/ministral-14b-2512",
+      "full_name": "openrouter/mistralai/ministral-14b-2512",
+      "raw": {
+        "input_cost_per_token": 2e-07,
+        "output_cost_per_token": 2e-07,
+        "litellm_provider": "openrouter",
+        "max_input_tokens": 262144,
+        "max_output_tokens": null,
+        "max_tokens": 262144,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.19999999999999998,
+        "output_price_per_million": 0.19999999999999998,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 262144
+      }
+    },
+    {
+      "vendor": "openrouter",
+      "model": "mistralai/mistral-large-2512",
+      "full_name": "openrouter/mistralai/mistral-large-2512",
+      "raw": {
+        "input_cost_per_token": 5e-07,
+        "output_cost_per_token": 1.5e-06,
+        "litellm_provider": "openrouter",
+        "max_input_tokens": 262144,
+        "max_output_tokens": null,
+        "max_tokens": 262144,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.5,
+        "output_price_per_million": 1.5,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 262144
+      }
+    },
+    {
+      "vendor": "openrouter",
       "model": "mistralai/mistral-7b-instruct",
       "full_name": "openrouter/mistralai/mistral-7b-instruct",
       "raw": {
@@ -34375,6 +34525,81 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 128000
+      }
+    },
+    {
+      "vendor": "openrouter",
+      "model": "openai/gpt-5.2",
+      "full_name": "openrouter/openai/gpt-5.2",
+      "raw": {
+        "input_cost_per_token": 1.75e-06,
+        "output_cost_per_token": 1.4e-05,
+        "litellm_provider": "openrouter",
+        "max_input_tokens": 400000,
+        "max_output_tokens": 128000,
+        "max_tokens": 400000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1.75,
+        "output_price_per_million": 14.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 400000
+      }
+    },
+    {
+      "vendor": "openrouter",
+      "model": "openai/gpt-5.2-chat",
+      "full_name": "openrouter/openai/gpt-5.2-chat",
+      "raw": {
+        "input_cost_per_token": 1.75e-06,
+        "output_cost_per_token": 1.4e-05,
+        "litellm_provider": "openrouter",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1.75,
+        "output_price_per_million": 14.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "openrouter",
+      "model": "openai/gpt-5.2-pro",
+      "full_name": "openrouter/openai/gpt-5.2-pro",
+      "raw": {
+        "input_cost_per_token": 2.1e-05,
+        "output_cost_per_token": 0.000168,
+        "litellm_provider": "openrouter",
+        "max_input_tokens": 400000,
+        "max_output_tokens": 128000,
+        "max_tokens": 400000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 21.0,
+        "output_price_per_million": 168.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 400000
       }
     },
     {
@@ -50340,7 +50565,7 @@
         "max_tokens": 131072,
         "mode": "chat",
         "supports_function_calling": null,
-        "supports_reasoning": null,
+        "supports_reasoning": true,
         "supports_response_schema": null,
         "supports_tool_choice": null
       },
