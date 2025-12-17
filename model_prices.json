@@ -1,6 +1,6 @@
 {
-  "updated_at": "2025-12-16T02:06:37.289479",
-  "total_models": 2182,
+  "updated_at": "2025-12-17T02:01:42.860158",
+  "total_models": 2213,
   "models": [
     {
       "vendor": "unknown",
@@ -7750,6 +7750,56 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 32768
+      }
+    },
+    {
+      "vendor": "azure_ai",
+      "model": "deepseek-v3.2",
+      "full_name": "azure_ai/deepseek-v3.2",
+      "raw": {
+        "input_cost_per_token": 5.8e-07,
+        "output_cost_per_token": 1.68e-06,
+        "litellm_provider": "azure_ai",
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.58,
+        "output_price_per_million": 1.68,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "azure_ai",
+      "model": "deepseek-v3.2-speciale",
+      "full_name": "azure_ai/deepseek-v3.2-speciale",
+      "raw": {
+        "input_cost_per_token": 5.8e-07,
+        "output_cost_per_token": 1.68e-06,
+        "litellm_provider": "azure_ai",
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.58,
+        "output_price_per_million": 1.68,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
       }
     },
     {
@@ -22275,6 +22325,731 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 1024
+      }
+    },
+    {
+      "vendor": "github_copilot",
+      "model": "claude-haiku-4.5",
+      "full_name": "github_copilot/claude-haiku-4.5",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "github_copilot",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16000,
+        "max_tokens": 16000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 16000
+      }
+    },
+    {
+      "vendor": "github_copilot",
+      "model": "claude-opus-4.5",
+      "full_name": "github_copilot/claude-opus-4.5",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "github_copilot",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16000,
+        "max_tokens": 16000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 16000
+      }
+    },
+    {
+      "vendor": "github_copilot",
+      "model": "claude-opus-41",
+      "full_name": "github_copilot/claude-opus-41",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "github_copilot",
+        "max_input_tokens": 80000,
+        "max_output_tokens": 16000,
+        "max_tokens": 16000,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 16000
+      }
+    },
+    {
+      "vendor": "github_copilot",
+      "model": "claude-sonnet-4",
+      "full_name": "github_copilot/claude-sonnet-4",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "github_copilot",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16000,
+        "max_tokens": 16000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 16000
+      }
+    },
+    {
+      "vendor": "github_copilot",
+      "model": "claude-sonnet-4.5",
+      "full_name": "github_copilot/claude-sonnet-4.5",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "github_copilot",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16000,
+        "max_tokens": 16000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 16000
+      }
+    },
+    {
+      "vendor": "github_copilot",
+      "model": "gemini-2.5-pro",
+      "full_name": "github_copilot/gemini-2.5-pro",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "github_copilot",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 64000,
+        "max_tokens": 64000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 64000
+      }
+    },
+    {
+      "vendor": "github_copilot",
+      "model": "gemini-3-pro-preview",
+      "full_name": "github_copilot/gemini-3-pro-preview",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "github_copilot",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 64000,
+        "max_tokens": 64000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 64000
+      }
+    },
+    {
+      "vendor": "github_copilot",
+      "model": "gpt-3.5-turbo",
+      "full_name": "github_copilot/gpt-3.5-turbo",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "github_copilot",
+        "max_input_tokens": 16384,
+        "max_output_tokens": 4096,
+        "max_tokens": 4096,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 4096
+      }
+    },
+    {
+      "vendor": "github_copilot",
+      "model": "gpt-3.5-turbo-0613",
+      "full_name": "github_copilot/gpt-3.5-turbo-0613",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "github_copilot",
+        "max_input_tokens": 16384,
+        "max_output_tokens": 4096,
+        "max_tokens": 4096,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 4096
+      }
+    },
+    {
+      "vendor": "github_copilot",
+      "model": "gpt-4",
+      "full_name": "github_copilot/gpt-4",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "github_copilot",
+        "max_input_tokens": 32768,
+        "max_output_tokens": 4096,
+        "max_tokens": 4096,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 4096
+      }
+    },
+    {
+      "vendor": "github_copilot",
+      "model": "gpt-4-0613",
+      "full_name": "github_copilot/gpt-4-0613",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "github_copilot",
+        "max_input_tokens": 32768,
+        "max_output_tokens": 4096,
+        "max_tokens": 4096,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 4096
+      }
+    },
+    {
+      "vendor": "github_copilot",
+      "model": "gpt-4-o-preview",
+      "full_name": "github_copilot/gpt-4-o-preview",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "github_copilot",
+        "max_input_tokens": 64000,
+        "max_output_tokens": 4096,
+        "max_tokens": 4096,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 4096
+      }
+    },
+    {
+      "vendor": "github_copilot",
+      "model": "gpt-4.1",
+      "full_name": "github_copilot/gpt-4.1",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "github_copilot",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "max_tokens": 16384,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 16384
+      }
+    },
+    {
+      "vendor": "github_copilot",
+      "model": "gpt-4.1-2025-04-14",
+      "full_name": "github_copilot/gpt-4.1-2025-04-14",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "github_copilot",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "max_tokens": 16384,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 16384
+      }
+    },
+    {
+      "vendor": "github_copilot",
+      "model": "gpt-41-copilot",
+      "full_name": "github_copilot/gpt-41-copilot",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "github_copilot",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "completion",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "github_copilot",
+      "model": "gpt-4o",
+      "full_name": "github_copilot/gpt-4o",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "github_copilot",
+        "max_input_tokens": 64000,
+        "max_output_tokens": 4096,
+        "max_tokens": 4096,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 4096
+      }
+    },
+    {
+      "vendor": "github_copilot",
+      "model": "gpt-4o-2024-05-13",
+      "full_name": "github_copilot/gpt-4o-2024-05-13",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "github_copilot",
+        "max_input_tokens": 64000,
+        "max_output_tokens": 4096,
+        "max_tokens": 4096,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 4096
+      }
+    },
+    {
+      "vendor": "github_copilot",
+      "model": "gpt-4o-2024-08-06",
+      "full_name": "github_copilot/gpt-4o-2024-08-06",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "github_copilot",
+        "max_input_tokens": 64000,
+        "max_output_tokens": 16384,
+        "max_tokens": 16384,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 16384
+      }
+    },
+    {
+      "vendor": "github_copilot",
+      "model": "gpt-4o-2024-11-20",
+      "full_name": "github_copilot/gpt-4o-2024-11-20",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "github_copilot",
+        "max_input_tokens": 64000,
+        "max_output_tokens": 16384,
+        "max_tokens": 16384,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 16384
+      }
+    },
+    {
+      "vendor": "github_copilot",
+      "model": "gpt-4o-mini",
+      "full_name": "github_copilot/gpt-4o-mini",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "github_copilot",
+        "max_input_tokens": 64000,
+        "max_output_tokens": 4096,
+        "max_tokens": 4096,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 4096
+      }
+    },
+    {
+      "vendor": "github_copilot",
+      "model": "gpt-4o-mini-2024-07-18",
+      "full_name": "github_copilot/gpt-4o-mini-2024-07-18",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "github_copilot",
+        "max_input_tokens": 64000,
+        "max_output_tokens": 4096,
+        "max_tokens": 4096,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 4096
+      }
+    },
+    {
+      "vendor": "github_copilot",
+      "model": "gpt-5",
+      "full_name": "github_copilot/gpt-5",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "github_copilot",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "github_copilot",
+      "model": "gpt-5-mini",
+      "full_name": "github_copilot/gpt-5-mini",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "github_copilot",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 64000,
+        "max_tokens": 64000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 64000
+      }
+    },
+    {
+      "vendor": "github_copilot",
+      "model": "gpt-5.1",
+      "full_name": "github_copilot/gpt-5.1",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "github_copilot",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 64000,
+        "max_tokens": 64000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 64000
+      }
+    },
+    {
+      "vendor": "github_copilot",
+      "model": "gpt-5.1-codex-max",
+      "full_name": "github_copilot/gpt-5.1-codex-max",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "github_copilot",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "github_copilot",
+      "model": "gpt-5.2",
+      "full_name": "github_copilot/gpt-5.2",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "github_copilot",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 64000,
+        "max_tokens": 64000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 64000
+      }
+    },
+    {
+      "vendor": "github_copilot",
+      "model": "text-embedding-3-small",
+      "full_name": "github_copilot/text-embedding-3-small",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "github_copilot",
+        "max_input_tokens": 8191,
+        "max_output_tokens": null,
+        "max_tokens": 8191,
+        "mode": "embedding",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8191
+      }
+    },
+    {
+      "vendor": "github_copilot",
+      "model": "text-embedding-3-small-inference",
+      "full_name": "github_copilot/text-embedding-3-small-inference",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "github_copilot",
+        "max_input_tokens": 8191,
+        "max_output_tokens": null,
+        "max_tokens": 8191,
+        "mode": "embedding",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8191
+      }
+    },
+    {
+      "vendor": "github_copilot",
+      "model": "text-embedding-ada-002",
+      "full_name": "github_copilot/text-embedding-ada-002",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "github_copilot",
+        "max_input_tokens": 8191,
+        "max_output_tokens": null,
+        "max_tokens": 8191,
+        "mode": "embedding",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8191
       }
     },
     {
@@ -53804,10 +54579,10 @@
     },
     {
       "vendor": "fireworks_ai",
-      "model": "accounts/fireworks/models/qwen3-embedding-8b",
-      "full_name": "fireworks_ai/accounts/fireworks/models/qwen3-embedding-8b",
+      "model": "accounts/fireworks/models/",
+      "full_name": "fireworks_ai/accounts/fireworks/models/",
       "raw": {
-        "input_cost_per_token": 0.0,
+        "input_cost_per_token": 1e-07,
         "output_cost_per_token": 0.0,
         "litellm_provider": "fireworks_ai",
         "max_input_tokens": 40960,
@@ -53820,7 +54595,7 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 0,
+        "input_price_per_million": 0.09999999999999999,
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
