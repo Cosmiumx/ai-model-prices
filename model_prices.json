@@ -1,6 +1,6 @@
 {
-  "updated_at": "2025-12-17T02:01:42.860158",
-  "total_models": 2213,
+  "updated_at": "2025-12-18T02:02:16.216857",
+  "total_models": 2218,
   "models": [
     {
       "vendor": "unknown",
@@ -10929,6 +10929,31 @@
     },
     {
       "vendor": "unknown",
+      "model": "gpt-4o-transcribe-diarize",
+      "full_name": "gpt-4o-transcribe-diarize",
+      "raw": {
+        "input_cost_per_token": 2.5e-06,
+        "output_cost_per_token": 1e-05,
+        "litellm_provider": "openai",
+        "max_input_tokens": 16000,
+        "max_output_tokens": 2000,
+        "max_tokens": null,
+        "mode": "audio_transcription",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 2.5,
+        "output_price_per_million": 10.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "unknown",
       "model": "claude-3-5-haiku-20241022",
       "full_name": "claude-3-5-haiku-20241022",
       "raw": {
@@ -21729,6 +21754,56 @@
     },
     {
       "vendor": "gemini",
+      "model": "gemini-3-flash-preview",
+      "full_name": "gemini/gemini-3-flash-preview",
+      "raw": {
+        "input_cost_per_token": 5e-07,
+        "output_cost_per_token": 3e-06,
+        "litellm_provider": "gemini",
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65535,
+        "max_tokens": 65535,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.5,
+        "output_price_per_million": 3.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65535
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "gemini-3-flash-preview",
+      "full_name": "gemini-3-flash-preview",
+      "raw": {
+        "input_cost_per_token": 5e-07,
+        "output_cost_per_token": 3e-06,
+        "litellm_provider": "vertex_ai-language-models",
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65535,
+        "max_tokens": 65535,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.5,
+        "output_price_per_million": 3.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65535
+      }
+    },
+    {
+      "vendor": "gemini",
       "model": "gemini-2.5-pro-exp-03-25",
       "full_name": "gemini/gemini-2.5-pro-exp-03-25",
       "raw": {
@@ -24621,6 +24696,56 @@
       },
       "processed": {
         "input_price_per_million": 2.5,
+        "output_price_per_million": 10.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "gpt-image-1.5",
+      "full_name": "gpt-image-1.5",
+      "raw": {
+        "input_cost_per_token": 5e-06,
+        "output_cost_per_token": 1e-05,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 5.0,
+        "output_price_per_million": 10.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "gpt-image-1.5-2025-12-16",
+      "full_name": "gpt-image-1.5-2025-12-16",
+      "raw": {
+        "input_cost_per_token": 5e-06,
+        "output_cost_per_token": 1e-05,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 5.0,
         "output_price_per_million": 10.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
