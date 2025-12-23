@@ -1,6 +1,6 @@
 {
-  "updated_at": "2025-12-22T02:11:25.328872",
-  "total_models": 2249,
+  "updated_at": "2025-12-23T02:06:43.944546",
+  "total_models": 2257,
   "models": [
     {
       "vendor": "unknown",
@@ -22428,6 +22428,56 @@
       }
     },
     {
+      "vendor": "gemini",
+      "model": "veo-3.1-fast-generate-001",
+      "full_name": "gemini/veo-3.1-fast-generate-001",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "gemini",
+        "max_input_tokens": 1024,
+        "max_output_tokens": null,
+        "max_tokens": 1024,
+        "mode": "video_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 1024
+      }
+    },
+    {
+      "vendor": "gemini",
+      "model": "veo-3.1-generate-001",
+      "full_name": "gemini/veo-3.1-generate-001",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "gemini",
+        "max_input_tokens": 1024,
+        "max_output_tokens": null,
+        "max_tokens": 1024,
+        "mode": "video_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 1024
+      }
+    },
+    {
       "vendor": "github_copilot",
       "model": "claude-haiku-4.5",
       "full_name": "github_copilot/claude-haiku-4.5",
@@ -42253,6 +42303,106 @@
       }
     },
     {
+      "vendor": "aws_polly",
+      "model": "standard",
+      "full_name": "aws_polly/standard",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "aws_polly",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "audio_speech",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "aws_polly",
+      "model": "neural",
+      "full_name": "aws_polly/neural",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "aws_polly",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "audio_speech",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "aws_polly",
+      "model": "long-form",
+      "full_name": "aws_polly/long-form",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "aws_polly",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "audio_speech",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "aws_polly",
+      "model": "generative",
+      "full_name": "aws_polly/generative",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "aws_polly",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "audio_speech",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
       "vendor": "unknown",
       "model": "us.amazon.nova-lite-v1:0",
       "full_name": "us.amazon.nova-lite-v1:0",
@@ -47631,6 +47781,56 @@
       "vendor": "vertex_ai",
       "model": "veo-3.1-fast-generate-preview",
       "full_name": "vertex_ai/veo-3.1-fast-generate-preview",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "vertex_ai-video-models",
+        "max_input_tokens": 1024,
+        "max_output_tokens": null,
+        "max_tokens": 1024,
+        "mode": "video_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 1024
+      }
+    },
+    {
+      "vendor": "vertex_ai",
+      "model": "veo-3.1-generate-001",
+      "full_name": "vertex_ai/veo-3.1-generate-001",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "vertex_ai-video-models",
+        "max_input_tokens": 1024,
+        "max_output_tokens": null,
+        "max_tokens": 1024,
+        "mode": "video_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 1024
+      }
+    },
+    {
+      "vendor": "vertex_ai",
+      "model": "veo-3.1-fast-generate-001",
+      "full_name": "vertex_ai/veo-3.1-fast-generate-001",
       "raw": {
         "input_cost_per_token": 0,
         "output_cost_per_token": 0,
