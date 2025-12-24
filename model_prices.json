@@ -1,6 +1,6 @@
 {
-  "updated_at": "2025-12-23T02:06:43.944546",
-  "total_models": 2257,
+  "updated_at": "2025-12-24T02:04:49.731669",
+  "total_models": 2248,
   "models": [
     {
       "vendor": "unknown",
@@ -2550,6 +2550,31 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "azure_ai",
+      "model": "gpt-oss-120b",
+      "full_name": "azure_ai/gpt-oss-120b",
+      "raw": {
+        "input_cost_per_token": 1.5e-07,
+        "output_cost_per_token": 6e-07,
+        "litellm_provider": "azure_ai",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "max_tokens": 131072,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.15,
+        "output_price_per_million": 0.6,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 131072
       }
     },
     {
@@ -5321,6 +5346,56 @@
       },
       "processed": {
         "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "azure",
+      "model": "gpt-image-1.5",
+      "full_name": "azure/gpt-image-1.5",
+      "raw": {
+        "input_cost_per_token": 5e-06,
+        "output_cost_per_token": 0,
+        "litellm_provider": "azure",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 5.0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "azure",
+      "model": "gpt-image-1.5-2025-12-16",
+      "full_name": "azure/gpt-image-1.5-2025-12-16",
+      "raw": {
+        "input_cost_per_token": 5e-06,
+        "output_cost_per_token": 0,
+        "litellm_provider": "azure",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 5.0,
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
@@ -26054,156 +26129,6 @@
     },
     {
       "vendor": "groq",
-      "model": "deepseek-r1-distill-llama-70b",
-      "full_name": "groq/deepseek-r1-distill-llama-70b",
-      "raw": {
-        "input_cost_per_token": 7.5e-07,
-        "output_cost_per_token": 9.9e-07,
-        "litellm_provider": "groq",
-        "max_input_tokens": 128000,
-        "max_output_tokens": 128000,
-        "max_tokens": 128000,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": true,
-        "supports_response_schema": false,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0.75,
-        "output_price_per_million": 0.9900000000000001,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 128000
-      }
-    },
-    {
-      "vendor": "groq",
-      "model": "distil-whisper-large-v3-en",
-      "full_name": "groq/distil-whisper-large-v3-en",
-      "raw": {
-        "input_cost_per_token": 0,
-        "output_cost_per_token": 0,
-        "litellm_provider": "groq",
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "max_tokens": null,
-        "mode": "audio_transcription",
-        "supports_function_calling": null,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": null
-      },
-      "processed": {
-        "input_price_per_million": 0,
-        "output_price_per_million": 0,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": "N/A"
-      }
-    },
-    {
-      "vendor": "groq",
-      "model": "gemma-7b-it",
-      "full_name": "groq/gemma-7b-it",
-      "raw": {
-        "input_cost_per_token": 7e-08,
-        "output_cost_per_token": 7e-08,
-        "litellm_provider": "groq",
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "max_tokens": 8192,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": null,
-        "supports_response_schema": false,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0.07,
-        "output_price_per_million": 0.07,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 8192
-      }
-    },
-    {
-      "vendor": "groq",
-      "model": "gemma2-9b-it",
-      "full_name": "groq/gemma2-9b-it",
-      "raw": {
-        "input_cost_per_token": 2e-07,
-        "output_cost_per_token": 2e-07,
-        "litellm_provider": "groq",
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "max_tokens": 8192,
-        "mode": "chat",
-        "supports_function_calling": false,
-        "supports_reasoning": null,
-        "supports_response_schema": false,
-        "supports_tool_choice": false
-      },
-      "processed": {
-        "input_price_per_million": 0.19999999999999998,
-        "output_price_per_million": 0.19999999999999998,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 8192
-      }
-    },
-    {
-      "vendor": "groq",
-      "model": "llama-3.1-405b-reasoning",
-      "full_name": "groq/llama-3.1-405b-reasoning",
-      "raw": {
-        "input_cost_per_token": 5.9e-07,
-        "output_cost_per_token": 7.9e-07,
-        "litellm_provider": "groq",
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "max_tokens": 8192,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": null,
-        "supports_response_schema": false,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0.59,
-        "output_price_per_million": 0.7899999999999999,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 8192
-      }
-    },
-    {
-      "vendor": "groq",
-      "model": "llama-3.1-70b-versatile",
-      "full_name": "groq/llama-3.1-70b-versatile",
-      "raw": {
-        "input_cost_per_token": 5.9e-07,
-        "output_cost_per_token": 7.9e-07,
-        "litellm_provider": "groq",
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "max_tokens": 8192,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": null,
-        "supports_response_schema": false,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0.59,
-        "output_price_per_million": 0.7899999999999999,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 8192
-      }
-    },
-    {
-      "vendor": "groq",
       "model": "llama-3.1-8b-instant",
       "full_name": "groq/llama-3.1-8b-instant",
       "raw": {
@@ -26222,181 +26147,6 @@
       "processed": {
         "input_price_per_million": 0.049999999999999996,
         "output_price_per_million": 0.08,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 8192
-      }
-    },
-    {
-      "vendor": "groq",
-      "model": "llama-3.2-11b-text-preview",
-      "full_name": "groq/llama-3.2-11b-text-preview",
-      "raw": {
-        "input_cost_per_token": 1.8e-07,
-        "output_cost_per_token": 1.8e-07,
-        "litellm_provider": "groq",
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "max_tokens": 8192,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": null,
-        "supports_response_schema": false,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0.18,
-        "output_price_per_million": 0.18,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 8192
-      }
-    },
-    {
-      "vendor": "groq",
-      "model": "llama-3.2-11b-vision-preview",
-      "full_name": "groq/llama-3.2-11b-vision-preview",
-      "raw": {
-        "input_cost_per_token": 1.8e-07,
-        "output_cost_per_token": 1.8e-07,
-        "litellm_provider": "groq",
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "max_tokens": 8192,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": null,
-        "supports_response_schema": false,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0.18,
-        "output_price_per_million": 0.18,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 8192
-      }
-    },
-    {
-      "vendor": "groq",
-      "model": "llama-3.2-1b-preview",
-      "full_name": "groq/llama-3.2-1b-preview",
-      "raw": {
-        "input_cost_per_token": 4e-08,
-        "output_cost_per_token": 4e-08,
-        "litellm_provider": "groq",
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "max_tokens": 8192,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": null,
-        "supports_response_schema": false,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0.04,
-        "output_price_per_million": 0.04,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 8192
-      }
-    },
-    {
-      "vendor": "groq",
-      "model": "llama-3.2-3b-preview",
-      "full_name": "groq/llama-3.2-3b-preview",
-      "raw": {
-        "input_cost_per_token": 6e-08,
-        "output_cost_per_token": 6e-08,
-        "litellm_provider": "groq",
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "max_tokens": 8192,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": null,
-        "supports_response_schema": false,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0.06,
-        "output_price_per_million": 0.06,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 8192
-      }
-    },
-    {
-      "vendor": "groq",
-      "model": "llama-3.2-90b-text-preview",
-      "full_name": "groq/llama-3.2-90b-text-preview",
-      "raw": {
-        "input_cost_per_token": 9e-07,
-        "output_cost_per_token": 9e-07,
-        "litellm_provider": "groq",
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "max_tokens": 8192,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": null,
-        "supports_response_schema": false,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0.8999999999999999,
-        "output_price_per_million": 0.8999999999999999,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 8192
-      }
-    },
-    {
-      "vendor": "groq",
-      "model": "llama-3.2-90b-vision-preview",
-      "full_name": "groq/llama-3.2-90b-vision-preview",
-      "raw": {
-        "input_cost_per_token": 9e-07,
-        "output_cost_per_token": 9e-07,
-        "litellm_provider": "groq",
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "max_tokens": 8192,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": null,
-        "supports_response_schema": false,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0.8999999999999999,
-        "output_price_per_million": 0.8999999999999999,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 8192
-      }
-    },
-    {
-      "vendor": "groq",
-      "model": "llama-3.3-70b-specdec",
-      "full_name": "groq/llama-3.3-70b-specdec",
-      "raw": {
-        "input_cost_per_token": 5.9e-07,
-        "output_cost_per_token": 9.9e-07,
-        "litellm_provider": "groq",
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "max_tokens": 8192,
-        "mode": "chat",
-        "supports_function_calling": null,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0.59,
-        "output_price_per_million": 0.9900000000000001,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 8192
@@ -26429,8 +26179,8 @@
     },
     {
       "vendor": "groq",
-      "model": "llama-guard-3-8b",
-      "full_name": "groq/llama-guard-3-8b",
+      "model": "meta-llama/llama-guard-4-12b",
+      "full_name": "groq/meta-llama/llama-guard-4-12b",
       "raw": {
         "input_cost_per_token": 2e-07,
         "output_cost_per_token": 2e-07,
@@ -26447,81 +26197,6 @@
       "processed": {
         "input_price_per_million": 0.19999999999999998,
         "output_price_per_million": 0.19999999999999998,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 8192
-      }
-    },
-    {
-      "vendor": "groq",
-      "model": "llama2-70b-4096",
-      "full_name": "groq/llama2-70b-4096",
-      "raw": {
-        "input_cost_per_token": 7e-07,
-        "output_cost_per_token": 8e-07,
-        "litellm_provider": "groq",
-        "max_input_tokens": 4096,
-        "max_output_tokens": 4096,
-        "max_tokens": 4096,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": null,
-        "supports_response_schema": false,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0.7,
-        "output_price_per_million": 0.7999999999999999,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 4096
-      }
-    },
-    {
-      "vendor": "groq",
-      "model": "llama3-groq-70b-8192-tool-use-preview",
-      "full_name": "groq/llama3-groq-70b-8192-tool-use-preview",
-      "raw": {
-        "input_cost_per_token": 8.9e-07,
-        "output_cost_per_token": 8.9e-07,
-        "litellm_provider": "groq",
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "max_tokens": 8192,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": null,
-        "supports_response_schema": false,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0.8899999999999999,
-        "output_price_per_million": 0.8899999999999999,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 8192
-      }
-    },
-    {
-      "vendor": "groq",
-      "model": "llama3-groq-8b-8192-tool-use-preview",
-      "full_name": "groq/llama3-groq-8b-8192-tool-use-preview",
-      "raw": {
-        "input_cost_per_token": 1.9e-07,
-        "output_cost_per_token": 1.9e-07,
-        "litellm_provider": "groq",
-        "max_input_tokens": 8192,
-        "max_output_tokens": 8192,
-        "max_tokens": 8192,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": null,
-        "supports_response_schema": false,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0.19,
-        "output_price_per_million": 0.19,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 8192
@@ -26575,81 +26250,6 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 8192
-      }
-    },
-    {
-      "vendor": "groq",
-      "model": "mistral-saba-24b",
-      "full_name": "groq/mistral-saba-24b",
-      "raw": {
-        "input_cost_per_token": 7.9e-07,
-        "output_cost_per_token": 7.9e-07,
-        "litellm_provider": "groq",
-        "max_input_tokens": 32000,
-        "max_output_tokens": 32000,
-        "max_tokens": 32000,
-        "mode": "chat",
-        "supports_function_calling": null,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": null
-      },
-      "processed": {
-        "input_price_per_million": 0.7899999999999999,
-        "output_price_per_million": 0.7899999999999999,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 32000
-      }
-    },
-    {
-      "vendor": "groq",
-      "model": "mixtral-8x7b-32768",
-      "full_name": "groq/mixtral-8x7b-32768",
-      "raw": {
-        "input_cost_per_token": 2.4e-07,
-        "output_cost_per_token": 2.4e-07,
-        "litellm_provider": "groq",
-        "max_input_tokens": 32768,
-        "max_output_tokens": 32768,
-        "max_tokens": 32768,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": null,
-        "supports_response_schema": false,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0.24,
-        "output_price_per_million": 0.24,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 32768
-      }
-    },
-    {
-      "vendor": "groq",
-      "model": "moonshotai/kimi-k2-instruct",
-      "full_name": "groq/moonshotai/kimi-k2-instruct",
-      "raw": {
-        "input_cost_per_token": 1e-06,
-        "output_cost_per_token": 3e-06,
-        "litellm_provider": "groq",
-        "max_input_tokens": 131072,
-        "max_output_tokens": 16384,
-        "max_tokens": 131072,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": null,
-        "supports_response_schema": true,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 1.0,
-        "output_price_per_million": 3.0,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 131072
       }
     },
     {
@@ -29375,6 +28975,181 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 8192
+      }
+    },
+    {
+      "vendor": "minimax",
+      "model": "speech-02-hd",
+      "full_name": "minimax/speech-02-hd",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "minimax",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "audio_speech",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "minimax",
+      "model": "speech-02-turbo",
+      "full_name": "minimax/speech-02-turbo",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "minimax",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "audio_speech",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "minimax",
+      "model": "speech-2.6-hd",
+      "full_name": "minimax/speech-2.6-hd",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "minimax",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "audio_speech",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "minimax",
+      "model": "speech-2.6-turbo",
+      "full_name": "minimax/speech-2.6-turbo",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "minimax",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "audio_speech",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "minimax",
+      "model": "MiniMax-M2.1",
+      "full_name": "minimax/MiniMax-M2.1",
+      "raw": {
+        "input_cost_per_token": 3e-07,
+        "output_cost_per_token": 1.2e-06,
+        "litellm_provider": "minimax",
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 8192,
+        "max_tokens": null,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.3,
+        "output_price_per_million": 1.2,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "minimax",
+      "model": "MiniMax-M2.1-lightning",
+      "full_name": "minimax/MiniMax-M2.1-lightning",
+      "raw": {
+        "input_cost_per_token": 3e-07,
+        "output_cost_per_token": 2.4e-06,
+        "litellm_provider": "minimax",
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 8192,
+        "max_tokens": null,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.3,
+        "output_price_per_million": 2.4,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "minimax",
+      "model": "MiniMax-M2",
+      "full_name": "minimax/MiniMax-M2",
+      "raw": {
+        "input_cost_per_token": 3e-07,
+        "output_cost_per_token": 1.2e-06,
+        "litellm_provider": "minimax",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 8192,
+        "max_tokens": null,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.3,
+        "output_price_per_million": 1.2,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
       }
     },
     {
@@ -41516,7 +41291,7 @@
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
-        "supports_response_schema": null,
+        "supports_response_schema": true,
         "supports_tool_choice": true
       },
       "processed": {
@@ -41541,7 +41316,7 @@
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
-        "supports_response_schema": null,
+        "supports_response_schema": true,
         "supports_tool_choice": true
       },
       "processed": {
@@ -41566,7 +41341,7 @@
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
-        "supports_response_schema": null,
+        "supports_response_schema": true,
         "supports_tool_choice": true
       },
       "processed": {
@@ -41591,7 +41366,7 @@
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
-        "supports_response_schema": null,
+        "supports_response_schema": true,
         "supports_tool_choice": true
       },
       "processed": {
@@ -41641,7 +41416,7 @@
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
-        "supports_response_schema": null,
+        "supports_response_schema": true,
         "supports_tool_choice": true
       },
       "processed": {
@@ -41666,7 +41441,7 @@
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
-        "supports_response_schema": null,
+        "supports_response_schema": true,
         "supports_tool_choice": true
       },
       "processed": {
@@ -41691,7 +41466,7 @@
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
-        "supports_response_schema": null,
+        "supports_response_schema": true,
         "supports_tool_choice": true
       },
       "processed": {
@@ -41716,7 +41491,7 @@
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
-        "supports_response_schema": null,
+        "supports_response_schema": true,
         "supports_tool_choice": true
       },
       "processed": {
@@ -41766,7 +41541,7 @@
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
-        "supports_response_schema": null,
+        "supports_response_schema": true,
         "supports_tool_choice": true
       },
       "processed": {
@@ -41841,7 +41616,7 @@
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
-        "supports_response_schema": null,
+        "supports_response_schema": true,
         "supports_tool_choice": true
       },
       "processed": {
@@ -41866,7 +41641,7 @@
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
-        "supports_response_schema": null,
+        "supports_response_schema": true,
         "supports_tool_choice": true
       },
       "processed": {
@@ -41891,7 +41666,7 @@
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
-        "supports_response_schema": null,
+        "supports_response_schema": true,
         "supports_tool_choice": true
       },
       "processed": {
@@ -42041,7 +41816,7 @@
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
-        "supports_response_schema": null,
+        "supports_response_schema": true,
         "supports_tool_choice": true
       },
       "processed": {
@@ -42066,7 +41841,7 @@
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
-        "supports_response_schema": null,
+        "supports_response_schema": true,
         "supports_tool_choice": true
       },
       "processed": {
@@ -42091,7 +41866,7 @@
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
-        "supports_response_schema": null,
+        "supports_response_schema": true,
         "supports_tool_choice": true
       },
       "processed": {
@@ -42141,7 +41916,7 @@
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
-        "supports_response_schema": null,
+        "supports_response_schema": true,
         "supports_tool_choice": true
       },
       "processed": {
@@ -42216,7 +41991,7 @@
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
-        "supports_response_schema": null,
+        "supports_response_schema": true,
         "supports_tool_choice": true
       },
       "processed": {
@@ -42241,7 +42016,7 @@
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
-        "supports_response_schema": null,
+        "supports_response_schema": true,
         "supports_tool_choice": true
       },
       "processed": {
