@@ -1,6 +1,6 @@
 {
-  "updated_at": "2025-12-27T02:03:38.194527",
-  "total_models": 2249,
+  "updated_at": "2025-12-28T02:24:06.204000",
+  "total_models": 2251,
   "models": [
     {
       "vendor": "unknown",
@@ -581,6 +581,56 @@
       "vendor": "aiml",
       "model": "flux/schnell",
       "full_name": "aiml/flux/schnell",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "aiml",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "aiml",
+      "model": "google/imagen-4.0-ultra-generate-001",
+      "full_name": "aiml/google/imagen-4.0-ultra-generate-001",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "aiml",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "aiml",
+      "model": "google/nano-banana-pro",
+      "full_name": "aiml/google/nano-banana-pro",
       "raw": {
         "input_cost_per_token": 0,
         "output_cost_per_token": 0,
