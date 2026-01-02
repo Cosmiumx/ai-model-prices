@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-01-01T02:24:49.310803",
-  "total_models": 2251,
+  "updated_at": "2026-01-02T02:09:20.919801",
+  "total_models": 2252,
   "models": [
     {
       "vendor": "unknown",
@@ -26250,6 +26250,31 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 32768
+      }
+    },
+    {
+      "vendor": "groq",
+      "model": "gemma-7b-it",
+      "full_name": "groq/gemma-7b-it",
+      "raw": {
+        "input_cost_per_token": 5e-08,
+        "output_cost_per_token": 8e-08,
+        "litellm_provider": "groq",
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": false,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.049999999999999996,
+        "output_price_per_million": 0.08,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
       }
     },
     {
