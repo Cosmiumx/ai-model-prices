@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-01-02T02:09:20.919801",
-  "total_models": 2252,
+  "updated_at": "2026-01-03T02:02:51.608084",
+  "total_models": 2282,
   "models": [
     {
       "vendor": "unknown",
@@ -5082,7 +5082,7 @@
       "model": "gpt-image-1",
       "full_name": "azure/gpt-image-1",
       "raw": {
-        "input_cost_per_token": 0,
+        "input_cost_per_token": 5e-06,
         "output_cost_per_token": 0,
         "litellm_provider": "azure",
         "max_input_tokens": null,
@@ -5095,7 +5095,7 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 0,
+        "input_price_per_million": 5.0,
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
@@ -5407,7 +5407,7 @@
       "model": "gpt-image-1-mini",
       "full_name": "azure/gpt-image-1-mini",
       "raw": {
-        "input_cost_per_token": 0,
+        "input_cost_per_token": 2e-06,
         "output_cost_per_token": 0,
         "litellm_provider": "azure",
         "max_input_tokens": null,
@@ -5420,7 +5420,7 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 0,
+        "input_price_per_million": 2.0,
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
@@ -18507,8 +18507,8 @@
       "model": "accounts/fireworks/models/deepseek-v3p2",
       "full_name": "fireworks_ai/accounts/fireworks/models/deepseek-v3p2",
       "raw": {
-        "input_cost_per_token": 1.2e-06,
-        "output_cost_per_token": 1.2e-06,
+        "input_cost_per_token": 5.6e-07,
+        "output_cost_per_token": 1.68e-06,
         "litellm_provider": "fireworks_ai",
         "max_input_tokens": 163840,
         "max_output_tokens": 163840,
@@ -18520,8 +18520,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 1.2,
-        "output_price_per_million": 1.2,
+        "input_price_per_million": 0.56,
+        "output_price_per_million": 1.68,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 163840
@@ -24978,6 +24978,756 @@
       }
     },
     {
+      "vendor": "low",
+      "model": "1024-x-1024/gpt-image-1.5",
+      "full_name": "low/1024-x-1024/gpt-image-1.5",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "low",
+      "model": "1024-x-1536/gpt-image-1.5",
+      "full_name": "low/1024-x-1536/gpt-image-1.5",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "low",
+      "model": "1536-x-1024/gpt-image-1.5",
+      "full_name": "low/1536-x-1024/gpt-image-1.5",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "medium",
+      "model": "1024-x-1024/gpt-image-1.5",
+      "full_name": "medium/1024-x-1024/gpt-image-1.5",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "medium",
+      "model": "1024-x-1536/gpt-image-1.5",
+      "full_name": "medium/1024-x-1536/gpt-image-1.5",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "medium",
+      "model": "1536-x-1024/gpt-image-1.5",
+      "full_name": "medium/1536-x-1024/gpt-image-1.5",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "high",
+      "model": "1024-x-1024/gpt-image-1.5",
+      "full_name": "high/1024-x-1024/gpt-image-1.5",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "high",
+      "model": "1024-x-1536/gpt-image-1.5",
+      "full_name": "high/1024-x-1536/gpt-image-1.5",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "high",
+      "model": "1536-x-1024/gpt-image-1.5",
+      "full_name": "high/1536-x-1024/gpt-image-1.5",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "standard",
+      "model": "1024-x-1024/gpt-image-1.5",
+      "full_name": "standard/1024-x-1024/gpt-image-1.5",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "standard",
+      "model": "1024-x-1536/gpt-image-1.5",
+      "full_name": "standard/1024-x-1536/gpt-image-1.5",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "standard",
+      "model": "1536-x-1024/gpt-image-1.5",
+      "full_name": "standard/1536-x-1024/gpt-image-1.5",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "1024-x-1024",
+      "model": "gpt-image-1.5",
+      "full_name": "1024-x-1024/gpt-image-1.5",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "1024-x-1536",
+      "model": "gpt-image-1.5",
+      "full_name": "1024-x-1536/gpt-image-1.5",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "1536-x-1024",
+      "model": "gpt-image-1.5",
+      "full_name": "1536-x-1024/gpt-image-1.5",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "low",
+      "model": "1024-x-1024/gpt-image-1.5-2025-12-16",
+      "full_name": "low/1024-x-1024/gpt-image-1.5-2025-12-16",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "low",
+      "model": "1024-x-1536/gpt-image-1.5-2025-12-16",
+      "full_name": "low/1024-x-1536/gpt-image-1.5-2025-12-16",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "low",
+      "model": "1536-x-1024/gpt-image-1.5-2025-12-16",
+      "full_name": "low/1536-x-1024/gpt-image-1.5-2025-12-16",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "medium",
+      "model": "1024-x-1024/gpt-image-1.5-2025-12-16",
+      "full_name": "medium/1024-x-1024/gpt-image-1.5-2025-12-16",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "medium",
+      "model": "1024-x-1536/gpt-image-1.5-2025-12-16",
+      "full_name": "medium/1024-x-1536/gpt-image-1.5-2025-12-16",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "medium",
+      "model": "1536-x-1024/gpt-image-1.5-2025-12-16",
+      "full_name": "medium/1536-x-1024/gpt-image-1.5-2025-12-16",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "high",
+      "model": "1024-x-1024/gpt-image-1.5-2025-12-16",
+      "full_name": "high/1024-x-1024/gpt-image-1.5-2025-12-16",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "high",
+      "model": "1024-x-1536/gpt-image-1.5-2025-12-16",
+      "full_name": "high/1024-x-1536/gpt-image-1.5-2025-12-16",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "high",
+      "model": "1536-x-1024/gpt-image-1.5-2025-12-16",
+      "full_name": "high/1536-x-1024/gpt-image-1.5-2025-12-16",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "standard",
+      "model": "1024-x-1024/gpt-image-1.5-2025-12-16",
+      "full_name": "standard/1024-x-1024/gpt-image-1.5-2025-12-16",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "standard",
+      "model": "1024-x-1536/gpt-image-1.5-2025-12-16",
+      "full_name": "standard/1024-x-1536/gpt-image-1.5-2025-12-16",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "standard",
+      "model": "1536-x-1024/gpt-image-1.5-2025-12-16",
+      "full_name": "standard/1536-x-1024/gpt-image-1.5-2025-12-16",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "1024-x-1024",
+      "model": "gpt-image-1.5-2025-12-16",
+      "full_name": "1024-x-1024/gpt-image-1.5-2025-12-16",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "1024-x-1536",
+      "model": "gpt-image-1.5-2025-12-16",
+      "full_name": "1024-x-1536/gpt-image-1.5-2025-12-16",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "1536-x-1024",
+      "model": "gpt-image-1.5-2025-12-16",
+      "full_name": "1536-x-1024/gpt-image-1.5-2025-12-16",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
       "vendor": "unknown",
       "model": "gpt-5",
       "full_name": "gpt-5",
@@ -25533,7 +26283,7 @@
       "full_name": "gpt-image-1",
       "raw": {
         "input_cost_per_token": 5e-06,
-        "output_cost_per_token": 4e-05,
+        "output_cost_per_token": 0,
         "litellm_provider": "openai",
         "max_input_tokens": null,
         "max_output_tokens": null,
@@ -25546,7 +26296,7 @@
       },
       "processed": {
         "input_price_per_million": 5.0,
-        "output_price_per_million": 40.0,
+        "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": "N/A"
