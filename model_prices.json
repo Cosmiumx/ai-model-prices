@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-01-03T02:02:51.608084",
-  "total_models": 2282,
+  "updated_at": "2026-01-04T02:26:06.169547",
+  "total_models": 2283,
   "models": [
     {
       "vendor": "unknown",
@@ -50850,6 +50850,31 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 8192
+      }
+    },
+    {
+      "vendor": "zai",
+      "model": "glm-4.7",
+      "full_name": "zai/glm-4.7",
+      "raw": {
+        "input_cost_per_token": 6e-07,
+        "output_cost_per_token": 2.2e-06,
+        "litellm_provider": "zai",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 128000,
+        "max_tokens": null,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.6,
+        "output_price_per_million": 2.2,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
       }
     },
     {
