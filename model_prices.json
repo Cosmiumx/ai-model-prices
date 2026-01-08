@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-01-07T02:09:03.278709",
-  "total_models": 2307,
+  "updated_at": "2026-01-08T02:08:52.063102",
+  "total_models": 2308,
   "models": [
     {
       "vendor": "unknown",
@@ -7081,6 +7081,31 @@
       "vendor": "azure_ai",
       "model": "FLUX.1-Kontext-pro",
       "full_name": "azure_ai/FLUX.1-Kontext-pro",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "azure_ai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "azure_ai",
+      "model": "flux.2-pro",
+      "full_name": "azure_ai/flux.2-pro",
       "raw": {
         "input_cost_per_token": 0,
         "output_cost_per_token": 0,
