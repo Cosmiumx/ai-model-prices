@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-01-08T02:08:52.063102",
-  "total_models": 2308,
+  "updated_at": "2026-01-09T02:10:15.349082",
+  "total_models": 2309,
   "models": [
     {
       "vendor": "unknown",
@@ -12762,7 +12762,7 @@
         "litellm_provider": "deepseek",
         "max_input_tokens": 131072,
         "max_output_tokens": 8192,
-        "max_tokens": 131072,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -12774,7 +12774,7 @@
         "output_price_per_million": 1.7,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 131072
+        "context_window": 8192
       }
     },
     {
@@ -12837,7 +12837,7 @@
         "litellm_provider": "dashscope",
         "max_input_tokens": 997952,
         "max_output_tokens": 32768,
-        "max_tokens": 1000000,
+        "max_tokens": 32768,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -12849,7 +12849,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 1000000
+        "context_window": 32768
       }
     },
     {
@@ -13637,7 +13637,7 @@
         "litellm_provider": "databricks",
         "max_input_tokens": 128000,
         "max_output_tokens": 32000,
-        "max_tokens": 128000,
+        "max_tokens": 32000,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -13649,7 +13649,7 @@
         "output_price_per_million": 0.5000100000000001,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 32000
       }
     },
     {
@@ -47975,6 +47975,31 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 256000
+      }
+    },
+    {
+      "vendor": "vertex_ai",
+      "model": "zai-org/glm-4.7-maas",
+      "full_name": "vertex_ai/zai-org/glm-4.7-maas",
+      "raw": {
+        "input_cost_per_token": 3e-07,
+        "output_cost_per_token": 1.2e-06,
+        "litellm_provider": "vertex_ai-zai_models",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.3,
+        "output_price_per_million": 1.2,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
       }
     },
     {
