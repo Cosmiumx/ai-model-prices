@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-01-09T02:10:15.349082",
-  "total_models": 2309,
+  "updated_at": "2026-01-10T02:06:10.255777",
+  "total_models": 2392,
   "models": [
     {
       "vendor": "unknown",
@@ -3437,7 +3437,7 @@
         "litellm_provider": "azure",
         "max_input_tokens": 4097,
         "max_output_tokens": 4096,
-        "max_tokens": 4097,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -3449,7 +3449,7 @@
         "output_price_per_million": 2.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 4097
+        "context_window": 4096
       }
     },
     {
@@ -3462,7 +3462,7 @@
         "litellm_provider": "azure",
         "max_input_tokens": 4097,
         "max_output_tokens": 4096,
-        "max_tokens": 4097,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -3474,7 +3474,7 @@
         "output_price_per_million": 2.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 4097
+        "context_window": 4096
       }
     },
     {
@@ -4812,7 +4812,7 @@
         "litellm_provider": "azure",
         "max_input_tokens": 272000,
         "max_output_tokens": 128000,
-        "max_tokens": 400000,
+        "max_tokens": 128000,
         "mode": "responses",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -4824,7 +4824,7 @@
         "output_price_per_million": 120.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 400000
+        "context_window": 128000
       }
     },
     {
@@ -7962,7 +7962,7 @@
         "litellm_provider": "azure_ai",
         "max_input_tokens": 163840,
         "max_output_tokens": 163840,
-        "max_tokens": 8192,
+        "max_tokens": 163840,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -7974,7 +7974,7 @@
         "output_price_per_million": 1.68,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8192
+        "context_window": 163840
       }
     },
     {
@@ -7987,7 +7987,7 @@
         "litellm_provider": "azure_ai",
         "max_input_tokens": 163840,
         "max_output_tokens": 163840,
-        "max_tokens": 8192,
+        "max_tokens": 163840,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -7999,7 +7999,7 @@
         "output_price_per_million": 1.68,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8192
+        "context_window": 163840
       }
     },
     {
@@ -8587,7 +8587,7 @@
         "litellm_provider": "text-completion-openai",
         "max_input_tokens": 16384,
         "max_output_tokens": 4096,
-        "max_tokens": 16384,
+        "max_tokens": 4096,
         "mode": "completion",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -8599,7 +8599,7 @@
         "output_price_per_million": 0.39999999999999997,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 16384
+        "context_window": 4096
       }
     },
     {
@@ -11487,7 +11487,7 @@
         "litellm_provider": "anthropic",
         "max_input_tokens": 1000000,
         "max_output_tokens": 64000,
-        "max_tokens": 1000000,
+        "max_tokens": 64000,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -11499,7 +11499,7 @@
         "output_price_per_million": 15.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 1000000
+        "context_window": 64000
       }
     },
     {
@@ -12787,7 +12787,7 @@
         "litellm_provider": "deepseek",
         "max_input_tokens": 131072,
         "max_output_tokens": 65536,
-        "max_tokens": 131072,
+        "max_tokens": 65536,
         "mode": "chat",
         "supports_function_calling": false,
         "supports_reasoning": true,
@@ -12799,7 +12799,7 @@
         "output_price_per_million": 1.7,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 131072
+        "context_window": 65536
       }
     },
     {
@@ -12812,7 +12812,7 @@
         "litellm_provider": "dashscope",
         "max_input_tokens": 1000000,
         "max_output_tokens": 16384,
-        "max_tokens": 1000000,
+        "max_tokens": 16384,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -12824,7 +12824,7 @@
         "output_price_per_million": 1.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 1000000
+        "context_window": 16384
       }
     },
     {
@@ -12862,7 +12862,7 @@
         "litellm_provider": "dashscope",
         "max_input_tokens": 997952,
         "max_output_tokens": 32768,
-        "max_tokens": 1000000,
+        "max_tokens": 32768,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -12874,7 +12874,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 1000000
+        "context_window": 32768
       }
     },
     {
@@ -12887,7 +12887,7 @@
         "litellm_provider": "dashscope",
         "max_input_tokens": 30720,
         "max_output_tokens": 8192,
-        "max_tokens": 32768,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -12899,7 +12899,7 @@
         "output_price_per_million": 6.3999999999999995,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 32768
+        "context_window": 8192
       }
     },
     {
@@ -12912,7 +12912,7 @@
         "litellm_provider": "dashscope",
         "max_input_tokens": 129024,
         "max_output_tokens": 16384,
-        "max_tokens": 131072,
+        "max_tokens": 16384,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -12924,7 +12924,7 @@
         "output_price_per_million": 1.2,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 131072
+        "context_window": 16384
       }
     },
     {
@@ -12937,7 +12937,7 @@
         "litellm_provider": "dashscope",
         "max_input_tokens": 129024,
         "max_output_tokens": 8192,
-        "max_tokens": 131072,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -12949,7 +12949,7 @@
         "output_price_per_million": 1.2,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 131072
+        "context_window": 8192
       }
     },
     {
@@ -12962,7 +12962,7 @@
         "litellm_provider": "dashscope",
         "max_input_tokens": 129024,
         "max_output_tokens": 16384,
-        "max_tokens": 131072,
+        "max_tokens": 16384,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -12974,7 +12974,7 @@
         "output_price_per_million": 1.2,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 131072
+        "context_window": 16384
       }
     },
     {
@@ -12987,7 +12987,7 @@
         "litellm_provider": "dashscope",
         "max_input_tokens": 129024,
         "max_output_tokens": 16384,
-        "max_tokens": 131072,
+        "max_tokens": 16384,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -12999,7 +12999,7 @@
         "output_price_per_million": 1.2,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 131072
+        "context_window": 16384
       }
     },
     {
@@ -13012,7 +13012,7 @@
         "litellm_provider": "dashscope",
         "max_input_tokens": 997952,
         "max_output_tokens": 32768,
-        "max_tokens": 1000000,
+        "max_tokens": 32768,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -13024,7 +13024,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 1000000
+        "context_window": 32768
       }
     },
     {
@@ -13037,7 +13037,7 @@
         "litellm_provider": "dashscope",
         "max_input_tokens": 997952,
         "max_output_tokens": 32768,
-        "max_tokens": 1000000,
+        "max_tokens": 32768,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -13049,7 +13049,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 1000000
+        "context_window": 32768
       }
     },
     {
@@ -13062,7 +13062,7 @@
         "litellm_provider": "dashscope",
         "max_input_tokens": 997952,
         "max_output_tokens": 32768,
-        "max_tokens": 1000000,
+        "max_tokens": 32768,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -13074,7 +13074,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 1000000
+        "context_window": 32768
       }
     },
     {
@@ -13087,7 +13087,7 @@
         "litellm_provider": "dashscope",
         "max_input_tokens": 129024,
         "max_output_tokens": 16384,
-        "max_tokens": 131072,
+        "max_tokens": 16384,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -13099,7 +13099,7 @@
         "output_price_per_million": 0.19999999999999998,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 131072
+        "context_window": 16384
       }
     },
     {
@@ -13112,7 +13112,7 @@
         "litellm_provider": "dashscope",
         "max_input_tokens": 1000000,
         "max_output_tokens": 8192,
-        "max_tokens": 1000000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -13124,7 +13124,7 @@
         "output_price_per_million": 0.19999999999999998,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 1000000
+        "context_window": 8192
       }
     },
     {
@@ -13137,7 +13137,7 @@
         "litellm_provider": "dashscope",
         "max_input_tokens": 1000000,
         "max_output_tokens": 16384,
-        "max_tokens": 1000000,
+        "max_tokens": 16384,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -13149,7 +13149,7 @@
         "output_price_per_million": 0.19999999999999998,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 1000000
+        "context_window": 16384
       }
     },
     {
@@ -13162,7 +13162,7 @@
         "litellm_provider": "dashscope",
         "max_input_tokens": 1000000,
         "max_output_tokens": 16384,
-        "max_tokens": 1000000,
+        "max_tokens": 16384,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -13174,7 +13174,7 @@
         "output_price_per_million": 0.19999999999999998,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 1000000
+        "context_window": 16384
       }
     },
     {
@@ -13187,7 +13187,7 @@
         "litellm_provider": "dashscope",
         "max_input_tokens": 129024,
         "max_output_tokens": 16384,
-        "max_tokens": 131072,
+        "max_tokens": 16384,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -13199,7 +13199,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 131072
+        "context_window": 16384
       }
     },
     {
@@ -13212,7 +13212,7 @@
         "litellm_provider": "dashscope",
         "max_input_tokens": 997952,
         "max_output_tokens": 65536,
-        "max_tokens": 1000000,
+        "max_tokens": 65536,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -13224,7 +13224,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 1000000
+        "context_window": 65536
       }
     },
     {
@@ -13237,7 +13237,7 @@
         "litellm_provider": "dashscope",
         "max_input_tokens": 997952,
         "max_output_tokens": 65536,
-        "max_tokens": 1000000,
+        "max_tokens": 65536,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -13249,7 +13249,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 1000000
+        "context_window": 65536
       }
     },
     {
@@ -13262,7 +13262,7 @@
         "litellm_provider": "dashscope",
         "max_input_tokens": 997952,
         "max_output_tokens": 65536,
-        "max_tokens": 1000000,
+        "max_tokens": 65536,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -13274,7 +13274,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 1000000
+        "context_window": 65536
       }
     },
     {
@@ -13287,7 +13287,7 @@
         "litellm_provider": "dashscope",
         "max_input_tokens": 997952,
         "max_output_tokens": 65536,
-        "max_tokens": 1000000,
+        "max_tokens": 65536,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -13299,7 +13299,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 1000000
+        "context_window": 65536
       }
     },
     {
@@ -13312,7 +13312,7 @@
         "litellm_provider": "dashscope",
         "max_input_tokens": 258048,
         "max_output_tokens": 65536,
-        "max_tokens": 262144,
+        "max_tokens": 65536,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -13324,7 +13324,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 262144
+        "context_window": 65536
       }
     },
     {
@@ -13337,7 +13337,7 @@
         "litellm_provider": "dashscope",
         "max_input_tokens": 98304,
         "max_output_tokens": 8192,
-        "max_tokens": 131072,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -13349,7 +13349,7 @@
         "output_price_per_million": 2.4,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 131072
+        "context_window": 8192
       }
     },
     {
@@ -13387,7 +13387,7 @@
         "litellm_provider": "databricks",
         "max_input_tokens": 200000,
         "max_output_tokens": 128000,
-        "max_tokens": 200000,
+        "max_tokens": 128000,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -13399,7 +13399,7 @@
         "output_price_per_million": 15.000020000000001,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 200000
+        "context_window": 128000
       }
     },
     {
@@ -13412,7 +13412,7 @@
         "litellm_provider": "databricks",
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
-        "max_tokens": 200000,
+        "max_tokens": 64000,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -13424,7 +13424,7 @@
         "output_price_per_million": 5.00003,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 200000
+        "context_window": 64000
       }
     },
     {
@@ -13437,7 +13437,7 @@
         "litellm_provider": "databricks",
         "max_input_tokens": 200000,
         "max_output_tokens": 32000,
-        "max_tokens": 200000,
+        "max_tokens": 32000,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -13449,7 +13449,7 @@
         "output_price_per_million": 75.00003000000001,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 200000
+        "context_window": 32000
       }
     },
     {
@@ -13462,7 +13462,7 @@
         "litellm_provider": "databricks",
         "max_input_tokens": 200000,
         "max_output_tokens": 32000,
-        "max_tokens": 200000,
+        "max_tokens": 32000,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -13474,7 +13474,7 @@
         "output_price_per_million": 75.00003000000001,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 200000
+        "context_window": 32000
       }
     },
     {
@@ -13487,7 +13487,7 @@
         "litellm_provider": "databricks",
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
-        "max_tokens": 200000,
+        "max_tokens": 64000,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -13499,7 +13499,7 @@
         "output_price_per_million": 25.000010000000003,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 200000
+        "context_window": 64000
       }
     },
     {
@@ -13512,7 +13512,7 @@
         "litellm_provider": "databricks",
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
-        "max_tokens": 200000,
+        "max_tokens": 64000,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -13524,7 +13524,7 @@
         "output_price_per_million": 15.000020000000001,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 200000
+        "context_window": 64000
       }
     },
     {
@@ -13537,7 +13537,7 @@
         "litellm_provider": "databricks",
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
-        "max_tokens": 200000,
+        "max_tokens": 64000,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -13549,7 +13549,7 @@
         "output_price_per_million": 15.000020000000001,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 200000
+        "context_window": 64000
       }
     },
     {
@@ -13562,7 +13562,7 @@
         "litellm_provider": "databricks",
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
-        "max_tokens": 200000,
+        "max_tokens": 64000,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -13574,7 +13574,7 @@
         "output_price_per_million": 15.000020000000001,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 200000
+        "context_window": 64000
       }
     },
     {
@@ -13587,7 +13587,7 @@
         "litellm_provider": "databricks",
         "max_input_tokens": 1048576,
         "max_output_tokens": 65535,
-        "max_tokens": 1048576,
+        "max_tokens": 65535,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -13599,7 +13599,7 @@
         "output_price_per_million": 2.49998,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 1048576
+        "context_window": 65535
       }
     },
     {
@@ -13612,7 +13612,7 @@
         "litellm_provider": "databricks",
         "max_input_tokens": 1048576,
         "max_output_tokens": 65536,
-        "max_tokens": 1048576,
+        "max_tokens": 65536,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -13624,7 +13624,7 @@
         "output_price_per_million": 9.999990000000002,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 1048576
+        "context_window": 65536
       }
     },
     {
@@ -13662,7 +13662,7 @@
         "litellm_provider": "databricks",
         "max_input_tokens": 400000,
         "max_output_tokens": 128000,
-        "max_tokens": 400000,
+        "max_tokens": 128000,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -13674,7 +13674,7 @@
         "output_price_per_million": 9.999990000000002,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 400000
+        "context_window": 128000
       }
     },
     {
@@ -13687,7 +13687,7 @@
         "litellm_provider": "databricks",
         "max_input_tokens": 400000,
         "max_output_tokens": 128000,
-        "max_tokens": 400000,
+        "max_tokens": 128000,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -13699,7 +13699,7 @@
         "output_price_per_million": 9.999990000000002,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 400000
+        "context_window": 128000
       }
     },
     {
@@ -13712,7 +13712,7 @@
         "litellm_provider": "databricks",
         "max_input_tokens": 400000,
         "max_output_tokens": 128000,
-        "max_tokens": 400000,
+        "max_tokens": 128000,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -13724,7 +13724,7 @@
         "output_price_per_million": 1.9999700000000002,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 400000
+        "context_window": 128000
       }
     },
     {
@@ -13737,7 +13737,7 @@
         "litellm_provider": "databricks",
         "max_input_tokens": 400000,
         "max_output_tokens": 128000,
-        "max_tokens": 400000,
+        "max_tokens": 128000,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -13749,7 +13749,7 @@
         "output_price_per_million": 0.39998000000000006,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 400000
+        "context_window": 128000
       }
     },
     {
@@ -13912,7 +13912,7 @@
         "litellm_provider": "databricks",
         "max_input_tokens": 200000,
         "max_output_tokens": 128000,
-        "max_tokens": 200000,
+        "max_tokens": 128000,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -13924,7 +13924,7 @@
         "output_price_per_million": 0.45003000000000004,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 200000
+        "context_window": 128000
       }
     },
     {
@@ -14087,7 +14087,7 @@
         "litellm_provider": "text-completion-openai",
         "max_input_tokens": 16384,
         "max_output_tokens": 4096,
-        "max_tokens": 16384,
+        "max_tokens": 4096,
         "mode": "completion",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -14099,7 +14099,7 @@
         "output_price_per_million": 2.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 16384
+        "context_window": 4096
       }
     },
     {
@@ -16812,7 +16812,7 @@
         "litellm_provider": "deepseek",
         "max_input_tokens": 163840,
         "max_output_tokens": 163840,
-        "max_tokens": 8192,
+        "max_tokens": 163840,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -16824,7 +16824,7 @@
         "output_price_per_million": 0.39999999999999997,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8192
+        "context_window": 163840
       }
     },
     {
@@ -16837,7 +16837,7 @@
         "litellm_provider": "bedrock_converse",
         "max_input_tokens": 163840,
         "max_output_tokens": 81920,
-        "max_tokens": 163840,
+        "max_tokens": 81920,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -16849,7 +16849,7 @@
         "output_price_per_million": 1.68,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 163840
+        "context_window": 81920
       }
     },
     {
@@ -17712,7 +17712,7 @@
         "litellm_provider": "bedrock",
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -17724,7 +17724,7 @@
         "output_price_per_million": 0.13,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 4096
       }
     },
     {
@@ -17737,7 +17737,7 @@
         "litellm_provider": "bedrock",
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -17749,7 +17749,7 @@
         "output_price_per_million": 0.19,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 4096
       }
     },
     {
@@ -17762,7 +17762,7 @@
         "litellm_provider": "bedrock_converse",
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -17774,7 +17774,7 @@
         "output_price_per_million": 6.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 4096
       }
     },
     {
@@ -18087,7 +18087,7 @@
         "litellm_provider": "featherless_ai",
         "max_input_tokens": 32768,
         "max_output_tokens": 4096,
-        "max_tokens": 32768,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -18099,7 +18099,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 32768
+        "context_window": 4096
       }
     },
     {
@@ -18112,7 +18112,7 @@
         "litellm_provider": "featherless_ai",
         "max_input_tokens": 32768,
         "max_output_tokens": 4096,
-        "max_tokens": 32768,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -18124,7 +18124,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 32768
+        "context_window": 4096
       }
     },
     {
@@ -18737,7 +18737,7 @@
         "litellm_provider": "fireworks_ai",
         "max_input_tokens": 131072,
         "max_output_tokens": 16384,
-        "max_tokens": 131072,
+        "max_tokens": 16384,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -18749,7 +18749,7 @@
         "output_price_per_million": 2.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 131072
+        "context_window": 16384
       }
     },
     {
@@ -18762,7 +18762,7 @@
         "litellm_provider": "fireworks_ai",
         "max_input_tokens": 262144,
         "max_output_tokens": 32768,
-        "max_tokens": 262144,
+        "max_tokens": 32768,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -18774,7 +18774,7 @@
         "output_price_per_million": 2.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 262144
+        "context_window": 32768
       }
     },
     {
@@ -19262,7 +19262,7 @@
         "litellm_provider": "text-completion-openai",
         "max_input_tokens": 16384,
         "max_output_tokens": 4096,
-        "max_tokens": 16384,
+        "max_tokens": 4096,
         "mode": "completion",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -19274,7 +19274,7 @@
         "output_price_per_million": 1.5999999999999999,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 16384
+        "context_window": 4096
       }
     },
     {
@@ -19287,7 +19287,7 @@
         "litellm_provider": "text-completion-openai",
         "max_input_tokens": 16384,
         "max_output_tokens": 4096,
-        "max_tokens": 16384,
+        "max_tokens": 4096,
         "mode": "completion",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -19299,7 +19299,7 @@
         "output_price_per_million": 12.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 16384
+        "context_window": 4096
       }
     },
     {
@@ -19737,7 +19737,7 @@
         "litellm_provider": "vertex_ai-language-models",
         "max_input_tokens": 8192,
         "max_output_tokens": 2048,
-        "max_tokens": 8192,
+        "max_tokens": 2048,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -19749,7 +19749,7 @@
         "output_price_per_million": 1.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8192
+        "context_window": 2048
       }
     },
     {
@@ -19762,7 +19762,7 @@
         "litellm_provider": "vertex_ai-language-models",
         "max_input_tokens": 8192,
         "max_output_tokens": 2048,
-        "max_tokens": 8192,
+        "max_tokens": 2048,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -19774,7 +19774,7 @@
         "output_price_per_million": 1.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8192
+        "context_window": 2048
       }
     },
     {
@@ -20387,7 +20387,7 @@
         "litellm_provider": "vertex_ai-language-models",
         "max_input_tokens": 65536,
         "max_output_tokens": 32768,
-        "max_tokens": 65536,
+        "max_tokens": 32768,
         "mode": "image_generation",
         "supports_function_calling": false,
         "supports_reasoning": null,
@@ -20399,7 +20399,7 @@
         "output_price_per_million": 12.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 65536
+        "context_window": 32768
       }
     },
     {
@@ -21512,7 +21512,7 @@
         "litellm_provider": "gemini",
         "max_input_tokens": 1048576,
         "max_output_tokens": 65536,
-        "max_tokens": 8192,
+        "max_tokens": 65536,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -21524,7 +21524,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8192
+        "context_window": 65536
       }
     },
     {
@@ -21537,7 +21537,7 @@
         "litellm_provider": "gemini",
         "max_input_tokens": 1048576,
         "max_output_tokens": 65536,
-        "max_tokens": 8192,
+        "max_tokens": 65536,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -21549,7 +21549,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8192
+        "context_window": 65536
       }
     },
     {
@@ -21662,7 +21662,7 @@
         "litellm_provider": "gemini",
         "max_input_tokens": 65536,
         "max_output_tokens": 32768,
-        "max_tokens": 65536,
+        "max_tokens": 32768,
         "mode": "image_generation",
         "supports_function_calling": false,
         "supports_reasoning": null,
@@ -21674,7 +21674,7 @@
         "output_price_per_million": 12.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 65536
+        "context_window": 32768
       }
     },
     {
@@ -23762,7 +23762,7 @@
         "litellm_provider": "openai",
         "max_input_tokens": 16385,
         "max_output_tokens": 4096,
-        "max_tokens": 4097,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -23774,7 +23774,7 @@
         "output_price_per_million": 1.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 4097
+        "context_window": 4096
       }
     },
     {
@@ -23787,7 +23787,7 @@
         "litellm_provider": "openai",
         "max_input_tokens": 16385,
         "max_output_tokens": 4096,
-        "max_tokens": 16385,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -23799,7 +23799,7 @@
         "output_price_per_million": 1.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 16385
+        "context_window": 4096
       }
     },
     {
@@ -23812,7 +23812,7 @@
         "litellm_provider": "openai",
         "max_input_tokens": 4097,
         "max_output_tokens": 4096,
-        "max_tokens": 4097,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -23824,7 +23824,7 @@
         "output_price_per_million": 2.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 4097
+        "context_window": 4096
       }
     },
     {
@@ -23837,7 +23837,7 @@
         "litellm_provider": "openai",
         "max_input_tokens": 4097,
         "max_output_tokens": 4096,
-        "max_tokens": 4097,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -23849,7 +23849,7 @@
         "output_price_per_million": 2.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 4097
+        "context_window": 4096
       }
     },
     {
@@ -23862,7 +23862,7 @@
         "litellm_provider": "openai",
         "max_input_tokens": 16385,
         "max_output_tokens": 4096,
-        "max_tokens": 16385,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -23874,7 +23874,7 @@
         "output_price_per_million": 2.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 16385
+        "context_window": 4096
       }
     },
     {
@@ -23887,7 +23887,7 @@
         "litellm_provider": "openai",
         "max_input_tokens": 16385,
         "max_output_tokens": 4096,
-        "max_tokens": 16385,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -23899,7 +23899,7 @@
         "output_price_per_million": 4.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 16385
+        "context_window": 4096
       }
     },
     {
@@ -23912,7 +23912,7 @@
         "litellm_provider": "openai",
         "max_input_tokens": 16385,
         "max_output_tokens": 4096,
-        "max_tokens": 16385,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -23924,7 +23924,7 @@
         "output_price_per_million": 4.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 16385
+        "context_window": 4096
       }
     },
     {
@@ -26937,7 +26937,7 @@
         "litellm_provider": "lemonade",
         "max_input_tokens": 262144,
         "max_output_tokens": 32768,
-        "max_tokens": 262144,
+        "max_tokens": 32768,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -26949,7 +26949,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 262144
+        "context_window": 32768
       }
     },
     {
@@ -26962,7 +26962,7 @@
         "litellm_provider": "lemonade",
         "max_input_tokens": 131072,
         "max_output_tokens": 32768,
-        "max_tokens": 131072,
+        "max_tokens": 32768,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -26974,7 +26974,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 131072
+        "context_window": 32768
       }
     },
     {
@@ -26987,7 +26987,7 @@
         "litellm_provider": "lemonade",
         "max_input_tokens": 131072,
         "max_output_tokens": 32768,
-        "max_tokens": 131072,
+        "max_tokens": 32768,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -26999,7 +26999,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 131072
+        "context_window": 32768
       }
     },
     {
@@ -27012,7 +27012,7 @@
         "litellm_provider": "lemonade",
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -27024,7 +27024,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 8192
       }
     },
     {
@@ -27037,7 +27037,7 @@
         "litellm_provider": "lemonade",
         "max_input_tokens": 262144,
         "max_output_tokens": 32768,
-        "max_tokens": 262144,
+        "max_tokens": 32768,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -27049,7 +27049,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 262144
+        "context_window": 32768
       }
     },
     {
@@ -27312,7 +27312,7 @@
         "litellm_provider": "groq",
         "max_input_tokens": 262144,
         "max_output_tokens": 16384,
-        "max_tokens": 278528,
+        "max_tokens": 16384,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -27324,7 +27324,7 @@
         "output_price_per_million": 3.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 278528
+        "context_window": 16384
       }
     },
     {
@@ -28737,7 +28737,7 @@
         "litellm_provider": "lambda_ai",
         "max_input_tokens": 131072,
         "max_output_tokens": 8192,
-        "max_tokens": 131072,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -28749,7 +28749,7 @@
         "output_price_per_million": 0.09999999999999999,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 131072
+        "context_window": 8192
       }
     },
     {
@@ -28762,7 +28762,7 @@
         "litellm_provider": "lambda_ai",
         "max_input_tokens": 16384,
         "max_output_tokens": 8192,
-        "max_tokens": 16384,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -28774,7 +28774,7 @@
         "output_price_per_million": 0.09999999999999999,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 16384
+        "context_window": 8192
       }
     },
     {
@@ -29612,7 +29612,7 @@
         "litellm_provider": "bedrock",
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -29624,7 +29624,7 @@
         "output_price_per_million": 16.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 4096
       }
     },
     {
@@ -29637,7 +29637,7 @@
         "litellm_provider": "bedrock",
         "max_input_tokens": 128000,
         "max_output_tokens": 2048,
-        "max_tokens": 128000,
+        "max_tokens": 2048,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -29649,7 +29649,7 @@
         "output_price_per_million": 0.9900000000000001,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 2048
       }
     },
     {
@@ -29662,7 +29662,7 @@
         "litellm_provider": "bedrock",
         "max_input_tokens": 128000,
         "max_output_tokens": 2048,
-        "max_tokens": 128000,
+        "max_tokens": 2048,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -29674,7 +29674,7 @@
         "output_price_per_million": 0.22,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 2048
       }
     },
     {
@@ -29687,7 +29687,7 @@
         "litellm_provider": "bedrock",
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -29699,7 +29699,7 @@
         "output_price_per_million": 0.35,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 4096
       }
     },
     {
@@ -29712,7 +29712,7 @@
         "litellm_provider": "bedrock",
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -29724,7 +29724,7 @@
         "output_price_per_million": 0.09999999999999999,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 4096
       }
     },
     {
@@ -29737,7 +29737,7 @@
         "litellm_provider": "bedrock",
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -29749,7 +29749,7 @@
         "output_price_per_million": 0.15,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 4096
       }
     },
     {
@@ -29762,7 +29762,7 @@
         "litellm_provider": "bedrock",
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -29774,7 +29774,7 @@
         "output_price_per_million": 2.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 4096
       }
     },
     {
@@ -29912,7 +29912,7 @@
         "litellm_provider": "meta_llama",
         "max_input_tokens": 128000,
         "max_output_tokens": 4028,
-        "max_tokens": 128000,
+        "max_tokens": 4028,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -29924,7 +29924,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 4028
       }
     },
     {
@@ -29937,7 +29937,7 @@
         "litellm_provider": "meta_llama",
         "max_input_tokens": 128000,
         "max_output_tokens": 4028,
-        "max_tokens": 128000,
+        "max_tokens": 4028,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -29949,7 +29949,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 4028
       }
     },
     {
@@ -29962,7 +29962,7 @@
         "litellm_provider": "meta_llama",
         "max_input_tokens": 1000000,
         "max_output_tokens": 4028,
-        "max_tokens": 128000,
+        "max_tokens": 4028,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -29974,7 +29974,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 4028
       }
     },
     {
@@ -29987,7 +29987,7 @@
         "litellm_provider": "meta_llama",
         "max_input_tokens": 10000000,
         "max_output_tokens": 4028,
-        "max_tokens": 128000,
+        "max_tokens": 4028,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -29999,7 +29999,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 4028
       }
     },
     {
@@ -33087,7 +33087,7 @@
         "litellm_provider": "oci",
         "max_input_tokens": 128000,
         "max_output_tokens": 4000,
-        "max_tokens": 128000,
+        "max_tokens": 4000,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -33099,7 +33099,7 @@
         "output_price_per_million": 10.68,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 4000
       }
     },
     {
@@ -33112,7 +33112,7 @@
         "litellm_provider": "oci",
         "max_input_tokens": 128000,
         "max_output_tokens": 4000,
-        "max_tokens": 128000,
+        "max_tokens": 4000,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -33124,7 +33124,7 @@
         "output_price_per_million": 2.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 4000
       }
     },
     {
@@ -33137,7 +33137,7 @@
         "litellm_provider": "oci",
         "max_input_tokens": 128000,
         "max_output_tokens": 4000,
-        "max_tokens": 128000,
+        "max_tokens": 4000,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -33149,7 +33149,7 @@
         "output_price_per_million": 0.72,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 4000
       }
     },
     {
@@ -33162,7 +33162,7 @@
         "litellm_provider": "oci",
         "max_input_tokens": 512000,
         "max_output_tokens": 4000,
-        "max_tokens": 512000,
+        "max_tokens": 4000,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -33174,7 +33174,7 @@
         "output_price_per_million": 0.72,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 512000
+        "context_window": 4000
       }
     },
     {
@@ -33187,7 +33187,7 @@
         "litellm_provider": "oci",
         "max_input_tokens": 192000,
         "max_output_tokens": 4000,
-        "max_tokens": 192000,
+        "max_tokens": 4000,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -33199,7 +33199,7 @@
         "output_price_per_million": 0.72,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 192000
+        "context_window": 4000
       }
     },
     {
@@ -33337,7 +33337,7 @@
         "litellm_provider": "oci",
         "max_input_tokens": 128000,
         "max_output_tokens": 4000,
-        "max_tokens": 128000,
+        "max_tokens": 4000,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -33349,7 +33349,7 @@
         "output_price_per_million": 1.56,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 4000
       }
     },
     {
@@ -33362,7 +33362,7 @@
         "litellm_provider": "oci",
         "max_input_tokens": 256000,
         "max_output_tokens": 4000,
-        "max_tokens": 256000,
+        "max_tokens": 4000,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -33374,7 +33374,7 @@
         "output_price_per_million": 1.56,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 256000
+        "context_window": 4000
       }
     },
     {
@@ -33387,7 +33387,7 @@
         "litellm_provider": "oci",
         "max_input_tokens": 128000,
         "max_output_tokens": 4000,
-        "max_tokens": 128000,
+        "max_tokens": 4000,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -33399,7 +33399,7 @@
         "output_price_per_million": 1.56,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 4000
       }
     },
     {
@@ -33412,7 +33412,7 @@
         "litellm_provider": "ollama",
         "max_input_tokens": 32768,
         "max_output_tokens": 8192,
-        "max_tokens": 32768,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": false,
         "supports_reasoning": null,
@@ -33424,7 +33424,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 32768
+        "context_window": 8192
       }
     },
     {
@@ -33512,7 +33512,7 @@
         "litellm_provider": "ollama",
         "max_input_tokens": 32768,
         "max_output_tokens": 8192,
-        "max_tokens": 32768,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -33524,7 +33524,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 32768
+        "context_window": 8192
       }
     },
     {
@@ -33562,7 +33562,7 @@
         "litellm_provider": "ollama",
         "max_input_tokens": 32768,
         "max_output_tokens": 8192,
-        "max_tokens": 32768,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -33574,7 +33574,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 32768
+        "context_window": 8192
       }
     },
     {
@@ -33662,7 +33662,7 @@
         "litellm_provider": "ollama",
         "max_input_tokens": 32768,
         "max_output_tokens": 8192,
-        "max_tokens": 32768,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -33674,7 +33674,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 32768
+        "context_window": 8192
       }
     },
     {
@@ -33837,7 +33837,7 @@
         "litellm_provider": "ollama",
         "max_input_tokens": 8192,
         "max_output_tokens": 8192,
-        "max_tokens": 32768,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -33849,7 +33849,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 32768
+        "context_window": 8192
       }
     },
     {
@@ -33987,7 +33987,7 @@
         "litellm_provider": "ollama",
         "max_input_tokens": 65536,
         "max_output_tokens": 8192,
-        "max_tokens": 65536,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -33999,7 +33999,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 65536
+        "context_window": 8192
       }
     },
     {
@@ -34137,7 +34137,7 @@
         "litellm_provider": "openai",
         "max_input_tokens": 32768,
         "max_output_tokens": 0,
-        "max_tokens": 32768,
+        "max_tokens": 0,
         "mode": "moderation",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -34149,7 +34149,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 32768
+        "context_window": 0
       }
     },
     {
@@ -34162,7 +34162,7 @@
         "litellm_provider": "openai",
         "max_input_tokens": 32768,
         "max_output_tokens": 0,
-        "max_tokens": 32768,
+        "max_tokens": 0,
         "mode": "moderation",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -34174,7 +34174,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 32768
+        "context_window": 0
       }
     },
     {
@@ -34187,7 +34187,7 @@
         "litellm_provider": "openai",
         "max_input_tokens": 32768,
         "max_output_tokens": 0,
-        "max_tokens": 32768,
+        "max_tokens": 0,
         "mode": "moderation",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -34199,7 +34199,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 32768
+        "context_window": 0
       }
     },
     {
@@ -34312,7 +34312,7 @@
         "litellm_provider": "openrouter",
         "max_input_tokens": null,
         "max_output_tokens": 8191,
-        "max_tokens": 100000,
+        "max_tokens": 8191,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -34324,7 +34324,7 @@
         "output_price_per_million": 32.68,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 100000
+        "context_window": 8191
       }
     },
     {
@@ -34587,7 +34587,7 @@
         "litellm_provider": "openrouter",
         "max_input_tokens": null,
         "max_output_tokens": 8191,
-        "max_tokens": 100000,
+        "max_tokens": 8191,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -34599,7 +34599,7 @@
         "output_price_per_million": 5.51,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 100000
+        "context_window": 8191
       }
     },
     {
@@ -34912,7 +34912,7 @@
         "litellm_provider": "openrouter",
         "max_input_tokens": 163840,
         "max_output_tokens": 163840,
-        "max_tokens": 8192,
+        "max_tokens": 163840,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -34924,7 +34924,7 @@
         "output_price_per_million": 0.7999999999999999,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8192
+        "context_window": 163840
       }
     },
     {
@@ -34937,7 +34937,7 @@
         "litellm_provider": "openrouter",
         "max_input_tokens": 163840,
         "max_output_tokens": 163840,
-        "max_tokens": 8192,
+        "max_tokens": 163840,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -34949,7 +34949,7 @@
         "output_price_per_million": 0.39999999999999997,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8192
+        "context_window": 163840
       }
     },
     {
@@ -34962,7 +34962,7 @@
         "litellm_provider": "openrouter",
         "max_input_tokens": 163840,
         "max_output_tokens": 163840,
-        "max_tokens": 8192,
+        "max_tokens": 163840,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": false,
@@ -34974,7 +34974,7 @@
         "output_price_per_million": 0.39999999999999997,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8192
+        "context_window": 163840
       }
     },
     {
@@ -34987,7 +34987,7 @@
         "litellm_provider": "openrouter",
         "max_input_tokens": 66000,
         "max_output_tokens": 4096,
-        "max_tokens": 8192,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -34999,7 +34999,7 @@
         "output_price_per_million": 0.28,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8192
+        "context_window": 4096
       }
     },
     {
@@ -35587,7 +35587,7 @@
         "litellm_provider": "openrouter",
         "max_input_tokens": 204800,
         "max_output_tokens": 204800,
-        "max_tokens": 32768,
+        "max_tokens": 204800,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -35599,7 +35599,7 @@
         "output_price_per_million": 1.02,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 32768
+        "context_window": 204800
       }
     },
     {
@@ -35637,7 +35637,7 @@
         "litellm_provider": "openrouter",
         "max_input_tokens": 262144,
         "max_output_tokens": 65536,
-        "max_tokens": 262144,
+        "max_tokens": 65536,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -35649,7 +35649,7 @@
         "output_price_per_million": 0.6,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 262144
+        "context_window": 65536
       }
     },
     {
@@ -36362,35 +36362,10 @@
         "litellm_provider": "openrouter",
         "max_input_tokens": 400000,
         "max_output_tokens": 128000,
-        "max_tokens": 400000,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": true,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 1.75,
-        "output_price_per_million": 14.0,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 400000
-      }
-    },
-    {
-      "vendor": "openrouter",
-      "model": "openai/gpt-5.2-chat",
-      "full_name": "openrouter/openai/gpt-5.2-chat",
-      "raw": {
-        "input_cost_per_token": 1.75e-06,
-        "output_cost_per_token": 1.4e-05,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": 128000,
-        "max_output_tokens": 16384,
         "max_tokens": 128000,
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_reasoning": null,
+        "supports_reasoning": true,
         "supports_response_schema": null,
         "supports_tool_choice": true
       },
@@ -36404,6 +36379,31 @@
     },
     {
       "vendor": "openrouter",
+      "model": "openai/gpt-5.2-chat",
+      "full_name": "openrouter/openai/gpt-5.2-chat",
+      "raw": {
+        "input_cost_per_token": 1.75e-06,
+        "output_cost_per_token": 1.4e-05,
+        "litellm_provider": "openrouter",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "max_tokens": 16384,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1.75,
+        "output_price_per_million": 14.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 16384
+      }
+    },
+    {
+      "vendor": "openrouter",
       "model": "openai/gpt-5.2-pro",
       "full_name": "openrouter/openai/gpt-5.2-pro",
       "raw": {
@@ -36412,7 +36412,7 @@
         "litellm_provider": "openrouter",
         "max_input_tokens": 400000,
         "max_output_tokens": 128000,
-        "max_tokens": 400000,
+        "max_tokens": 128000,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -36424,7 +36424,7 @@
         "output_price_per_million": 168.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 400000
+        "context_window": 128000
       }
     },
     {
@@ -36712,7 +36712,7 @@
         "litellm_provider": "openrouter",
         "max_input_tokens": 8192,
         "max_output_tokens": 2048,
-        "max_tokens": 8192,
+        "max_tokens": 2048,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -36724,7 +36724,7 @@
         "output_price_per_million": 0.63,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8192
+        "context_window": 2048
       }
     },
     {
@@ -36837,7 +36837,7 @@
         "litellm_provider": "openrouter",
         "max_input_tokens": 2000000,
         "max_output_tokens": 30000,
-        "max_tokens": 2000000,
+        "max_tokens": 30000,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -36849,7 +36849,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 2000000
+        "context_window": 30000
       }
     },
     {
@@ -36862,7 +36862,7 @@
         "litellm_provider": "openrouter",
         "max_input_tokens": 202800,
         "max_output_tokens": 131000,
-        "max_tokens": 202800,
+        "max_tokens": 131000,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -36874,7 +36874,7 @@
         "output_price_per_million": 1.75,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 202800
+        "context_window": 131000
       }
     },
     {
@@ -36887,7 +36887,7 @@
         "litellm_provider": "openrouter",
         "max_input_tokens": 202800,
         "max_output_tokens": 131000,
-        "max_tokens": 202800,
+        "max_tokens": 131000,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -36899,7 +36899,7 @@
         "output_price_per_million": 1.9,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 202800
+        "context_window": 131000
       }
     },
     {
@@ -38112,7 +38112,7 @@
         "litellm_provider": "publicai",
         "max_input_tokens": 8192,
         "max_output_tokens": 4096,
-        "max_tokens": 8192,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -38124,7 +38124,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8192
+        "context_window": 4096
       }
     },
     {
@@ -38137,7 +38137,7 @@
         "litellm_provider": "publicai",
         "max_input_tokens": 8192,
         "max_output_tokens": 4096,
-        "max_tokens": 8192,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -38149,7 +38149,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8192
+        "context_window": 4096
       }
     },
     {
@@ -38162,7 +38162,7 @@
         "litellm_provider": "publicai",
         "max_input_tokens": 8192,
         "max_output_tokens": 4096,
-        "max_tokens": 8192,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -38174,7 +38174,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8192
+        "context_window": 4096
       }
     },
     {
@@ -38187,7 +38187,7 @@
         "litellm_provider": "publicai",
         "max_input_tokens": 16384,
         "max_output_tokens": 4096,
-        "max_tokens": 16384,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -38199,7 +38199,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 16384
+        "context_window": 4096
       }
     },
     {
@@ -38212,7 +38212,7 @@
         "litellm_provider": "publicai",
         "max_input_tokens": 8192,
         "max_output_tokens": 4096,
-        "max_tokens": 8192,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -38224,7 +38224,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8192
+        "context_window": 4096
       }
     },
     {
@@ -38237,7 +38237,7 @@
         "litellm_provider": "publicai",
         "max_input_tokens": 32768,
         "max_output_tokens": 4096,
-        "max_tokens": 32768,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -38249,7 +38249,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 32768
+        "context_window": 4096
       }
     },
     {
@@ -38262,7 +38262,7 @@
         "litellm_provider": "publicai",
         "max_input_tokens": 32768,
         "max_output_tokens": 4096,
-        "max_tokens": 32768,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -38274,7 +38274,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 32768
+        "context_window": 4096
       }
     },
     {
@@ -38287,7 +38287,7 @@
         "litellm_provider": "publicai",
         "max_input_tokens": 32768,
         "max_output_tokens": 4096,
-        "max_tokens": 32768,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -38299,7 +38299,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 32768
+        "context_window": 4096
       }
     },
     {
@@ -38312,7 +38312,7 @@
         "litellm_provider": "publicai",
         "max_input_tokens": 32768,
         "max_output_tokens": 4096,
-        "max_tokens": 32768,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -38324,7 +38324,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 32768
+        "context_window": 4096
       }
     },
     {
@@ -38337,7 +38337,7 @@
         "litellm_provider": "bedrock_converse",
         "max_input_tokens": 262000,
         "max_output_tokens": 65536,
-        "max_tokens": 262144,
+        "max_tokens": 65536,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -38349,7 +38349,7 @@
         "output_price_per_million": 1.7999999999999998,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 262144
+        "context_window": 65536
       }
     },
     {
@@ -38362,7 +38362,7 @@
         "litellm_provider": "bedrock_converse",
         "max_input_tokens": 262144,
         "max_output_tokens": 131072,
-        "max_tokens": 262144,
+        "max_tokens": 131072,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -38374,7 +38374,7 @@
         "output_price_per_million": 0.88,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 262144
+        "context_window": 131072
       }
     },
     {
@@ -38387,31 +38387,6 @@
         "litellm_provider": "bedrock_converse",
         "max_input_tokens": 262144,
         "max_output_tokens": 131072,
-        "max_tokens": 262144,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": true,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0.15,
-        "output_price_per_million": 0.6,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 262144
-      }
-    },
-    {
-      "vendor": "unknown",
-      "model": "qwen.qwen3-32b-v1:0",
-      "full_name": "qwen.qwen3-32b-v1:0",
-      "raw": {
-        "input_cost_per_token": 1.5e-07,
-        "output_cost_per_token": 6e-07,
-        "litellm_provider": "bedrock_converse",
-        "max_input_tokens": 131072,
-        "max_output_tokens": 16384,
         "max_tokens": 131072,
         "mode": "chat",
         "supports_function_calling": true,
@@ -38425,6 +38400,31 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 131072
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "qwen.qwen3-32b-v1:0",
+      "full_name": "qwen.qwen3-32b-v1:0",
+      "raw": {
+        "input_cost_per_token": 1.5e-07,
+        "output_cost_per_token": 6e-07,
+        "litellm_provider": "bedrock_converse",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 16384,
+        "max_tokens": 16384,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.15,
+        "output_price_per_million": 0.6,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 16384
       }
     },
     {
@@ -39612,7 +39612,7 @@
         "litellm_provider": "snowflake",
         "max_input_tokens": 18000,
         "max_output_tokens": 8192,
-        "max_tokens": 18000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -39624,7 +39624,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 18000
+        "context_window": 8192
       }
     },
     {
@@ -39637,7 +39637,7 @@
         "litellm_provider": "snowflake",
         "max_input_tokens": 32768,
         "max_output_tokens": 8192,
-        "max_tokens": 32768,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": true,
@@ -39649,7 +39649,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 32768
+        "context_window": 8192
       }
     },
     {
@@ -39662,7 +39662,7 @@
         "litellm_provider": "snowflake",
         "max_input_tokens": 8000,
         "max_output_tokens": 8192,
-        "max_tokens": 8000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -39674,7 +39674,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8000
+        "context_window": 8192
       }
     },
     {
@@ -39687,7 +39687,7 @@
         "litellm_provider": "snowflake",
         "max_input_tokens": 256000,
         "max_output_tokens": 8192,
-        "max_tokens": 256000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -39699,7 +39699,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 256000
+        "context_window": 8192
       }
     },
     {
@@ -39712,7 +39712,7 @@
         "litellm_provider": "snowflake",
         "max_input_tokens": 256000,
         "max_output_tokens": 8192,
-        "max_tokens": 256000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -39724,7 +39724,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 256000
+        "context_window": 8192
       }
     },
     {
@@ -39737,7 +39737,7 @@
         "litellm_provider": "snowflake",
         "max_input_tokens": 256000,
         "max_output_tokens": 8192,
-        "max_tokens": 256000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -39749,7 +39749,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 256000
+        "context_window": 8192
       }
     },
     {
@@ -39762,7 +39762,7 @@
         "litellm_provider": "snowflake",
         "max_input_tokens": 4096,
         "max_output_tokens": 8192,
-        "max_tokens": 4096,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -39774,7 +39774,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 4096
+        "context_window": 8192
       }
     },
     {
@@ -39787,7 +39787,7 @@
         "litellm_provider": "snowflake",
         "max_input_tokens": 8000,
         "max_output_tokens": 8192,
-        "max_tokens": 8000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -39799,7 +39799,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8000
+        "context_window": 8192
       }
     },
     {
@@ -39812,7 +39812,7 @@
         "litellm_provider": "snowflake",
         "max_input_tokens": 8000,
         "max_output_tokens": 8192,
-        "max_tokens": 8000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -39824,7 +39824,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8000
+        "context_window": 8192
       }
     },
     {
@@ -39837,7 +39837,7 @@
         "litellm_provider": "snowflake",
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -39849,7 +39849,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 8192
       }
     },
     {
@@ -39862,7 +39862,7 @@
         "litellm_provider": "snowflake",
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -39874,7 +39874,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 8192
       }
     },
     {
@@ -39887,7 +39887,7 @@
         "litellm_provider": "snowflake",
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -39899,7 +39899,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 8192
       }
     },
     {
@@ -39912,7 +39912,7 @@
         "litellm_provider": "snowflake",
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -39924,7 +39924,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 8192
       }
     },
     {
@@ -39937,7 +39937,7 @@
         "litellm_provider": "snowflake",
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -39949,7 +39949,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 8192
       }
     },
     {
@@ -39962,7 +39962,7 @@
         "litellm_provider": "snowflake",
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -39974,7 +39974,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 8192
       }
     },
     {
@@ -39987,7 +39987,7 @@
         "litellm_provider": "snowflake",
         "max_input_tokens": 32000,
         "max_output_tokens": 8192,
-        "max_tokens": 32000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -39999,7 +39999,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 32000
+        "context_window": 8192
       }
     },
     {
@@ -40012,7 +40012,7 @@
         "litellm_provider": "snowflake",
         "max_input_tokens": 32000,
         "max_output_tokens": 8192,
-        "max_tokens": 32000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -40024,7 +40024,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 32000
+        "context_window": 8192
       }
     },
     {
@@ -40037,7 +40037,7 @@
         "litellm_provider": "snowflake",
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -40049,7 +40049,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 8192
       }
     },
     {
@@ -40062,7 +40062,7 @@
         "litellm_provider": "snowflake",
         "max_input_tokens": 32000,
         "max_output_tokens": 8192,
-        "max_tokens": 32000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -40074,7 +40074,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 32000
+        "context_window": 8192
       }
     },
     {
@@ -40087,7 +40087,7 @@
         "litellm_provider": "snowflake",
         "max_input_tokens": 32000,
         "max_output_tokens": 8192,
-        "max_tokens": 32000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -40099,7 +40099,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 32000
+        "context_window": 8192
       }
     },
     {
@@ -40112,7 +40112,7 @@
         "litellm_provider": "snowflake",
         "max_input_tokens": 100000,
         "max_output_tokens": 8192,
-        "max_tokens": 100000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -40124,7 +40124,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 100000
+        "context_window": 8192
       }
     },
     {
@@ -40137,7 +40137,7 @@
         "litellm_provider": "snowflake",
         "max_input_tokens": 4096,
         "max_output_tokens": 8192,
-        "max_tokens": 4096,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -40149,7 +40149,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 4096
+        "context_window": 8192
       }
     },
     {
@@ -40162,7 +40162,7 @@
         "litellm_provider": "snowflake",
         "max_input_tokens": 8000,
         "max_output_tokens": 8192,
-        "max_tokens": 8000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -40174,7 +40174,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8000
+        "context_window": 8192
       }
     },
     {
@@ -40187,7 +40187,7 @@
         "litellm_provider": "snowflake",
         "max_input_tokens": 8000,
         "max_output_tokens": 8192,
-        "max_tokens": 8000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -40199,7 +40199,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8000
+        "context_window": 8192
       }
     },
     {
@@ -41812,7 +41812,7 @@
         "litellm_provider": "openai",
         "max_input_tokens": 32768,
         "max_output_tokens": 0,
-        "max_tokens": 32768,
+        "max_tokens": 0,
         "mode": "moderation",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -41824,7 +41824,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 32768
+        "context_window": 0
       }
     },
     {
@@ -41837,7 +41837,7 @@
         "litellm_provider": "openai",
         "max_input_tokens": 32768,
         "max_output_tokens": 0,
-        "max_tokens": 32768,
+        "max_tokens": 0,
         "mode": "moderation",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -41849,7 +41849,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 32768
+        "context_window": 0
       }
     },
     {
@@ -41862,7 +41862,7 @@
         "litellm_provider": "openai",
         "max_input_tokens": 32768,
         "max_output_tokens": 0,
-        "max_tokens": 32768,
+        "max_tokens": 0,
         "mode": "moderation",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -41874,7 +41874,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 32768
+        "context_window": 0
       }
     },
     {
@@ -43787,7 +43787,7 @@
         "litellm_provider": "bedrock",
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -43799,7 +43799,7 @@
         "output_price_per_million": 16.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 4096
       }
     },
     {
@@ -43812,7 +43812,7 @@
         "litellm_provider": "bedrock",
         "max_input_tokens": 128000,
         "max_output_tokens": 2048,
-        "max_tokens": 128000,
+        "max_tokens": 2048,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -43824,7 +43824,7 @@
         "output_price_per_million": 0.9900000000000001,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 2048
       }
     },
     {
@@ -43837,7 +43837,7 @@
         "litellm_provider": "bedrock",
         "max_input_tokens": 128000,
         "max_output_tokens": 2048,
-        "max_tokens": 128000,
+        "max_tokens": 2048,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -43849,7 +43849,7 @@
         "output_price_per_million": 0.22,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 2048
       }
     },
     {
@@ -43862,7 +43862,7 @@
         "litellm_provider": "bedrock",
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -43874,7 +43874,7 @@
         "output_price_per_million": 0.35,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 4096
       }
     },
     {
@@ -43887,7 +43887,7 @@
         "litellm_provider": "bedrock",
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -43899,7 +43899,7 @@
         "output_price_per_million": 0.09999999999999999,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 4096
       }
     },
     {
@@ -43912,7 +43912,7 @@
         "litellm_provider": "bedrock",
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -43924,7 +43924,7 @@
         "output_price_per_million": 0.15,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 4096
       }
     },
     {
@@ -43937,7 +43937,7 @@
         "litellm_provider": "bedrock",
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -43949,7 +43949,7 @@
         "output_price_per_million": 2.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 4096
       }
     },
     {
@@ -44037,7 +44037,7 @@
         "litellm_provider": "bedrock_converse",
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -44049,7 +44049,7 @@
         "output_price_per_million": 6.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 4096
       }
     },
     {
@@ -44137,7 +44137,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 40960,
         "max_output_tokens": 16384,
-        "max_tokens": 40960,
+        "max_tokens": 16384,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -44149,7 +44149,7 @@
         "output_price_per_million": 0.24,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 40960
+        "context_window": 16384
       }
     },
     {
@@ -44162,7 +44162,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 40960,
         "max_output_tokens": 16384,
-        "max_tokens": 40960,
+        "max_tokens": 16384,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -44174,7 +44174,7 @@
         "output_price_per_million": 0.6,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 40960
+        "context_window": 16384
       }
     },
     {
@@ -44187,7 +44187,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 40960,
         "max_output_tokens": 16384,
-        "max_tokens": 40960,
+        "max_tokens": 16384,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -44199,7 +44199,7 @@
         "output_price_per_million": 0.3,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 40960
+        "context_window": 16384
       }
     },
     {
@@ -44212,7 +44212,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 40960,
         "max_output_tokens": 16384,
-        "max_tokens": 40960,
+        "max_tokens": 16384,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -44224,7 +44224,7 @@
         "output_price_per_million": 0.3,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 40960
+        "context_window": 16384
       }
     },
     {
@@ -44237,7 +44237,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 262144,
         "max_output_tokens": 66536,
-        "max_tokens": 262144,
+        "max_tokens": 66536,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -44249,7 +44249,7 @@
         "output_price_per_million": 1.5999999999999999,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 262144
+        "context_window": 66536
       }
     },
     {
@@ -44262,7 +44262,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 300000,
         "max_output_tokens": 8192,
-        "max_tokens": 300000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -44274,7 +44274,7 @@
         "output_price_per_million": 0.24,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 300000
+        "context_window": 8192
       }
     },
     {
@@ -44287,7 +44287,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -44299,7 +44299,7 @@
         "output_price_per_million": 0.14,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 8192
       }
     },
     {
@@ -44312,7 +44312,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 300000,
         "max_output_tokens": 8192,
-        "max_tokens": 300000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -44324,7 +44324,7 @@
         "output_price_per_million": 3.1999999999999997,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 300000
+        "context_window": 8192
       }
     },
     {
@@ -44362,7 +44362,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 200000,
         "max_output_tokens": 4096,
-        "max_tokens": 200000,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -44374,7 +44374,7 @@
         "output_price_per_million": 1.25,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 200000
+        "context_window": 4096
       }
     },
     {
@@ -44387,7 +44387,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 200000,
         "max_output_tokens": 4096,
-        "max_tokens": 200000,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -44399,7 +44399,7 @@
         "output_price_per_million": 75.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 200000
+        "context_window": 4096
       }
     },
     {
@@ -44412,7 +44412,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 200000,
         "max_output_tokens": 8192,
-        "max_tokens": 200000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -44424,7 +44424,7 @@
         "output_price_per_million": 4.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 200000
+        "context_window": 8192
       }
     },
     {
@@ -44437,7 +44437,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 200000,
         "max_output_tokens": 8192,
-        "max_tokens": 200000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -44449,7 +44449,7 @@
         "output_price_per_million": 15.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 200000
+        "context_window": 8192
       }
     },
     {
@@ -44462,7 +44462,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
-        "max_tokens": 200000,
+        "max_tokens": 64000,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -44474,7 +44474,7 @@
         "output_price_per_million": 15.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 200000
+        "context_window": 64000
       }
     },
     {
@@ -44487,7 +44487,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 200000,
         "max_output_tokens": 32000,
-        "max_tokens": 200000,
+        "max_tokens": 32000,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -44499,7 +44499,7 @@
         "output_price_per_million": 75.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 200000
+        "context_window": 32000
       }
     },
     {
@@ -44512,7 +44512,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 200000,
         "max_output_tokens": 64000,
-        "max_tokens": 200000,
+        "max_tokens": 64000,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -44524,7 +44524,7 @@
         "output_price_per_million": 15.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 200000
+        "context_window": 64000
       }
     },
     {
@@ -44537,7 +44537,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 256000,
         "max_output_tokens": 8000,
-        "max_tokens": 256000,
+        "max_tokens": 8000,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -44549,7 +44549,7 @@
         "output_price_per_million": 10.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 256000
+        "context_window": 8000
       }
     },
     {
@@ -44562,7 +44562,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -44574,7 +44574,7 @@
         "output_price_per_million": 0.6,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 4096
       }
     },
     {
@@ -44587,7 +44587,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -44599,7 +44599,7 @@
         "output_price_per_million": 10.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 4096
       }
     },
     {
@@ -44637,7 +44637,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -44649,7 +44649,7 @@
         "output_price_per_million": 2.1900000000000004,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 8192
       }
     },
     {
@@ -44687,7 +44687,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -44699,7 +44699,7 @@
         "output_price_per_million": 0.8999999999999999,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 8192
       }
     },
     {
@@ -44712,7 +44712,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 1048576,
         "max_output_tokens": 8192,
-        "max_tokens": 1048576,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -44724,7 +44724,7 @@
         "output_price_per_million": 0.6,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 1048576
+        "context_window": 8192
       }
     },
     {
@@ -44737,7 +44737,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 1048576,
         "max_output_tokens": 8192,
-        "max_tokens": 1048576,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -44749,7 +44749,7 @@
         "output_price_per_million": 0.3,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 1048576
+        "context_window": 8192
       }
     },
     {
@@ -44762,7 +44762,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 1000000,
         "max_output_tokens": 65536,
-        "max_tokens": 1000000,
+        "max_tokens": 65536,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -44774,7 +44774,7 @@
         "output_price_per_million": 2.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 1000000
+        "context_window": 65536
       }
     },
     {
@@ -44787,7 +44787,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 1048576,
         "max_output_tokens": 65536,
-        "max_tokens": 1048576,
+        "max_tokens": 65536,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -44799,7 +44799,7 @@
         "output_price_per_million": 10.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 1048576
+        "context_window": 65536
       }
     },
     {
@@ -44912,7 +44912,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 32000,
         "max_output_tokens": 16384,
-        "max_tokens": 32000,
+        "max_tokens": 16384,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -44924,7 +44924,7 @@
         "output_price_per_million": 1.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 32000
+        "context_window": 16384
       }
     },
     {
@@ -44987,7 +44987,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -44999,7 +44999,7 @@
         "output_price_per_million": 0.72,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 8192
       }
     },
     {
@@ -45012,7 +45012,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 131000,
         "max_output_tokens": 131072,
-        "max_tokens": 131000,
+        "max_tokens": 131072,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -45024,7 +45024,7 @@
         "output_price_per_million": 0.08,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 131000
+        "context_window": 131072
       }
     },
     {
@@ -45037,7 +45037,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -45049,7 +45049,7 @@
         "output_price_per_million": 0.16,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 8192
       }
     },
     {
@@ -45062,7 +45062,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -45074,7 +45074,7 @@
         "output_price_per_million": 0.09999999999999999,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 8192
       }
     },
     {
@@ -45087,7 +45087,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -45099,7 +45099,7 @@
         "output_price_per_million": 0.15,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 8192
       }
     },
     {
@@ -45112,7 +45112,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -45124,7 +45124,7 @@
         "output_price_per_million": 0.72,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 8192
       }
     },
     {
@@ -45137,7 +45137,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 128000,
         "max_output_tokens": 8192,
-        "max_tokens": 128000,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -45149,7 +45149,7 @@
         "output_price_per_million": 0.72,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 8192
       }
     },
     {
@@ -45162,7 +45162,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 131072,
         "max_output_tokens": 8192,
-        "max_tokens": 131072,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -45174,7 +45174,7 @@
         "output_price_per_million": 0.6,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 131072
+        "context_window": 8192
       }
     },
     {
@@ -45187,7 +45187,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 131072,
         "max_output_tokens": 8192,
-        "max_tokens": 131072,
+        "max_tokens": 8192,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -45199,7 +45199,7 @@
         "output_price_per_million": 0.3,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 131072
+        "context_window": 8192
       }
     },
     {
@@ -45212,7 +45212,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 256000,
         "max_output_tokens": 4000,
-        "max_tokens": 256000,
+        "max_tokens": 4000,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -45224,7 +45224,7 @@
         "output_price_per_million": 0.8999999999999999,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 256000
+        "context_window": 4000
       }
     },
     {
@@ -45287,7 +45287,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 128000,
         "max_output_tokens": 64000,
-        "max_tokens": 128000,
+        "max_tokens": 64000,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -45299,7 +45299,7 @@
         "output_price_per_million": 5.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 64000
       }
     },
     {
@@ -45312,7 +45312,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 128000,
         "max_output_tokens": 64000,
-        "max_tokens": 128000,
+        "max_tokens": 64000,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -45324,7 +45324,7 @@
         "output_price_per_million": 1.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 64000
       }
     },
     {
@@ -45337,7 +45337,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 128000,
         "max_output_tokens": 4000,
-        "max_tokens": 128000,
+        "max_tokens": 4000,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -45349,7 +45349,7 @@
         "output_price_per_million": 0.04,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 4000
       }
     },
     {
@@ -45362,7 +45362,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 128000,
         "max_output_tokens": 4000,
-        "max_tokens": 128000,
+        "max_tokens": 4000,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -45374,7 +45374,7 @@
         "output_price_per_million": 0.09999999999999999,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 4000
       }
     },
     {
@@ -45412,7 +45412,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 32000,
         "max_output_tokens": 4000,
-        "max_tokens": 32000,
+        "max_tokens": 4000,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -45424,7 +45424,7 @@
         "output_price_per_million": 6.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 32000
+        "context_window": 4000
       }
     },
     {
@@ -45462,7 +45462,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 32000,
         "max_output_tokens": 4000,
-        "max_tokens": 32000,
+        "max_tokens": 4000,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -45474,7 +45474,7 @@
         "output_price_per_million": 0.3,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 32000
+        "context_window": 4000
       }
     },
     {
@@ -45487,7 +45487,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 65536,
         "max_output_tokens": 2048,
-        "max_tokens": 65536,
+        "max_tokens": 2048,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -45499,7 +45499,7 @@
         "output_price_per_million": 1.2,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 65536
+        "context_window": 2048
       }
     },
     {
@@ -45512,7 +45512,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 128000,
         "max_output_tokens": 4000,
-        "max_tokens": 128000,
+        "max_tokens": 4000,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -45524,7 +45524,7 @@
         "output_price_per_million": 0.15,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 4000
       }
     },
     {
@@ -45537,7 +45537,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 128000,
         "max_output_tokens": 4000,
-        "max_tokens": 128000,
+        "max_tokens": 4000,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -45549,7 +45549,7 @@
         "output_price_per_million": 6.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 4000
       }
     },
     {
@@ -45562,7 +45562,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 131072,
         "max_output_tokens": 16384,
-        "max_tokens": 131072,
+        "max_tokens": 16384,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -45574,7 +45574,7 @@
         "output_price_per_million": 2.2,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 131072
+        "context_window": 16384
       }
     },
     {
@@ -45587,7 +45587,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 32768,
         "max_output_tokens": 16384,
-        "max_tokens": 32768,
+        "max_tokens": 16384,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -45599,7 +45599,7 @@
         "output_price_per_million": 1.2,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 32768
+        "context_window": 16384
       }
     },
     {
@@ -45612,7 +45612,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 32768,
         "max_output_tokens": 16384,
-        "max_tokens": 32768,
+        "max_tokens": 16384,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -45624,7 +45624,7 @@
         "output_price_per_million": 1.9,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 32768
+        "context_window": 16384
       }
     },
     {
@@ -45637,7 +45637,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 16385,
         "max_output_tokens": 4096,
-        "max_tokens": 16385,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -45649,7 +45649,7 @@
         "output_price_per_million": 1.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 16385
+        "context_window": 4096
       }
     },
     {
@@ -45662,7 +45662,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 8192,
         "max_output_tokens": 4096,
-        "max_tokens": 8192,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -45674,7 +45674,7 @@
         "output_price_per_million": 2.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8192
+        "context_window": 4096
       }
     },
     {
@@ -45687,7 +45687,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 128000,
         "max_output_tokens": 4096,
-        "max_tokens": 128000,
+        "max_tokens": 4096,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -45699,7 +45699,7 @@
         "output_price_per_million": 30.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 4096
       }
     },
     {
@@ -45712,7 +45712,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 1047576,
         "max_output_tokens": 32768,
-        "max_tokens": 1047576,
+        "max_tokens": 32768,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -45724,7 +45724,7 @@
         "output_price_per_million": 8.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 1047576
+        "context_window": 32768
       }
     },
     {
@@ -45737,7 +45737,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 1047576,
         "max_output_tokens": 32768,
-        "max_tokens": 1047576,
+        "max_tokens": 32768,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -45749,7 +45749,7 @@
         "output_price_per_million": 1.5999999999999999,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 1047576
+        "context_window": 32768
       }
     },
     {
@@ -45762,7 +45762,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 1047576,
         "max_output_tokens": 32768,
-        "max_tokens": 1047576,
+        "max_tokens": 32768,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -45774,7 +45774,7 @@
         "output_price_per_million": 0.39999999999999997,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 1047576
+        "context_window": 32768
       }
     },
     {
@@ -45787,7 +45787,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 128000,
         "max_output_tokens": 16384,
-        "max_tokens": 128000,
+        "max_tokens": 16384,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -45799,7 +45799,7 @@
         "output_price_per_million": 10.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 16384
       }
     },
     {
@@ -45812,7 +45812,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 128000,
         "max_output_tokens": 16384,
-        "max_tokens": 128000,
+        "max_tokens": 16384,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -45824,7 +45824,7 @@
         "output_price_per_million": 0.6,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 16384
       }
     },
     {
@@ -45837,7 +45837,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 200000,
         "max_output_tokens": 100000,
-        "max_tokens": 200000,
+        "max_tokens": 100000,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -45849,7 +45849,7 @@
         "output_price_per_million": 60.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 200000
+        "context_window": 100000
       }
     },
     {
@@ -45862,7 +45862,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 200000,
         "max_output_tokens": 100000,
-        "max_tokens": 200000,
+        "max_tokens": 100000,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -45874,7 +45874,7 @@
         "output_price_per_million": 8.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 200000
+        "context_window": 100000
       }
     },
     {
@@ -45887,7 +45887,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 200000,
         "max_output_tokens": 100000,
-        "max_tokens": 200000,
+        "max_tokens": 100000,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -45899,7 +45899,7 @@
         "output_price_per_million": 4.4,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 200000
+        "context_window": 100000
       }
     },
     {
@@ -45912,7 +45912,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 200000,
         "max_output_tokens": 100000,
-        "max_tokens": 200000,
+        "max_tokens": 100000,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -45924,7 +45924,7 @@
         "output_price_per_million": 4.4,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 200000
+        "context_window": 100000
       }
     },
     {
@@ -46012,7 +46012,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 127000,
         "max_output_tokens": 8000,
-        "max_tokens": 127000,
+        "max_tokens": 8000,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -46024,7 +46024,7 @@
         "output_price_per_million": 1.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 127000
+        "context_window": 8000
       }
     },
     {
@@ -46037,7 +46037,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 200000,
         "max_output_tokens": 8000,
-        "max_tokens": 200000,
+        "max_tokens": 8000,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -46049,7 +46049,7 @@
         "output_price_per_million": 15.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 200000
+        "context_window": 8000
       }
     },
     {
@@ -46062,7 +46062,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 127000,
         "max_output_tokens": 8000,
-        "max_tokens": 127000,
+        "max_tokens": 8000,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -46074,7 +46074,7 @@
         "output_price_per_million": 5.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 127000
+        "context_window": 8000
       }
     },
     {
@@ -46087,7 +46087,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 127000,
         "max_output_tokens": 8000,
-        "max_tokens": 127000,
+        "max_tokens": 8000,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -46099,7 +46099,7 @@
         "output_price_per_million": 8.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 127000
+        "context_window": 8000
       }
     },
     {
@@ -46112,7 +46112,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 128000,
         "max_output_tokens": 32000,
-        "max_tokens": 128000,
+        "max_tokens": 32000,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -46124,7 +46124,7 @@
         "output_price_per_million": 15.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 32000
       }
     },
     {
@@ -46137,7 +46137,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 128000,
         "max_output_tokens": 32768,
-        "max_tokens": 128000,
+        "max_tokens": 32768,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -46149,7 +46149,7 @@
         "output_price_per_million": 15.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 32768
       }
     },
     {
@@ -46162,7 +46162,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 131072,
         "max_output_tokens": 4000,
-        "max_tokens": 131072,
+        "max_tokens": 4000,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -46174,7 +46174,7 @@
         "output_price_per_million": 10.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 131072
+        "context_window": 4000
       }
     },
     {
@@ -46362,7 +46362,7 @@
         "litellm_provider": "vercel_ai_gateway",
         "max_input_tokens": 128000,
         "max_output_tokens": 96000,
-        "max_tokens": 128000,
+        "max_tokens": 96000,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -46374,7 +46374,7 @@
         "output_price_per_million": 1.1,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 96000
       }
     },
     {
@@ -47212,7 +47212,7 @@
         "litellm_provider": "vertex_ai-deepseek_models",
         "max_input_tokens": 163840,
         "max_output_tokens": 32768,
-        "max_tokens": 163840,
+        "max_tokens": 32768,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -47224,7 +47224,7 @@
         "output_price_per_million": 5.4,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 163840
+        "context_window": 32768
       }
     },
     {
@@ -47237,7 +47237,7 @@
         "litellm_provider": "vertex_ai-deepseek_models",
         "max_input_tokens": 163840,
         "max_output_tokens": 32768,
-        "max_tokens": 163840,
+        "max_tokens": 32768,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -47249,7 +47249,7 @@
         "output_price_per_million": 1.68,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 163840
+        "context_window": 32768
       }
     },
     {
@@ -47312,7 +47312,7 @@
         "litellm_provider": "vertex_ai-language-models",
         "max_input_tokens": 65536,
         "max_output_tokens": 32768,
-        "max_tokens": 65536,
+        "max_tokens": 32768,
         "mode": "image_generation",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -47324,7 +47324,7 @@
         "output_price_per_million": 12.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 65536
+        "context_window": 32768
       }
     },
     {
@@ -47662,7 +47662,7 @@
         "litellm_provider": "vertex_ai-llama_models",
         "max_input_tokens": 128000,
         "max_output_tokens": 2048,
-        "max_tokens": 128000,
+        "max_tokens": 2048,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -47674,7 +47674,7 @@
         "output_price_per_million": 16.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 2048
       }
     },
     {
@@ -47687,7 +47687,7 @@
         "litellm_provider": "vertex_ai-llama_models",
         "max_input_tokens": 128000,
         "max_output_tokens": 2048,
-        "max_tokens": 128000,
+        "max_tokens": 2048,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -47699,7 +47699,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 2048
       }
     },
     {
@@ -47712,7 +47712,7 @@
         "litellm_provider": "vertex_ai-llama_models",
         "max_input_tokens": 128000,
         "max_output_tokens": 2048,
-        "max_tokens": 128000,
+        "max_tokens": 2048,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -47724,7 +47724,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 2048
       }
     },
     {
@@ -47737,7 +47737,7 @@
         "litellm_provider": "vertex_ai-llama_models",
         "max_input_tokens": 128000,
         "max_output_tokens": 2048,
-        "max_tokens": 128000,
+        "max_tokens": 2048,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": null,
@@ -47749,7 +47749,7 @@
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 2048
       }
     },
     {
@@ -49562,7 +49562,7 @@
         "litellm_provider": "watsonx",
         "max_input_tokens": 8192,
         "max_output_tokens": 1024,
-        "max_tokens": 8192,
+        "max_tokens": 1024,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -49574,7 +49574,7 @@
         "output_price_per_million": 0.19999999999999998,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8192
+        "context_window": 1024
       }
     },
     {
@@ -49587,7 +49587,7 @@
         "litellm_provider": "watsonx",
         "max_input_tokens": 131072,
         "max_output_tokens": 16384,
-        "max_tokens": 131072,
+        "max_tokens": 16384,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -49599,7 +49599,7 @@
         "output_price_per_million": 10.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 131072
+        "context_window": 16384
       }
     },
     {
@@ -57325,6 +57325,2081 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 32768
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "deepseek/deepseek-v3.2",
+      "full_name": "novita/deepseek/deepseek-v3.2",
+      "raw": {
+        "input_cost_per_token": 0.00269,
+        "output_cost_per_token": 0.004,
+        "litellm_provider": "novita",
+        "max_input_tokens": 163840,
+        "max_output_tokens": 65536,
+        "max_tokens": 65536,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 2690.0,
+        "output_price_per_million": 4000.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65536
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "minimax/minimax-m2.1",
+      "full_name": "novita/minimax/minimax-m2.1",
+      "raw": {
+        "input_cost_per_token": 0.003,
+        "output_cost_per_token": 0.012,
+        "litellm_provider": "novita",
+        "max_input_tokens": 204800,
+        "max_output_tokens": 131072,
+        "max_tokens": 131072,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 3000.0,
+        "output_price_per_million": 12000.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 131072
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "zai-org/glm-4.7",
+      "full_name": "novita/zai-org/glm-4.7",
+      "raw": {
+        "input_cost_per_token": 0.006,
+        "output_cost_per_token": 0.022,
+        "litellm_provider": "novita",
+        "max_input_tokens": 204800,
+        "max_output_tokens": 131072,
+        "max_tokens": 131072,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 6000.0,
+        "output_price_per_million": 22000.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 131072
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "xiaomimimo/mimo-v2-flash",
+      "full_name": "novita/xiaomimimo/mimo-v2-flash",
+      "raw": {
+        "input_cost_per_token": 0.001,
+        "output_cost_per_token": 0.003,
+        "litellm_provider": "novita",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 32000,
+        "max_tokens": 32000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1000.0,
+        "output_price_per_million": 3000.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32000
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "zai-org/autoglm-phone-9b-multilingual",
+      "full_name": "novita/zai-org/autoglm-phone-9b-multilingual",
+      "raw": {
+        "input_cost_per_token": 0.00035,
+        "output_cost_per_token": 0.00138,
+        "litellm_provider": "novita",
+        "max_input_tokens": 65536,
+        "max_output_tokens": 65536,
+        "max_tokens": 65536,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 350.0,
+        "output_price_per_million": 1380.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65536
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "moonshotai/kimi-k2-thinking",
+      "full_name": "novita/moonshotai/kimi-k2-thinking",
+      "raw": {
+        "input_cost_per_token": 0.0048,
+        "output_cost_per_token": 0.02,
+        "litellm_provider": "novita",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "max_tokens": 262144,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 4800.0,
+        "output_price_per_million": 20000.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 262144
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "minimax/minimax-m2",
+      "full_name": "novita/minimax/minimax-m2",
+      "raw": {
+        "input_cost_per_token": 0.0024,
+        "output_cost_per_token": 0.0096,
+        "litellm_provider": "novita",
+        "max_input_tokens": 204800,
+        "max_output_tokens": 131072,
+        "max_tokens": 131072,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 2400.0,
+        "output_price_per_million": 9600.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 131072
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "paddlepaddle/paddleocr-vl",
+      "full_name": "novita/paddlepaddle/paddleocr-vl",
+      "raw": {
+        "input_cost_per_token": 0.00016,
+        "output_cost_per_token": 0.00016,
+        "litellm_provider": "novita",
+        "max_input_tokens": 16384,
+        "max_output_tokens": 16384,
+        "max_tokens": 16384,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 160.0,
+        "output_price_per_million": 160.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 16384
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "deepseek/deepseek-v3.2-exp",
+      "full_name": "novita/deepseek/deepseek-v3.2-exp",
+      "raw": {
+        "input_cost_per_token": 0.00216,
+        "output_cost_per_token": 0.00328,
+        "litellm_provider": "novita",
+        "max_input_tokens": 163840,
+        "max_output_tokens": 65536,
+        "max_tokens": 65536,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 2160.0,
+        "output_price_per_million": 3280.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65536
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "qwen/qwen3-vl-235b-a22b-thinking",
+      "full_name": "novita/qwen/qwen3-vl-235b-a22b-thinking",
+      "raw": {
+        "input_cost_per_token": 0.00784,
+        "output_cost_per_token": 0.0316,
+        "litellm_provider": "novita",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 7840.0,
+        "output_price_per_million": 31600.000000000004,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "zai-org/glm-4.6v",
+      "full_name": "novita/zai-org/glm-4.6v",
+      "raw": {
+        "input_cost_per_token": 0.003,
+        "output_cost_per_token": 0.009,
+        "litellm_provider": "novita",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 3000.0,
+        "output_price_per_million": 9000.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "zai-org/glm-4.6",
+      "full_name": "novita/zai-org/glm-4.6",
+      "raw": {
+        "input_cost_per_token": 0.0044,
+        "output_cost_per_token": 0.0176,
+        "litellm_provider": "novita",
+        "max_input_tokens": 204800,
+        "max_output_tokens": 131072,
+        "max_tokens": 131072,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 4400.0,
+        "output_price_per_million": 17600.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 131072
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "qwen/qwen3-next-80b-a3b-instruct",
+      "full_name": "novita/qwen/qwen3-next-80b-a3b-instruct",
+      "raw": {
+        "input_cost_per_token": 0.0012,
+        "output_cost_per_token": 0.012,
+        "litellm_provider": "novita",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1200.0,
+        "output_price_per_million": 12000.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "qwen/qwen3-next-80b-a3b-thinking",
+      "full_name": "novita/qwen/qwen3-next-80b-a3b-thinking",
+      "raw": {
+        "input_cost_per_token": 0.0012,
+        "output_cost_per_token": 0.012,
+        "litellm_provider": "novita",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1200.0,
+        "output_price_per_million": 12000.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "deepseek/deepseek-ocr",
+      "full_name": "novita/deepseek/deepseek-ocr",
+      "raw": {
+        "input_cost_per_token": 0.00024,
+        "output_cost_per_token": 0.00024,
+        "litellm_provider": "novita",
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 240.0,
+        "output_price_per_million": 240.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "deepseek/deepseek-v3.1-terminus",
+      "full_name": "novita/deepseek/deepseek-v3.1-terminus",
+      "raw": {
+        "input_cost_per_token": 0.00216,
+        "output_cost_per_token": 0.008,
+        "litellm_provider": "novita",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 2160.0,
+        "output_price_per_million": 8000.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "qwen/qwen3-vl-235b-a22b-instruct",
+      "full_name": "novita/qwen/qwen3-vl-235b-a22b-instruct",
+      "raw": {
+        "input_cost_per_token": 0.0024,
+        "output_cost_per_token": 0.012,
+        "litellm_provider": "novita",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 2400.0,
+        "output_price_per_million": 12000.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "qwen/qwen3-max",
+      "full_name": "novita/qwen/qwen3-max",
+      "raw": {
+        "input_cost_per_token": 0.01688,
+        "output_cost_per_token": 0.0676,
+        "litellm_provider": "novita",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 65536,
+        "max_tokens": 65536,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 16880.0,
+        "output_price_per_million": 67600.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65536
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "skywork/r1v4-lite",
+      "full_name": "novita/skywork/r1v4-lite",
+      "raw": {
+        "input_cost_per_token": 0.002,
+        "output_cost_per_token": 0.006,
+        "litellm_provider": "novita",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 65536,
+        "max_tokens": 65536,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 2000.0,
+        "output_price_per_million": 6000.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65536
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "deepseek/deepseek-v3.1",
+      "full_name": "novita/deepseek/deepseek-v3.1",
+      "raw": {
+        "input_cost_per_token": 0.00216,
+        "output_cost_per_token": 0.008,
+        "litellm_provider": "novita",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 2160.0,
+        "output_price_per_million": 8000.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "moonshotai/kimi-k2-0905",
+      "full_name": "novita/moonshotai/kimi-k2-0905",
+      "raw": {
+        "input_cost_per_token": 0.0048,
+        "output_cost_per_token": 0.02,
+        "litellm_provider": "novita",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "max_tokens": 262144,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 4800.0,
+        "output_price_per_million": 20000.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 262144
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "qwen/qwen3-coder-480b-a35b-instruct",
+      "full_name": "novita/qwen/qwen3-coder-480b-a35b-instruct",
+      "raw": {
+        "input_cost_per_token": 0.0024,
+        "output_cost_per_token": 0.0104,
+        "litellm_provider": "novita",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 65536,
+        "max_tokens": 65536,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 2400.0,
+        "output_price_per_million": 10400.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65536
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "qwen/qwen3-coder-30b-a3b-instruct",
+      "full_name": "novita/qwen/qwen3-coder-30b-a3b-instruct",
+      "raw": {
+        "input_cost_per_token": 0.0007,
+        "output_cost_per_token": 0.0027,
+        "litellm_provider": "novita",
+        "max_input_tokens": 160000,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 700.0,
+        "output_price_per_million": 2700.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "openai/gpt-oss-120b",
+      "full_name": "novita/openai/gpt-oss-120b",
+      "raw": {
+        "input_cost_per_token": 0.0004,
+        "output_cost_per_token": 0.002,
+        "litellm_provider": "novita",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 400.0,
+        "output_price_per_million": 2000.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "moonshotai/kimi-k2-instruct",
+      "full_name": "novita/moonshotai/kimi-k2-instruct",
+      "raw": {
+        "input_cost_per_token": 0.00456,
+        "output_cost_per_token": 0.0184,
+        "litellm_provider": "novita",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "max_tokens": 131072,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 4560.0,
+        "output_price_per_million": 18400.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 131072
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "deepseek/deepseek-v3-0324",
+      "full_name": "novita/deepseek/deepseek-v3-0324",
+      "raw": {
+        "input_cost_per_token": 0.00216,
+        "output_cost_per_token": 0.00896,
+        "litellm_provider": "novita",
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "max_tokens": 163840,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 2160.0,
+        "output_price_per_million": 8960.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 163840
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "zai-org/glm-4.5",
+      "full_name": "novita/zai-org/glm-4.5",
+      "raw": {
+        "input_cost_per_token": 0.0048,
+        "output_cost_per_token": 0.0176,
+        "litellm_provider": "novita",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 98304,
+        "max_tokens": 98304,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 4800.0,
+        "output_price_per_million": 17600.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 98304
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "qwen/qwen3-235b-a22b-thinking-2507",
+      "full_name": "novita/qwen/qwen3-235b-a22b-thinking-2507",
+      "raw": {
+        "input_cost_per_token": 0.0024,
+        "output_cost_per_token": 0.024,
+        "litellm_provider": "novita",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 2400.0,
+        "output_price_per_million": 24000.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "full_name": "novita/meta-llama/llama-3.1-8b-instruct",
+      "raw": {
+        "input_cost_per_token": 0.0002,
+        "output_cost_per_token": 0.0005,
+        "litellm_provider": "novita",
+        "max_input_tokens": 16384,
+        "max_output_tokens": 16384,
+        "max_tokens": 16384,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 200.0,
+        "output_price_per_million": 500.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 16384
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "google/gemma-3-12b-it",
+      "full_name": "novita/google/gemma-3-12b-it",
+      "raw": {
+        "input_cost_per_token": 0.0004,
+        "output_cost_per_token": 0.0008,
+        "litellm_provider": "novita",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 400.0,
+        "output_price_per_million": 800.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "zai-org/glm-4.5v",
+      "full_name": "novita/zai-org/glm-4.5v",
+      "raw": {
+        "input_cost_per_token": 0.0048,
+        "output_cost_per_token": 0.0144,
+        "litellm_provider": "novita",
+        "max_input_tokens": 65536,
+        "max_output_tokens": 16384,
+        "max_tokens": 16384,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 4800.0,
+        "output_price_per_million": 14400.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 16384
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "openai/gpt-oss-20b",
+      "full_name": "novita/openai/gpt-oss-20b",
+      "raw": {
+        "input_cost_per_token": 0.00032,
+        "output_cost_per_token": 0.0012,
+        "litellm_provider": "novita",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 320.0,
+        "output_price_per_million": 1200.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "qwen/qwen3-235b-a22b-instruct-2507",
+      "full_name": "novita/qwen/qwen3-235b-a22b-instruct-2507",
+      "raw": {
+        "input_cost_per_token": 0.00072,
+        "output_cost_per_token": 0.00464,
+        "litellm_provider": "novita",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 16384,
+        "max_tokens": 16384,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 720.0,
+        "output_price_per_million": 4640.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 16384
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "deepseek/deepseek-r1-distill-qwen-14b",
+      "full_name": "novita/deepseek/deepseek-r1-distill-qwen-14b",
+      "raw": {
+        "input_cost_per_token": 0.0012,
+        "output_cost_per_token": 0.0012,
+        "litellm_provider": "novita",
+        "max_input_tokens": 32768,
+        "max_output_tokens": 16384,
+        "max_tokens": 16384,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1200.0,
+        "output_price_per_million": 1200.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 16384
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "meta-llama/llama-3.3-70b-instruct",
+      "full_name": "novita/meta-llama/llama-3.3-70b-instruct",
+      "raw": {
+        "input_cost_per_token": 0.00108,
+        "output_cost_per_token": 0.0032,
+        "litellm_provider": "novita",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 120000,
+        "max_tokens": 120000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1080.0,
+        "output_price_per_million": 3200.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 120000
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "full_name": "novita/qwen/qwen-2.5-72b-instruct",
+      "raw": {
+        "input_cost_per_token": 0.00304,
+        "output_cost_per_token": 0.0032,
+        "litellm_provider": "novita",
+        "max_input_tokens": 32000,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 3040.0,
+        "output_price_per_million": 3200.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "mistralai/mistral-nemo",
+      "full_name": "novita/mistralai/mistral-nemo",
+      "raw": {
+        "input_cost_per_token": 0.00032,
+        "output_cost_per_token": 0.00136,
+        "litellm_provider": "novita",
+        "max_input_tokens": 60288,
+        "max_output_tokens": 16000,
+        "max_tokens": 16000,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 320.0,
+        "output_price_per_million": 1360.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 16000
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "minimaxai/minimax-m1-80k",
+      "full_name": "novita/minimaxai/minimax-m1-80k",
+      "raw": {
+        "input_cost_per_token": 0.0044,
+        "output_cost_per_token": 0.0176,
+        "litellm_provider": "novita",
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 40000,
+        "max_tokens": 40000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 4400.0,
+        "output_price_per_million": 17600.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 40000
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "deepseek/deepseek-r1-0528",
+      "full_name": "novita/deepseek/deepseek-r1-0528",
+      "raw": {
+        "input_cost_per_token": 0.0056,
+        "output_cost_per_token": 0.02,
+        "litellm_provider": "novita",
+        "max_input_tokens": 163840,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 5600.0,
+        "output_price_per_million": 20000.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "deepseek/deepseek-r1-distill-qwen-32b",
+      "full_name": "novita/deepseek/deepseek-r1-distill-qwen-32b",
+      "raw": {
+        "input_cost_per_token": 0.0024,
+        "output_cost_per_token": 0.0024,
+        "litellm_provider": "novita",
+        "max_input_tokens": 64000,
+        "max_output_tokens": 32000,
+        "max_tokens": 32000,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 2400.0,
+        "output_price_per_million": 2400.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32000
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "meta-llama/llama-3-8b-instruct",
+      "full_name": "novita/meta-llama/llama-3-8b-instruct",
+      "raw": {
+        "input_cost_per_token": 0.00032,
+        "output_cost_per_token": 0.00032,
+        "litellm_provider": "novita",
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 320.0,
+        "output_price_per_million": 320.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "microsoft/wizardlm-2-8x22b",
+      "full_name": "novita/microsoft/wizardlm-2-8x22b",
+      "raw": {
+        "input_cost_per_token": 0.00496,
+        "output_cost_per_token": 0.00496,
+        "litellm_provider": "novita",
+        "max_input_tokens": 65535,
+        "max_output_tokens": 8000,
+        "max_tokens": 8000,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 4960.0,
+        "output_price_per_million": 4960.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8000
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "deepseek/deepseek-r1-0528-qwen3-8b",
+      "full_name": "novita/deepseek/deepseek-r1-0528-qwen3-8b",
+      "raw": {
+        "input_cost_per_token": 0.00048,
+        "output_cost_per_token": 0.00072,
+        "litellm_provider": "novita",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 32000,
+        "max_tokens": 32000,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 480.0,
+        "output_price_per_million": 720.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32000
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "deepseek/deepseek-r1-distill-llama-70b",
+      "full_name": "novita/deepseek/deepseek-r1-distill-llama-70b",
+      "raw": {
+        "input_cost_per_token": 0.0064,
+        "output_cost_per_token": 0.0064,
+        "litellm_provider": "novita",
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 6400.0,
+        "output_price_per_million": 6400.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "meta-llama/llama-3-70b-instruct",
+      "full_name": "novita/meta-llama/llama-3-70b-instruct",
+      "raw": {
+        "input_cost_per_token": 0.0051,
+        "output_cost_per_token": 0.0074,
+        "litellm_provider": "novita",
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8000,
+        "max_tokens": 8000,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 5100.0,
+        "output_price_per_million": 7400.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8000
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "qwen/qwen3-235b-a22b-fp8",
+      "full_name": "novita/qwen/qwen3-235b-a22b-fp8",
+      "raw": {
+        "input_cost_per_token": 0.0016,
+        "output_cost_per_token": 0.0064,
+        "litellm_provider": "novita",
+        "max_input_tokens": 40960,
+        "max_output_tokens": 20000,
+        "max_tokens": 20000,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 1600.0,
+        "output_price_per_million": 6400.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 20000
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "meta-llama/llama-4-maverick-17b-128e-instruct-fp8",
+      "full_name": "novita/meta-llama/llama-4-maverick-17b-128e-instruct-fp8",
+      "raw": {
+        "input_cost_per_token": 0.0016,
+        "output_cost_per_token": 0.0072,
+        "litellm_provider": "novita",
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 1600.0,
+        "output_price_per_million": 7200.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "full_name": "novita/meta-llama/llama-4-scout-17b-16e-instruct",
+      "raw": {
+        "input_cost_per_token": 0.0008,
+        "output_cost_per_token": 0.004,
+        "litellm_provider": "novita",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "max_tokens": 131072,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 800.0,
+        "output_price_per_million": 4000.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 131072
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "nousresearch/hermes-2-pro-llama-3-8b",
+      "full_name": "novita/nousresearch/hermes-2-pro-llama-3-8b",
+      "raw": {
+        "input_cost_per_token": 0.0014,
+        "output_cost_per_token": 0.0014,
+        "litellm_provider": "novita",
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1400.0,
+        "output_price_per_million": 1400.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "qwen/qwen2.5-vl-72b-instruct",
+      "full_name": "novita/qwen/qwen2.5-vl-72b-instruct",
+      "raw": {
+        "input_cost_per_token": 0.0064,
+        "output_cost_per_token": 0.0064,
+        "litellm_provider": "novita",
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 6400.0,
+        "output_price_per_million": 6400.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "sao10k/l3-70b-euryale-v2.1",
+      "full_name": "novita/sao10k/l3-70b-euryale-v2.1",
+      "raw": {
+        "input_cost_per_token": 0.0148,
+        "output_cost_per_token": 0.0148,
+        "litellm_provider": "novita",
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 14800.0,
+        "output_price_per_million": 14800.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "baidu/ernie-4.5-21B-a3b-thinking",
+      "full_name": "novita/baidu/ernie-4.5-21B-a3b-thinking",
+      "raw": {
+        "input_cost_per_token": 0.00056,
+        "output_cost_per_token": 0.00224,
+        "litellm_provider": "novita",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 65536,
+        "max_tokens": 65536,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 560.0,
+        "output_price_per_million": 2240.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65536
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "sao10k/l3-8b-lunaris",
+      "full_name": "novita/sao10k/l3-8b-lunaris",
+      "raw": {
+        "input_cost_per_token": 0.0005,
+        "output_cost_per_token": 0.0005,
+        "litellm_provider": "novita",
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 500.0,
+        "output_price_per_million": 500.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "baichuan/baichuan-m2-32b",
+      "full_name": "novita/baichuan/baichuan-m2-32b",
+      "raw": {
+        "input_cost_per_token": 0.00056,
+        "output_cost_per_token": 0.00056,
+        "litellm_provider": "novita",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "max_tokens": 131072,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 560.0,
+        "output_price_per_million": 560.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 131072
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "thudm/glm-4.1v-9b-thinking",
+      "full_name": "novita/thudm/glm-4.1v-9b-thinking",
+      "raw": {
+        "input_cost_per_token": 0.00028,
+        "output_cost_per_token": 0.001104,
+        "litellm_provider": "novita",
+        "max_input_tokens": 65536,
+        "max_output_tokens": 8000,
+        "max_tokens": 8000,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 280.0,
+        "output_price_per_million": 1104.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8000
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "baidu/ernie-4.5-vl-424b-a47b",
+      "full_name": "novita/baidu/ernie-4.5-vl-424b-a47b",
+      "raw": {
+        "input_cost_per_token": 0.00336,
+        "output_cost_per_token": 0.01,
+        "litellm_provider": "novita",
+        "max_input_tokens": 123000,
+        "max_output_tokens": 16000,
+        "max_tokens": 16000,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 3360.0,
+        "output_price_per_million": 10000.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 16000
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "baidu/ernie-4.5-300b-a47b-paddle",
+      "full_name": "novita/baidu/ernie-4.5-300b-a47b-paddle",
+      "raw": {
+        "input_cost_per_token": 0.00224,
+        "output_cost_per_token": 0.0088,
+        "litellm_provider": "novita",
+        "max_input_tokens": 123000,
+        "max_output_tokens": 12000,
+        "max_tokens": 12000,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 2240.0,
+        "output_price_per_million": 8800.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 12000
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "deepseek/deepseek-prover-v2-671b",
+      "full_name": "novita/deepseek/deepseek-prover-v2-671b",
+      "raw": {
+        "input_cost_per_token": 0.0056,
+        "output_cost_per_token": 0.02,
+        "litellm_provider": "novita",
+        "max_input_tokens": 160000,
+        "max_output_tokens": 160000,
+        "max_tokens": 160000,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 5600.0,
+        "output_price_per_million": 20000.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 160000
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "qwen/qwen3-32b-fp8",
+      "full_name": "novita/qwen/qwen3-32b-fp8",
+      "raw": {
+        "input_cost_per_token": 0.0008,
+        "output_cost_per_token": 0.0036,
+        "litellm_provider": "novita",
+        "max_input_tokens": 40960,
+        "max_output_tokens": 20000,
+        "max_tokens": 20000,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 800.0,
+        "output_price_per_million": 3600.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 20000
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "qwen/qwen3-30b-a3b-fp8",
+      "full_name": "novita/qwen/qwen3-30b-a3b-fp8",
+      "raw": {
+        "input_cost_per_token": 0.00072,
+        "output_cost_per_token": 0.0036,
+        "litellm_provider": "novita",
+        "max_input_tokens": 40960,
+        "max_output_tokens": 20000,
+        "max_tokens": 20000,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 720.0,
+        "output_price_per_million": 3600.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 20000
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "google/gemma-3-27b-it",
+      "full_name": "novita/google/gemma-3-27b-it",
+      "raw": {
+        "input_cost_per_token": 0.000952,
+        "output_cost_per_token": 0.0016,
+        "litellm_provider": "novita",
+        "max_input_tokens": 98304,
+        "max_output_tokens": 16384,
+        "max_tokens": 16384,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 952.0,
+        "output_price_per_million": 1600.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 16384
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "deepseek/deepseek-v3-turbo",
+      "full_name": "novita/deepseek/deepseek-v3-turbo",
+      "raw": {
+        "input_cost_per_token": 0.0032,
+        "output_cost_per_token": 0.0104,
+        "litellm_provider": "novita",
+        "max_input_tokens": 64000,
+        "max_output_tokens": 16000,
+        "max_tokens": 16000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 3200.0,
+        "output_price_per_million": 10400.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 16000
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "deepseek/deepseek-r1-turbo",
+      "full_name": "novita/deepseek/deepseek-r1-turbo",
+      "raw": {
+        "input_cost_per_token": 0.0056,
+        "output_cost_per_token": 0.02,
+        "litellm_provider": "novita",
+        "max_input_tokens": 64000,
+        "max_output_tokens": 16000,
+        "max_tokens": 16000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 5600.0,
+        "output_price_per_million": 20000.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 16000
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "Sao10K/L3-8B-Stheno-v3.2",
+      "full_name": "novita/Sao10K/L3-8B-Stheno-v3.2",
+      "raw": {
+        "input_cost_per_token": 0.0005,
+        "output_cost_per_token": 0.0005,
+        "litellm_provider": "novita",
+        "max_input_tokens": 8192,
+        "max_output_tokens": 32000,
+        "max_tokens": 32000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 500.0,
+        "output_price_per_million": 500.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32000
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "gryphe/mythomax-l2-13b",
+      "full_name": "novita/gryphe/mythomax-l2-13b",
+      "raw": {
+        "input_cost_per_token": 0.00072,
+        "output_cost_per_token": 0.00072,
+        "litellm_provider": "novita",
+        "max_input_tokens": 4096,
+        "max_output_tokens": 3200,
+        "max_tokens": 3200,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 720.0,
+        "output_price_per_million": 720.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 3200
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "baidu/ernie-4.5-vl-28b-a3b-thinking",
+      "full_name": "novita/baidu/ernie-4.5-vl-28b-a3b-thinking",
+      "raw": {
+        "input_cost_per_token": 0.0039,
+        "output_cost_per_token": 0.0039,
+        "litellm_provider": "novita",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 65536,
+        "max_tokens": 65536,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 3900.0,
+        "output_price_per_million": 3900.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65536
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "qwen/qwen3-vl-8b-instruct",
+      "full_name": "novita/qwen/qwen3-vl-8b-instruct",
+      "raw": {
+        "input_cost_per_token": 0.00064,
+        "output_cost_per_token": 0.004,
+        "litellm_provider": "novita",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 640.0,
+        "output_price_per_million": 4000.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "zai-org/glm-4.5-air",
+      "full_name": "novita/zai-org/glm-4.5-air",
+      "raw": {
+        "input_cost_per_token": 0.00104,
+        "output_cost_per_token": 0.0068,
+        "litellm_provider": "novita",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 98304,
+        "max_tokens": 98304,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1040.0,
+        "output_price_per_million": 6800.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 98304
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "qwen/qwen3-vl-30b-a3b-instruct",
+      "full_name": "novita/qwen/qwen3-vl-30b-a3b-instruct",
+      "raw": {
+        "input_cost_per_token": 0.0016,
+        "output_cost_per_token": 0.0056,
+        "litellm_provider": "novita",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1600.0,
+        "output_price_per_million": 5600.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "qwen/qwen3-vl-30b-a3b-thinking",
+      "full_name": "novita/qwen/qwen3-vl-30b-a3b-thinking",
+      "raw": {
+        "input_cost_per_token": 0.0016,
+        "output_cost_per_token": 0.008,
+        "litellm_provider": "novita",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1600.0,
+        "output_price_per_million": 8000.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "qwen/qwen-mt-plus",
+      "full_name": "novita/qwen/qwen-mt-plus",
+      "raw": {
+        "input_cost_per_token": 0.002,
+        "output_cost_per_token": 0.006,
+        "litellm_provider": "novita",
+        "max_input_tokens": 16384,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 2000.0,
+        "output_price_per_million": 6000.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "baidu/ernie-4.5-vl-28b-a3b",
+      "full_name": "novita/baidu/ernie-4.5-vl-28b-a3b",
+      "raw": {
+        "input_cost_per_token": 0.00112,
+        "output_cost_per_token": 0.00448,
+        "litellm_provider": "novita",
+        "max_input_tokens": 30000,
+        "max_output_tokens": 8000,
+        "max_tokens": 8000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1120.0,
+        "output_price_per_million": 4480.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8000
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "baidu/ernie-4.5-21B-a3b",
+      "full_name": "novita/baidu/ernie-4.5-21B-a3b",
+      "raw": {
+        "input_cost_per_token": 0.00056,
+        "output_cost_per_token": 0.00224,
+        "litellm_provider": "novita",
+        "max_input_tokens": 120000,
+        "max_output_tokens": 8000,
+        "max_tokens": 8000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 560.0,
+        "output_price_per_million": 2240.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8000
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "qwen/qwen3-8b-fp8",
+      "full_name": "novita/qwen/qwen3-8b-fp8",
+      "raw": {
+        "input_cost_per_token": 0.00028,
+        "output_cost_per_token": 0.001104,
+        "litellm_provider": "novita",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 20000,
+        "max_tokens": 20000,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 280.0,
+        "output_price_per_million": 1104.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 20000
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "qwen/qwen3-4b-fp8",
+      "full_name": "novita/qwen/qwen3-4b-fp8",
+      "raw": {
+        "input_cost_per_token": 0.00024,
+        "output_cost_per_token": 0.00024,
+        "litellm_provider": "novita",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 20000,
+        "max_tokens": 20000,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 240.0,
+        "output_price_per_million": 240.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 20000
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "qwen/qwen2.5-7b-instruct",
+      "full_name": "novita/qwen/qwen2.5-7b-instruct",
+      "raw": {
+        "input_cost_per_token": 0.00056,
+        "output_cost_per_token": 0.00056,
+        "litellm_provider": "novita",
+        "max_input_tokens": 32000,
+        "max_output_tokens": 32000,
+        "max_tokens": 32000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 560.0,
+        "output_price_per_million": 560.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32000
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "meta-llama/llama-3.2-3b-instruct",
+      "full_name": "novita/meta-llama/llama-3.2-3b-instruct",
+      "raw": {
+        "input_cost_per_token": 0.00024,
+        "output_cost_per_token": 0.0004,
+        "litellm_provider": "novita",
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32000,
+        "max_tokens": 32000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 240.0,
+        "output_price_per_million": 400.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32000
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "sao10k/l31-70b-euryale-v2.2",
+      "full_name": "novita/sao10k/l31-70b-euryale-v2.2",
+      "raw": {
+        "input_cost_per_token": 0.0148,
+        "output_cost_per_token": 0.0148,
+        "litellm_provider": "novita",
+        "max_input_tokens": 8192,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 14800.0,
+        "output_price_per_million": 14800.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "qwen/qwen3-embedding-0.6b",
+      "full_name": "novita/qwen/qwen3-embedding-0.6b",
+      "raw": {
+        "input_cost_per_token": 0.00056,
+        "output_cost_per_token": 0,
+        "litellm_provider": "novita",
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "embedding",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 560.0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "qwen/qwen3-embedding-8b",
+      "full_name": "novita/qwen/qwen3-embedding-8b",
+      "raw": {
+        "input_cost_per_token": 0.00056,
+        "output_cost_per_token": 0,
+        "litellm_provider": "novita",
+        "max_input_tokens": 32768,
+        "max_output_tokens": 4096,
+        "max_tokens": 4096,
+        "mode": "embedding",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 560.0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 4096
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "baai/bge-m3",
+      "full_name": "novita/baai/bge-m3",
+      "raw": {
+        "input_cost_per_token": 0.0001,
+        "output_cost_per_token": 0.0001,
+        "litellm_provider": "novita",
+        "max_input_tokens": 8192,
+        "max_output_tokens": 96000,
+        "max_tokens": 96000,
+        "mode": "embedding",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 100.0,
+        "output_price_per_million": 100.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 96000
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "qwen/qwen3-reranker-8b",
+      "full_name": "novita/qwen/qwen3-reranker-8b",
+      "raw": {
+        "input_cost_per_token": 0.0004,
+        "output_cost_per_token": 0.0004,
+        "litellm_provider": "novita",
+        "max_input_tokens": 32768,
+        "max_output_tokens": 4096,
+        "max_tokens": 4096,
+        "mode": "rerank",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 400.0,
+        "output_price_per_million": 400.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 4096
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "baai/bge-reranker-v2-m3",
+      "full_name": "novita/baai/bge-reranker-v2-m3",
+      "raw": {
+        "input_cost_per_token": 0.0001,
+        "output_cost_per_token": 0.0001,
+        "litellm_provider": "novita",
+        "max_input_tokens": 8000,
+        "max_output_tokens": 8000,
+        "max_tokens": 8000,
+        "mode": "rerank",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 100.0,
+        "output_price_per_million": 100.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8000
       }
     },
     {
