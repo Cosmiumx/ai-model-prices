@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-01-13T02:06:57.290879",
-  "total_models": 2419,
+  "updated_at": "2026-01-14T02:20:36.745247",
+  "total_models": 2422,
   "models": [
     {
       "vendor": "unknown",
@@ -2529,6 +2529,31 @@
     },
     {
       "vendor": "azure_ai",
+      "model": "claude-opus-4-5",
+      "full_name": "azure_ai/claude-opus-4-5",
+      "raw": {
+        "input_cost_per_token": 5e-06,
+        "output_cost_per_token": 2.5e-05,
+        "litellm_provider": "azure_ai",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 64000,
+        "max_tokens": 64000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 5.0,
+        "output_price_per_million": 25.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 64000
+      }
+    },
+    {
+      "vendor": "azure_ai",
       "model": "claude-opus-4-1",
       "full_name": "azure_ai/claude-opus-4-1",
       "raw": {
@@ -2885,7 +2910,7 @@
         "input_cost_per_token": 1.38e-06,
         "output_cost_per_token": 1.1e-05,
         "litellm_provider": "azure",
-        "max_input_tokens": 272000,
+        "max_input_tokens": 128000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
         "mode": "chat",
@@ -3235,7 +3260,7 @@
         "input_cost_per_token": 1.25e-06,
         "output_cost_per_token": 1e-05,
         "litellm_provider": "azure",
-        "max_input_tokens": 272000,
+        "max_input_tokens": 128000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
         "mode": "chat",
@@ -4485,7 +4510,7 @@
         "input_cost_per_token": 1.25e-06,
         "output_cost_per_token": 1e-05,
         "litellm_provider": "azure",
-        "max_input_tokens": 272000,
+        "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
         "mode": "chat",
@@ -4535,7 +4560,7 @@
         "input_cost_per_token": 1.25e-06,
         "output_cost_per_token": 1e-05,
         "litellm_provider": "azure",
-        "max_input_tokens": 272000,
+        "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
         "mode": "responses",
@@ -4560,7 +4585,7 @@
         "input_cost_per_token": 2.5e-07,
         "output_cost_per_token": 2e-06,
         "litellm_provider": "azure",
-        "max_input_tokens": 272000,
+        "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
         "mode": "responses",
@@ -4635,9 +4660,9 @@
         "input_cost_per_token": 1.25e-06,
         "output_cost_per_token": 1e-05,
         "litellm_provider": "azure",
-        "max_input_tokens": 272000,
-        "max_output_tokens": 128000,
-        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "max_tokens": 16384,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -4649,7 +4674,7 @@
         "output_price_per_million": 10.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 16384
       }
     },
     {
@@ -4860,7 +4885,7 @@
         "input_cost_per_token": 1.25e-06,
         "output_cost_per_token": 1e-05,
         "litellm_provider": "azure",
-        "max_input_tokens": 272000,
+        "max_input_tokens": 128000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
         "mode": "chat",
@@ -4910,7 +4935,7 @@
         "input_cost_per_token": 1.25e-06,
         "output_cost_per_token": 1e-05,
         "litellm_provider": "azure",
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
         "mode": "responses",
@@ -4960,7 +4985,7 @@
         "input_cost_per_token": 1.75e-06,
         "output_cost_per_token": 1.4e-05,
         "litellm_provider": "azure",
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
         "mode": "chat",
@@ -5060,7 +5085,7 @@
         "input_cost_per_token": 2.1e-05,
         "output_cost_per_token": 0.000168,
         "litellm_provider": "azure",
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
         "mode": "responses",
@@ -5085,7 +5110,7 @@
         "input_cost_per_token": 2.1e-05,
         "output_cost_per_token": 0.000168,
         "litellm_provider": "azure",
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
         "mode": "responses",
@@ -6760,7 +6785,7 @@
         "input_cost_per_token": 1.38e-06,
         "output_cost_per_token": 1.1e-05,
         "litellm_provider": "azure",
-        "max_input_tokens": 272000,
+        "max_input_tokens": 128000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
         "mode": "chat",
@@ -12757,8 +12782,8 @@
       "model": "deepseek-chat",
       "full_name": "deepseek-chat",
       "raw": {
-        "input_cost_per_token": 6e-07,
-        "output_cost_per_token": 1.7e-06,
+        "input_cost_per_token": 2.8e-07,
+        "output_cost_per_token": 4.2e-07,
         "litellm_provider": "deepseek",
         "max_input_tokens": 131072,
         "max_output_tokens": 8192,
@@ -12770,8 +12795,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 0.6,
-        "output_price_per_million": 1.7,
+        "input_price_per_million": 0.28,
+        "output_price_per_million": 0.42,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 8192
@@ -12782,8 +12807,8 @@
       "model": "deepseek-reasoner",
       "full_name": "deepseek-reasoner",
       "raw": {
-        "input_cost_per_token": 6e-07,
-        "output_cost_per_token": 1.7e-06,
+        "input_cost_per_token": 2.8e-07,
+        "output_cost_per_token": 4.2e-07,
         "litellm_provider": "deepseek",
         "max_input_tokens": 131072,
         "max_output_tokens": 65536,
@@ -12795,8 +12820,8 @@
         "supports_tool_choice": false
       },
       "processed": {
-        "input_price_per_million": 0.6,
-        "output_price_per_million": 1.7,
+        "input_price_per_million": 0.28,
+        "output_price_per_million": 0.42,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 65536
@@ -16682,10 +16707,10 @@
       "model": "deepseek-chat",
       "full_name": "deepseek/deepseek-chat",
       "raw": {
-        "input_cost_per_token": 2.7e-07,
-        "output_cost_per_token": 1.1e-06,
+        "input_cost_per_token": 2.8e-07,
+        "output_cost_per_token": 4.2e-07,
         "litellm_provider": "deepseek",
-        "max_input_tokens": 65536,
+        "max_input_tokens": 128000,
         "max_output_tokens": 8192,
         "max_tokens": 8192,
         "mode": "chat",
@@ -16695,8 +16720,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 0.27,
-        "output_price_per_million": 1.1,
+        "input_price_per_million": 0.28,
+        "output_price_per_million": 0.42,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 8192
@@ -16757,10 +16782,10 @@
       "model": "deepseek-reasoner",
       "full_name": "deepseek/deepseek-reasoner",
       "raw": {
-        "input_cost_per_token": 5.5e-07,
-        "output_cost_per_token": 2.19e-06,
+        "input_cost_per_token": 2.8e-07,
+        "output_cost_per_token": 4.2e-07,
         "litellm_provider": "deepseek",
-        "max_input_tokens": 65536,
+        "max_input_tokens": 128000,
         "max_output_tokens": 8192,
         "max_tokens": 8192,
         "mode": "chat",
@@ -16770,8 +16795,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 0.55,
-        "output_price_per_million": 2.1900000000000004,
+        "input_price_per_million": 0.28,
+        "output_price_per_million": 0.42,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 8192
@@ -25935,7 +25960,7 @@
         "input_cost_per_token": 1.25e-06,
         "output_cost_per_token": 1e-05,
         "litellm_provider": "openai",
-        "max_input_tokens": 272000,
+        "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
         "mode": "chat",
@@ -25960,7 +25985,7 @@
         "input_cost_per_token": 1.25e-06,
         "output_cost_per_token": 1e-05,
         "litellm_provider": "openai",
-        "max_input_tokens": 272000,
+        "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
         "mode": "chat",
@@ -25985,7 +26010,7 @@
         "input_cost_per_token": 1.25e-06,
         "output_cost_per_token": 1e-05,
         "litellm_provider": "openai",
-        "max_input_tokens": 272000,
+        "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
         "mode": "chat",
@@ -26210,7 +26235,7 @@
         "input_cost_per_token": 1.25e-06,
         "output_cost_per_token": 1e-05,
         "litellm_provider": "openai",
-        "max_input_tokens": 272000,
+        "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
         "mode": "chat",
@@ -26235,9 +26260,9 @@
         "input_cost_per_token": 1.25e-06,
         "output_cost_per_token": 1e-05,
         "litellm_provider": "openai",
-        "max_input_tokens": 272000,
-        "max_output_tokens": 128000,
-        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "max_tokens": 16384,
         "mode": "chat",
         "supports_function_calling": false,
         "supports_reasoning": true,
@@ -26249,7 +26274,7 @@
         "output_price_per_million": 10.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 16384
       }
     },
     {
@@ -26285,7 +26310,7 @@
         "input_cost_per_token": 1.25e-06,
         "output_cost_per_token": 1e-05,
         "litellm_provider": "openai",
-        "max_input_tokens": 272000,
+        "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
         "mode": "responses",
@@ -26310,7 +26335,7 @@
         "input_cost_per_token": 1.25e-06,
         "output_cost_per_token": 1e-05,
         "litellm_provider": "openai",
-        "max_input_tokens": 272000,
+        "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
         "mode": "responses",
@@ -26360,7 +26385,7 @@
         "input_cost_per_token": 2.5e-07,
         "output_cost_per_token": 2e-06,
         "litellm_provider": "openai",
-        "max_input_tokens": 272000,
+        "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
         "mode": "responses",
@@ -26385,7 +26410,7 @@
         "input_cost_per_token": 2.5e-07,
         "output_cost_per_token": 2e-06,
         "litellm_provider": "openai",
-        "max_input_tokens": 272000,
+        "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
         "mode": "chat",
@@ -26410,7 +26435,7 @@
         "input_cost_per_token": 2.5e-07,
         "output_cost_per_token": 2e-06,
         "litellm_provider": "openai",
-        "max_input_tokens": 272000,
+        "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
         "mode": "chat",
@@ -26435,7 +26460,7 @@
         "input_cost_per_token": 5e-08,
         "output_cost_per_token": 4e-07,
         "litellm_provider": "openai",
-        "max_input_tokens": 272000,
+        "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
         "mode": "chat",
@@ -26460,7 +26485,7 @@
         "input_cost_per_token": 5e-08,
         "output_cost_per_token": 4e-07,
         "litellm_provider": "openai",
-        "max_input_tokens": 272000,
+        "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
         "mode": "chat",
@@ -36235,9 +36260,9 @@
         "input_cost_per_token": 1.25e-06,
         "output_cost_per_token": 1e-05,
         "litellm_provider": "openrouter",
-        "max_input_tokens": 272000,
-        "max_output_tokens": 128000,
-        "max_tokens": 128000,
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "max_tokens": 16384,
         "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": true,
@@ -36249,7 +36274,7 @@
         "output_price_per_million": 10.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 128000
+        "context_window": 16384
       }
     },
     {
@@ -36260,7 +36285,7 @@
         "input_cost_per_token": 1.25e-06,
         "output_cost_per_token": 1e-05,
         "litellm_provider": "openrouter",
-        "max_input_tokens": 272000,
+        "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
         "mode": "chat",
@@ -36285,7 +36310,7 @@
         "input_cost_per_token": 1.25e-06,
         "output_cost_per_token": 1e-05,
         "litellm_provider": "openrouter",
-        "max_input_tokens": 272000,
+        "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
         "mode": "chat",
@@ -36310,7 +36335,7 @@
         "input_cost_per_token": 2.5e-07,
         "output_cost_per_token": 2e-06,
         "litellm_provider": "openrouter",
-        "max_input_tokens": 272000,
+        "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
         "mode": "chat",
@@ -36335,7 +36360,7 @@
         "input_cost_per_token": 5e-08,
         "output_cost_per_token": 4e-07,
         "litellm_provider": "openrouter",
-        "max_input_tokens": 272000,
+        "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
         "mode": "chat",
@@ -58007,8 +58032,8 @@
       "model": "deepseek/deepseek-v3.2",
       "full_name": "novita/deepseek/deepseek-v3.2",
       "raw": {
-        "input_cost_per_token": 0.00269,
-        "output_cost_per_token": 0.004,
+        "input_cost_per_token": 2.69e-07,
+        "output_cost_per_token": 4e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 163840,
         "max_output_tokens": 65536,
@@ -58020,8 +58045,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 2690.0,
-        "output_price_per_million": 4000.0,
+        "input_price_per_million": 0.26899999999999996,
+        "output_price_per_million": 0.39999999999999997,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 65536
@@ -58032,21 +58057,21 @@
       "model": "minimax/minimax-m2.1",
       "full_name": "novita/minimax/minimax-m2.1",
       "raw": {
-        "input_cost_per_token": 0.003,
-        "output_cost_per_token": 0.012,
+        "input_cost_per_token": 3e-07,
+        "output_cost_per_token": 1.2e-06,
         "litellm_provider": "novita",
         "max_input_tokens": 204800,
         "max_output_tokens": 131072,
         "max_tokens": 131072,
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_reasoning": true,
+        "supports_reasoning": null,
         "supports_response_schema": true,
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 3000.0,
-        "output_price_per_million": 12000.0,
+        "input_price_per_million": 0.3,
+        "output_price_per_million": 1.2,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 131072
@@ -58057,8 +58082,8 @@
       "model": "zai-org/glm-4.7",
       "full_name": "novita/zai-org/glm-4.7",
       "raw": {
-        "input_cost_per_token": 0.006,
-        "output_cost_per_token": 0.022,
+        "input_cost_per_token": 6e-07,
+        "output_cost_per_token": 2.2e-06,
         "litellm_provider": "novita",
         "max_input_tokens": 204800,
         "max_output_tokens": 131072,
@@ -58070,8 +58095,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 6000.0,
-        "output_price_per_million": 22000.0,
+        "input_price_per_million": 0.6,
+        "output_price_per_million": 2.2,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 131072
@@ -58082,8 +58107,8 @@
       "model": "xiaomimimo/mimo-v2-flash",
       "full_name": "novita/xiaomimimo/mimo-v2-flash",
       "raw": {
-        "input_cost_per_token": 0.001,
-        "output_cost_per_token": 0.003,
+        "input_cost_per_token": 1e-07,
+        "output_cost_per_token": 3e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 262144,
         "max_output_tokens": 32000,
@@ -58095,8 +58120,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 1000.0,
-        "output_price_per_million": 3000.0,
+        "input_price_per_million": 0.09999999999999999,
+        "output_price_per_million": 0.3,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 32000
@@ -58107,8 +58132,8 @@
       "model": "zai-org/autoglm-phone-9b-multilingual",
       "full_name": "novita/zai-org/autoglm-phone-9b-multilingual",
       "raw": {
-        "input_cost_per_token": 0.00035,
-        "output_cost_per_token": 0.00138,
+        "input_cost_per_token": 3.5e-08,
+        "output_cost_per_token": 1.38e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 65536,
         "max_output_tokens": 65536,
@@ -58120,8 +58145,8 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 350.0,
-        "output_price_per_million": 1380.0,
+        "input_price_per_million": 0.035,
+        "output_price_per_million": 0.13799999999999998,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 65536
@@ -58132,8 +58157,8 @@
       "model": "moonshotai/kimi-k2-thinking",
       "full_name": "novita/moonshotai/kimi-k2-thinking",
       "raw": {
-        "input_cost_per_token": 0.0048,
-        "output_cost_per_token": 0.02,
+        "input_cost_per_token": 6e-07,
+        "output_cost_per_token": 2.5e-06,
         "litellm_provider": "novita",
         "max_input_tokens": 262144,
         "max_output_tokens": 262144,
@@ -58145,8 +58170,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 4800.0,
-        "output_price_per_million": 20000.0,
+        "input_price_per_million": 0.6,
+        "output_price_per_million": 2.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 262144
@@ -58157,8 +58182,8 @@
       "model": "minimax/minimax-m2",
       "full_name": "novita/minimax/minimax-m2",
       "raw": {
-        "input_cost_per_token": 0.0024,
-        "output_cost_per_token": 0.0096,
+        "input_cost_per_token": 3e-07,
+        "output_cost_per_token": 1.2e-06,
         "litellm_provider": "novita",
         "max_input_tokens": 204800,
         "max_output_tokens": 131072,
@@ -58170,8 +58195,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 2400.0,
-        "output_price_per_million": 9600.0,
+        "input_price_per_million": 0.3,
+        "output_price_per_million": 1.2,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 131072
@@ -58182,8 +58207,8 @@
       "model": "paddlepaddle/paddleocr-vl",
       "full_name": "novita/paddlepaddle/paddleocr-vl",
       "raw": {
-        "input_cost_per_token": 0.00016,
-        "output_cost_per_token": 0.00016,
+        "input_cost_per_token": 2e-08,
+        "output_cost_per_token": 2e-08,
         "litellm_provider": "novita",
         "max_input_tokens": 16384,
         "max_output_tokens": 16384,
@@ -58195,8 +58220,8 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 160.0,
-        "output_price_per_million": 160.0,
+        "input_price_per_million": 0.02,
+        "output_price_per_million": 0.02,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 16384
@@ -58207,8 +58232,8 @@
       "model": "deepseek/deepseek-v3.2-exp",
       "full_name": "novita/deepseek/deepseek-v3.2-exp",
       "raw": {
-        "input_cost_per_token": 0.00216,
-        "output_cost_per_token": 0.00328,
+        "input_cost_per_token": 2.7e-07,
+        "output_cost_per_token": 4.1e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 163840,
         "max_output_tokens": 65536,
@@ -58220,8 +58245,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 2160.0,
-        "output_price_per_million": 3280.0,
+        "input_price_per_million": 0.27,
+        "output_price_per_million": 0.41,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 65536
@@ -58232,8 +58257,8 @@
       "model": "qwen/qwen3-vl-235b-a22b-thinking",
       "full_name": "novita/qwen/qwen3-vl-235b-a22b-thinking",
       "raw": {
-        "input_cost_per_token": 0.00784,
-        "output_cost_per_token": 0.0316,
+        "input_cost_per_token": 9.8e-07,
+        "output_cost_per_token": 3.95e-06,
         "litellm_provider": "novita",
         "max_input_tokens": 131072,
         "max_output_tokens": 32768,
@@ -58245,8 +58270,8 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 7840.0,
-        "output_price_per_million": 31600.000000000004,
+        "input_price_per_million": 0.98,
+        "output_price_per_million": 3.95,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 32768
@@ -58257,8 +58282,8 @@
       "model": "zai-org/glm-4.6v",
       "full_name": "novita/zai-org/glm-4.6v",
       "raw": {
-        "input_cost_per_token": 0.003,
-        "output_cost_per_token": 0.009,
+        "input_cost_per_token": 3e-07,
+        "output_cost_per_token": 9e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 131072,
         "max_output_tokens": 32768,
@@ -58270,8 +58295,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 3000.0,
-        "output_price_per_million": 9000.0,
+        "input_price_per_million": 0.3,
+        "output_price_per_million": 0.8999999999999999,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 32768
@@ -58282,8 +58307,8 @@
       "model": "zai-org/glm-4.6",
       "full_name": "novita/zai-org/glm-4.6",
       "raw": {
-        "input_cost_per_token": 0.0044,
-        "output_cost_per_token": 0.0176,
+        "input_cost_per_token": 5.5e-07,
+        "output_cost_per_token": 2.2e-06,
         "litellm_provider": "novita",
         "max_input_tokens": 204800,
         "max_output_tokens": 131072,
@@ -58295,8 +58320,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 4400.0,
-        "output_price_per_million": 17600.0,
+        "input_price_per_million": 0.55,
+        "output_price_per_million": 2.2,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 131072
@@ -58304,11 +58329,36 @@
     },
     {
       "vendor": "novita",
+      "model": "kwaipilot/kat-coder-pro",
+      "full_name": "novita/kwaipilot/kat-coder-pro",
+      "raw": {
+        "input_cost_per_token": 3e-07,
+        "output_cost_per_token": 1.2e-06,
+        "litellm_provider": "novita",
+        "max_input_tokens": 256000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.3,
+        "output_price_per_million": 1.2,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "novita",
       "model": "qwen/qwen3-next-80b-a3b-instruct",
       "full_name": "novita/qwen/qwen3-next-80b-a3b-instruct",
       "raw": {
-        "input_cost_per_token": 0.0012,
-        "output_cost_per_token": 0.012,
+        "input_cost_per_token": 1.5e-07,
+        "output_cost_per_token": 1.5e-06,
         "litellm_provider": "novita",
         "max_input_tokens": 131072,
         "max_output_tokens": 32768,
@@ -58320,8 +58370,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 1200.0,
-        "output_price_per_million": 12000.0,
+        "input_price_per_million": 0.15,
+        "output_price_per_million": 1.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 32768
@@ -58332,8 +58382,8 @@
       "model": "qwen/qwen3-next-80b-a3b-thinking",
       "full_name": "novita/qwen/qwen3-next-80b-a3b-thinking",
       "raw": {
-        "input_cost_per_token": 0.0012,
-        "output_cost_per_token": 0.012,
+        "input_cost_per_token": 1.5e-07,
+        "output_cost_per_token": 1.5e-06,
         "litellm_provider": "novita",
         "max_input_tokens": 131072,
         "max_output_tokens": 32768,
@@ -58345,8 +58395,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 1200.0,
-        "output_price_per_million": 12000.0,
+        "input_price_per_million": 0.15,
+        "output_price_per_million": 1.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 32768
@@ -58357,8 +58407,8 @@
       "model": "deepseek/deepseek-ocr",
       "full_name": "novita/deepseek/deepseek-ocr",
       "raw": {
-        "input_cost_per_token": 0.00024,
-        "output_cost_per_token": 0.00024,
+        "input_cost_per_token": 3e-08,
+        "output_cost_per_token": 3e-08,
         "litellm_provider": "novita",
         "max_input_tokens": 8192,
         "max_output_tokens": 8192,
@@ -58370,8 +58420,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 240.0,
-        "output_price_per_million": 240.0,
+        "input_price_per_million": 0.03,
+        "output_price_per_million": 0.03,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 8192
@@ -58382,8 +58432,8 @@
       "model": "deepseek/deepseek-v3.1-terminus",
       "full_name": "novita/deepseek/deepseek-v3.1-terminus",
       "raw": {
-        "input_cost_per_token": 0.00216,
-        "output_cost_per_token": 0.008,
+        "input_cost_per_token": 2.7e-07,
+        "output_cost_per_token": 1e-06,
         "litellm_provider": "novita",
         "max_input_tokens": 131072,
         "max_output_tokens": 32768,
@@ -58395,8 +58445,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 2160.0,
-        "output_price_per_million": 8000.0,
+        "input_price_per_million": 0.27,
+        "output_price_per_million": 1.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 32768
@@ -58407,8 +58457,8 @@
       "model": "qwen/qwen3-vl-235b-a22b-instruct",
       "full_name": "novita/qwen/qwen3-vl-235b-a22b-instruct",
       "raw": {
-        "input_cost_per_token": 0.0024,
-        "output_cost_per_token": 0.012,
+        "input_cost_per_token": 3e-07,
+        "output_cost_per_token": 1.5e-06,
         "litellm_provider": "novita",
         "max_input_tokens": 131072,
         "max_output_tokens": 32768,
@@ -58420,8 +58470,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 2400.0,
-        "output_price_per_million": 12000.0,
+        "input_price_per_million": 0.3,
+        "output_price_per_million": 1.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 32768
@@ -58432,8 +58482,8 @@
       "model": "qwen/qwen3-max",
       "full_name": "novita/qwen/qwen3-max",
       "raw": {
-        "input_cost_per_token": 0.01688,
-        "output_cost_per_token": 0.0676,
+        "input_cost_per_token": 2.11e-06,
+        "output_cost_per_token": 8.45e-06,
         "litellm_provider": "novita",
         "max_input_tokens": 262144,
         "max_output_tokens": 65536,
@@ -58445,8 +58495,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 16880.0,
-        "output_price_per_million": 67600.0,
+        "input_price_per_million": 2.1100000000000003,
+        "output_price_per_million": 8.450000000000001,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 65536
@@ -58457,8 +58507,8 @@
       "model": "skywork/r1v4-lite",
       "full_name": "novita/skywork/r1v4-lite",
       "raw": {
-        "input_cost_per_token": 0.002,
-        "output_cost_per_token": 0.006,
+        "input_cost_per_token": 2e-07,
+        "output_cost_per_token": 6e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 262144,
         "max_output_tokens": 65536,
@@ -58470,8 +58520,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 2000.0,
-        "output_price_per_million": 6000.0,
+        "input_price_per_million": 0.19999999999999998,
+        "output_price_per_million": 0.6,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 65536
@@ -58482,8 +58532,8 @@
       "model": "deepseek/deepseek-v3.1",
       "full_name": "novita/deepseek/deepseek-v3.1",
       "raw": {
-        "input_cost_per_token": 0.00216,
-        "output_cost_per_token": 0.008,
+        "input_cost_per_token": 2.7e-07,
+        "output_cost_per_token": 1e-06,
         "litellm_provider": "novita",
         "max_input_tokens": 131072,
         "max_output_tokens": 32768,
@@ -58495,8 +58545,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 2160.0,
-        "output_price_per_million": 8000.0,
+        "input_price_per_million": 0.27,
+        "output_price_per_million": 1.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 32768
@@ -58507,8 +58557,8 @@
       "model": "moonshotai/kimi-k2-0905",
       "full_name": "novita/moonshotai/kimi-k2-0905",
       "raw": {
-        "input_cost_per_token": 0.0048,
-        "output_cost_per_token": 0.02,
+        "input_cost_per_token": 6e-07,
+        "output_cost_per_token": 2.5e-06,
         "litellm_provider": "novita",
         "max_input_tokens": 262144,
         "max_output_tokens": 262144,
@@ -58520,8 +58570,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 4800.0,
-        "output_price_per_million": 20000.0,
+        "input_price_per_million": 0.6,
+        "output_price_per_million": 2.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 262144
@@ -58532,8 +58582,8 @@
       "model": "qwen/qwen3-coder-480b-a35b-instruct",
       "full_name": "novita/qwen/qwen3-coder-480b-a35b-instruct",
       "raw": {
-        "input_cost_per_token": 0.0024,
-        "output_cost_per_token": 0.0104,
+        "input_cost_per_token": 3e-07,
+        "output_cost_per_token": 1.3e-06,
         "litellm_provider": "novita",
         "max_input_tokens": 262144,
         "max_output_tokens": 65536,
@@ -58545,8 +58595,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 2400.0,
-        "output_price_per_million": 10400.0,
+        "input_price_per_million": 0.3,
+        "output_price_per_million": 1.3,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 65536
@@ -58557,8 +58607,8 @@
       "model": "qwen/qwen3-coder-30b-a3b-instruct",
       "full_name": "novita/qwen/qwen3-coder-30b-a3b-instruct",
       "raw": {
-        "input_cost_per_token": 0.0007,
-        "output_cost_per_token": 0.0027,
+        "input_cost_per_token": 7e-08,
+        "output_cost_per_token": 2.7e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 160000,
         "max_output_tokens": 32768,
@@ -58570,8 +58620,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 700.0,
-        "output_price_per_million": 2700.0,
+        "input_price_per_million": 0.07,
+        "output_price_per_million": 0.27,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 32768
@@ -58582,8 +58632,8 @@
       "model": "openai/gpt-oss-120b",
       "full_name": "novita/openai/gpt-oss-120b",
       "raw": {
-        "input_cost_per_token": 0.0004,
-        "output_cost_per_token": 0.002,
+        "input_cost_per_token": 5e-08,
+        "output_cost_per_token": 2.5e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 131072,
         "max_output_tokens": 32768,
@@ -58595,8 +58645,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 400.0,
-        "output_price_per_million": 2000.0,
+        "input_price_per_million": 0.049999999999999996,
+        "output_price_per_million": 0.25,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 32768
@@ -58607,8 +58657,8 @@
       "model": "moonshotai/kimi-k2-instruct",
       "full_name": "novita/moonshotai/kimi-k2-instruct",
       "raw": {
-        "input_cost_per_token": 0.00456,
-        "output_cost_per_token": 0.0184,
+        "input_cost_per_token": 5.7e-07,
+        "output_cost_per_token": 2.3e-06,
         "litellm_provider": "novita",
         "max_input_tokens": 131072,
         "max_output_tokens": 131072,
@@ -58620,8 +58670,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 4560.0,
-        "output_price_per_million": 18400.0,
+        "input_price_per_million": 0.5700000000000001,
+        "output_price_per_million": 2.3,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 131072
@@ -58632,8 +58682,8 @@
       "model": "deepseek/deepseek-v3-0324",
       "full_name": "novita/deepseek/deepseek-v3-0324",
       "raw": {
-        "input_cost_per_token": 0.00216,
-        "output_cost_per_token": 0.00896,
+        "input_cost_per_token": 2.7e-07,
+        "output_cost_per_token": 1.12e-06,
         "litellm_provider": "novita",
         "max_input_tokens": 163840,
         "max_output_tokens": 163840,
@@ -58645,8 +58695,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 2160.0,
-        "output_price_per_million": 8960.0,
+        "input_price_per_million": 0.27,
+        "output_price_per_million": 1.12,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 163840
@@ -58657,8 +58707,8 @@
       "model": "zai-org/glm-4.5",
       "full_name": "novita/zai-org/glm-4.5",
       "raw": {
-        "input_cost_per_token": 0.0048,
-        "output_cost_per_token": 0.0176,
+        "input_cost_per_token": 6e-07,
+        "output_cost_per_token": 2.2e-06,
         "litellm_provider": "novita",
         "max_input_tokens": 131072,
         "max_output_tokens": 98304,
@@ -58670,8 +58720,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 4800.0,
-        "output_price_per_million": 17600.0,
+        "input_price_per_million": 0.6,
+        "output_price_per_million": 2.2,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 98304
@@ -58682,8 +58732,8 @@
       "model": "qwen/qwen3-235b-a22b-thinking-2507",
       "full_name": "novita/qwen/qwen3-235b-a22b-thinking-2507",
       "raw": {
-        "input_cost_per_token": 0.0024,
-        "output_cost_per_token": 0.024,
+        "input_cost_per_token": 3e-07,
+        "output_cost_per_token": 3e-06,
         "litellm_provider": "novita",
         "max_input_tokens": 131072,
         "max_output_tokens": 32768,
@@ -58695,8 +58745,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 2400.0,
-        "output_price_per_million": 24000.0,
+        "input_price_per_million": 0.3,
+        "output_price_per_million": 3.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 32768
@@ -58707,8 +58757,8 @@
       "model": "meta-llama/llama-3.1-8b-instruct",
       "full_name": "novita/meta-llama/llama-3.1-8b-instruct",
       "raw": {
-        "input_cost_per_token": 0.0002,
-        "output_cost_per_token": 0.0005,
+        "input_cost_per_token": 2e-08,
+        "output_cost_per_token": 5e-08,
         "litellm_provider": "novita",
         "max_input_tokens": 16384,
         "max_output_tokens": 16384,
@@ -58720,8 +58770,8 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 200.0,
-        "output_price_per_million": 500.0,
+        "input_price_per_million": 0.02,
+        "output_price_per_million": 0.049999999999999996,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 16384
@@ -58732,8 +58782,8 @@
       "model": "google/gemma-3-12b-it",
       "full_name": "novita/google/gemma-3-12b-it",
       "raw": {
-        "input_cost_per_token": 0.0004,
-        "output_cost_per_token": 0.0008,
+        "input_cost_per_token": 5e-08,
+        "output_cost_per_token": 1e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 131072,
         "max_output_tokens": 8192,
@@ -58745,8 +58795,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 400.0,
-        "output_price_per_million": 800.0,
+        "input_price_per_million": 0.049999999999999996,
+        "output_price_per_million": 0.09999999999999999,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 8192
@@ -58757,8 +58807,8 @@
       "model": "zai-org/glm-4.5v",
       "full_name": "novita/zai-org/glm-4.5v",
       "raw": {
-        "input_cost_per_token": 0.0048,
-        "output_cost_per_token": 0.0144,
+        "input_cost_per_token": 6e-07,
+        "output_cost_per_token": 1.8e-06,
         "litellm_provider": "novita",
         "max_input_tokens": 65536,
         "max_output_tokens": 16384,
@@ -58770,8 +58820,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 4800.0,
-        "output_price_per_million": 14400.0,
+        "input_price_per_million": 0.6,
+        "output_price_per_million": 1.7999999999999998,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 16384
@@ -58782,8 +58832,8 @@
       "model": "openai/gpt-oss-20b",
       "full_name": "novita/openai/gpt-oss-20b",
       "raw": {
-        "input_cost_per_token": 0.00032,
-        "output_cost_per_token": 0.0012,
+        "input_cost_per_token": 4e-08,
+        "output_cost_per_token": 1.5e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 131072,
         "max_output_tokens": 32768,
@@ -58795,8 +58845,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 320.0,
-        "output_price_per_million": 1200.0,
+        "input_price_per_million": 0.04,
+        "output_price_per_million": 0.15,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 32768
@@ -58807,8 +58857,8 @@
       "model": "qwen/qwen3-235b-a22b-instruct-2507",
       "full_name": "novita/qwen/qwen3-235b-a22b-instruct-2507",
       "raw": {
-        "input_cost_per_token": 0.00072,
-        "output_cost_per_token": 0.00464,
+        "input_cost_per_token": 9e-08,
+        "output_cost_per_token": 5.8e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 131072,
         "max_output_tokens": 16384,
@@ -58820,8 +58870,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 720.0,
-        "output_price_per_million": 4640.0,
+        "input_price_per_million": 0.09,
+        "output_price_per_million": 0.58,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 16384
@@ -58832,8 +58882,8 @@
       "model": "deepseek/deepseek-r1-distill-qwen-14b",
       "full_name": "novita/deepseek/deepseek-r1-distill-qwen-14b",
       "raw": {
-        "input_cost_per_token": 0.0012,
-        "output_cost_per_token": 0.0012,
+        "input_cost_per_token": 1.5e-07,
+        "output_cost_per_token": 1.5e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 32768,
         "max_output_tokens": 16384,
@@ -58845,8 +58895,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 1200.0,
-        "output_price_per_million": 1200.0,
+        "input_price_per_million": 0.15,
+        "output_price_per_million": 0.15,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 16384
@@ -58857,8 +58907,8 @@
       "model": "meta-llama/llama-3.3-70b-instruct",
       "full_name": "novita/meta-llama/llama-3.3-70b-instruct",
       "raw": {
-        "input_cost_per_token": 0.00108,
-        "output_cost_per_token": 0.0032,
+        "input_cost_per_token": 1.35e-07,
+        "output_cost_per_token": 4e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 131072,
         "max_output_tokens": 120000,
@@ -58870,8 +58920,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 1080.0,
-        "output_price_per_million": 3200.0,
+        "input_price_per_million": 0.135,
+        "output_price_per_million": 0.39999999999999997,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 120000
@@ -58882,8 +58932,8 @@
       "model": "qwen/qwen-2.5-72b-instruct",
       "full_name": "novita/qwen/qwen-2.5-72b-instruct",
       "raw": {
-        "input_cost_per_token": 0.00304,
-        "output_cost_per_token": 0.0032,
+        "input_cost_per_token": 3.8e-07,
+        "output_cost_per_token": 4e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 32000,
         "max_output_tokens": 8192,
@@ -58895,8 +58945,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 3040.0,
-        "output_price_per_million": 3200.0,
+        "input_price_per_million": 0.38,
+        "output_price_per_million": 0.39999999999999997,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 8192
@@ -58907,8 +58957,8 @@
       "model": "mistralai/mistral-nemo",
       "full_name": "novita/mistralai/mistral-nemo",
       "raw": {
-        "input_cost_per_token": 0.00032,
-        "output_cost_per_token": 0.00136,
+        "input_cost_per_token": 4e-08,
+        "output_cost_per_token": 1.7e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 60288,
         "max_output_tokens": 16000,
@@ -58920,8 +58970,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 320.0,
-        "output_price_per_million": 1360.0,
+        "input_price_per_million": 0.04,
+        "output_price_per_million": 0.16999999999999998,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 16000
@@ -58932,8 +58982,8 @@
       "model": "minimaxai/minimax-m1-80k",
       "full_name": "novita/minimaxai/minimax-m1-80k",
       "raw": {
-        "input_cost_per_token": 0.0044,
-        "output_cost_per_token": 0.0176,
+        "input_cost_per_token": 5.5e-07,
+        "output_cost_per_token": 2.2e-06,
         "litellm_provider": "novita",
         "max_input_tokens": 1000000,
         "max_output_tokens": 40000,
@@ -58945,8 +58995,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 4400.0,
-        "output_price_per_million": 17600.0,
+        "input_price_per_million": 0.55,
+        "output_price_per_million": 2.2,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 40000
@@ -58957,8 +59007,8 @@
       "model": "deepseek/deepseek-r1-0528",
       "full_name": "novita/deepseek/deepseek-r1-0528",
       "raw": {
-        "input_cost_per_token": 0.0056,
-        "output_cost_per_token": 0.02,
+        "input_cost_per_token": 7e-07,
+        "output_cost_per_token": 2.5e-06,
         "litellm_provider": "novita",
         "max_input_tokens": 163840,
         "max_output_tokens": 32768,
@@ -58970,8 +59020,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 5600.0,
-        "output_price_per_million": 20000.0,
+        "input_price_per_million": 0.7,
+        "output_price_per_million": 2.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 32768
@@ -58982,8 +59032,8 @@
       "model": "deepseek/deepseek-r1-distill-qwen-32b",
       "full_name": "novita/deepseek/deepseek-r1-distill-qwen-32b",
       "raw": {
-        "input_cost_per_token": 0.0024,
-        "output_cost_per_token": 0.0024,
+        "input_cost_per_token": 3e-07,
+        "output_cost_per_token": 3e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 64000,
         "max_output_tokens": 32000,
@@ -58995,8 +59045,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 2400.0,
-        "output_price_per_million": 2400.0,
+        "input_price_per_million": 0.3,
+        "output_price_per_million": 0.3,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 32000
@@ -59007,8 +59057,8 @@
       "model": "meta-llama/llama-3-8b-instruct",
       "full_name": "novita/meta-llama/llama-3-8b-instruct",
       "raw": {
-        "input_cost_per_token": 0.00032,
-        "output_cost_per_token": 0.00032,
+        "input_cost_per_token": 4e-08,
+        "output_cost_per_token": 4e-08,
         "litellm_provider": "novita",
         "max_input_tokens": 8192,
         "max_output_tokens": 8192,
@@ -59020,8 +59070,8 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 320.0,
-        "output_price_per_million": 320.0,
+        "input_price_per_million": 0.04,
+        "output_price_per_million": 0.04,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 8192
@@ -59032,8 +59082,8 @@
       "model": "microsoft/wizardlm-2-8x22b",
       "full_name": "novita/microsoft/wizardlm-2-8x22b",
       "raw": {
-        "input_cost_per_token": 0.00496,
-        "output_cost_per_token": 0.00496,
+        "input_cost_per_token": 6.2e-07,
+        "output_cost_per_token": 6.2e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 65535,
         "max_output_tokens": 8000,
@@ -59045,8 +59095,8 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 4960.0,
-        "output_price_per_million": 4960.0,
+        "input_price_per_million": 0.62,
+        "output_price_per_million": 0.62,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 8000
@@ -59057,8 +59107,8 @@
       "model": "deepseek/deepseek-r1-0528-qwen3-8b",
       "full_name": "novita/deepseek/deepseek-r1-0528-qwen3-8b",
       "raw": {
-        "input_cost_per_token": 0.00048,
-        "output_cost_per_token": 0.00072,
+        "input_cost_per_token": 6e-08,
+        "output_cost_per_token": 9e-08,
         "litellm_provider": "novita",
         "max_input_tokens": 128000,
         "max_output_tokens": 32000,
@@ -59070,8 +59120,8 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 480.0,
-        "output_price_per_million": 720.0,
+        "input_price_per_million": 0.06,
+        "output_price_per_million": 0.09,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 32000
@@ -59082,8 +59132,8 @@
       "model": "deepseek/deepseek-r1-distill-llama-70b",
       "full_name": "novita/deepseek/deepseek-r1-distill-llama-70b",
       "raw": {
-        "input_cost_per_token": 0.0064,
-        "output_cost_per_token": 0.0064,
+        "input_cost_per_token": 8e-07,
+        "output_cost_per_token": 8e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 8192,
         "max_output_tokens": 8192,
@@ -59095,8 +59145,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 6400.0,
-        "output_price_per_million": 6400.0,
+        "input_price_per_million": 0.7999999999999999,
+        "output_price_per_million": 0.7999999999999999,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 8192
@@ -59107,8 +59157,8 @@
       "model": "meta-llama/llama-3-70b-instruct",
       "full_name": "novita/meta-llama/llama-3-70b-instruct",
       "raw": {
-        "input_cost_per_token": 0.0051,
-        "output_cost_per_token": 0.0074,
+        "input_cost_per_token": 5.1e-07,
+        "output_cost_per_token": 7.4e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 8192,
         "max_output_tokens": 8000,
@@ -59120,8 +59170,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 5100.0,
-        "output_price_per_million": 7400.0,
+        "input_price_per_million": 0.51,
+        "output_price_per_million": 0.74,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 8000
@@ -59132,8 +59182,8 @@
       "model": "qwen/qwen3-235b-a22b-fp8",
       "full_name": "novita/qwen/qwen3-235b-a22b-fp8",
       "raw": {
-        "input_cost_per_token": 0.0016,
-        "output_cost_per_token": 0.0064,
+        "input_cost_per_token": 2e-07,
+        "output_cost_per_token": 8e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 40960,
         "max_output_tokens": 20000,
@@ -59145,8 +59195,8 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 1600.0,
-        "output_price_per_million": 6400.0,
+        "input_price_per_million": 0.19999999999999998,
+        "output_price_per_million": 0.7999999999999999,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 20000
@@ -59157,8 +59207,8 @@
       "model": "meta-llama/llama-4-maverick-17b-128e-instruct-fp8",
       "full_name": "novita/meta-llama/llama-4-maverick-17b-128e-instruct-fp8",
       "raw": {
-        "input_cost_per_token": 0.0016,
-        "output_cost_per_token": 0.0072,
+        "input_cost_per_token": 2.7e-07,
+        "output_cost_per_token": 8.5e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 1048576,
         "max_output_tokens": 8192,
@@ -59170,8 +59220,8 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 1600.0,
-        "output_price_per_million": 7200.0,
+        "input_price_per_million": 0.27,
+        "output_price_per_million": 0.85,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 8192
@@ -59182,8 +59232,8 @@
       "model": "meta-llama/llama-4-scout-17b-16e-instruct",
       "full_name": "novita/meta-llama/llama-4-scout-17b-16e-instruct",
       "raw": {
-        "input_cost_per_token": 0.0008,
-        "output_cost_per_token": 0.004,
+        "input_cost_per_token": 1.8e-07,
+        "output_cost_per_token": 5.9e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 131072,
         "max_output_tokens": 131072,
@@ -59195,8 +59245,8 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 800.0,
-        "output_price_per_million": 4000.0,
+        "input_price_per_million": 0.18,
+        "output_price_per_million": 0.59,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 131072
@@ -59207,8 +59257,8 @@
       "model": "nousresearch/hermes-2-pro-llama-3-8b",
       "full_name": "novita/nousresearch/hermes-2-pro-llama-3-8b",
       "raw": {
-        "input_cost_per_token": 0.0014,
-        "output_cost_per_token": 0.0014,
+        "input_cost_per_token": 1.4e-07,
+        "output_cost_per_token": 1.4e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 8192,
         "max_output_tokens": 8192,
@@ -59220,8 +59270,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 1400.0,
-        "output_price_per_million": 1400.0,
+        "input_price_per_million": 0.14,
+        "output_price_per_million": 0.14,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 8192
@@ -59232,8 +59282,8 @@
       "model": "qwen/qwen2.5-vl-72b-instruct",
       "full_name": "novita/qwen/qwen2.5-vl-72b-instruct",
       "raw": {
-        "input_cost_per_token": 0.0064,
-        "output_cost_per_token": 0.0064,
+        "input_cost_per_token": 8e-07,
+        "output_cost_per_token": 8e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 32768,
         "max_output_tokens": 32768,
@@ -59245,8 +59295,8 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 6400.0,
-        "output_price_per_million": 6400.0,
+        "input_price_per_million": 0.7999999999999999,
+        "output_price_per_million": 0.7999999999999999,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 32768
@@ -59257,8 +59307,8 @@
       "model": "sao10k/l3-70b-euryale-v2.1",
       "full_name": "novita/sao10k/l3-70b-euryale-v2.1",
       "raw": {
-        "input_cost_per_token": 0.0148,
-        "output_cost_per_token": 0.0148,
+        "input_cost_per_token": 1.48e-06,
+        "output_cost_per_token": 1.48e-06,
         "litellm_provider": "novita",
         "max_input_tokens": 8192,
         "max_output_tokens": 8192,
@@ -59270,8 +59320,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 14800.0,
-        "output_price_per_million": 14800.0,
+        "input_price_per_million": 1.48,
+        "output_price_per_million": 1.48,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 8192
@@ -59282,8 +59332,8 @@
       "model": "baidu/ernie-4.5-21B-a3b-thinking",
       "full_name": "novita/baidu/ernie-4.5-21B-a3b-thinking",
       "raw": {
-        "input_cost_per_token": 0.00056,
-        "output_cost_per_token": 0.00224,
+        "input_cost_per_token": 7e-08,
+        "output_cost_per_token": 2.8e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 131072,
         "max_output_tokens": 65536,
@@ -59295,8 +59345,8 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 560.0,
-        "output_price_per_million": 2240.0,
+        "input_price_per_million": 0.07,
+        "output_price_per_million": 0.28,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 65536
@@ -59307,8 +59357,8 @@
       "model": "sao10k/l3-8b-lunaris",
       "full_name": "novita/sao10k/l3-8b-lunaris",
       "raw": {
-        "input_cost_per_token": 0.0005,
-        "output_cost_per_token": 0.0005,
+        "input_cost_per_token": 5e-08,
+        "output_cost_per_token": 5e-08,
         "litellm_provider": "novita",
         "max_input_tokens": 8192,
         "max_output_tokens": 8192,
@@ -59320,8 +59370,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 500.0,
-        "output_price_per_million": 500.0,
+        "input_price_per_million": 0.049999999999999996,
+        "output_price_per_million": 0.049999999999999996,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 8192
@@ -59332,21 +59382,21 @@
       "model": "baichuan/baichuan-m2-32b",
       "full_name": "novita/baichuan/baichuan-m2-32b",
       "raw": {
-        "input_cost_per_token": 0.00056,
-        "output_cost_per_token": 0.00056,
+        "input_cost_per_token": 7e-08,
+        "output_cost_per_token": 7e-08,
         "litellm_provider": "novita",
         "max_input_tokens": 131072,
         "max_output_tokens": 131072,
         "max_tokens": 131072,
         "mode": "chat",
         "supports_function_calling": null,
-        "supports_reasoning": true,
-        "supports_response_schema": true,
-        "supports_tool_choice": true
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 560.0,
-        "output_price_per_million": 560.0,
+        "input_price_per_million": 0.07,
+        "output_price_per_million": 0.07,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 131072
@@ -59354,36 +59404,11 @@
     },
     {
       "vendor": "novita",
-      "model": "thudm/glm-4.1v-9b-thinking",
-      "full_name": "novita/thudm/glm-4.1v-9b-thinking",
-      "raw": {
-        "input_cost_per_token": 0.00028,
-        "output_cost_per_token": 0.001104,
-        "litellm_provider": "novita",
-        "max_input_tokens": 65536,
-        "max_output_tokens": 8000,
-        "max_tokens": 8000,
-        "mode": "chat",
-        "supports_function_calling": null,
-        "supports_reasoning": true,
-        "supports_response_schema": null,
-        "supports_tool_choice": null
-      },
-      "processed": {
-        "input_price_per_million": 280.0,
-        "output_price_per_million": 1104.0,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 8000
-      }
-    },
-    {
-      "vendor": "novita",
       "model": "baidu/ernie-4.5-vl-424b-a47b",
       "full_name": "novita/baidu/ernie-4.5-vl-424b-a47b",
       "raw": {
-        "input_cost_per_token": 0.00336,
-        "output_cost_per_token": 0.01,
+        "input_cost_per_token": 4.2e-07,
+        "output_cost_per_token": 1.25e-06,
         "litellm_provider": "novita",
         "max_input_tokens": 123000,
         "max_output_tokens": 16000,
@@ -59395,8 +59420,8 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 3360.0,
-        "output_price_per_million": 10000.0,
+        "input_price_per_million": 0.42,
+        "output_price_per_million": 1.25,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 16000
@@ -59407,8 +59432,8 @@
       "model": "baidu/ernie-4.5-300b-a47b-paddle",
       "full_name": "novita/baidu/ernie-4.5-300b-a47b-paddle",
       "raw": {
-        "input_cost_per_token": 0.00224,
-        "output_cost_per_token": 0.0088,
+        "input_cost_per_token": 2.8e-07,
+        "output_cost_per_token": 1.1e-06,
         "litellm_provider": "novita",
         "max_input_tokens": 123000,
         "max_output_tokens": 12000,
@@ -59420,8 +59445,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 2240.0,
-        "output_price_per_million": 8800.0,
+        "input_price_per_million": 0.28,
+        "output_price_per_million": 1.1,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 12000
@@ -59432,8 +59457,8 @@
       "model": "deepseek/deepseek-prover-v2-671b",
       "full_name": "novita/deepseek/deepseek-prover-v2-671b",
       "raw": {
-        "input_cost_per_token": 0.0056,
-        "output_cost_per_token": 0.02,
+        "input_cost_per_token": 7e-07,
+        "output_cost_per_token": 2.5e-06,
         "litellm_provider": "novita",
         "max_input_tokens": 160000,
         "max_output_tokens": 160000,
@@ -59445,8 +59470,8 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 5600.0,
-        "output_price_per_million": 20000.0,
+        "input_price_per_million": 0.7,
+        "output_price_per_million": 2.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 160000
@@ -59457,8 +59482,8 @@
       "model": "qwen/qwen3-32b-fp8",
       "full_name": "novita/qwen/qwen3-32b-fp8",
       "raw": {
-        "input_cost_per_token": 0.0008,
-        "output_cost_per_token": 0.0036,
+        "input_cost_per_token": 1e-07,
+        "output_cost_per_token": 4.5e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 40960,
         "max_output_tokens": 20000,
@@ -59470,8 +59495,8 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 800.0,
-        "output_price_per_million": 3600.0,
+        "input_price_per_million": 0.09999999999999999,
+        "output_price_per_million": 0.44999999999999996,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 20000
@@ -59482,8 +59507,8 @@
       "model": "qwen/qwen3-30b-a3b-fp8",
       "full_name": "novita/qwen/qwen3-30b-a3b-fp8",
       "raw": {
-        "input_cost_per_token": 0.00072,
-        "output_cost_per_token": 0.0036,
+        "input_cost_per_token": 9e-08,
+        "output_cost_per_token": 4.5e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 40960,
         "max_output_tokens": 20000,
@@ -59495,8 +59520,8 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 720.0,
-        "output_price_per_million": 3600.0,
+        "input_price_per_million": 0.09,
+        "output_price_per_million": 0.44999999999999996,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 20000
@@ -59507,8 +59532,8 @@
       "model": "google/gemma-3-27b-it",
       "full_name": "novita/google/gemma-3-27b-it",
       "raw": {
-        "input_cost_per_token": 0.000952,
-        "output_cost_per_token": 0.0016,
+        "input_cost_per_token": 1.19e-07,
+        "output_cost_per_token": 2e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 98304,
         "max_output_tokens": 16384,
@@ -59520,8 +59545,8 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 952.0,
-        "output_price_per_million": 1600.0,
+        "input_price_per_million": 0.119,
+        "output_price_per_million": 0.19999999999999998,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 16384
@@ -59532,8 +59557,8 @@
       "model": "deepseek/deepseek-v3-turbo",
       "full_name": "novita/deepseek/deepseek-v3-turbo",
       "raw": {
-        "input_cost_per_token": 0.0032,
-        "output_cost_per_token": 0.0104,
+        "input_cost_per_token": 4e-07,
+        "output_cost_per_token": 1.3e-06,
         "litellm_provider": "novita",
         "max_input_tokens": 64000,
         "max_output_tokens": 16000,
@@ -59545,8 +59570,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 3200.0,
-        "output_price_per_million": 10400.0,
+        "input_price_per_million": 0.39999999999999997,
+        "output_price_per_million": 1.3,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 16000
@@ -59557,8 +59582,8 @@
       "model": "deepseek/deepseek-r1-turbo",
       "full_name": "novita/deepseek/deepseek-r1-turbo",
       "raw": {
-        "input_cost_per_token": 0.0056,
-        "output_cost_per_token": 0.02,
+        "input_cost_per_token": 7e-07,
+        "output_cost_per_token": 2.5e-06,
         "litellm_provider": "novita",
         "max_input_tokens": 64000,
         "max_output_tokens": 16000,
@@ -59570,8 +59595,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 5600.0,
-        "output_price_per_million": 20000.0,
+        "input_price_per_million": 0.7,
+        "output_price_per_million": 2.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 16000
@@ -59582,8 +59607,8 @@
       "model": "Sao10K/L3-8B-Stheno-v3.2",
       "full_name": "novita/Sao10K/L3-8B-Stheno-v3.2",
       "raw": {
-        "input_cost_per_token": 0.0005,
-        "output_cost_per_token": 0.0005,
+        "input_cost_per_token": 5e-08,
+        "output_cost_per_token": 5e-08,
         "litellm_provider": "novita",
         "max_input_tokens": 8192,
         "max_output_tokens": 32000,
@@ -59595,8 +59620,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 500.0,
-        "output_price_per_million": 500.0,
+        "input_price_per_million": 0.049999999999999996,
+        "output_price_per_million": 0.049999999999999996,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 32000
@@ -59607,8 +59632,8 @@
       "model": "gryphe/mythomax-l2-13b",
       "full_name": "novita/gryphe/mythomax-l2-13b",
       "raw": {
-        "input_cost_per_token": 0.00072,
-        "output_cost_per_token": 0.00072,
+        "input_cost_per_token": 9e-08,
+        "output_cost_per_token": 9e-08,
         "litellm_provider": "novita",
         "max_input_tokens": 4096,
         "max_output_tokens": 3200,
@@ -59620,8 +59645,8 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 720.0,
-        "output_price_per_million": 720.0,
+        "input_price_per_million": 0.09,
+        "output_price_per_million": 0.09,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 3200
@@ -59632,8 +59657,8 @@
       "model": "baidu/ernie-4.5-vl-28b-a3b-thinking",
       "full_name": "novita/baidu/ernie-4.5-vl-28b-a3b-thinking",
       "raw": {
-        "input_cost_per_token": 0.0039,
-        "output_cost_per_token": 0.0039,
+        "input_cost_per_token": 3.9e-07,
+        "output_cost_per_token": 3.9e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 131072,
         "max_output_tokens": 65536,
@@ -59645,8 +59670,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 3900.0,
-        "output_price_per_million": 3900.0,
+        "input_price_per_million": 0.39,
+        "output_price_per_million": 0.39,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 65536
@@ -59657,8 +59682,8 @@
       "model": "qwen/qwen3-vl-8b-instruct",
       "full_name": "novita/qwen/qwen3-vl-8b-instruct",
       "raw": {
-        "input_cost_per_token": 0.00064,
-        "output_cost_per_token": 0.004,
+        "input_cost_per_token": 8e-08,
+        "output_cost_per_token": 5e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 131072,
         "max_output_tokens": 32768,
@@ -59670,8 +59695,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 640.0,
-        "output_price_per_million": 4000.0,
+        "input_price_per_million": 0.08,
+        "output_price_per_million": 0.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 32768
@@ -59682,8 +59707,8 @@
       "model": "zai-org/glm-4.5-air",
       "full_name": "novita/zai-org/glm-4.5-air",
       "raw": {
-        "input_cost_per_token": 0.00104,
-        "output_cost_per_token": 0.0068,
+        "input_cost_per_token": 1.3e-07,
+        "output_cost_per_token": 8.5e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 131072,
         "max_output_tokens": 98304,
@@ -59695,8 +59720,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 1040.0,
-        "output_price_per_million": 6800.0,
+        "input_price_per_million": 0.13,
+        "output_price_per_million": 0.85,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 98304
@@ -59707,8 +59732,8 @@
       "model": "qwen/qwen3-vl-30b-a3b-instruct",
       "full_name": "novita/qwen/qwen3-vl-30b-a3b-instruct",
       "raw": {
-        "input_cost_per_token": 0.0016,
-        "output_cost_per_token": 0.0056,
+        "input_cost_per_token": 2e-07,
+        "output_cost_per_token": 7e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 131072,
         "max_output_tokens": 32768,
@@ -59720,8 +59745,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 1600.0,
-        "output_price_per_million": 5600.0,
+        "input_price_per_million": 0.19999999999999998,
+        "output_price_per_million": 0.7,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 32768
@@ -59732,8 +59757,8 @@
       "model": "qwen/qwen3-vl-30b-a3b-thinking",
       "full_name": "novita/qwen/qwen3-vl-30b-a3b-thinking",
       "raw": {
-        "input_cost_per_token": 0.0016,
-        "output_cost_per_token": 0.008,
+        "input_cost_per_token": 2e-07,
+        "output_cost_per_token": 1e-06,
         "litellm_provider": "novita",
         "max_input_tokens": 131072,
         "max_output_tokens": 32768,
@@ -59745,8 +59770,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 1600.0,
-        "output_price_per_million": 8000.0,
+        "input_price_per_million": 0.19999999999999998,
+        "output_price_per_million": 1.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 32768
@@ -59754,11 +59779,61 @@
     },
     {
       "vendor": "novita",
+      "model": "qwen/qwen3-omni-30b-a3b-thinking",
+      "full_name": "novita/qwen/qwen3-omni-30b-a3b-thinking",
+      "raw": {
+        "input_cost_per_token": 2.5e-07,
+        "output_cost_per_token": 9.7e-07,
+        "litellm_provider": "novita",
+        "max_input_tokens": 65536,
+        "max_output_tokens": 16384,
+        "max_tokens": 16384,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.25,
+        "output_price_per_million": 0.9700000000000001,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 16384
+      }
+    },
+    {
+      "vendor": "novita",
+      "model": "qwen/qwen3-omni-30b-a3b-instruct",
+      "full_name": "novita/qwen/qwen3-omni-30b-a3b-instruct",
+      "raw": {
+        "input_cost_per_token": 2.5e-07,
+        "output_cost_per_token": 9.7e-07,
+        "litellm_provider": "novita",
+        "max_input_tokens": 65536,
+        "max_output_tokens": 16384,
+        "max_tokens": 16384,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.25,
+        "output_price_per_million": 0.9700000000000001,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 16384
+      }
+    },
+    {
+      "vendor": "novita",
       "model": "qwen/qwen-mt-plus",
       "full_name": "novita/qwen/qwen-mt-plus",
       "raw": {
-        "input_cost_per_token": 0.002,
-        "output_cost_per_token": 0.006,
+        "input_cost_per_token": 2.5e-07,
+        "output_cost_per_token": 7.5e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 16384,
         "max_output_tokens": 8192,
@@ -59770,8 +59845,8 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 2000.0,
-        "output_price_per_million": 6000.0,
+        "input_price_per_million": 0.25,
+        "output_price_per_million": 0.75,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 8192
@@ -59782,8 +59857,8 @@
       "model": "baidu/ernie-4.5-vl-28b-a3b",
       "full_name": "novita/baidu/ernie-4.5-vl-28b-a3b",
       "raw": {
-        "input_cost_per_token": 0.00112,
-        "output_cost_per_token": 0.00448,
+        "input_cost_per_token": 1.4e-07,
+        "output_cost_per_token": 5.6e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 30000,
         "max_output_tokens": 8000,
@@ -59795,8 +59870,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 1120.0,
-        "output_price_per_million": 4480.0,
+        "input_price_per_million": 0.14,
+        "output_price_per_million": 0.56,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 8000
@@ -59807,8 +59882,8 @@
       "model": "baidu/ernie-4.5-21B-a3b",
       "full_name": "novita/baidu/ernie-4.5-21B-a3b",
       "raw": {
-        "input_cost_per_token": 0.00056,
-        "output_cost_per_token": 0.00224,
+        "input_cost_per_token": 7e-08,
+        "output_cost_per_token": 2.8e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 120000,
         "max_output_tokens": 8000,
@@ -59820,8 +59895,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 560.0,
-        "output_price_per_million": 2240.0,
+        "input_price_per_million": 0.07,
+        "output_price_per_million": 0.28,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 8000
@@ -59832,8 +59907,8 @@
       "model": "qwen/qwen3-8b-fp8",
       "full_name": "novita/qwen/qwen3-8b-fp8",
       "raw": {
-        "input_cost_per_token": 0.00028,
-        "output_cost_per_token": 0.001104,
+        "input_cost_per_token": 3.5e-08,
+        "output_cost_per_token": 1.38e-07,
         "litellm_provider": "novita",
         "max_input_tokens": 128000,
         "max_output_tokens": 20000,
@@ -59845,8 +59920,8 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 280.0,
-        "output_price_per_million": 1104.0,
+        "input_price_per_million": 0.035,
+        "output_price_per_million": 0.13799999999999998,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 20000
@@ -59857,8 +59932,8 @@
       "model": "qwen/qwen3-4b-fp8",
       "full_name": "novita/qwen/qwen3-4b-fp8",
       "raw": {
-        "input_cost_per_token": 0.00024,
-        "output_cost_per_token": 0.00024,
+        "input_cost_per_token": 3e-08,
+        "output_cost_per_token": 3e-08,
         "litellm_provider": "novita",
         "max_input_tokens": 128000,
         "max_output_tokens": 20000,
@@ -59870,8 +59945,8 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 240.0,
-        "output_price_per_million": 240.0,
+        "input_price_per_million": 0.03,
+        "output_price_per_million": 0.03,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 20000
@@ -59882,8 +59957,8 @@
       "model": "qwen/qwen2.5-7b-instruct",
       "full_name": "novita/qwen/qwen2.5-7b-instruct",
       "raw": {
-        "input_cost_per_token": 0.00056,
-        "output_cost_per_token": 0.00056,
+        "input_cost_per_token": 7e-08,
+        "output_cost_per_token": 7e-08,
         "litellm_provider": "novita",
         "max_input_tokens": 32000,
         "max_output_tokens": 32000,
@@ -59895,8 +59970,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 560.0,
-        "output_price_per_million": 560.0,
+        "input_price_per_million": 0.07,
+        "output_price_per_million": 0.07,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 32000
@@ -59907,8 +59982,8 @@
       "model": "meta-llama/llama-3.2-3b-instruct",
       "full_name": "novita/meta-llama/llama-3.2-3b-instruct",
       "raw": {
-        "input_cost_per_token": 0.00024,
-        "output_cost_per_token": 0.0004,
+        "input_cost_per_token": 3e-08,
+        "output_cost_per_token": 5e-08,
         "litellm_provider": "novita",
         "max_input_tokens": 32768,
         "max_output_tokens": 32000,
@@ -59920,8 +59995,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 240.0,
-        "output_price_per_million": 400.0,
+        "input_price_per_million": 0.03,
+        "output_price_per_million": 0.049999999999999996,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 32000
@@ -59932,8 +60007,8 @@
       "model": "sao10k/l31-70b-euryale-v2.2",
       "full_name": "novita/sao10k/l31-70b-euryale-v2.2",
       "raw": {
-        "input_cost_per_token": 0.0148,
-        "output_cost_per_token": 0.0148,
+        "input_cost_per_token": 1.48e-06,
+        "output_cost_per_token": 1.48e-06,
         "litellm_provider": "novita",
         "max_input_tokens": 8192,
         "max_output_tokens": 8192,
@@ -59945,8 +60020,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 14800.0,
-        "output_price_per_million": 14800.0,
+        "input_price_per_million": 1.48,
+        "output_price_per_million": 1.48,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 8192
@@ -59957,7 +60032,7 @@
       "model": "qwen/qwen3-embedding-0.6b",
       "full_name": "novita/qwen/qwen3-embedding-0.6b",
       "raw": {
-        "input_cost_per_token": 0.00056,
+        "input_cost_per_token": 7e-08,
         "output_cost_per_token": 0,
         "litellm_provider": "novita",
         "max_input_tokens": 32768,
@@ -59970,7 +60045,7 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 560.0,
+        "input_price_per_million": 0.07,
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
@@ -59982,7 +60057,7 @@
       "model": "qwen/qwen3-embedding-8b",
       "full_name": "novita/qwen/qwen3-embedding-8b",
       "raw": {
-        "input_cost_per_token": 0.00056,
+        "input_cost_per_token": 7e-08,
         "output_cost_per_token": 0,
         "litellm_provider": "novita",
         "max_input_tokens": 32768,
@@ -59995,7 +60070,7 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 560.0,
+        "input_price_per_million": 0.07,
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
@@ -60007,8 +60082,8 @@
       "model": "baai/bge-m3",
       "full_name": "novita/baai/bge-m3",
       "raw": {
-        "input_cost_per_token": 0.0001,
-        "output_cost_per_token": 0.0001,
+        "input_cost_per_token": 1e-08,
+        "output_cost_per_token": 1e-08,
         "litellm_provider": "novita",
         "max_input_tokens": 8192,
         "max_output_tokens": 96000,
@@ -60020,8 +60095,8 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 100.0,
-        "output_price_per_million": 100.0,
+        "input_price_per_million": 0.01,
+        "output_price_per_million": 0.01,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 96000
@@ -60032,8 +60107,8 @@
       "model": "qwen/qwen3-reranker-8b",
       "full_name": "novita/qwen/qwen3-reranker-8b",
       "raw": {
-        "input_cost_per_token": 0.0004,
-        "output_cost_per_token": 0.0004,
+        "input_cost_per_token": 5e-08,
+        "output_cost_per_token": 5e-08,
         "litellm_provider": "novita",
         "max_input_tokens": 32768,
         "max_output_tokens": 4096,
@@ -60045,8 +60120,8 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 400.0,
-        "output_price_per_million": 400.0,
+        "input_price_per_million": 0.049999999999999996,
+        "output_price_per_million": 0.049999999999999996,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 4096
@@ -60057,8 +60132,8 @@
       "model": "baai/bge-reranker-v2-m3",
       "full_name": "novita/baai/bge-reranker-v2-m3",
       "raw": {
-        "input_cost_per_token": 0.0001,
-        "output_cost_per_token": 0.0001,
+        "input_cost_per_token": 1e-08,
+        "output_cost_per_token": 1e-08,
         "litellm_provider": "novita",
         "max_input_tokens": 8000,
         "max_output_tokens": 8000,
@@ -60070,8 +60145,8 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 100.0,
-        "output_price_per_million": 100.0,
+        "input_price_per_million": 0.01,
+        "output_price_per_million": 0.01,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 8000
