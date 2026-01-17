@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-01-16T02:10:48.925335",
-  "total_models": 2425,
+  "updated_at": "2026-01-17T02:04:38.400776",
+  "total_models": 2426,
   "models": [
     {
       "vendor": "unknown",
@@ -5056,6 +5056,31 @@
       "vendor": "azure",
       "model": "gpt-5.2-chat-2025-12-11",
       "full_name": "azure/gpt-5.2-chat-2025-12-11",
+      "raw": {
+        "input_cost_per_token": 1.75e-06,
+        "output_cost_per_token": 1.4e-05,
+        "litellm_provider": "azure",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "max_tokens": 16384,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1.75,
+        "output_price_per_million": 14.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 16384
+      }
+    },
+    {
+      "vendor": "azure",
+      "model": "gpt-5.2-codex",
+      "full_name": "azure/gpt-5.2-codex",
       "raw": {
         "input_cost_per_token": 1.75e-06,
         "output_cost_per_token": 1.4e-05,
@@ -48757,8 +48782,8 @@
       "model": "zai-org/glm-4.7-maas",
       "full_name": "vertex_ai/zai-org/glm-4.7-maas",
       "raw": {
-        "input_cost_per_token": 3e-07,
-        "output_cost_per_token": 1.2e-06,
+        "input_cost_per_token": 6e-07,
+        "output_cost_per_token": 2.2e-06,
         "litellm_provider": "vertex_ai-zai_models",
         "max_input_tokens": 200000,
         "max_output_tokens": 128000,
@@ -48770,8 +48795,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 0.3,
-        "output_price_per_million": 1.2,
+        "input_price_per_million": 0.6,
+        "output_price_per_million": 2.2,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 128000
