@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-01-27T02:23:23.461991",
-  "total_models": 2456,
+  "updated_at": "2026-01-28T02:19:27.388644",
+  "total_models": 2460,
   "models": [
     {
       "vendor": "unknown",
@@ -17004,6 +17004,81 @@
     },
     {
       "vendor": "unknown",
+      "model": "deepseek-v3-2-251201",
+      "full_name": "deepseek-v3-2-251201",
+      "raw": {
+        "input_cost_per_token": 0.0,
+        "output_cost_per_token": 0.0,
+        "litellm_provider": "volcengine",
+        "max_input_tokens": 98304,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "glm-4-7-251222",
+      "full_name": "glm-4-7-251222",
+      "raw": {
+        "input_cost_per_token": 0.0,
+        "output_cost_per_token": 0.0,
+        "litellm_provider": "volcengine",
+        "max_input_tokens": 204800,
+        "max_output_tokens": 131072,
+        "max_tokens": 131072,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 131072
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "kimi-k2-thinking-251104",
+      "full_name": "kimi-k2-thinking-251104",
+      "raw": {
+        "input_cost_per_token": 0.0,
+        "output_cost_per_token": 0.0,
+        "litellm_provider": "volcengine",
+        "max_input_tokens": 229376,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "unknown",
       "model": "doubao-embedding",
       "full_name": "doubao-embedding",
       "raw": {
@@ -20947,6 +21022,31 @@
       "processed": {
         "input_price_per_million": 1.25,
         "output_price_per_million": 10.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65535
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "gemini-robotics-er-1.5-preview",
+      "full_name": "gemini-robotics-er-1.5-preview",
+      "raw": {
+        "input_cost_per_token": 3e-07,
+        "output_cost_per_token": 2.5e-06,
+        "litellm_provider": "gemini",
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65535,
+        "max_tokens": 65535,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.3,
+        "output_price_per_million": 2.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 65535
