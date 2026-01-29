@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-01-28T02:19:27.388644",
+  "updated_at": "2026-01-29T02:35:29.789090",
   "total_models": 2460,
   "models": [
     {
@@ -5088,7 +5088,7 @@
         "max_input_tokens": 128000,
         "max_output_tokens": 16384,
         "max_tokens": 16384,
-        "mode": "chat",
+        "mode": "responses",
         "supports_function_calling": true,
         "supports_reasoning": true,
         "supports_response_schema": true,
@@ -21028,9 +21028,9 @@
       }
     },
     {
-      "vendor": "unknown",
+      "vendor": "gemini",
       "model": "gemini-robotics-er-1.5-preview",
-      "full_name": "gemini-robotics-er-1.5-preview",
+      "full_name": "gemini/gemini-robotics-er-1.5-preview",
       "raw": {
         "input_cost_per_token": 3e-07,
         "output_cost_per_token": 2.5e-06,
@@ -31065,7 +31065,7 @@
         "max_tokens": null,
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_reasoning": null,
+        "supports_reasoning": true,
         "supports_response_schema": null,
         "supports_tool_choice": true
       },
@@ -31090,7 +31090,7 @@
         "max_tokens": null,
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_reasoning": null,
+        "supports_reasoning": true,
         "supports_response_schema": null,
         "supports_tool_choice": true
       },
@@ -31115,7 +31115,7 @@
         "max_tokens": null,
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_reasoning": null,
+        "supports_reasoning": true,
         "supports_response_schema": null,
         "supports_tool_choice": true
       },
@@ -37213,7 +37213,7 @@
         "max_input_tokens": 400000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
-        "mode": "chat",
+        "mode": "responses",
         "supports_function_calling": null,
         "supports_reasoning": true,
         "supports_response_schema": null,
@@ -52765,7 +52765,7 @@
         "max_tokens": null,
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_reasoning": null,
+        "supports_reasoning": true,
         "supports_response_schema": null,
         "supports_tool_choice": true
       },
