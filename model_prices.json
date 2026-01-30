@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-01-29T02:35:29.789090",
-  "total_models": 2460,
+  "updated_at": "2026-01-30T02:35:45.944704",
+  "total_models": 2469,
   "models": [
     {
       "vendor": "unknown",
@@ -829,6 +829,31 @@
     },
     {
       "vendor": "unknown",
+      "model": "amazon.nova-2-pro-preview-20251202-v1:0",
+      "full_name": "amazon.nova-2-pro-preview-20251202-v1:0",
+      "raw": {
+        "input_cost_per_token": 2.1875e-06,
+        "output_cost_per_token": 1.75e-05,
+        "litellm_provider": "bedrock_converse",
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 64000,
+        "max_tokens": 64000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 2.1875,
+        "output_price_per_million": 17.5,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 64000
+      }
+    },
+    {
+      "vendor": "unknown",
       "model": "apac.amazon.nova-2-lite-v1:0",
       "full_name": "apac.amazon.nova-2-lite-v1:0",
       "raw": {
@@ -847,6 +872,31 @@
       "processed": {
         "input_price_per_million": 0.33,
         "output_price_per_million": 2.75,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 64000
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "apac.amazon.nova-2-pro-preview-20251202-v1:0",
+      "full_name": "apac.amazon.nova-2-pro-preview-20251202-v1:0",
+      "raw": {
+        "input_cost_per_token": 2.1875e-06,
+        "output_cost_per_token": 1.75e-05,
+        "litellm_provider": "bedrock_converse",
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 64000,
+        "max_tokens": 64000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 2.1875,
+        "output_price_per_million": 17.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 64000
@@ -879,6 +929,31 @@
     },
     {
       "vendor": "unknown",
+      "model": "eu.amazon.nova-2-pro-preview-20251202-v1:0",
+      "full_name": "eu.amazon.nova-2-pro-preview-20251202-v1:0",
+      "raw": {
+        "input_cost_per_token": 2.1875e-06,
+        "output_cost_per_token": 1.75e-05,
+        "litellm_provider": "bedrock_converse",
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 64000,
+        "max_tokens": 64000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 2.1875,
+        "output_price_per_million": 17.5,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 64000
+      }
+    },
+    {
+      "vendor": "unknown",
       "model": "us.amazon.nova-2-lite-v1:0",
       "full_name": "us.amazon.nova-2-lite-v1:0",
       "raw": {
@@ -897,6 +972,31 @@
       "processed": {
         "input_price_per_million": 0.33,
         "output_price_per_million": 2.75,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 64000
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "us.amazon.nova-2-pro-preview-20251202-v1:0",
+      "full_name": "us.amazon.nova-2-pro-preview-20251202-v1:0",
+      "raw": {
+        "input_cost_per_token": 2.1875e-06,
+        "output_cost_per_token": 1.75e-05,
+        "litellm_provider": "bedrock_converse",
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 64000,
+        "max_tokens": 64000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 2.1875,
+        "output_price_per_million": 17.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 64000
@@ -4667,7 +4767,7 @@
         "supports_function_calling": true,
         "supports_reasoning": true,
         "supports_response_schema": true,
-        "supports_tool_choice": false
+        "supports_tool_choice": true
       },
       "processed": {
         "input_price_per_million": 1.25,
@@ -4692,7 +4792,7 @@
         "supports_function_calling": true,
         "supports_reasoning": true,
         "supports_response_schema": true,
-        "supports_tool_choice": false
+        "supports_tool_choice": true
       },
       "processed": {
         "input_price_per_million": 1.25,
@@ -21022,6 +21122,31 @@
       "processed": {
         "input_price_per_million": 1.25,
         "output_price_per_million": 10.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65535
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "gemini-robotics-er-1.5-preview",
+      "full_name": "gemini-robotics-er-1.5-preview",
+      "raw": {
+        "input_cost_per_token": 3e-07,
+        "output_cost_per_token": 2.5e-06,
+        "litellm_provider": "vertex_ai-language-models",
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65535,
+        "max_tokens": 65535,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.3,
+        "output_price_per_million": 2.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 65535
@@ -37850,6 +37975,106 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 131000
+      }
+    },
+    {
+      "vendor": "openrouter",
+      "model": "xiaomi/mimo-v2-flash",
+      "full_name": "openrouter/xiaomi/mimo-v2-flash",
+      "raw": {
+        "input_cost_per_token": 9e-08,
+        "output_cost_per_token": 2.9e-07,
+        "litellm_provider": "openrouter",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 16384,
+        "max_tokens": 16384,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.09,
+        "output_price_per_million": 0.29,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 16384
+      }
+    },
+    {
+      "vendor": "openrouter",
+      "model": "z-ai/glm-4.7",
+      "full_name": "openrouter/z-ai/glm-4.7",
+      "raw": {
+        "input_cost_per_token": 4e-07,
+        "output_cost_per_token": 1.5e-06,
+        "litellm_provider": "openrouter",
+        "max_input_tokens": 202752,
+        "max_output_tokens": 64000,
+        "max_tokens": 64000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.39999999999999997,
+        "output_price_per_million": 1.5,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 64000
+      }
+    },
+    {
+      "vendor": "openrouter",
+      "model": "z-ai/glm-4.7-flash",
+      "full_name": "openrouter/z-ai/glm-4.7-flash",
+      "raw": {
+        "input_cost_per_token": 7e-08,
+        "output_cost_per_token": 4e-07,
+        "litellm_provider": "openrouter",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 32000,
+        "max_tokens": 32000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.07,
+        "output_price_per_million": 0.39999999999999997,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32000
+      }
+    },
+    {
+      "vendor": "openrouter",
+      "model": "minimax/minimax-m2.1",
+      "full_name": "openrouter/minimax/minimax-m2.1",
+      "raw": {
+        "input_cost_per_token": 2.7e-07,
+        "output_cost_per_token": 1.2e-06,
+        "litellm_provider": "openrouter",
+        "max_input_tokens": 204000,
+        "max_output_tokens": 64000,
+        "max_tokens": 64000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.27,
+        "output_price_per_million": 1.2,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 64000
       }
     },
     {
