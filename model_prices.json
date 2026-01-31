@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-01-30T02:35:45.944704",
-  "total_models": 2469,
+  "updated_at": "2026-01-31T02:31:28.710231",
+  "total_models": 2470,
   "models": [
     {
       "vendor": "unknown",
@@ -5185,9 +5185,9 @@
         "input_cost_per_token": 1.75e-06,
         "output_cost_per_token": 1.4e-05,
         "litellm_provider": "azure",
-        "max_input_tokens": 128000,
-        "max_output_tokens": 16384,
-        "max_tokens": 16384,
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
         "mode": "responses",
         "supports_function_calling": true,
         "supports_reasoning": true,
@@ -5199,7 +5199,7 @@
         "output_price_per_million": 14.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 16384
+        "context_window": 128000
       }
     },
     {
@@ -27410,7 +27410,7 @@
         "input_cost_per_token": 1.75e-06,
         "output_cost_per_token": 1.4e-05,
         "litellm_provider": "openai",
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
         "mode": "responses",
@@ -36954,6 +36954,31 @@
     },
     {
       "vendor": "openrouter",
+      "model": "moonshotai/kimi-k2.5",
+      "full_name": "openrouter/moonshotai/kimi-k2.5",
+      "raw": {
+        "input_cost_per_token": 6e-07,
+        "output_cost_per_token": 3e-06,
+        "litellm_provider": "openrouter",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "max_tokens": 262144,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.6,
+        "output_price_per_million": 3.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 262144
+      }
+    },
+    {
+      "vendor": "openrouter",
       "model": "nousresearch/nous-hermes-llama2-13b",
       "full_name": "openrouter/nousresearch/nous-hermes-llama2-13b",
       "raw": {
@@ -37335,7 +37360,7 @@
         "input_cost_per_token": 1.75e-06,
         "output_cost_per_token": 1.4e-05,
         "litellm_provider": "openrouter",
-        "max_input_tokens": 400000,
+        "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
         "mode": "responses",
