@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-01-31T02:31:28.710231",
-  "total_models": 2470,
+  "updated_at": "2026-02-01T02:56:54.202526",
+  "total_models": 2471,
   "models": [
     {
       "vendor": "unknown",
@@ -2775,6 +2775,31 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 131072
+      }
+    },
+    {
+      "vendor": "azure_ai",
+      "model": "model_router",
+      "full_name": "azure_ai/model_router",
+      "raw": {
+        "input_cost_per_token": 1.4e-07,
+        "output_cost_per_token": 0,
+        "litellm_provider": "azure_ai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.14,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
       }
     },
     {
