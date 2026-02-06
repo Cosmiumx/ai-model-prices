@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-02-05T02:39:06.551063",
-  "total_models": 2477,
+  "updated_at": "2026-02-06T02:39:35.517236",
+  "total_models": 2488,
   "models": [
     {
       "vendor": "unknown",
@@ -1829,6 +1829,131 @@
     },
     {
       "vendor": "unknown",
+      "model": "anthropic.claude-opus-4-6-v1:0",
+      "full_name": "anthropic.claude-opus-4-6-v1:0",
+      "raw": {
+        "input_cost_per_token": 5e-06,
+        "output_cost_per_token": 2.5e-05,
+        "litellm_provider": "bedrock_converse",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 5.0,
+        "output_price_per_million": 25.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "global.anthropic.claude-opus-4-6-v1:0",
+      "full_name": "global.anthropic.claude-opus-4-6-v1:0",
+      "raw": {
+        "input_cost_per_token": 5e-06,
+        "output_cost_per_token": 2.5e-05,
+        "litellm_provider": "bedrock_converse",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 5.0,
+        "output_price_per_million": 25.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "us.anthropic.claude-opus-4-6-v1:0",
+      "full_name": "us.anthropic.claude-opus-4-6-v1:0",
+      "raw": {
+        "input_cost_per_token": 5.5e-06,
+        "output_cost_per_token": 2.75e-05,
+        "litellm_provider": "bedrock_converse",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 5.5,
+        "output_price_per_million": 27.5,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "eu.anthropic.claude-opus-4-6-v1:0",
+      "full_name": "eu.anthropic.claude-opus-4-6-v1:0",
+      "raw": {
+        "input_cost_per_token": 5.5e-06,
+        "output_cost_per_token": 2.75e-05,
+        "litellm_provider": "bedrock_converse",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 5.5,
+        "output_price_per_million": 27.5,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "apac.anthropic.claude-opus-4-6-v1:0",
+      "full_name": "apac.anthropic.claude-opus-4-6-v1:0",
+      "raw": {
+        "input_cost_per_token": 5.5e-06,
+        "output_cost_per_token": 2.75e-05,
+        "litellm_provider": "bedrock_converse",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 5.5,
+        "output_price_per_million": 27.5,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "unknown",
       "model": "anthropic.claude-sonnet-4-20250514-v1:0",
       "full_name": "anthropic.claude-sonnet-4-20250514-v1:0",
       "raw": {
@@ -2650,6 +2775,31 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 64000
+      }
+    },
+    {
+      "vendor": "azure_ai",
+      "model": "claude-opus-4-6",
+      "full_name": "azure_ai/claude-opus-4-6",
+      "raw": {
+        "input_cost_per_token": 5e-06,
+        "output_cost_per_token": 2.5e-05,
+        "litellm_provider": "azure_ai",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 5.0,
+        "output_price_per_million": 25.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
       }
     },
     {
@@ -11900,6 +12050,56 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 64000
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "claude-opus-4-6",
+      "full_name": "claude-opus-4-6",
+      "raw": {
+        "input_cost_per_token": 5e-06,
+        "output_cost_per_token": 2.5e-05,
+        "litellm_provider": "anthropic",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 5.0,
+        "output_price_per_million": 25.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "claude-opus-4-6-20260205",
+      "full_name": "claude-opus-4-6-20260205",
+      "raw": {
+        "input_cost_per_token": 5e-06,
+        "output_cost_per_token": 2.5e-05,
+        "litellm_provider": "anthropic",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 5.0,
+        "output_price_per_million": 25.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
       }
     },
     {
@@ -37954,6 +38154,56 @@
     },
     {
       "vendor": "openrouter",
+      "model": "qwen/qwen3-235b-a22b-2507",
+      "full_name": "openrouter/qwen/qwen3-235b-a22b-2507",
+      "raw": {
+        "input_cost_per_token": 7.1e-08,
+        "output_cost_per_token": 1e-07,
+        "litellm_provider": "openrouter",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "max_tokens": 262144,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.071,
+        "output_price_per_million": 0.09999999999999999,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 262144
+      }
+    },
+    {
+      "vendor": "openrouter",
+      "model": "qwen/qwen3-235b-a22b-thinking-2507",
+      "full_name": "openrouter/qwen/qwen3-235b-a22b-thinking-2507",
+      "raw": {
+        "input_cost_per_token": 1.1e-07,
+        "output_cost_per_token": 6e-07,
+        "litellm_provider": "openrouter",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "max_tokens": 262144,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.11,
+        "output_price_per_million": 0.6,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 262144
+      }
+    },
+    {
+      "vendor": "openrouter",
       "model": "switchpoint/router",
       "full_name": "openrouter/switchpoint/router",
       "raw": {
@@ -48925,6 +49175,31 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 64000
+      }
+    },
+    {
+      "vendor": "vertex_ai",
+      "model": "claude-opus-4-6",
+      "full_name": "vertex_ai/claude-opus-4-6",
+      "raw": {
+        "input_cost_per_token": 5e-06,
+        "output_cost_per_token": 2.5e-05,
+        "litellm_provider": "vertex_ai-anthropic_models",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 5.0,
+        "output_price_per_million": 25.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
       }
     },
     {
