@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-02-08T03:18:02.665558",
-  "total_models": 2494,
+  "updated_at": "2026-02-09T02:47:06.949050",
+  "total_models": 2492,
   "models": [
     {
       "vendor": "unknown",
@@ -1879,31 +1879,6 @@
     },
     {
       "vendor": "unknown",
-      "model": "us.anthropic.claude-opus-4-6-v1:0",
-      "full_name": "us.anthropic.claude-opus-4-6-v1:0",
-      "raw": {
-        "input_cost_per_token": 5.5e-06,
-        "output_cost_per_token": 2.75e-05,
-        "litellm_provider": "bedrock_converse",
-        "max_input_tokens": 1000000,
-        "max_output_tokens": 128000,
-        "max_tokens": 128000,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": true,
-        "supports_response_schema": true,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 5.5,
-        "output_price_per_million": 27.5,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 128000
-      }
-    },
-    {
-      "vendor": "unknown",
       "model": "us.anthropic.claude-opus-4-6-v1",
       "full_name": "us.anthropic.claude-opus-4-6-v1",
       "raw": {
@@ -1961,31 +1936,6 @@
         "output_cost_per_token": 2.75e-05,
         "litellm_provider": "bedrock_converse",
         "max_input_tokens": 1000000,
-        "max_output_tokens": 128000,
-        "max_tokens": 128000,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": true,
-        "supports_response_schema": true,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 5.5,
-        "output_price_per_million": 27.5,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 128000
-      }
-    },
-    {
-      "vendor": "unknown",
-      "model": "au.anthropic.claude-opus-4-6-v1:0",
-      "full_name": "au.anthropic.claude-opus-4-6-v1:0",
-      "raw": {
-        "input_cost_per_token": 5.5e-06,
-        "output_cost_per_token": 2.75e-05,
-        "litellm_provider": "bedrock_converse",
-        "max_input_tokens": 200000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
         "mode": "chat",
