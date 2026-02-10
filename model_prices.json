@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-02-09T02:47:06.949050",
-  "total_models": 2492,
+  "updated_at": "2026-02-10T02:55:38.040836",
+  "total_models": 2505,
   "models": [
     {
       "vendor": "unknown",
@@ -12078,6 +12078,31 @@
       }
     },
     {
+      "vendor": "fast",
+      "model": "claude-opus-4-6",
+      "full_name": "fast/claude-opus-4-6",
+      "raw": {
+        "input_cost_per_token": 3e-05,
+        "output_cost_per_token": 0.00015,
+        "litellm_provider": "anthropic",
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 30.0,
+        "output_price_per_million": 150.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
       "vendor": "us",
       "model": "claude-opus-4-6",
       "full_name": "us/claude-opus-4-6",
@@ -12103,6 +12128,31 @@
       }
     },
     {
+      "vendor": "fast",
+      "model": "us/claude-opus-4-6",
+      "full_name": "fast/us/claude-opus-4-6",
+      "raw": {
+        "input_cost_per_token": 3e-05,
+        "output_cost_per_token": 0.00015,
+        "litellm_provider": "anthropic",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 30.0,
+        "output_price_per_million": 150.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
       "vendor": "unknown",
       "model": "claude-opus-4-6-20260205",
       "full_name": "claude-opus-4-6-20260205",
@@ -12122,6 +12172,31 @@
       "processed": {
         "input_price_per_million": 5.0,
         "output_price_per_million": 25.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "fast",
+      "model": "claude-opus-4-6-20260205",
+      "full_name": "fast/claude-opus-4-6-20260205",
+      "raw": {
+        "input_cost_per_token": 3e-05,
+        "output_cost_per_token": 0.00015,
+        "litellm_provider": "anthropic",
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 30.0,
+        "output_price_per_million": 150.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 128000
@@ -46904,6 +46979,256 @@
     },
     {
       "vendor": "vercel_ai_gateway",
+      "model": "anthropic/claude-3-5-sonnet",
+      "full_name": "vercel_ai_gateway/anthropic/claude-3-5-sonnet",
+      "raw": {
+        "input_cost_per_token": 3e-06,
+        "output_cost_per_token": 1.5e-05,
+        "litellm_provider": "vercel_ai_gateway",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 3.0,
+        "output_price_per_million": 15.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "vercel_ai_gateway",
+      "model": "anthropic/claude-3-5-sonnet-20241022",
+      "full_name": "vercel_ai_gateway/anthropic/claude-3-5-sonnet-20241022",
+      "raw": {
+        "input_cost_per_token": 3e-06,
+        "output_cost_per_token": 1.5e-05,
+        "litellm_provider": "vercel_ai_gateway",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 3.0,
+        "output_price_per_million": 15.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "vercel_ai_gateway",
+      "model": "anthropic/claude-3-7-sonnet",
+      "full_name": "vercel_ai_gateway/anthropic/claude-3-7-sonnet",
+      "raw": {
+        "input_cost_per_token": 3e-06,
+        "output_cost_per_token": 1.5e-05,
+        "litellm_provider": "vercel_ai_gateway",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 64000,
+        "max_tokens": 64000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 3.0,
+        "output_price_per_million": 15.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 64000
+      }
+    },
+    {
+      "vendor": "vercel_ai_gateway",
+      "model": "anthropic/claude-haiku-4.5",
+      "full_name": "vercel_ai_gateway/anthropic/claude-haiku-4.5",
+      "raw": {
+        "input_cost_per_token": 1e-06,
+        "output_cost_per_token": 5e-06,
+        "litellm_provider": "vercel_ai_gateway",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 64000,
+        "max_tokens": 64000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1.0,
+        "output_price_per_million": 5.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 64000
+      }
+    },
+    {
+      "vendor": "vercel_ai_gateway",
+      "model": "anthropic/claude-opus-4",
+      "full_name": "vercel_ai_gateway/anthropic/claude-opus-4",
+      "raw": {
+        "input_cost_per_token": 1.5e-05,
+        "output_cost_per_token": 7.5e-05,
+        "litellm_provider": "vercel_ai_gateway",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 32000,
+        "max_tokens": 32000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 15.0,
+        "output_price_per_million": 75.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32000
+      }
+    },
+    {
+      "vendor": "vercel_ai_gateway",
+      "model": "anthropic/claude-opus-4.1",
+      "full_name": "vercel_ai_gateway/anthropic/claude-opus-4.1",
+      "raw": {
+        "input_cost_per_token": 1.5e-05,
+        "output_cost_per_token": 7.5e-05,
+        "litellm_provider": "vercel_ai_gateway",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 32000,
+        "max_tokens": 32000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 15.0,
+        "output_price_per_million": 75.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32000
+      }
+    },
+    {
+      "vendor": "vercel_ai_gateway",
+      "model": "anthropic/claude-opus-4.5",
+      "full_name": "vercel_ai_gateway/anthropic/claude-opus-4.5",
+      "raw": {
+        "input_cost_per_token": 5e-06,
+        "output_cost_per_token": 2.5e-05,
+        "litellm_provider": "vercel_ai_gateway",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 64000,
+        "max_tokens": 64000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 5.0,
+        "output_price_per_million": 25.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 64000
+      }
+    },
+    {
+      "vendor": "vercel_ai_gateway",
+      "model": "anthropic/claude-opus-4.6",
+      "full_name": "vercel_ai_gateway/anthropic/claude-opus-4.6",
+      "raw": {
+        "input_cost_per_token": 5e-06,
+        "output_cost_per_token": 2.5e-05,
+        "litellm_provider": "vercel_ai_gateway",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 64000,
+        "max_tokens": 64000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 5.0,
+        "output_price_per_million": 25.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 64000
+      }
+    },
+    {
+      "vendor": "vercel_ai_gateway",
+      "model": "anthropic/claude-sonnet-4",
+      "full_name": "vercel_ai_gateway/anthropic/claude-sonnet-4",
+      "raw": {
+        "input_cost_per_token": 3e-06,
+        "output_cost_per_token": 1.5e-05,
+        "litellm_provider": "vercel_ai_gateway",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 64000,
+        "max_tokens": 64000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 3.0,
+        "output_price_per_million": 15.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 64000
+      }
+    },
+    {
+      "vendor": "vercel_ai_gateway",
+      "model": "anthropic/claude-sonnet-4.5",
+      "full_name": "vercel_ai_gateway/anthropic/claude-sonnet-4.5",
+      "raw": {
+        "input_cost_per_token": 3e-06,
+        "output_cost_per_token": 1.5e-05,
+        "litellm_provider": "vercel_ai_gateway",
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 64000,
+        "max_tokens": 64000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 3.0,
+        "output_price_per_million": 15.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 64000
+      }
+    },
+    {
+      "vendor": "vercel_ai_gateway",
       "model": "cohere/command-a",
       "full_name": "vercel_ai_gateway/cohere/command-a",
       "raw": {
@@ -46916,7 +47241,7 @@
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
-        "supports_response_schema": null,
+        "supports_response_schema": true,
         "supports_tool_choice": true
       },
       "processed": {
