@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-02-13T02:49:39.138036",
-  "total_models": 2528,
+  "updated_at": "2026-02-14T02:36:32.498752",
+  "total_models": 2566,
   "models": [
     {
       "vendor": "unknown",
@@ -9279,6 +9279,56 @@
     },
     {
       "vendor": "bedrock",
+      "model": "ap-northeast-1/deepseek.v3.2",
+      "full_name": "bedrock/ap-northeast-1/deepseek.v3.2",
+      "raw": {
+        "input_cost_per_token": 7.4e-07,
+        "output_cost_per_token": 2.22e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "max_tokens": 163840,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.74,
+        "output_price_per_million": 2.2199999999999998,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 163840
+      }
+    },
+    {
+      "vendor": "bedrock",
+      "model": "ap-northeast-1/minimax.minimax-m2.1",
+      "full_name": "bedrock/ap-northeast-1/minimax.minimax-m2.1",
+      "raw": {
+        "input_cost_per_token": 3.6e-07,
+        "output_cost_per_token": 1.44e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 196000,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.36,
+        "output_price_per_million": 1.44,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "bedrock",
       "model": "ap-northeast-1/moonshotai.kimi-k2-thinking",
       "full_name": "bedrock/ap-northeast-1/moonshotai.kimi-k2-thinking",
       "raw": {
@@ -9300,6 +9350,56 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 262144
+      }
+    },
+    {
+      "vendor": "bedrock",
+      "model": "ap-northeast-1/moonshotai.kimi-k2.5",
+      "full_name": "bedrock/ap-northeast-1/moonshotai.kimi-k2.5",
+      "raw": {
+        "input_cost_per_token": 7.2e-07,
+        "output_cost_per_token": 3.6e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "max_tokens": 262144,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.72,
+        "output_price_per_million": 3.5999999999999996,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 262144
+      }
+    },
+    {
+      "vendor": "bedrock",
+      "model": "ap-northeast-1/qwen.qwen3-coder-next",
+      "full_name": "bedrock/ap-northeast-1/qwen.qwen3-coder-next",
+      "raw": {
+        "input_cost_per_token": 6e-07,
+        "output_cost_per_token": 1.44e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.6,
+        "output_price_per_million": 1.44,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
       }
     },
     {
@@ -9332,7 +9432,7 @@
       "model": "moonshotai.kimi-k2.5",
       "full_name": "bedrock/moonshotai.kimi-k2.5",
       "raw": {
-        "input_cost_per_token": 7.3e-07,
+        "input_cost_per_token": 6e-07,
         "output_cost_per_token": 3.03e-06,
         "litellm_provider": "bedrock",
         "max_input_tokens": 262144,
@@ -9345,7 +9445,7 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 0.73,
+        "input_price_per_million": 0.6,
         "output_price_per_million": 3.03,
         "currency": "USD",
         "unit": "per_1M_tokens",
@@ -9404,6 +9504,56 @@
     },
     {
       "vendor": "bedrock",
+      "model": "ap-south-1/deepseek.v3.2",
+      "full_name": "bedrock/ap-south-1/deepseek.v3.2",
+      "raw": {
+        "input_cost_per_token": 7.4e-07,
+        "output_cost_per_token": 2.22e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "max_tokens": 163840,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.74,
+        "output_price_per_million": 2.2199999999999998,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 163840
+      }
+    },
+    {
+      "vendor": "bedrock",
+      "model": "ap-south-1/minimax.minimax-m2.1",
+      "full_name": "bedrock/ap-south-1/minimax.minimax-m2.1",
+      "raw": {
+        "input_cost_per_token": 3.6e-07,
+        "output_cost_per_token": 1.44e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 196000,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.36,
+        "output_price_per_million": 1.44,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "bedrock",
       "model": "ap-south-1/moonshotai.kimi-k2-thinking",
       "full_name": "bedrock/ap-south-1/moonshotai.kimi-k2-thinking",
       "raw": {
@@ -9425,6 +9575,156 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 262144
+      }
+    },
+    {
+      "vendor": "bedrock",
+      "model": "ap-south-1/moonshotai.kimi-k2.5",
+      "full_name": "bedrock/ap-south-1/moonshotai.kimi-k2.5",
+      "raw": {
+        "input_cost_per_token": 7.2e-07,
+        "output_cost_per_token": 3.6e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "max_tokens": 262144,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.72,
+        "output_price_per_million": 3.5999999999999996,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 262144
+      }
+    },
+    {
+      "vendor": "bedrock",
+      "model": "ap-south-1/qwen.qwen3-coder-next",
+      "full_name": "bedrock/ap-south-1/qwen.qwen3-coder-next",
+      "raw": {
+        "input_cost_per_token": 6e-07,
+        "output_cost_per_token": 1.44e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.6,
+        "output_price_per_million": 1.44,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "bedrock",
+      "model": "ap-southeast-3/deepseek.v3.2",
+      "full_name": "bedrock/ap-southeast-3/deepseek.v3.2",
+      "raw": {
+        "input_cost_per_token": 7.4e-07,
+        "output_cost_per_token": 2.22e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "max_tokens": 163840,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.74,
+        "output_price_per_million": 2.2199999999999998,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 163840
+      }
+    },
+    {
+      "vendor": "bedrock",
+      "model": "ap-southeast-3/minimax.minimax-m2.1",
+      "full_name": "bedrock/ap-southeast-3/minimax.minimax-m2.1",
+      "raw": {
+        "input_cost_per_token": 3.6e-07,
+        "output_cost_per_token": 1.44e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 196000,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.36,
+        "output_price_per_million": 1.44,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "bedrock",
+      "model": "ap-southeast-3/moonshotai.kimi-k2.5",
+      "full_name": "bedrock/ap-southeast-3/moonshotai.kimi-k2.5",
+      "raw": {
+        "input_cost_per_token": 7.2e-07,
+        "output_cost_per_token": 3.6e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "max_tokens": 262144,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.72,
+        "output_price_per_million": 3.5999999999999996,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 262144
+      }
+    },
+    {
+      "vendor": "bedrock",
+      "model": "ap-southeast-3/qwen.qwen3-coder-next",
+      "full_name": "bedrock/ap-southeast-3/qwen.qwen3-coder-next",
+      "raw": {
+        "input_cost_per_token": 6e-07,
+        "output_cost_per_token": 1.44e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.6,
+        "output_price_per_million": 1.44,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
       }
     },
     {
@@ -9475,6 +9775,81 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 8192
+      }
+    },
+    {
+      "vendor": "bedrock",
+      "model": "eu-north-1/deepseek.v3.2",
+      "full_name": "bedrock/eu-north-1/deepseek.v3.2",
+      "raw": {
+        "input_cost_per_token": 7.4e-07,
+        "output_cost_per_token": 2.22e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "max_tokens": 163840,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.74,
+        "output_price_per_million": 2.2199999999999998,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 163840
+      }
+    },
+    {
+      "vendor": "bedrock",
+      "model": "eu-north-1/minimax.minimax-m2.1",
+      "full_name": "bedrock/eu-north-1/minimax.minimax-m2.1",
+      "raw": {
+        "input_cost_per_token": 3.6e-07,
+        "output_cost_per_token": 1.44e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 196000,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.36,
+        "output_price_per_million": 1.44,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "bedrock",
+      "model": "eu-north-1/moonshotai.kimi-k2.5",
+      "full_name": "bedrock/eu-north-1/moonshotai.kimi-k2.5",
+      "raw": {
+        "input_cost_per_token": 7.2e-07,
+        "output_cost_per_token": 3.6e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "max_tokens": 262144,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.72,
+        "output_price_per_million": 3.5999999999999996,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 262144
       }
     },
     {
@@ -9704,6 +10079,56 @@
     },
     {
       "vendor": "bedrock",
+      "model": "eu-central-1/minimax.minimax-m2.1",
+      "full_name": "bedrock/eu-central-1/minimax.minimax-m2.1",
+      "raw": {
+        "input_cost_per_token": 3.6e-07,
+        "output_cost_per_token": 1.44e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 196000,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.36,
+        "output_price_per_million": 1.44,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "bedrock",
+      "model": "eu-central-1/qwen.qwen3-coder-next",
+      "full_name": "bedrock/eu-central-1/qwen.qwen3-coder-next",
+      "raw": {
+        "input_cost_per_token": 6e-07,
+        "output_cost_per_token": 1.44e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.6,
+        "output_price_per_million": 1.44,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "bedrock",
       "model": "eu-west-1/meta.llama3-70b-instruct-v1:0",
       "full_name": "bedrock/eu-west-1/meta.llama3-70b-instruct-v1:0",
       "raw": {
@@ -9754,6 +10179,56 @@
     },
     {
       "vendor": "bedrock",
+      "model": "eu-west-1/minimax.minimax-m2.1",
+      "full_name": "bedrock/eu-west-1/minimax.minimax-m2.1",
+      "raw": {
+        "input_cost_per_token": 3.6e-07,
+        "output_cost_per_token": 1.44e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 196000,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.36,
+        "output_price_per_million": 1.44,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "bedrock",
+      "model": "eu-west-1/qwen.qwen3-coder-next",
+      "full_name": "bedrock/eu-west-1/qwen.qwen3-coder-next",
+      "raw": {
+        "input_cost_per_token": 6e-07,
+        "output_cost_per_token": 1.44e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.6,
+        "output_price_per_million": 1.44,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "bedrock",
       "model": "eu-west-2/meta.llama3-70b-instruct-v1:0",
       "full_name": "bedrock/eu-west-2/meta.llama3-70b-instruct-v1:0",
       "raw": {
@@ -9797,6 +10272,56 @@
       "processed": {
         "input_price_per_million": 0.39,
         "output_price_per_million": 0.78,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "bedrock",
+      "model": "eu-west-2/minimax.minimax-m2.1",
+      "full_name": "bedrock/eu-west-2/minimax.minimax-m2.1",
+      "raw": {
+        "input_cost_per_token": 4.7e-07,
+        "output_cost_per_token": 1.86e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 196000,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.47,
+        "output_price_per_million": 1.8599999999999999,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "bedrock",
+      "model": "eu-west-2/qwen.qwen3-coder-next",
+      "full_name": "bedrock/eu-west-2/qwen.qwen3-coder-next",
+      "raw": {
+        "input_cost_per_token": 7.8e-07,
+        "output_cost_per_token": 1.86e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.78,
+        "output_price_per_million": 1.8599999999999999,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 8192
@@ -9879,6 +10404,56 @@
     },
     {
       "vendor": "bedrock",
+      "model": "eu-south-1/minimax.minimax-m2.1",
+      "full_name": "bedrock/eu-south-1/minimax.minimax-m2.1",
+      "raw": {
+        "input_cost_per_token": 3.6e-07,
+        "output_cost_per_token": 1.44e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 196000,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.36,
+        "output_price_per_million": 1.44,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "bedrock",
+      "model": "eu-south-1/qwen.qwen3-coder-next",
+      "full_name": "bedrock/eu-south-1/qwen.qwen3-coder-next",
+      "raw": {
+        "input_cost_per_token": 6e-07,
+        "output_cost_per_token": 1.44e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.6,
+        "output_price_per_million": 1.44,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "bedrock",
       "model": "invoke/anthropic.claude-3-5-sonnet-20240620-v1:0",
       "full_name": "bedrock/invoke/anthropic.claude-3-5-sonnet-20240620-v1:0",
       "raw": {
@@ -9954,6 +10529,56 @@
     },
     {
       "vendor": "bedrock",
+      "model": "sa-east-1/deepseek.v3.2",
+      "full_name": "bedrock/sa-east-1/deepseek.v3.2",
+      "raw": {
+        "input_cost_per_token": 7.4e-07,
+        "output_cost_per_token": 2.22e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "max_tokens": 163840,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.74,
+        "output_price_per_million": 2.2199999999999998,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 163840
+      }
+    },
+    {
+      "vendor": "bedrock",
+      "model": "sa-east-1/minimax.minimax-m2.1",
+      "full_name": "bedrock/sa-east-1/minimax.minimax-m2.1",
+      "raw": {
+        "input_cost_per_token": 3.6e-07,
+        "output_cost_per_token": 1.44e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 196000,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.36,
+        "output_price_per_million": 1.44,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "bedrock",
       "model": "sa-east-1/moonshotai.kimi-k2-thinking",
       "full_name": "bedrock/sa-east-1/moonshotai.kimi-k2-thinking",
       "raw": {
@@ -9975,6 +10600,56 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 262144
+      }
+    },
+    {
+      "vendor": "bedrock",
+      "model": "sa-east-1/moonshotai.kimi-k2.5",
+      "full_name": "bedrock/sa-east-1/moonshotai.kimi-k2.5",
+      "raw": {
+        "input_cost_per_token": 7.2e-07,
+        "output_cost_per_token": 3.6e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "max_tokens": 262144,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.72,
+        "output_price_per_million": 3.5999999999999996,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 262144
+      }
+    },
+    {
+      "vendor": "bedrock",
+      "model": "sa-east-1/qwen.qwen3-coder-next",
+      "full_name": "bedrock/sa-east-1/qwen.qwen3-coder-next",
+      "raw": {
+        "input_cost_per_token": 6e-07,
+        "output_cost_per_token": 1.44e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.6,
+        "output_price_per_million": 1.44,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
       }
     },
     {
@@ -10329,6 +11004,56 @@
     },
     {
       "vendor": "bedrock",
+      "model": "us-east-1/deepseek.v3.2",
+      "full_name": "bedrock/us-east-1/deepseek.v3.2",
+      "raw": {
+        "input_cost_per_token": 6.2e-07,
+        "output_cost_per_token": 1.85e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "max_tokens": 163840,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.62,
+        "output_price_per_million": 1.85,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 163840
+      }
+    },
+    {
+      "vendor": "bedrock",
+      "model": "us-east-1/minimax.minimax-m2.1",
+      "full_name": "bedrock/us-east-1/minimax.minimax-m2.1",
+      "raw": {
+        "input_cost_per_token": 3e-07,
+        "output_cost_per_token": 1.2e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 196000,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.3,
+        "output_price_per_million": 1.2,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "bedrock",
       "model": "us-east-1/moonshotai.kimi-k2-thinking",
       "full_name": "bedrock/us-east-1/moonshotai.kimi-k2-thinking",
       "raw": {
@@ -10354,6 +11079,106 @@
     },
     {
       "vendor": "bedrock",
+      "model": "us-east-1/moonshotai.kimi-k2.5",
+      "full_name": "bedrock/us-east-1/moonshotai.kimi-k2.5",
+      "raw": {
+        "input_cost_per_token": 6e-07,
+        "output_cost_per_token": 3e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "max_tokens": 262144,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.6,
+        "output_price_per_million": 3.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 262144
+      }
+    },
+    {
+      "vendor": "bedrock",
+      "model": "us-east-1/qwen.qwen3-coder-next",
+      "full_name": "bedrock/us-east-1/qwen.qwen3-coder-next",
+      "raw": {
+        "input_cost_per_token": 5e-07,
+        "output_cost_per_token": 1.2e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.5,
+        "output_price_per_million": 1.2,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "bedrock",
+      "model": "us-east-2/deepseek.v3.2",
+      "full_name": "bedrock/us-east-2/deepseek.v3.2",
+      "raw": {
+        "input_cost_per_token": 6.2e-07,
+        "output_cost_per_token": 1.85e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "max_tokens": 163840,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.62,
+        "output_price_per_million": 1.85,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 163840
+      }
+    },
+    {
+      "vendor": "bedrock",
+      "model": "us-east-2/minimax.minimax-m2.1",
+      "full_name": "bedrock/us-east-2/minimax.minimax-m2.1",
+      "raw": {
+        "input_cost_per_token": 3e-07,
+        "output_cost_per_token": 1.2e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 196000,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.3,
+        "output_price_per_million": 1.2,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "bedrock",
       "model": "us-east-2/moonshotai.kimi-k2-thinking",
       "full_name": "bedrock/us-east-2/moonshotai.kimi-k2-thinking",
       "raw": {
@@ -10375,6 +11200,56 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 262144
+      }
+    },
+    {
+      "vendor": "bedrock",
+      "model": "us-east-2/moonshotai.kimi-k2.5",
+      "full_name": "bedrock/us-east-2/moonshotai.kimi-k2.5",
+      "raw": {
+        "input_cost_per_token": 6e-07,
+        "output_cost_per_token": 3e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "max_tokens": 262144,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.6,
+        "output_price_per_million": 3.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 262144
+      }
+    },
+    {
+      "vendor": "bedrock",
+      "model": "us-east-2/qwen.qwen3-coder-next",
+      "full_name": "bedrock/us-east-2/qwen.qwen3-coder-next",
+      "raw": {
+        "input_cost_per_token": 5e-07,
+        "output_cost_per_token": 1.2e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.5,
+        "output_price_per_million": 1.2,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
       }
     },
     {
@@ -11304,6 +12179,56 @@
     },
     {
       "vendor": "bedrock",
+      "model": "us-west-2/deepseek.v3.2",
+      "full_name": "bedrock/us-west-2/deepseek.v3.2",
+      "raw": {
+        "input_cost_per_token": 6.2e-07,
+        "output_cost_per_token": 1.85e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "max_tokens": 163840,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.62,
+        "output_price_per_million": 1.85,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 163840
+      }
+    },
+    {
+      "vendor": "bedrock",
+      "model": "us-west-2/minimax.minimax-m2.1",
+      "full_name": "bedrock/us-west-2/minimax.minimax-m2.1",
+      "raw": {
+        "input_cost_per_token": 3e-07,
+        "output_cost_per_token": 1.2e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 196000,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.3,
+        "output_price_per_million": 1.2,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "bedrock",
       "model": "us-west-2/moonshotai.kimi-k2-thinking",
       "full_name": "bedrock/us-west-2/moonshotai.kimi-k2-thinking",
       "raw": {
@@ -11325,6 +12250,56 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 262144
+      }
+    },
+    {
+      "vendor": "bedrock",
+      "model": "us-west-2/moonshotai.kimi-k2.5",
+      "full_name": "bedrock/us-west-2/moonshotai.kimi-k2.5",
+      "raw": {
+        "input_cost_per_token": 6e-07,
+        "output_cost_per_token": 3e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "max_tokens": 262144,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.6,
+        "output_price_per_million": 3.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 262144
+      }
+    },
+    {
+      "vendor": "bedrock",
+      "model": "us-west-2/qwen.qwen3-coder-next",
+      "full_name": "bedrock/us-west-2/qwen.qwen3-coder-next",
+      "raw": {
+        "input_cost_per_token": 5e-07,
+        "output_cost_per_token": 1.2e-06,
+        "litellm_provider": "bedrock",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.5,
+        "output_price_per_million": 1.2,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
       }
     },
     {
@@ -17679,6 +18654,31 @@
     },
     {
       "vendor": "unknown",
+      "model": "deepseek.v3.2",
+      "full_name": "deepseek.v3.2",
+      "raw": {
+        "input_cost_per_token": 6.2e-07,
+        "output_cost_per_token": 1.85e-06,
+        "litellm_provider": "bedrock_converse",
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "max_tokens": 163840,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.62,
+        "output_price_per_million": 1.85,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 163840
+      }
+    },
+    {
+      "vendor": "unknown",
       "model": "dolphin",
       "full_name": "dolphin",
       "raw": {
@@ -22957,24 +23957,24 @@
       "model": "gemini-2.5-flash-preview-tts",
       "full_name": "gemini/gemini-2.5-flash-preview-tts",
       "raw": {
-        "input_cost_per_token": 1.5e-07,
-        "output_cost_per_token": 6e-07,
+        "input_cost_per_token": 3e-07,
+        "output_cost_per_token": 2.5e-06,
         "litellm_provider": "gemini",
-        "max_input_tokens": 1048576,
-        "max_output_tokens": 65535,
-        "max_tokens": 65535,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": true,
-        "supports_response_schema": true,
-        "supports_tool_choice": true
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "audio_speech",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 0.15,
-        "output_price_per_million": 0.6,
+        "input_price_per_million": 0.3,
+        "output_price_per_million": 2.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 65535
+        "context_window": "N/A"
       }
     },
     {
@@ -31778,6 +32778,31 @@
       }
     },
     {
+      "vendor": "unknown",
+      "model": "minimax.minimax-m2.1",
+      "full_name": "minimax.minimax-m2.1",
+      "raw": {
+        "input_cost_per_token": 3e-07,
+        "output_cost_per_token": 1.2e-06,
+        "litellm_provider": "bedrock_converse",
+        "max_input_tokens": 196000,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.3,
+        "output_price_per_million": 1.2,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
       "vendor": "minimax",
       "model": "speech-02-hd",
       "full_name": "minimax/speech-02-hd",
@@ -33328,6 +34353,31 @@
       }
     },
     {
+      "vendor": "unknown",
+      "model": "moonshotai.kimi-k2.5",
+      "full_name": "moonshotai.kimi-k2.5",
+      "raw": {
+        "input_cost_per_token": 6e-07,
+        "output_cost_per_token": 3e-06,
+        "litellm_provider": "bedrock_converse",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "max_tokens": 262144,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.6,
+        "output_price_per_million": 3.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 262144
+      }
+    },
+    {
       "vendor": "moonshot",
       "model": "kimi-k2-0711-preview",
       "full_name": "moonshot/kimi-k2-0711-preview",
@@ -34397,6 +35447,31 @@
       "processed": {
         "input_price_per_million": 0.06,
         "output_price_per_million": 0.22999999999999998,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "nvidia.nemotron-nano-3-30b",
+      "full_name": "nvidia.nemotron-nano-3-30b",
+      "raw": {
+        "input_cost_per_token": 6e-08,
+        "output_cost_per_token": 2.4e-07,
+        "litellm_provider": "bedrock_converse",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.06,
+        "output_price_per_million": 0.24,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 8192
@@ -36129,81 +37204,6 @@
     },
     {
       "vendor": "openrouter",
-      "model": "anthropic/claude-2",
-      "full_name": "openrouter/anthropic/claude-2",
-      "raw": {
-        "input_cost_per_token": 1.102e-05,
-        "output_cost_per_token": 3.268e-05,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": null,
-        "max_output_tokens": 8191,
-        "max_tokens": 8191,
-        "mode": "chat",
-        "supports_function_calling": null,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 11.02,
-        "output_price_per_million": 32.68,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 8191
-      }
-    },
-    {
-      "vendor": "openrouter",
-      "model": "anthropic/claude-3-5-haiku",
-      "full_name": "openrouter/anthropic/claude-3-5-haiku",
-      "raw": {
-        "input_cost_per_token": 1e-06,
-        "output_cost_per_token": 5e-06,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "max_tokens": 200000,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 1.0,
-        "output_price_per_million": 5.0,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 200000
-      }
-    },
-    {
-      "vendor": "openrouter",
-      "model": "anthropic/claude-3-5-haiku-20241022",
-      "full_name": "openrouter/anthropic/claude-3-5-haiku-20241022",
-      "raw": {
-        "input_cost_per_token": 1e-06,
-        "output_cost_per_token": 5e-06,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": 200000,
-        "max_output_tokens": 8192,
-        "max_tokens": 8192,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 1.0,
-        "output_price_per_million": 5.0,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 8192
-      }
-    },
-    {
-      "vendor": "openrouter",
       "model": "anthropic/claude-3-haiku",
       "full_name": "openrouter/anthropic/claude-3-haiku",
       "raw": {
@@ -36229,108 +37229,8 @@
     },
     {
       "vendor": "openrouter",
-      "model": "anthropic/claude-3-haiku-20240307",
-      "full_name": "openrouter/anthropic/claude-3-haiku-20240307",
-      "raw": {
-        "input_cost_per_token": 2.5e-07,
-        "output_cost_per_token": 1.25e-06,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": 200000,
-        "max_output_tokens": 4096,
-        "max_tokens": 4096,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0.25,
-        "output_price_per_million": 1.25,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 4096
-      }
-    },
-    {
-      "vendor": "openrouter",
-      "model": "anthropic/claude-3-opus",
-      "full_name": "openrouter/anthropic/claude-3-opus",
-      "raw": {
-        "input_cost_per_token": 1.5e-05,
-        "output_cost_per_token": 7.5e-05,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": 200000,
-        "max_output_tokens": 4096,
-        "max_tokens": 4096,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 15.0,
-        "output_price_per_million": 75.0,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 4096
-      }
-    },
-    {
-      "vendor": "openrouter",
-      "model": "anthropic/claude-3-sonnet",
-      "full_name": "openrouter/anthropic/claude-3-sonnet",
-      "raw": {
-        "input_cost_per_token": 3e-06,
-        "output_cost_per_token": 1.5e-05,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "max_tokens": 200000,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 3.0,
-        "output_price_per_million": 15.0,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 200000
-      }
-    },
-    {
-      "vendor": "openrouter",
       "model": "anthropic/claude-3.5-sonnet",
       "full_name": "openrouter/anthropic/claude-3.5-sonnet",
-      "raw": {
-        "input_cost_per_token": 3e-06,
-        "output_cost_per_token": 1.5e-05,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": 200000,
-        "max_output_tokens": 8192,
-        "max_tokens": 8192,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 3.0,
-        "output_price_per_million": 15.0,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 8192
-      }
-    },
-    {
-      "vendor": "openrouter",
-      "model": "anthropic/claude-3.5-sonnet:beta",
-      "full_name": "openrouter/anthropic/claude-3.5-sonnet:beta",
       "raw": {
         "input_cost_per_token": 3e-06,
         "output_cost_per_token": 1.5e-05,
@@ -36375,56 +37275,6 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 128000
-      }
-    },
-    {
-      "vendor": "openrouter",
-      "model": "anthropic/claude-3.7-sonnet:beta",
-      "full_name": "openrouter/anthropic/claude-3.7-sonnet:beta",
-      "raw": {
-        "input_cost_per_token": 3e-06,
-        "output_cost_per_token": 1.5e-05,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": 200000,
-        "max_output_tokens": 128000,
-        "max_tokens": 128000,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": true,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 3.0,
-        "output_price_per_million": 15.0,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 128000
-      }
-    },
-    {
-      "vendor": "openrouter",
-      "model": "anthropic/claude-instant-v1",
-      "full_name": "openrouter/anthropic/claude-instant-v1",
-      "raw": {
-        "input_cost_per_token": 1.63e-06,
-        "output_cost_per_token": 5.51e-06,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": null,
-        "max_output_tokens": 8191,
-        "max_tokens": 8191,
-        "mode": "chat",
-        "supports_function_calling": null,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 1.6300000000000001,
-        "output_price_per_million": 5.51,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 8191
       }
     },
     {
@@ -36604,81 +37454,6 @@
     },
     {
       "vendor": "openrouter",
-      "model": "cognitivecomputations/dolphin-mixtral-8x7b",
-      "full_name": "openrouter/cognitivecomputations/dolphin-mixtral-8x7b",
-      "raw": {
-        "input_cost_per_token": 5e-07,
-        "output_cost_per_token": 5e-07,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "max_tokens": 32769,
-        "mode": "chat",
-        "supports_function_calling": null,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0.5,
-        "output_price_per_million": 0.5,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 32769
-      }
-    },
-    {
-      "vendor": "openrouter",
-      "model": "cohere/command-r-plus",
-      "full_name": "openrouter/cohere/command-r-plus",
-      "raw": {
-        "input_cost_per_token": 3e-06,
-        "output_cost_per_token": 1.5e-05,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "max_tokens": 128000,
-        "mode": "chat",
-        "supports_function_calling": null,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 3.0,
-        "output_price_per_million": 15.0,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 128000
-      }
-    },
-    {
-      "vendor": "openrouter",
-      "model": "databricks/dbrx-instruct",
-      "full_name": "openrouter/databricks/dbrx-instruct",
-      "raw": {
-        "input_cost_per_token": 6e-07,
-        "output_cost_per_token": 6e-07,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "max_tokens": 32768,
-        "mode": "chat",
-        "supports_function_calling": null,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0.6,
-        "output_price_per_million": 0.6,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 32768
-      }
-    },
-    {
-      "vendor": "openrouter",
       "model": "deepseek/deepseek-chat",
       "full_name": "openrouter/deepseek/deepseek-chat",
       "raw": {
@@ -36804,31 +37579,6 @@
     },
     {
       "vendor": "openrouter",
-      "model": "deepseek/deepseek-coder",
-      "full_name": "openrouter/deepseek/deepseek-coder",
-      "raw": {
-        "input_cost_per_token": 1.4e-07,
-        "output_cost_per_token": 2.8e-07,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": 66000,
-        "max_output_tokens": 4096,
-        "max_tokens": 4096,
-        "mode": "chat",
-        "supports_function_calling": null,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0.14,
-        "output_price_per_million": 0.28,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 4096
-      }
-    },
-    {
-      "vendor": "openrouter",
       "model": "deepseek/deepseek-r1",
       "full_name": "openrouter/deepseek/deepseek-r1",
       "raw": {
@@ -36875,31 +37625,6 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 8192
-      }
-    },
-    {
-      "vendor": "openrouter",
-      "model": "fireworks/firellava-13b",
-      "full_name": "openrouter/fireworks/firellava-13b",
-      "raw": {
-        "input_cost_per_token": 2e-07,
-        "output_cost_per_token": 2e-07,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "max_tokens": 4096,
-        "mode": "chat",
-        "supports_function_calling": null,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0.19999999999999998,
-        "output_price_per_million": 0.19999999999999998,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 4096
       }
     },
     {
@@ -37029,106 +37754,6 @@
     },
     {
       "vendor": "openrouter",
-      "model": "google/gemini-pro-1.5",
-      "full_name": "openrouter/google/gemini-pro-1.5",
-      "raw": {
-        "input_cost_per_token": 2.5e-06,
-        "output_cost_per_token": 7.5e-06,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": 1000000,
-        "max_output_tokens": 8192,
-        "max_tokens": 8192,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 2.5,
-        "output_price_per_million": 7.5,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 8192
-      }
-    },
-    {
-      "vendor": "openrouter",
-      "model": "google/gemini-pro-vision",
-      "full_name": "openrouter/google/gemini-pro-vision",
-      "raw": {
-        "input_cost_per_token": 1.25e-07,
-        "output_cost_per_token": 3.75e-07,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "max_tokens": 45875,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0.125,
-        "output_price_per_million": 0.375,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 45875
-      }
-    },
-    {
-      "vendor": "openrouter",
-      "model": "google/palm-2-chat-bison",
-      "full_name": "openrouter/google/palm-2-chat-bison",
-      "raw": {
-        "input_cost_per_token": 5e-07,
-        "output_cost_per_token": 5e-07,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "max_tokens": 25804,
-        "mode": "chat",
-        "supports_function_calling": null,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0.5,
-        "output_price_per_million": 0.5,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 25804
-      }
-    },
-    {
-      "vendor": "openrouter",
-      "model": "google/palm-2-codechat-bison",
-      "full_name": "openrouter/google/palm-2-codechat-bison",
-      "raw": {
-        "input_cost_per_token": 5e-07,
-        "output_cost_per_token": 5e-07,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "max_tokens": 20070,
-        "mode": "chat",
-        "supports_function_calling": null,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0.5,
-        "output_price_per_million": 0.5,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 20070
-      }
-    },
-    {
-      "vendor": "openrouter",
       "model": "gryphe/mythomax-l2-13b",
       "full_name": "openrouter/gryphe/mythomax-l2-13b",
       "raw": {
@@ -37150,31 +37775,6 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 8192
-      }
-    },
-    {
-      "vendor": "openrouter",
-      "model": "jondurbin/airoboros-l2-70b-2.1",
-      "full_name": "openrouter/jondurbin/airoboros-l2-70b-2.1",
-      "raw": {
-        "input_cost_per_token": 1.3875e-05,
-        "output_cost_per_token": 1.3875e-05,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "max_tokens": 4096,
-        "mode": "chat",
-        "supports_function_calling": null,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 13.875,
-        "output_price_per_million": 13.875,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 4096
       }
     },
     {
@@ -37204,81 +37804,6 @@
     },
     {
       "vendor": "openrouter",
-      "model": "meta-llama/codellama-34b-instruct",
-      "full_name": "openrouter/meta-llama/codellama-34b-instruct",
-      "raw": {
-        "input_cost_per_token": 5e-07,
-        "output_cost_per_token": 5e-07,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "max_tokens": 8192,
-        "mode": "chat",
-        "supports_function_calling": null,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0.5,
-        "output_price_per_million": 0.5,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 8192
-      }
-    },
-    {
-      "vendor": "openrouter",
-      "model": "meta-llama/llama-2-13b-chat",
-      "full_name": "openrouter/meta-llama/llama-2-13b-chat",
-      "raw": {
-        "input_cost_per_token": 2e-07,
-        "output_cost_per_token": 2e-07,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "max_tokens": 4096,
-        "mode": "chat",
-        "supports_function_calling": null,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0.19999999999999998,
-        "output_price_per_million": 0.19999999999999998,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 4096
-      }
-    },
-    {
-      "vendor": "openrouter",
-      "model": "meta-llama/llama-2-70b-chat",
-      "full_name": "openrouter/meta-llama/llama-2-70b-chat",
-      "raw": {
-        "input_cost_per_token": 1.5e-06,
-        "output_cost_per_token": 1.5e-06,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "max_tokens": 4096,
-        "mode": "chat",
-        "supports_function_calling": null,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 1.5,
-        "output_price_per_million": 1.5,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 4096
-      }
-    },
-    {
-      "vendor": "openrouter",
       "model": "meta-llama/llama-3-70b-instruct",
       "full_name": "openrouter/meta-llama/llama-3-70b-instruct",
       "raw": {
@@ -37304,106 +37829,6 @@
     },
     {
       "vendor": "openrouter",
-      "model": "meta-llama/llama-3-70b-instruct:nitro",
-      "full_name": "openrouter/meta-llama/llama-3-70b-instruct:nitro",
-      "raw": {
-        "input_cost_per_token": 9e-07,
-        "output_cost_per_token": 9e-07,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "max_tokens": 8192,
-        "mode": "chat",
-        "supports_function_calling": null,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0.8999999999999999,
-        "output_price_per_million": 0.8999999999999999,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 8192
-      }
-    },
-    {
-      "vendor": "openrouter",
-      "model": "meta-llama/llama-3-8b-instruct:extended",
-      "full_name": "openrouter/meta-llama/llama-3-8b-instruct:extended",
-      "raw": {
-        "input_cost_per_token": 2.25e-07,
-        "output_cost_per_token": 2.25e-06,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "max_tokens": 16384,
-        "mode": "chat",
-        "supports_function_calling": null,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0.22499999999999998,
-        "output_price_per_million": 2.25,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 16384
-      }
-    },
-    {
-      "vendor": "openrouter",
-      "model": "meta-llama/llama-3-8b-instruct:free",
-      "full_name": "openrouter/meta-llama/llama-3-8b-instruct:free",
-      "raw": {
-        "input_cost_per_token": 0.0,
-        "output_cost_per_token": 0.0,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "max_tokens": 8192,
-        "mode": "chat",
-        "supports_function_calling": null,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0,
-        "output_price_per_million": 0,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 8192
-      }
-    },
-    {
-      "vendor": "openrouter",
-      "model": "microsoft/wizardlm-2-8x22b:nitro",
-      "full_name": "openrouter/microsoft/wizardlm-2-8x22b:nitro",
-      "raw": {
-        "input_cost_per_token": 1e-06,
-        "output_cost_per_token": 1e-06,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "max_tokens": 65536,
-        "mode": "chat",
-        "supports_function_calling": null,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 1.0,
-        "output_price_per_million": 1.0,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 65536
-      }
-    },
-    {
-      "vendor": "openrouter",
       "model": "minimax/minimax-m2",
       "full_name": "openrouter/minimax/minimax-m2",
       "raw": {
@@ -37425,31 +37850,6 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 204800
-      }
-    },
-    {
-      "vendor": "openrouter",
-      "model": "mistralai/devstral-2512:free",
-      "full_name": "openrouter/mistralai/devstral-2512:free",
-      "raw": {
-        "input_cost_per_token": 0,
-        "output_cost_per_token": 0,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": 262144,
-        "max_output_tokens": 262144,
-        "max_tokens": 262144,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0,
-        "output_price_per_million": 0,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 262144
       }
     },
     {
@@ -37604,31 +38004,6 @@
     },
     {
       "vendor": "openrouter",
-      "model": "mistralai/mistral-7b-instruct:free",
-      "full_name": "openrouter/mistralai/mistral-7b-instruct:free",
-      "raw": {
-        "input_cost_per_token": 0.0,
-        "output_cost_per_token": 0.0,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "max_tokens": 8192,
-        "mode": "chat",
-        "supports_function_calling": null,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0,
-        "output_price_per_million": 0,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 8192
-      }
-    },
-    {
-      "vendor": "openrouter",
       "model": "mistralai/mistral-large",
       "full_name": "openrouter/mistralai/mistral-large",
       "raw": {
@@ -37754,31 +38129,6 @@
     },
     {
       "vendor": "openrouter",
-      "model": "nousresearch/nous-hermes-llama2-13b",
-      "full_name": "openrouter/nousresearch/nous-hermes-llama2-13b",
-      "raw": {
-        "input_cost_per_token": 2e-07,
-        "output_cost_per_token": 2e-07,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "max_tokens": 4096,
-        "mode": "chat",
-        "supports_function_calling": null,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0.19999999999999998,
-        "output_price_per_million": 0.19999999999999998,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 4096
-      }
-    },
-    {
-      "vendor": "openrouter",
       "model": "openai/gpt-3.5-turbo",
       "full_name": "openrouter/openai/gpt-3.5-turbo",
       "raw": {
@@ -37854,58 +38204,8 @@
     },
     {
       "vendor": "openrouter",
-      "model": "openai/gpt-4-vision-preview",
-      "full_name": "openrouter/openai/gpt-4-vision-preview",
-      "raw": {
-        "input_cost_per_token": 1e-05,
-        "output_cost_per_token": 3e-05,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "max_tokens": 130000,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 10.0,
-        "output_price_per_million": 30.0,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 130000
-      }
-    },
-    {
-      "vendor": "openrouter",
       "model": "openai/gpt-4.1",
       "full_name": "openrouter/openai/gpt-4.1",
-      "raw": {
-        "input_cost_per_token": 2e-06,
-        "output_cost_per_token": 8e-06,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": 1047576,
-        "max_output_tokens": 32768,
-        "max_tokens": 32768,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": null,
-        "supports_response_schema": true,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 2.0,
-        "output_price_per_million": 8.0,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 32768
-      }
-    },
-    {
-      "vendor": "openrouter",
-      "model": "openai/gpt-4.1-2025-04-14",
-      "full_name": "openrouter/openai/gpt-4.1-2025-04-14",
       "raw": {
         "input_cost_per_token": 2e-06,
         "output_cost_per_token": 8e-06,
@@ -37954,58 +38254,8 @@
     },
     {
       "vendor": "openrouter",
-      "model": "openai/gpt-4.1-mini-2025-04-14",
-      "full_name": "openrouter/openai/gpt-4.1-mini-2025-04-14",
-      "raw": {
-        "input_cost_per_token": 4e-07,
-        "output_cost_per_token": 1.6e-06,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": 1047576,
-        "max_output_tokens": 32768,
-        "max_tokens": 32768,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": null,
-        "supports_response_schema": true,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0.39999999999999997,
-        "output_price_per_million": 1.5999999999999999,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 32768
-      }
-    },
-    {
-      "vendor": "openrouter",
       "model": "openai/gpt-4.1-nano",
       "full_name": "openrouter/openai/gpt-4.1-nano",
-      "raw": {
-        "input_cost_per_token": 1e-07,
-        "output_cost_per_token": 4e-07,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": 1047576,
-        "max_output_tokens": 32768,
-        "max_tokens": 32768,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": null,
-        "supports_response_schema": true,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0.09999999999999999,
-        "output_price_per_million": 0.39999999999999997,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 32768
-      }
-    },
-    {
-      "vendor": "openrouter",
-      "model": "openai/gpt-4.1-nano-2025-04-14",
-      "full_name": "openrouter/openai/gpt-4.1-nano-2025-04-14",
       "raw": {
         "input_cost_per_token": 1e-07,
         "output_cost_per_token": 4e-07,
@@ -38138,7 +38388,7 @@
         "max_input_tokens": 272000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
-        "mode": "responses",
+        "mode": "chat",
         "supports_function_calling": null,
         "supports_reasoning": true,
         "supports_response_schema": null,
@@ -38379,106 +38629,6 @@
     },
     {
       "vendor": "openrouter",
-      "model": "openai/o1-mini",
-      "full_name": "openrouter/openai/o1-mini",
-      "raw": {
-        "input_cost_per_token": 3e-06,
-        "output_cost_per_token": 1.2e-05,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": 128000,
-        "max_output_tokens": 65536,
-        "max_tokens": 65536,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 3.0,
-        "output_price_per_million": 12.0,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 65536
-      }
-    },
-    {
-      "vendor": "openrouter",
-      "model": "openai/o1-mini-2024-09-12",
-      "full_name": "openrouter/openai/o1-mini-2024-09-12",
-      "raw": {
-        "input_cost_per_token": 3e-06,
-        "output_cost_per_token": 1.2e-05,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": 128000,
-        "max_output_tokens": 65536,
-        "max_tokens": 65536,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 3.0,
-        "output_price_per_million": 12.0,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 65536
-      }
-    },
-    {
-      "vendor": "openrouter",
-      "model": "openai/o1-preview",
-      "full_name": "openrouter/openai/o1-preview",
-      "raw": {
-        "input_cost_per_token": 1.5e-05,
-        "output_cost_per_token": 6e-05,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": 128000,
-        "max_output_tokens": 32768,
-        "max_tokens": 32768,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 15.0,
-        "output_price_per_million": 60.0,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 32768
-      }
-    },
-    {
-      "vendor": "openrouter",
-      "model": "openai/o1-preview-2024-09-12",
-      "full_name": "openrouter/openai/o1-preview-2024-09-12",
-      "raw": {
-        "input_cost_per_token": 1.5e-05,
-        "output_cost_per_token": 6e-05,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": 128000,
-        "max_output_tokens": 32768,
-        "max_tokens": 32768,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 15.0,
-        "output_price_per_million": 60.0,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 32768
-      }
-    },
-    {
-      "vendor": "openrouter",
       "model": "openai/o3-mini",
       "full_name": "openrouter/openai/o3-mini",
       "raw": {
@@ -38525,31 +38675,6 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 65536
-      }
-    },
-    {
-      "vendor": "openrouter",
-      "model": "pygmalionai/mythalion-13b",
-      "full_name": "openrouter/pygmalionai/mythalion-13b",
-      "raw": {
-        "input_cost_per_token": 1.875e-06,
-        "output_cost_per_token": 1.875e-06,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "max_tokens": 4096,
-        "mode": "chat",
-        "supports_function_calling": null,
-        "supports_reasoning": null,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 1.875,
-        "output_price_per_million": 1.875,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 4096
       }
     },
     {
@@ -38750,31 +38875,6 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 256000
-      }
-    },
-    {
-      "vendor": "openrouter",
-      "model": "x-ai/grok-4-fast:free",
-      "full_name": "openrouter/x-ai/grok-4-fast:free",
-      "raw": {
-        "input_cost_per_token": 0,
-        "output_cost_per_token": 0,
-        "litellm_provider": "openrouter",
-        "max_input_tokens": 2000000,
-        "max_output_tokens": 30000,
-        "max_tokens": 30000,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": true,
-        "supports_response_schema": null,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 0,
-        "output_price_per_million": 0,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 30000
       }
     },
     {
@@ -40747,6 +40847,31 @@
       "processed": {
         "input_price_per_million": 0.53,
         "output_price_per_million": 2.66,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "qwen.qwen3-coder-next",
+      "full_name": "qwen.qwen3-coder-next",
+      "raw": {
+        "input_cost_per_token": 5e-07,
+        "output_cost_per_token": 1.2e-06,
+        "litellm_provider": "bedrock_converse",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.5,
+        "output_price_per_million": 1.2,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 8192
@@ -46775,6 +46900,56 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 4096
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "us.deepseek.v3.2",
+      "full_name": "us.deepseek.v3.2",
+      "raw": {
+        "input_cost_per_token": 6.2e-07,
+        "output_cost_per_token": 1.85e-06,
+        "litellm_provider": "bedrock_converse",
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "max_tokens": 163840,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.62,
+        "output_price_per_million": 1.85,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 163840
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "eu.deepseek.v3.2",
+      "full_name": "eu.deepseek.v3.2",
+      "raw": {
+        "input_cost_per_token": 7.4e-07,
+        "output_cost_per_token": 2.22e-06,
+        "litellm_provider": "bedrock_converse",
+        "max_input_tokens": 163840,
+        "max_output_tokens": 163840,
+        "max_tokens": 163840,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.74,
+        "output_price_per_million": 2.2199999999999998,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 163840
       }
     },
     {
@@ -54428,6 +54603,31 @@
       }
     },
     {
+      "vendor": "unknown",
+      "model": "zai.glm-4.7",
+      "full_name": "zai.glm-4.7",
+      "raw": {
+        "input_cost_per_token": 6e-07,
+        "output_cost_per_token": 2.2e-06,
+        "litellm_provider": "bedrock_converse",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.6,
+        "output_price_per_million": 2.2,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
       "vendor": "zai",
       "model": "glm-4.7",
       "full_name": "zai/glm-4.7",
@@ -54731,6 +54931,31 @@
       "vendor": "openai",
       "model": "sora-2-pro",
       "full_name": "openai/sora-2-pro",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "video_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "openai",
+      "model": "sora-2-pro-high-res",
+      "full_name": "openai/sora-2-pro-high-res",
       "raw": {
         "input_cost_per_token": 0,
         "output_cost_per_token": 0,
@@ -63200,6 +63425,731 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 32000
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "tts-1-1106",
+      "full_name": "tts-1-1106",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "audio_speech",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "tts-1-hd-1106",
+      "full_name": "tts-1-hd-1106",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "audio_speech",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "gpt-4o-mini-tts-2025-03-20",
+      "full_name": "gpt-4o-mini-tts-2025-03-20",
+      "raw": {
+        "input_cost_per_token": 2.5e-06,
+        "output_cost_per_token": 1e-05,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "audio_speech",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 2.5,
+        "output_price_per_million": 10.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "gpt-4o-mini-tts-2025-12-15",
+      "full_name": "gpt-4o-mini-tts-2025-12-15",
+      "raw": {
+        "input_cost_per_token": 2.5e-06,
+        "output_cost_per_token": 1e-05,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "audio_speech",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 2.5,
+        "output_price_per_million": 10.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "gpt-4o-mini-transcribe-2025-03-20",
+      "full_name": "gpt-4o-mini-transcribe-2025-03-20",
+      "raw": {
+        "input_cost_per_token": 1.25e-06,
+        "output_cost_per_token": 5e-06,
+        "litellm_provider": "openai",
+        "max_input_tokens": 16000,
+        "max_output_tokens": 2000,
+        "max_tokens": null,
+        "mode": "audio_transcription",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 1.25,
+        "output_price_per_million": 5.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "gpt-4o-mini-transcribe-2025-12-15",
+      "full_name": "gpt-4o-mini-transcribe-2025-12-15",
+      "raw": {
+        "input_cost_per_token": 1.25e-06,
+        "output_cost_per_token": 5e-06,
+        "litellm_provider": "openai",
+        "max_input_tokens": 16000,
+        "max_output_tokens": 2000,
+        "max_tokens": null,
+        "mode": "audio_transcription",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 1.25,
+        "output_price_per_million": 5.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "gpt-5-search-api",
+      "full_name": "gpt-5-search-api",
+      "raw": {
+        "input_cost_per_token": 1.25e-06,
+        "output_cost_per_token": 1e-05,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1.25,
+        "output_price_per_million": 10.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "gpt-5-search-api-2025-10-14",
+      "full_name": "gpt-5-search-api-2025-10-14",
+      "raw": {
+        "input_cost_per_token": 1.25e-06,
+        "output_cost_per_token": 1e-05,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1.25,
+        "output_price_per_million": 10.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "gpt-realtime-mini-2025-10-06",
+      "full_name": "gpt-realtime-mini-2025-10-06",
+      "raw": {
+        "input_cost_per_token": 6e-07,
+        "output_cost_per_token": 2.4e-06,
+        "litellm_provider": "openai",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 4096,
+        "max_tokens": 4096,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.6,
+        "output_price_per_million": 2.4,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 4096
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "gpt-realtime-mini-2025-12-15",
+      "full_name": "gpt-realtime-mini-2025-12-15",
+      "raw": {
+        "input_cost_per_token": 6e-07,
+        "output_cost_per_token": 2.4e-06,
+        "litellm_provider": "openai",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 4096,
+        "max_tokens": 4096,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.6,
+        "output_price_per_million": 2.4,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 4096
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "sora-2",
+      "full_name": "sora-2",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "video_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "sora-2-pro",
+      "full_name": "sora-2-pro",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "video_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "sora-2-pro-high-res",
+      "full_name": "sora-2-pro-high-res",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "video_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "chatgpt-image-latest",
+      "full_name": "chatgpt-image-latest",
+      "raw": {
+        "input_cost_per_token": 5e-06,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openai",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 5.0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "gemini-2.0-flash-exp-image-generation",
+      "full_name": "gemini-2.0-flash-exp-image-generation",
+      "raw": {
+        "input_cost_per_token": 0.0,
+        "output_cost_per_token": 0.0,
+        "litellm_provider": "gemini",
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "gemini",
+      "model": "gemini-2.0-flash-exp-image-generation",
+      "full_name": "gemini/gemini-2.0-flash-exp-image-generation",
+      "raw": {
+        "input_cost_per_token": 0.0,
+        "output_cost_per_token": 0.0,
+        "litellm_provider": "gemini",
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "gemini",
+      "model": "gemini-2.0-flash-lite-001",
+      "full_name": "gemini/gemini-2.0-flash-lite-001",
+      "raw": {
+        "input_cost_per_token": 7.5e-08,
+        "output_cost_per_token": 3e-07,
+        "litellm_provider": "gemini",
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 8192,
+        "max_tokens": null,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.075,
+        "output_price_per_million": 0.3,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "gemini-2.5-flash-native-audio-latest",
+      "full_name": "gemini-2.5-flash-native-audio-latest",
+      "raw": {
+        "input_cost_per_token": 3e-07,
+        "output_cost_per_token": 2.5e-06,
+        "litellm_provider": "gemini",
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.3,
+        "output_price_per_million": 2.5,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "gemini-2.5-flash-native-audio-preview-09-2025",
+      "full_name": "gemini-2.5-flash-native-audio-preview-09-2025",
+      "raw": {
+        "input_cost_per_token": 3e-07,
+        "output_cost_per_token": 2.5e-06,
+        "litellm_provider": "gemini",
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.3,
+        "output_price_per_million": 2.5,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "gemini-2.5-flash-native-audio-preview-12-2025",
+      "full_name": "gemini-2.5-flash-native-audio-preview-12-2025",
+      "raw": {
+        "input_cost_per_token": 3e-07,
+        "output_cost_per_token": 2.5e-06,
+        "litellm_provider": "gemini",
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.3,
+        "output_price_per_million": 2.5,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "gemini",
+      "model": "gemini-2.5-flash-native-audio-latest",
+      "full_name": "gemini/gemini-2.5-flash-native-audio-latest",
+      "raw": {
+        "input_cost_per_token": 3e-07,
+        "output_cost_per_token": 2.5e-06,
+        "litellm_provider": "gemini",
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.3,
+        "output_price_per_million": 2.5,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "gemini",
+      "model": "gemini-2.5-flash-native-audio-preview-09-2025",
+      "full_name": "gemini/gemini-2.5-flash-native-audio-preview-09-2025",
+      "raw": {
+        "input_cost_per_token": 3e-07,
+        "output_cost_per_token": 2.5e-06,
+        "litellm_provider": "gemini",
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.3,
+        "output_price_per_million": 2.5,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "gemini",
+      "model": "gemini-2.5-flash-native-audio-preview-12-2025",
+      "full_name": "gemini/gemini-2.5-flash-native-audio-preview-12-2025",
+      "raw": {
+        "input_cost_per_token": 3e-07,
+        "output_cost_per_token": 2.5e-06,
+        "litellm_provider": "gemini",
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.3,
+        "output_price_per_million": 2.5,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "gemini-2.5-flash-preview-tts",
+      "full_name": "gemini-2.5-flash-preview-tts",
+      "raw": {
+        "input_cost_per_token": 3e-07,
+        "output_cost_per_token": 2.5e-06,
+        "litellm_provider": "gemini",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "audio_speech",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.3,
+        "output_price_per_million": 2.5,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "gemini-flash-latest",
+      "full_name": "gemini-flash-latest",
+      "raw": {
+        "input_cost_per_token": 3e-07,
+        "output_cost_per_token": 2.5e-06,
+        "litellm_provider": "gemini",
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65535,
+        "max_tokens": 65535,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.3,
+        "output_price_per_million": 2.5,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65535
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "gemini-flash-lite-latest",
+      "full_name": "gemini-flash-lite-latest",
+      "raw": {
+        "input_cost_per_token": 1e-07,
+        "output_cost_per_token": 4e-07,
+        "litellm_provider": "gemini",
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65535,
+        "max_tokens": 65535,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.09999999999999999,
+        "output_price_per_million": 0.39999999999999997,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65535
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "gemini-pro-latest",
+      "full_name": "gemini-pro-latest",
+      "raw": {
+        "input_cost_per_token": 1.25e-06,
+        "output_cost_per_token": 1e-05,
+        "litellm_provider": "gemini",
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65535,
+        "max_tokens": 65535,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1.25,
+        "output_price_per_million": 10.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65535
+      }
+    },
+    {
+      "vendor": "gemini",
+      "model": "gemini-pro-latest",
+      "full_name": "gemini/gemini-pro-latest",
+      "raw": {
+        "input_cost_per_token": 1.25e-06,
+        "output_cost_per_token": 1e-05,
+        "litellm_provider": "gemini",
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65535,
+        "max_tokens": 65535,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1.25,
+        "output_price_per_million": 10.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65535
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "gemini-exp-1206",
+      "full_name": "gemini-exp-1206",
+      "raw": {
+        "input_cost_per_token": 3e-07,
+        "output_cost_per_token": 2.5e-06,
+        "litellm_provider": "gemini",
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65535,
+        "max_tokens": 65535,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.3,
+        "output_price_per_million": 2.5,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65535
       }
     }
   ]
