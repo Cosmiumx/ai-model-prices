@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-14T02:36:32.498752",
+  "updated_at": "2026-02-15T02:50:21.808214",
   "total_models": 2566,
   "models": [
     {
@@ -9442,7 +9442,7 @@
         "supports_function_calling": true,
         "supports_reasoning": true,
         "supports_response_schema": null,
-        "supports_tool_choice": null
+        "supports_tool_choice": true
       },
       "processed": {
         "input_price_per_million": 0.6,
