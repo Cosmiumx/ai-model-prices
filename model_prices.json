@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-02-16T02:45:31.751436",
-  "total_models": 2566,
+  "updated_at": "2026-02-17T02:42:01.504191",
+  "total_models": 2567,
   "models": [
     {
       "vendor": "unknown",
@@ -1929,8 +1929,8 @@
     },
     {
       "vendor": "unknown",
-      "model": "apac.anthropic.claude-opus-4-6-v1",
-      "full_name": "apac.anthropic.claude-opus-4-6-v1",
+      "model": "au.anthropic.claude-opus-4-6-v1",
+      "full_name": "au.anthropic.claude-opus-4-6-v1",
       "raw": {
         "input_cost_per_token": 5.5e-06,
         "output_cost_per_token": 2.75e-05,
@@ -20754,6 +20754,31 @@
     },
     {
       "vendor": "fireworks_ai",
+      "model": "accounts/fireworks/models/kimi-k2p5",
+      "full_name": "fireworks_ai/accounts/fireworks/models/kimi-k2p5",
+      "raw": {
+        "input_cost_per_token": 6e-07,
+        "output_cost_per_token": 3e-06,
+        "litellm_provider": "fireworks_ai",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "max_tokens": 262144,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.6,
+        "output_price_per_million": 3.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 262144
+      }
+    },
+    {
+      "vendor": "fireworks_ai",
       "model": "accounts/fireworks/models/llama-v3p1-405b-instruct",
       "full_name": "fireworks_ai/accounts/fireworks/models/llama-v3p1-405b-instruct",
       "raw": {
@@ -36108,7 +36133,7 @@
       "full_name": "oci/xai.grok-3",
       "raw": {
         "input_cost_per_token": 3e-06,
-        "output_cost_per_token": 1.5e-07,
+        "output_cost_per_token": 1.5e-05,
         "litellm_provider": "oci",
         "max_input_tokens": 131072,
         "max_output_tokens": 131072,
@@ -36121,7 +36146,7 @@
       },
       "processed": {
         "input_price_per_million": 3.0,
-        "output_price_per_million": 0.15,
+        "output_price_per_million": 15.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 131072
@@ -36208,7 +36233,7 @@
       "full_name": "oci/xai.grok-4",
       "raw": {
         "input_cost_per_token": 3e-06,
-        "output_cost_per_token": 1.5e-07,
+        "output_cost_per_token": 1.5e-05,
         "litellm_provider": "oci",
         "max_input_tokens": 128000,
         "max_output_tokens": 128000,
@@ -36221,7 +36246,7 @@
       },
       "processed": {
         "input_price_per_million": 3.0,
-        "output_price_per_million": 0.15,
+        "output_price_per_million": 15.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 128000
