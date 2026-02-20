@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-02-19T02:44:41.453615",
-  "total_models": 2584,
+  "updated_at": "2026-02-20T02:39:06.308117",
+  "total_models": 2590,
   "models": [
     {
       "vendor": "unknown",
@@ -22853,6 +22853,56 @@
       }
     },
     {
+      "vendor": "unknown",
+      "model": "gemini-3.1-pro-preview",
+      "full_name": "gemini-3.1-pro-preview",
+      "raw": {
+        "input_cost_per_token": 2e-06,
+        "output_cost_per_token": 1.2e-05,
+        "litellm_provider": "vertex_ai-language-models",
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "max_tokens": 65536,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 2.0,
+        "output_price_per_million": 12.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65536
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "gemini-3.1-pro-preview-customtools",
+      "full_name": "gemini-3.1-pro-preview-customtools",
+      "raw": {
+        "input_cost_per_token": 2e-06,
+        "output_cost_per_token": 1.2e-05,
+        "litellm_provider": "vertex_ai-language-models",
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "max_tokens": 65536,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 2.0,
+        "output_price_per_million": 12.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65536
+      }
+    },
+    {
       "vendor": "vertex_ai",
       "model": "gemini-3-pro-preview",
       "full_name": "vertex_ai/gemini-3-pro-preview",
@@ -22900,6 +22950,56 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 65535
+      }
+    },
+    {
+      "vendor": "vertex_ai",
+      "model": "gemini-3.1-pro-preview",
+      "full_name": "vertex_ai/gemini-3.1-pro-preview",
+      "raw": {
+        "input_cost_per_token": 2e-06,
+        "output_cost_per_token": 1.2e-05,
+        "litellm_provider": "vertex_ai",
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "max_tokens": 65536,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 2.0,
+        "output_price_per_million": 12.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65536
+      }
+    },
+    {
+      "vendor": "vertex_ai",
+      "model": "gemini-3.1-pro-preview-customtools",
+      "full_name": "vertex_ai/gemini-3.1-pro-preview-customtools",
+      "raw": {
+        "input_cost_per_token": 2e-06,
+        "output_cost_per_token": 1.2e-05,
+        "litellm_provider": "vertex_ai",
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "max_tokens": 65536,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 2.0,
+        "output_price_per_million": 12.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65536
       }
     },
     {
@@ -24300,6 +24400,56 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 65535
+      }
+    },
+    {
+      "vendor": "gemini",
+      "model": "gemini-3.1-pro-preview",
+      "full_name": "gemini/gemini-3.1-pro-preview",
+      "raw": {
+        "input_cost_per_token": 2e-06,
+        "output_cost_per_token": 1.2e-05,
+        "litellm_provider": "gemini",
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "max_tokens": 65536,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 2.0,
+        "output_price_per_million": 12.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65536
+      }
+    },
+    {
+      "vendor": "gemini",
+      "model": "gemini-3.1-pro-preview-customtools",
+      "full_name": "gemini/gemini-3.1-pro-preview-customtools",
+      "raw": {
+        "input_cost_per_token": 2e-06,
+        "output_cost_per_token": 1.2e-05,
+        "litellm_provider": "gemini",
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "max_tokens": 65536,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 2.0,
+        "output_price_per_million": 12.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65536
       }
     },
     {
