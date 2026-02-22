@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-02-21T02:32:32.711528",
-  "total_models": 2595,
+  "updated_at": "2026-02-22T02:45:23.705574",
+  "total_models": 2596,
   "models": [
     {
       "vendor": "unknown",
@@ -39650,6 +39650,31 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 64000
+      }
+    },
+    {
+      "vendor": "openrouter",
+      "model": "minimax/minimax-m2.5",
+      "full_name": "openrouter/minimax/minimax-m2.5",
+      "raw": {
+        "input_cost_per_token": 3e-07,
+        "output_cost_per_token": 1.1e-06,
+        "litellm_provider": "openrouter",
+        "max_input_tokens": 196608,
+        "max_output_tokens": 65536,
+        "max_tokens": 65536,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.3,
+        "output_price_per_million": 1.1,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65536
       }
     },
     {
