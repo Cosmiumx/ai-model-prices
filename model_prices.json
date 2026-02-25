@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-02-24T02:42:58.488619",
-  "total_models": 2590,
+  "updated_at": "2026-02-25T02:43:35.072531",
+  "total_models": 2599,
   "models": [
     {
       "vendor": "unknown",
@@ -29529,6 +29529,31 @@
     },
     {
       "vendor": "unknown",
+      "model": "gpt-5.3-codex",
+      "full_name": "gpt-5.3-codex",
+      "raw": {
+        "input_cost_per_token": 1.75e-06,
+        "output_cost_per_token": 1.4e-05,
+        "litellm_provider": "openai",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1.75,
+        "output_price_per_million": 14.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "unknown",
       "model": "gpt-5-mini",
       "full_name": "gpt-5-mini",
       "raw": {
@@ -30525,6 +30550,31 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 32768
+      }
+    },
+    {
+      "vendor": "groq",
+      "model": "openai/gpt-oss-safeguard-20b",
+      "full_name": "groq/openai/gpt-oss-safeguard-20b",
+      "raw": {
+        "input_cost_per_token": 7.5e-08,
+        "output_cost_per_token": 3e-07,
+        "litellm_provider": "groq",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 65536,
+        "max_tokens": 65536,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.075,
+        "output_price_per_million": 0.3,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65536
       }
     },
     {
@@ -40879,8 +40929,8 @@
     },
     {
       "vendor": "perplexity",
-      "model": "preset/pro-search",
-      "full_name": "perplexity/preset/pro-search",
+      "model": "preset/fast-search",
+      "full_name": "perplexity/preset/fast-search",
       "raw": {
         "input_cost_per_token": 0,
         "output_cost_per_token": 0,
@@ -40889,7 +40939,7 @@
         "max_output_tokens": null,
         "max_tokens": null,
         "mode": "responses",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": null
@@ -40904,8 +40954,8 @@
     },
     {
       "vendor": "perplexity",
-      "model": "openai/gpt-4o",
-      "full_name": "perplexity/openai/gpt-4o",
+      "model": "preset/pro-search",
+      "full_name": "perplexity/preset/pro-search",
       "raw": {
         "input_cost_per_token": 0,
         "output_cost_per_token": 0,
@@ -40914,8 +40964,8 @@
         "max_output_tokens": null,
         "max_tokens": null,
         "mode": "responses",
-        "supports_function_calling": null,
-        "supports_reasoning": false,
+        "supports_function_calling": true,
+        "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": null
       },
@@ -40929,8 +40979,8 @@
     },
     {
       "vendor": "perplexity",
-      "model": "openai/gpt-4o-mini",
-      "full_name": "perplexity/openai/gpt-4o-mini",
+      "model": "preset/deep-research",
+      "full_name": "perplexity/preset/deep-research",
       "raw": {
         "input_cost_per_token": 0,
         "output_cost_per_token": 0,
@@ -40939,8 +40989,33 @@
         "max_output_tokens": null,
         "max_tokens": null,
         "mode": "responses",
-        "supports_function_calling": null,
-        "supports_reasoning": false,
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "perplexity",
+      "model": "preset/advanced-deep-research",
+      "full_name": "perplexity/preset/advanced-deep-research",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "perplexity",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "responses",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": null
       },
@@ -40964,7 +41039,7 @@
         "max_output_tokens": null,
         "max_tokens": null,
         "mode": "responses",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": true,
         "supports_response_schema": null,
         "supports_tool_choice": null
@@ -40979,8 +41054,8 @@
     },
     {
       "vendor": "perplexity",
-      "model": "anthropic/claude-3-5-sonnet-20241022",
-      "full_name": "perplexity/anthropic/claude-3-5-sonnet-20241022",
+      "model": "openai/gpt-5.1",
+      "full_name": "perplexity/openai/gpt-5.1",
       "raw": {
         "input_cost_per_token": 0,
         "output_cost_per_token": 0,
@@ -40989,7 +41064,7 @@
         "max_output_tokens": null,
         "max_tokens": null,
         "mode": "responses",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": false,
         "supports_response_schema": null,
         "supports_tool_choice": null
@@ -41004,8 +41079,8 @@
     },
     {
       "vendor": "perplexity",
-      "model": "anthropic/claude-3-5-haiku-20241022",
-      "full_name": "perplexity/anthropic/claude-3-5-haiku-20241022",
+      "model": "openai/gpt-5-mini",
+      "full_name": "perplexity/openai/gpt-5-mini",
       "raw": {
         "input_cost_per_token": 0,
         "output_cost_per_token": 0,
@@ -41014,7 +41089,7 @@
         "max_output_tokens": null,
         "max_tokens": null,
         "mode": "responses",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": false,
         "supports_response_schema": null,
         "supports_tool_choice": null
@@ -41029,8 +41104,8 @@
     },
     {
       "vendor": "perplexity",
-      "model": "google/gemini-2.0-flash-exp",
-      "full_name": "perplexity/google/gemini-2.0-flash-exp",
+      "model": "anthropic/claude-opus-4-6",
+      "full_name": "perplexity/anthropic/claude-opus-4-6",
       "raw": {
         "input_cost_per_token": 0,
         "output_cost_per_token": 0,
@@ -41039,7 +41114,7 @@
         "max_output_tokens": null,
         "max_tokens": null,
         "mode": "responses",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": false,
         "supports_response_schema": null,
         "supports_tool_choice": null
@@ -41054,8 +41129,8 @@
     },
     {
       "vendor": "perplexity",
-      "model": "google/gemini-2.0-flash-thinking-exp",
-      "full_name": "perplexity/google/gemini-2.0-flash-thinking-exp",
+      "model": "anthropic/claude-opus-4-5",
+      "full_name": "perplexity/anthropic/claude-opus-4-5",
       "raw": {
         "input_cost_per_token": 0,
         "output_cost_per_token": 0,
@@ -41064,32 +41139,7 @@
         "max_output_tokens": null,
         "max_tokens": null,
         "mode": "responses",
-        "supports_function_calling": null,
-        "supports_reasoning": true,
-        "supports_response_schema": null,
-        "supports_tool_choice": null
-      },
-      "processed": {
-        "input_price_per_million": 0,
-        "output_price_per_million": 0,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": "N/A"
-      }
-    },
-    {
-      "vendor": "perplexity",
-      "model": "xai/grok-2-1212",
-      "full_name": "perplexity/xai/grok-2-1212",
-      "raw": {
-        "input_cost_per_token": 0,
-        "output_cost_per_token": 0,
-        "litellm_provider": "perplexity",
-        "max_input_tokens": null,
-        "max_output_tokens": null,
-        "max_tokens": null,
-        "mode": "responses",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": false,
         "supports_response_schema": null,
         "supports_tool_choice": null
@@ -41104,8 +41154,8 @@
     },
     {
       "vendor": "perplexity",
-      "model": "xai/grok-2-vision-1212",
-      "full_name": "perplexity/xai/grok-2-vision-1212",
+      "model": "anthropic/claude-sonnet-4-5",
+      "full_name": "perplexity/anthropic/claude-sonnet-4-5",
       "raw": {
         "input_cost_per_token": 0,
         "output_cost_per_token": 0,
@@ -41114,7 +41164,182 @@
         "max_output_tokens": null,
         "max_tokens": null,
         "mode": "responses",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
+        "supports_reasoning": false,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "perplexity",
+      "model": "anthropic/claude-haiku-4-5",
+      "full_name": "perplexity/anthropic/claude-haiku-4-5",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "perplexity",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "responses",
+        "supports_function_calling": true,
+        "supports_reasoning": false,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "perplexity",
+      "model": "google/gemini-3-pro-preview",
+      "full_name": "perplexity/google/gemini-3-pro-preview",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "perplexity",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "responses",
+        "supports_function_calling": true,
+        "supports_reasoning": false,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "perplexity",
+      "model": "google/gemini-3-flash-preview",
+      "full_name": "perplexity/google/gemini-3-flash-preview",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "perplexity",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "responses",
+        "supports_function_calling": true,
+        "supports_reasoning": false,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "perplexity",
+      "model": "google/gemini-2.5-pro",
+      "full_name": "perplexity/google/gemini-2.5-pro",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "perplexity",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "responses",
+        "supports_function_calling": true,
+        "supports_reasoning": false,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "perplexity",
+      "model": "google/gemini-2.5-flash",
+      "full_name": "perplexity/google/gemini-2.5-flash",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "perplexity",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "responses",
+        "supports_function_calling": true,
+        "supports_reasoning": false,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "perplexity",
+      "model": "xai/grok-4-1-fast-non-reasoning",
+      "full_name": "perplexity/xai/grok-4-1-fast-non-reasoning",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "perplexity",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "responses",
+        "supports_function_calling": true,
+        "supports_reasoning": false,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "perplexity",
+      "model": "perplexity/sonar",
+      "full_name": "perplexity/perplexity/sonar",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "perplexity",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "responses",
+        "supports_function_calling": true,
         "supports_reasoning": false,
         "supports_response_schema": null,
         "supports_tool_choice": null
