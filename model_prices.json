@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-26T02:39:06.221056",
+  "updated_at": "2026-02-27T02:37:28.068254",
   "total_models": 2602,
   "models": [
     {
@@ -9132,8 +9132,8 @@
       "model": "mistral-small-2503",
       "full_name": "azure_ai/mistral-small-2503",
       "raw": {
-        "input_cost_per_token": 1e-06,
-        "output_cost_per_token": 3e-06,
+        "input_cost_per_token": 1e-07,
+        "output_cost_per_token": 3e-07,
         "litellm_provider": "azure_ai",
         "max_input_tokens": 128000,
         "max_output_tokens": 128000,
@@ -9145,8 +9145,8 @@
         "supports_tool_choice": true
       },
       "processed": {
-        "input_price_per_million": 1.0,
-        "output_price_per_million": 3.0,
+        "input_price_per_million": 0.09999999999999999,
+        "output_price_per_million": 0.3,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 128000
