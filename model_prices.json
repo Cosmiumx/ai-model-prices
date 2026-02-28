@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-02-27T02:37:28.068254",
-  "total_models": 2602,
+  "updated_at": "2026-02-28T02:26:56.906204",
+  "total_models": 2610,
   "models": [
     {
       "vendor": "unknown",
@@ -22629,6 +22629,31 @@
     },
     {
       "vendor": "unknown",
+      "model": "gemini-3.1-flash-image-preview",
+      "full_name": "gemini-3.1-flash-image-preview",
+      "raw": {
+        "input_cost_per_token": 5e-07,
+        "output_cost_per_token": 3e-06,
+        "litellm_provider": "vertex_ai-language-models",
+        "max_input_tokens": 65536,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.5,
+        "output_price_per_million": 3.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "unknown",
       "model": "deep-research-pro-preview-12-2025",
       "full_name": "deep-research-pro-preview-12-2025",
       "raw": {
@@ -27804,6 +27829,31 @@
     },
     {
       "vendor": "unknown",
+      "model": "gpt-audio-1.5",
+      "full_name": "gpt-audio-1.5",
+      "raw": {
+        "input_cost_per_token": 2.5e-06,
+        "output_cost_per_token": 1e-05,
+        "litellm_provider": "openai",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "max_tokens": 16384,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": false,
+        "supports_response_schema": false,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 2.5,
+        "output_price_per_million": 10.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 16384
+      }
+    },
+    {
+      "vendor": "unknown",
       "model": "gpt-audio-2025-08-28",
       "full_name": "gpt-audio-2025-08-28",
       "raw": {
@@ -29781,6 +29831,31 @@
       "vendor": "unknown",
       "model": "gpt-realtime",
       "full_name": "gpt-realtime",
+      "raw": {
+        "input_cost_per_token": 4e-06,
+        "output_cost_per_token": 1.6e-05,
+        "litellm_provider": "openai",
+        "max_input_tokens": 32000,
+        "max_output_tokens": 4096,
+        "max_tokens": 4096,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 4.0,
+        "output_price_per_million": 16.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 4096
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "gpt-realtime-1.5",
+      "full_name": "gpt-realtime-1.5",
       "raw": {
         "input_cost_per_token": 4e-06,
         "output_cost_per_token": 1.6e-05,
@@ -37979,6 +38054,31 @@
     },
     {
       "vendor": "openrouter",
+      "model": "anthropic/claude-opus-4.6",
+      "full_name": "openrouter/anthropic/claude-opus-4.6",
+      "raw": {
+        "input_cost_per_token": 5e-06,
+        "output_cost_per_token": 2.5e-05,
+        "litellm_provider": "openrouter",
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 5.0,
+        "output_price_per_million": 25.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "openrouter",
       "model": "anthropic/claude-sonnet-4.5",
       "full_name": "openrouter/anthropic/claude-sonnet-4.5",
       "raw": {
@@ -39653,6 +39753,81 @@
       }
     },
     {
+      "vendor": "openrouter",
+      "model": "openrouter/auto",
+      "full_name": "openrouter/openrouter/auto",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openrouter",
+        "max_input_tokens": 2000000,
+        "max_output_tokens": null,
+        "max_tokens": 2000000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 2000000
+      }
+    },
+    {
+      "vendor": "openrouter",
+      "model": "openrouter/free",
+      "full_name": "openrouter/openrouter/free",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openrouter",
+        "max_input_tokens": 200000,
+        "max_output_tokens": null,
+        "max_tokens": 200000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 200000
+      }
+    },
+    {
+      "vendor": "openrouter",
+      "model": "openrouter/bodybuilder",
+      "full_name": "openrouter/openrouter/bodybuilder",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "openrouter",
+        "max_input_tokens": 128000,
+        "max_output_tokens": null,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
       "vendor": "ovhcloud",
       "model": "DeepSeek-R1-Distill-Llama-70B",
       "full_name": "ovhcloud/DeepSeek-R1-Distill-Llama-70B",
@@ -40864,10 +41039,10 @@
         "max_output_tokens": 4096,
         "max_tokens": 4096,
         "mode": "chat",
-        "supports_function_calling": true,
+        "supports_function_calling": false,
         "supports_reasoning": null,
         "supports_response_schema": null,
-        "supports_tool_choice": true
+        "supports_tool_choice": false
       },
       "processed": {
         "input_price_per_million": 0,
@@ -40889,10 +41064,10 @@
         "max_output_tokens": 4096,
         "max_tokens": 4096,
         "mode": "chat",
-        "supports_function_calling": true,
+        "supports_function_calling": false,
         "supports_reasoning": null,
         "supports_response_schema": null,
-        "supports_tool_choice": true
+        "supports_tool_choice": false
       },
       "processed": {
         "input_price_per_million": 0,
@@ -51622,6 +51797,31 @@
       "processed": {
         "input_price_per_million": 2.0,
         "output_price_per_million": 12.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "vertex_ai",
+      "model": "gemini-3.1-flash-image-preview",
+      "full_name": "vertex_ai/gemini-3.1-flash-image-preview",
+      "raw": {
+        "input_cost_per_token": 5e-07,
+        "output_cost_per_token": 3e-06,
+        "litellm_provider": "vertex_ai-language-models",
+        "max_input_tokens": 65536,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "image_generation",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.5,
+        "output_price_per_million": 3.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 32768
