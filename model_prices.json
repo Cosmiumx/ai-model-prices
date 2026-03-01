@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-28T02:26:56.906204",
+  "updated_at": "2026-03-01T02:52:40.046970",
   "total_models": 2610,
   "models": [
     {
@@ -24059,7 +24059,7 @@
       "raw": {
         "input_cost_per_token": 3e-07,
         "output_cost_per_token": 2.5e-06,
-        "litellm_provider": "vertex_ai-language-models",
+        "litellm_provider": "gemini",
         "max_input_tokens": 32768,
         "max_output_tokens": 32768,
         "max_tokens": 32768,
