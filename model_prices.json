@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-02T02:40:28.162492",
-  "total_models": 2610,
+  "updated_at": "2026-03-03T02:43:15.484786",
+  "total_models": 2622,
   "models": [
     {
       "vendor": "unknown",
@@ -15236,6 +15236,56 @@
         "output_cost_per_token": 0,
         "litellm_provider": "dashscope",
         "max_input_tokens": 258048,
+        "max_output_tokens": 65536,
+        "max_tokens": 65536,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65536
+      }
+    },
+    {
+      "vendor": "dashscope",
+      "model": "qwen3-vl-plus",
+      "full_name": "dashscope/qwen3-vl-plus",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "dashscope",
+        "max_input_tokens": 260096,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "dashscope",
+      "model": "qwen3.5-plus",
+      "full_name": "dashscope/qwen3.5-plus",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "dashscope",
+        "max_input_tokens": 991808,
         "max_output_tokens": 65536,
         "max_tokens": 65536,
         "mode": "chat",
@@ -34279,6 +34329,31 @@
     },
     {
       "vendor": "mistral",
+      "model": "magistral-medium-1-2-2509",
+      "full_name": "mistral/magistral-medium-1-2-2509",
+      "raw": {
+        "input_cost_per_token": 2e-06,
+        "output_cost_per_token": 5e-06,
+        "litellm_provider": "mistral",
+        "max_input_tokens": 40000,
+        "max_output_tokens": 40000,
+        "max_tokens": 40000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 2.0,
+        "output_price_per_million": 5.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 40000
+      }
+    },
+    {
+      "vendor": "mistral",
       "model": "mistral-ocr-latest",
       "full_name": "mistral/mistral-ocr-latest",
       "raw": {
@@ -34381,6 +34456,31 @@
       "vendor": "mistral",
       "model": "magistral-small-latest",
       "full_name": "mistral/magistral-small-latest",
+      "raw": {
+        "input_cost_per_token": 5e-07,
+        "output_cost_per_token": 1.5e-06,
+        "litellm_provider": "mistral",
+        "max_input_tokens": 40000,
+        "max_output_tokens": 40000,
+        "max_tokens": 40000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.5,
+        "output_price_per_million": 1.5,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 40000
+      }
+    },
+    {
+      "vendor": "mistral",
+      "model": "magistral-small-1-2-2509",
+      "full_name": "mistral/magistral-small-1-2-2509",
       "raw": {
         "input_cost_per_token": 5e-07,
         "output_cost_per_token": 1.5e-06,
@@ -34557,37 +34657,12 @@
       "model": "mistral-large-latest",
       "full_name": "mistral/mistral-large-latest",
       "raw": {
-        "input_cost_per_token": 2e-06,
-        "output_cost_per_token": 6e-06,
-        "litellm_provider": "mistral",
-        "max_input_tokens": 128000,
-        "max_output_tokens": 128000,
-        "max_tokens": 128000,
-        "mode": "chat",
-        "supports_function_calling": true,
-        "supports_reasoning": null,
-        "supports_response_schema": true,
-        "supports_tool_choice": true
-      },
-      "processed": {
-        "input_price_per_million": 2.0,
-        "output_price_per_million": 6.0,
-        "currency": "USD",
-        "unit": "per_1M_tokens",
-        "context_window": 128000
-      }
-    },
-    {
-      "vendor": "mistral",
-      "model": "mistral-large-3",
-      "full_name": "mistral/mistral-large-3",
-      "raw": {
         "input_cost_per_token": 5e-07,
         "output_cost_per_token": 1.5e-06,
         "litellm_provider": "mistral",
-        "max_input_tokens": 256000,
-        "max_output_tokens": 8191,
-        "max_tokens": 8191,
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "max_tokens": 262144,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -34599,7 +34674,57 @@
         "output_price_per_million": 1.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8191
+        "context_window": 262144
+      }
+    },
+    {
+      "vendor": "mistral",
+      "model": "mistral-large-3",
+      "full_name": "mistral/mistral-large-3",
+      "raw": {
+        "input_cost_per_token": 5e-07,
+        "output_cost_per_token": 1.5e-06,
+        "litellm_provider": "mistral",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "max_tokens": 262144,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.5,
+        "output_price_per_million": 1.5,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 262144
+      }
+    },
+    {
+      "vendor": "mistral",
+      "model": "mistral-large-2512",
+      "full_name": "mistral/mistral-large-2512",
+      "raw": {
+        "input_cost_per_token": 5e-07,
+        "output_cost_per_token": 1.5e-06,
+        "litellm_provider": "mistral",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "max_tokens": 262144,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.5,
+        "output_price_per_million": 1.5,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 262144
       }
     },
     {
@@ -34686,8 +34811,8 @@
         "output_cost_per_token": 2e-06,
         "litellm_provider": "mistral",
         "max_input_tokens": 131072,
-        "max_output_tokens": 8191,
-        "max_tokens": 8191,
+        "max_output_tokens": 131072,
+        "max_tokens": 131072,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -34699,7 +34824,32 @@
         "output_price_per_million": 2.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8191
+        "context_window": 131072
+      }
+    },
+    {
+      "vendor": "mistral",
+      "model": "mistral-medium-3-1-2508",
+      "full_name": "mistral/mistral-medium-3-1-2508",
+      "raw": {
+        "input_cost_per_token": 4e-07,
+        "output_cost_per_token": 2e-06,
+        "litellm_provider": "mistral",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "max_tokens": 131072,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.39999999999999997,
+        "output_price_per_million": 2.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 131072
       }
     },
     {
@@ -34732,12 +34882,62 @@
       "model": "mistral-small-latest",
       "full_name": "mistral/mistral-small-latest",
       "raw": {
-        "input_cost_per_token": 1e-07,
-        "output_cost_per_token": 3e-07,
+        "input_cost_per_token": 6e-08,
+        "output_cost_per_token": 1.8e-07,
         "litellm_provider": "mistral",
-        "max_input_tokens": 32000,
-        "max_output_tokens": 8191,
-        "max_tokens": 8191,
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "max_tokens": 131072,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.06,
+        "output_price_per_million": 0.18,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 131072
+      }
+    },
+    {
+      "vendor": "mistral",
+      "model": "mistral-small-3-2-2506",
+      "full_name": "mistral/mistral-small-3-2-2506",
+      "raw": {
+        "input_cost_per_token": 6e-08,
+        "output_cost_per_token": 1.8e-07,
+        "litellm_provider": "mistral",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "max_tokens": 131072,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.06,
+        "output_price_per_million": 0.18,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 131072
+      }
+    },
+    {
+      "vendor": "mistral",
+      "model": "ministral-3-3b-2512",
+      "full_name": "mistral/ministral-3-3b-2512",
+      "raw": {
+        "input_cost_per_token": 1e-07,
+        "output_cost_per_token": 1e-07,
+        "litellm_provider": "mistral",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "max_tokens": 131072,
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
@@ -34746,10 +34946,60 @@
       },
       "processed": {
         "input_price_per_million": 0.09999999999999999,
-        "output_price_per_million": 0.3,
+        "output_price_per_million": 0.09999999999999999,
         "currency": "USD",
         "unit": "per_1M_tokens",
-        "context_window": 8191
+        "context_window": 131072
+      }
+    },
+    {
+      "vendor": "mistral",
+      "model": "ministral-3-8b-2512",
+      "full_name": "mistral/ministral-3-8b-2512",
+      "raw": {
+        "input_cost_per_token": 1.5e-07,
+        "output_cost_per_token": 1.5e-07,
+        "litellm_provider": "mistral",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "max_tokens": 262144,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.15,
+        "output_price_per_million": 0.15,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 262144
+      }
+    },
+    {
+      "vendor": "mistral",
+      "model": "ministral-3-14b-2512",
+      "full_name": "mistral/ministral-3-14b-2512",
+      "raw": {
+        "input_cost_per_token": 2e-07,
+        "output_cost_per_token": 2e-07,
+        "litellm_provider": "mistral",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "max_tokens": 262144,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.19999999999999998,
+        "output_price_per_million": 0.19999999999999998,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 262144
       }
     },
     {
@@ -41600,6 +41850,56 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "perplexity",
+      "model": "pplx-embed-v1-0.6b",
+      "full_name": "perplexity/pplx-embed-v1-0.6b",
+      "raw": {
+        "input_cost_per_token": 4e-09,
+        "output_cost_per_token": 0.0,
+        "litellm_provider": "perplexity",
+        "max_input_tokens": 32768,
+        "max_output_tokens": null,
+        "max_tokens": 32768,
+        "mode": "embedding",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.004,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "perplexity",
+      "model": "pplx-embed-v1-4b",
+      "full_name": "perplexity/pplx-embed-v1-4b",
+      "raw": {
+        "input_cost_per_token": 3e-08,
+        "output_cost_per_token": 0.0,
+        "litellm_provider": "perplexity",
+        "max_input_tokens": 32768,
+        "max_output_tokens": null,
+        "max_tokens": 32768,
+        "mode": "embedding",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.03,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
       }
     },
     {
