@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-03T02:43:15.484786",
-  "total_models": 2622,
+  "updated_at": "2026-03-04T02:35:22.643708",
+  "total_models": 2669,
   "models": [
     {
       "vendor": "unknown",
@@ -15254,6 +15254,181 @@
     },
     {
       "vendor": "dashscope",
+      "model": "qwen3-max-2026-01-23",
+      "full_name": "dashscope/qwen3-max-2026-01-23",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "dashscope",
+        "max_input_tokens": 258048,
+        "max_output_tokens": 65536,
+        "max_tokens": 65536,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65536
+      }
+    },
+    {
+      "vendor": "dashscope",
+      "model": "qwen3-next-80b-a3b-instruct",
+      "full_name": "dashscope/qwen3-next-80b-a3b-instruct",
+      "raw": {
+        "input_cost_per_token": 1.5e-07,
+        "output_cost_per_token": 1.2e-06,
+        "litellm_provider": "dashscope",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 65536,
+        "max_tokens": 65536,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.15,
+        "output_price_per_million": 1.2,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65536
+      }
+    },
+    {
+      "vendor": "dashscope",
+      "model": "qwen3-next-80b-a3b-thinking",
+      "full_name": "dashscope/qwen3-next-80b-a3b-thinking",
+      "raw": {
+        "input_cost_per_token": 1.5e-07,
+        "output_cost_per_token": 1.2e-06,
+        "litellm_provider": "dashscope",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 65536,
+        "max_tokens": 65536,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.15,
+        "output_price_per_million": 1.2,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65536
+      }
+    },
+    {
+      "vendor": "dashscope",
+      "model": "qwen3-vl-235b-a22b-instruct",
+      "full_name": "dashscope/qwen3-vl-235b-a22b-instruct",
+      "raw": {
+        "input_cost_per_token": 4e-07,
+        "output_cost_per_token": 1.6e-06,
+        "litellm_provider": "dashscope",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.39999999999999997,
+        "output_price_per_million": 1.5999999999999999,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "dashscope",
+      "model": "qwen3-vl-235b-a22b-thinking",
+      "full_name": "dashscope/qwen3-vl-235b-a22b-thinking",
+      "raw": {
+        "input_cost_per_token": 4e-07,
+        "output_cost_per_token": 4e-06,
+        "litellm_provider": "dashscope",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.39999999999999997,
+        "output_price_per_million": 4.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "dashscope",
+      "model": "qwen3-vl-32b-instruct",
+      "full_name": "dashscope/qwen3-vl-32b-instruct",
+      "raw": {
+        "input_cost_per_token": 1.6e-07,
+        "output_cost_per_token": 6.4e-07,
+        "litellm_provider": "dashscope",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.16,
+        "output_price_per_million": 0.64,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "dashscope",
+      "model": "qwen3-vl-32b-thinking",
+      "full_name": "dashscope/qwen3-vl-32b-thinking",
+      "raw": {
+        "input_cost_per_token": 1.6e-07,
+        "output_cost_per_token": 2.87e-06,
+        "litellm_provider": "dashscope",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.16,
+        "output_price_per_million": 2.87,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "dashscope",
       "model": "qwen3-vl-plus",
       "full_name": "dashscope/qwen3-vl-plus",
       "raw": {
@@ -22704,6 +22879,31 @@
     },
     {
       "vendor": "unknown",
+      "model": "gemini-3.1-flash-lite-preview",
+      "full_name": "gemini-3.1-flash-lite-preview",
+      "raw": {
+        "input_cost_per_token": 2.5e-07,
+        "output_cost_per_token": 1.5e-06,
+        "litellm_provider": "vertex_ai-language-models",
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "max_tokens": 65536,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.25,
+        "output_price_per_million": 1.5,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65536
+      }
+    },
+    {
+      "vendor": "unknown",
       "model": "deep-research-pro-preview-12-2025",
       "full_name": "deep-research-pro-preview-12-2025",
       "raw": {
@@ -24500,6 +24700,31 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 65535
+      }
+    },
+    {
+      "vendor": "gemini",
+      "model": "gemini-3.1-flash-lite-preview",
+      "full_name": "gemini/gemini-3.1-flash-lite-preview",
+      "raw": {
+        "input_cost_per_token": 2.5e-07,
+        "output_cost_per_token": 1.5e-06,
+        "litellm_provider": "gemini",
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "max_tokens": 65536,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.25,
+        "output_price_per_million": 1.5,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65536
       }
     },
     {
@@ -36328,6 +36553,756 @@
       }
     },
     {
+      "vendor": "nebius",
+      "model": "deepseek-ai/DeepSeek-R1",
+      "full_name": "nebius/deepseek-ai/DeepSeek-R1",
+      "raw": {
+        "input_cost_per_token": 8e-07,
+        "output_cost_per_token": 2.4e-06,
+        "litellm_provider": "nebius",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.7999999999999999,
+        "output_price_per_million": 2.4,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "nebius",
+      "model": "deepseek-ai/DeepSeek-R1-0528",
+      "full_name": "nebius/deepseek-ai/DeepSeek-R1-0528",
+      "raw": {
+        "input_cost_per_token": 8e-07,
+        "output_cost_per_token": 2.4e-06,
+        "litellm_provider": "nebius",
+        "max_input_tokens": 164000,
+        "max_output_tokens": 164000,
+        "max_tokens": 164000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.7999999999999999,
+        "output_price_per_million": 2.4,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 164000
+      }
+    },
+    {
+      "vendor": "nebius",
+      "model": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "full_name": "nebius/deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "raw": {
+        "input_cost_per_token": 2.5e-07,
+        "output_cost_per_token": 7.5e-07,
+        "litellm_provider": "nebius",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.25,
+        "output_price_per_million": 0.75,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "nebius",
+      "model": "deepseek-ai/DeepSeek-V3",
+      "full_name": "nebius/deepseek-ai/DeepSeek-V3",
+      "raw": {
+        "input_cost_per_token": 5e-07,
+        "output_cost_per_token": 1.5e-06,
+        "litellm_provider": "nebius",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.5,
+        "output_price_per_million": 1.5,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "nebius",
+      "model": "deepseek-ai/DeepSeek-V3-0324",
+      "full_name": "nebius/deepseek-ai/DeepSeek-V3-0324",
+      "raw": {
+        "input_cost_per_token": 5e-07,
+        "output_cost_per_token": 1.5e-06,
+        "litellm_provider": "nebius",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.5,
+        "output_price_per_million": 1.5,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "nebius",
+      "model": "google/gemma-3-27b-it",
+      "full_name": "nebius/google/gemma-3-27b-it",
+      "raw": {
+        "input_cost_per_token": 6e-08,
+        "output_cost_per_token": 2e-07,
+        "litellm_provider": "nebius",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.06,
+        "output_price_per_million": 0.19999999999999998,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "nebius",
+      "model": "meta-llama/Llama-3.3-70B-Instruct",
+      "full_name": "nebius/meta-llama/Llama-3.3-70B-Instruct",
+      "raw": {
+        "input_cost_per_token": 1.3e-07,
+        "output_cost_per_token": 4e-07,
+        "litellm_provider": "nebius",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.13,
+        "output_price_per_million": 0.39999999999999997,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "nebius",
+      "model": "meta-llama/Llama-Guard-3-8B",
+      "full_name": "nebius/meta-llama/Llama-Guard-3-8B",
+      "raw": {
+        "input_cost_per_token": 2e-08,
+        "output_cost_per_token": 6e-08,
+        "litellm_provider": "nebius",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.02,
+        "output_price_per_million": 0.06,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "nebius",
+      "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+      "full_name": "nebius/meta-llama/Meta-Llama-3.1-8B-Instruct",
+      "raw": {
+        "input_cost_per_token": 2e-08,
+        "output_cost_per_token": 6e-08,
+        "litellm_provider": "nebius",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.02,
+        "output_price_per_million": 0.06,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "nebius",
+      "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+      "full_name": "nebius/meta-llama/Meta-Llama-3.1-70B-Instruct",
+      "raw": {
+        "input_cost_per_token": 1.3e-07,
+        "output_cost_per_token": 4e-07,
+        "litellm_provider": "nebius",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.13,
+        "output_price_per_million": 0.39999999999999997,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "nebius",
+      "model": "meta-llama/Meta-Llama-3.1-405B-Instruct",
+      "full_name": "nebius/meta-llama/Meta-Llama-3.1-405B-Instruct",
+      "raw": {
+        "input_cost_per_token": 1e-06,
+        "output_cost_per_token": 3e-06,
+        "litellm_provider": "nebius",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 1.0,
+        "output_price_per_million": 3.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "nebius",
+      "model": "mistralai/Mistral-Nemo-Instruct-2407",
+      "full_name": "nebius/mistralai/Mistral-Nemo-Instruct-2407",
+      "raw": {
+        "input_cost_per_token": 4e-08,
+        "output_cost_per_token": 1.2e-07,
+        "litellm_provider": "nebius",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.04,
+        "output_price_per_million": 0.12,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "nebius",
+      "model": "NousResearch/Hermes-3-Llama-3.1-405B",
+      "full_name": "nebius/NousResearch/Hermes-3-Llama-3.1-405B",
+      "raw": {
+        "input_cost_per_token": 1e-06,
+        "output_cost_per_token": 3e-06,
+        "litellm_provider": "nebius",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 1.0,
+        "output_price_per_million": 3.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "nebius",
+      "model": "nvidia/Llama-3.1-Nemotron-Ultra-253B-v1",
+      "full_name": "nebius/nvidia/Llama-3.1-Nemotron-Ultra-253B-v1",
+      "raw": {
+        "input_cost_per_token": 6e-07,
+        "output_cost_per_token": 1.8e-06,
+        "litellm_provider": "nebius",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.6,
+        "output_price_per_million": 1.7999999999999998,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "nebius",
+      "model": "nvidia/Llama-3.3-Nemotron-Super-49B-v1",
+      "full_name": "nebius/nvidia/Llama-3.3-Nemotron-Super-49B-v1",
+      "raw": {
+        "input_cost_per_token": 1e-07,
+        "output_cost_per_token": 4e-07,
+        "litellm_provider": "nebius",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "max_tokens": 131072,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.09999999999999999,
+        "output_price_per_million": 0.39999999999999997,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 131072
+      }
+    },
+    {
+      "vendor": "nebius",
+      "model": "Qwen/Qwen3-235B-A22B",
+      "full_name": "nebius/Qwen/Qwen3-235B-A22B",
+      "raw": {
+        "input_cost_per_token": 2e-07,
+        "output_cost_per_token": 6e-07,
+        "litellm_provider": "nebius",
+        "max_input_tokens": 262144,
+        "max_output_tokens": 262144,
+        "max_tokens": 262144,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.19999999999999998,
+        "output_price_per_million": 0.6,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 262144
+      }
+    },
+    {
+      "vendor": "nebius",
+      "model": "Qwen/Qwen3-32B",
+      "full_name": "nebius/Qwen/Qwen3-32B",
+      "raw": {
+        "input_cost_per_token": 1e-07,
+        "output_cost_per_token": 3e-07,
+        "litellm_provider": "nebius",
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.09999999999999999,
+        "output_price_per_million": 0.3,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "nebius",
+      "model": "Qwen/Qwen3-30B-A3B",
+      "full_name": "nebius/Qwen/Qwen3-30B-A3B",
+      "raw": {
+        "input_cost_per_token": 1e-07,
+        "output_cost_per_token": 3e-07,
+        "litellm_provider": "nebius",
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.09999999999999999,
+        "output_price_per_million": 0.3,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "nebius",
+      "model": "Qwen/Qwen3-14B",
+      "full_name": "nebius/Qwen/Qwen3-14B",
+      "raw": {
+        "input_cost_per_token": 8e-08,
+        "output_cost_per_token": 2.4e-07,
+        "litellm_provider": "nebius",
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.08,
+        "output_price_per_million": 0.24,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "nebius",
+      "model": "Qwen/Qwen3-4B",
+      "full_name": "nebius/Qwen/Qwen3-4B",
+      "raw": {
+        "input_cost_per_token": 8e-08,
+        "output_cost_per_token": 2.4e-07,
+        "litellm_provider": "nebius",
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.08,
+        "output_price_per_million": 0.24,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "nebius",
+      "model": "Qwen/QwQ-32B",
+      "full_name": "nebius/Qwen/QwQ-32B",
+      "raw": {
+        "input_cost_per_token": 1.5e-07,
+        "output_cost_per_token": 4.5e-07,
+        "litellm_provider": "nebius",
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.15,
+        "output_price_per_million": 0.44999999999999996,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "nebius",
+      "model": "Qwen/Qwen2.5-72B-Instruct",
+      "full_name": "nebius/Qwen/Qwen2.5-72B-Instruct",
+      "raw": {
+        "input_cost_per_token": 1.3e-07,
+        "output_cost_per_token": 4e-07,
+        "litellm_provider": "nebius",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.13,
+        "output_price_per_million": 0.39999999999999997,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "nebius",
+      "model": "Qwen/Qwen2.5-32B-Instruct",
+      "full_name": "nebius/Qwen/Qwen2.5-32B-Instruct",
+      "raw": {
+        "input_cost_per_token": 6e-08,
+        "output_cost_per_token": 2e-07,
+        "litellm_provider": "nebius",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.06,
+        "output_price_per_million": 0.19999999999999998,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "nebius",
+      "model": "Qwen/Qwen2.5-Coder-7B",
+      "full_name": "nebius/Qwen/Qwen2.5-Coder-7B",
+      "raw": {
+        "input_cost_per_token": 1e-08,
+        "output_cost_per_token": 3e-08,
+        "litellm_provider": "nebius",
+        "max_input_tokens": 32768,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.01,
+        "output_price_per_million": 0.03,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "nebius",
+      "model": "Qwen/Qwen2.5-VL-72B-Instruct",
+      "full_name": "nebius/Qwen/Qwen2.5-VL-72B-Instruct",
+      "raw": {
+        "input_cost_per_token": 1.3e-07,
+        "output_cost_per_token": 4e-07,
+        "litellm_provider": "nebius",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "max_tokens": 131072,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.13,
+        "output_price_per_million": 0.39999999999999997,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 131072
+      }
+    },
+    {
+      "vendor": "nebius",
+      "model": "Qwen/Qwen2-VL-72B-Instruct",
+      "full_name": "nebius/Qwen/Qwen2-VL-72B-Instruct",
+      "raw": {
+        "input_cost_per_token": 1.3e-07,
+        "output_cost_per_token": 4e-07,
+        "litellm_provider": "nebius",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "max_tokens": 131072,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.13,
+        "output_price_per_million": 0.39999999999999997,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 131072
+      }
+    },
+    {
+      "vendor": "nebius",
+      "model": "Qwen/Qwen2-VL-7B-Instruct",
+      "full_name": "nebius/Qwen/Qwen2-VL-7B-Instruct",
+      "raw": {
+        "input_cost_per_token": 2e-08,
+        "output_cost_per_token": 6e-08,
+        "litellm_provider": "nebius",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "max_tokens": 131072,
+        "mode": "chat",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.02,
+        "output_price_per_million": 0.06,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 131072
+      }
+    },
+    {
+      "vendor": "nebius",
+      "model": "BAAI/bge-en-icl",
+      "full_name": "nebius/BAAI/bge-en-icl",
+      "raw": {
+        "input_cost_per_token": 1e-08,
+        "output_cost_per_token": 0.0,
+        "litellm_provider": "nebius",
+        "max_input_tokens": 32768,
+        "max_output_tokens": null,
+        "max_tokens": 32768,
+        "mode": "embedding",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.01,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "nebius",
+      "model": "BAAI/bge-multilingual-gemma2",
+      "full_name": "nebius/BAAI/bge-multilingual-gemma2",
+      "raw": {
+        "input_cost_per_token": 1e-08,
+        "output_cost_per_token": 0.0,
+        "litellm_provider": "nebius",
+        "max_input_tokens": 8192,
+        "max_output_tokens": null,
+        "max_tokens": 8192,
+        "mode": "embedding",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.01,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "nebius",
+      "model": "intfloat/e5-mistral-7b-instruct",
+      "full_name": "nebius/intfloat/e5-mistral-7b-instruct",
+      "raw": {
+        "input_cost_per_token": 1e-08,
+        "output_cost_per_token": 0.0,
+        "litellm_provider": "nebius",
+        "max_input_tokens": 32768,
+        "max_output_tokens": null,
+        "max_tokens": 32768,
+        "mode": "embedding",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.01,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
       "vendor": "unknown",
       "model": "nvidia.nemotron-nano-12b-v2",
       "full_name": "nvidia.nemotron-nano-12b-v2",
@@ -38279,6 +39254,31 @@
     },
     {
       "vendor": "openrouter",
+      "model": "anthropic/claude-sonnet-4.6",
+      "full_name": "openrouter/anthropic/claude-sonnet-4.6",
+      "raw": {
+        "input_cost_per_token": 3e-06,
+        "output_cost_per_token": 1.5e-05,
+        "litellm_provider": "openrouter",
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 3.0,
+        "output_price_per_million": 15.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "openrouter",
       "model": "anthropic/claude-opus-4.5",
       "full_name": "openrouter/anthropic/claude-opus-4.5",
       "raw": {
@@ -38700,6 +39700,31 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 65535
+      }
+    },
+    {
+      "vendor": "openrouter",
+      "model": "google/gemini-3.1-pro-preview",
+      "full_name": "openrouter/google/gemini-3.1-pro-preview",
+      "raw": {
+        "input_cost_per_token": 2e-06,
+        "output_cost_per_token": 1.2e-05,
+        "litellm_provider": "openrouter",
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "max_tokens": 65536,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 2.0,
+        "output_price_per_million": 12.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65536
       }
     },
     {
@@ -39429,6 +40454,31 @@
     },
     {
       "vendor": "openrouter",
+      "model": "openai/gpt-5.1-codex-max",
+      "full_name": "openrouter/openai/gpt-5.1-codex-max",
+      "raw": {
+        "input_cost_per_token": 1.25e-06,
+        "output_cost_per_token": 1e-05,
+        "litellm_provider": "openrouter",
+        "max_input_tokens": 400000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1.25,
+        "output_price_per_million": 10.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "openrouter",
       "model": "openai/gpt-5.2",
       "full_name": "openrouter/openai/gpt-5.2",
       "raw": {
@@ -39704,6 +40754,31 @@
     },
     {
       "vendor": "openrouter",
+      "model": "qwen/qwen3-coder-plus",
+      "full_name": "openrouter/qwen/qwen3-coder-plus",
+      "raw": {
+        "input_cost_per_token": 1e-06,
+        "output_cost_per_token": 5e-06,
+        "litellm_provider": "openrouter",
+        "max_input_tokens": 997952,
+        "max_output_tokens": 65536,
+        "max_tokens": 65536,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1.0,
+        "output_price_per_million": 5.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65536
+      }
+    },
+    {
+      "vendor": "openrouter",
       "model": "qwen/qwen3-235b-a22b-2507",
       "full_name": "openrouter/qwen/qwen3-235b-a22b-2507",
       "raw": {
@@ -39950,6 +41025,31 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 32000
+      }
+    },
+    {
+      "vendor": "openrouter",
+      "model": "z-ai/glm-5",
+      "full_name": "openrouter/z-ai/glm-5",
+      "raw": {
+        "input_cost_per_token": 8e-07,
+        "output_cost_per_token": 2.56e-06,
+        "litellm_provider": "openrouter",
+        "max_input_tokens": 202752,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.7999999999999999,
+        "output_price_per_million": 2.56,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
       }
     },
     {
@@ -52129,6 +53229,31 @@
     },
     {
       "vendor": "vertex_ai",
+      "model": "gemini-3.1-flash-lite-preview",
+      "full_name": "vertex_ai/gemini-3.1-flash-lite-preview",
+      "raw": {
+        "input_cost_per_token": 2.5e-07,
+        "output_cost_per_token": 1.5e-06,
+        "litellm_provider": "vertex_ai-language-models",
+        "max_input_tokens": 1048576,
+        "max_output_tokens": 65536,
+        "max_tokens": 65536,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.25,
+        "output_price_per_million": 1.5,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 65536
+      }
+    },
+    {
+      "vendor": "vertex_ai",
       "model": "deep-research-pro-preview-12-2025",
       "full_name": "vertex_ai/deep-research-pro-preview-12-2025",
       "raw": {
@@ -55975,6 +57100,56 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 128000
+      }
+    },
+    {
+      "vendor": "zai",
+      "model": "glm-5",
+      "full_name": "zai/glm-5",
+      "raw": {
+        "input_cost_per_token": 1e-06,
+        "output_cost_per_token": 3.2e-06,
+        "litellm_provider": "zai",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 128000,
+        "max_tokens": null,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1.0,
+        "output_price_per_million": 3.1999999999999997,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "zai",
+      "model": "glm-5-code",
+      "full_name": "zai/glm-5-code",
+      "raw": {
+        "input_cost_per_token": 1.2e-06,
+        "output_cost_per_token": 5e-06,
+        "litellm_provider": "zai",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 128000,
+        "max_tokens": null,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1.2,
+        "output_price_per_million": 5.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
       }
     },
     {
