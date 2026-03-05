@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-04T02:35:22.643708",
-  "total_models": 2669,
+  "updated_at": "2026-03-05T02:38:36.704242",
+  "total_models": 2673,
   "models": [
     {
       "vendor": "unknown",
@@ -17164,7 +17164,7 @@
         "max_output_tokens": 4096,
         "max_tokens": 4096,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -17189,7 +17189,7 @@
         "max_output_tokens": 131072,
         "max_tokens": 131072,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -17239,7 +17239,7 @@
         "max_output_tokens": 131072,
         "max_tokens": 131072,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -17264,7 +17264,7 @@
         "max_output_tokens": 32768,
         "max_tokens": 32768,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -17314,7 +17314,7 @@
         "max_output_tokens": 128000,
         "max_tokens": 128000,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -17339,7 +17339,7 @@
         "max_output_tokens": 40960,
         "max_tokens": 40960,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -17364,7 +17364,7 @@
         "max_output_tokens": 40960,
         "max_tokens": 40960,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -17389,7 +17389,7 @@
         "max_output_tokens": 262144,
         "max_tokens": 262144,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -17414,7 +17414,7 @@
         "max_output_tokens": 262144,
         "max_tokens": 262144,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -17439,7 +17439,7 @@
         "max_output_tokens": 40960,
         "max_tokens": 40960,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -17464,7 +17464,7 @@
         "max_output_tokens": 40960,
         "max_tokens": 40960,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -17489,7 +17489,7 @@
         "max_output_tokens": 262144,
         "max_tokens": 262144,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -17514,7 +17514,7 @@
         "max_output_tokens": 262144,
         "max_tokens": 262144,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -17539,7 +17539,7 @@
         "max_output_tokens": 262144,
         "max_tokens": 262144,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -17564,7 +17564,7 @@
         "max_output_tokens": 262144,
         "max_tokens": 262144,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -17689,7 +17689,7 @@
         "max_output_tokens": 200000,
         "max_tokens": 200000,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -17714,7 +17714,7 @@
         "max_output_tokens": 200000,
         "max_tokens": 200000,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -17739,7 +17739,7 @@
         "max_output_tokens": 200000,
         "max_tokens": 200000,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -17764,7 +17764,7 @@
         "max_output_tokens": 163840,
         "max_tokens": 163840,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -17789,7 +17789,7 @@
         "max_output_tokens": 163840,
         "max_tokens": 163840,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -17814,7 +17814,7 @@
         "max_output_tokens": 32768,
         "max_tokens": 32768,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -17864,7 +17864,7 @@
         "max_output_tokens": 131072,
         "max_tokens": 131072,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -17889,7 +17889,7 @@
         "max_output_tokens": 40960,
         "max_tokens": 40960,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -17914,7 +17914,7 @@
         "max_output_tokens": 163840,
         "max_tokens": 163840,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -17939,7 +17939,7 @@
         "max_output_tokens": 163840,
         "max_tokens": 163840,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -17964,7 +17964,7 @@
         "max_output_tokens": 163840,
         "max_tokens": 163840,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": true,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -17989,7 +17989,7 @@
         "max_output_tokens": 163840,
         "max_tokens": 163840,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -18014,7 +18014,7 @@
         "max_output_tokens": 1000000,
         "max_tokens": 1000000,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -18039,7 +18039,7 @@
         "max_output_tokens": 1000000,
         "max_tokens": 1000000,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -18064,7 +18064,7 @@
         "max_output_tokens": 1000000,
         "max_tokens": 1000000,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -18089,7 +18089,7 @@
         "max_output_tokens": 131072,
         "max_tokens": 131072,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -18114,7 +18114,7 @@
         "max_output_tokens": 131072,
         "max_tokens": 131072,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -18139,7 +18139,7 @@
         "max_output_tokens": 131072,
         "max_tokens": 131072,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -18189,7 +18189,7 @@
         "max_output_tokens": 131072,
         "max_tokens": 131072,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -18214,7 +18214,7 @@
         "max_output_tokens": 131072,
         "max_tokens": 131072,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -18239,7 +18239,7 @@
         "max_output_tokens": 131072,
         "max_tokens": 131072,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -18264,7 +18264,7 @@
         "max_output_tokens": 1048576,
         "max_tokens": 1048576,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -18289,7 +18289,7 @@
         "max_output_tokens": 327680,
         "max_tokens": 327680,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -18364,7 +18364,7 @@
         "max_output_tokens": 8192,
         "max_tokens": 8192,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -18389,7 +18389,7 @@
         "max_output_tokens": 131072,
         "max_tokens": 131072,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -18414,7 +18414,7 @@
         "max_output_tokens": 131072,
         "max_tokens": 131072,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -18439,7 +18439,7 @@
         "max_output_tokens": 131072,
         "max_tokens": 131072,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -18464,7 +18464,7 @@
         "max_output_tokens": 131072,
         "max_tokens": 131072,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -18514,7 +18514,7 @@
         "max_output_tokens": 16384,
         "max_tokens": 16384,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -18539,7 +18539,7 @@
         "max_output_tokens": 131072,
         "max_tokens": 131072,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -18564,7 +18564,7 @@
         "max_output_tokens": 32768,
         "max_tokens": 32768,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -18589,7 +18589,7 @@
         "max_output_tokens": 128000,
         "max_tokens": 128000,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -18614,7 +18614,7 @@
         "max_output_tokens": 32768,
         "max_tokens": 32768,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -18639,7 +18639,7 @@
         "max_output_tokens": 131072,
         "max_tokens": 131072,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -18664,7 +18664,7 @@
         "max_output_tokens": 262144,
         "max_tokens": 262144,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -18689,7 +18689,7 @@
         "max_output_tokens": 131072,
         "max_tokens": 131072,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -18714,7 +18714,7 @@
         "max_output_tokens": 131072,
         "max_tokens": 131072,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -18739,7 +18739,7 @@
         "max_output_tokens": 131072,
         "max_tokens": 131072,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -18764,7 +18764,7 @@
         "max_output_tokens": 131072,
         "max_tokens": 131072,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -18789,7 +18789,7 @@
         "max_output_tokens": 131072,
         "max_tokens": 131072,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -18814,7 +18814,7 @@
         "max_output_tokens": 131072,
         "max_tokens": 131072,
         "mode": "chat",
-        "supports_function_calling": null,
+        "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": null,
         "supports_tool_choice": true
@@ -23013,7 +23013,7 @@
         "max_input_tokens": 1048576,
         "max_output_tokens": 65535,
         "max_tokens": 65535,
-        "mode": "chat",
+        "mode": "realtime",
         "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": true,
@@ -23038,7 +23038,7 @@
         "max_input_tokens": 1048576,
         "max_output_tokens": 65535,
         "max_tokens": 65535,
-        "mode": "chat",
+        "mode": "realtime",
         "supports_function_calling": true,
         "supports_reasoning": null,
         "supports_response_schema": true,
@@ -29629,6 +29629,31 @@
     },
     {
       "vendor": "unknown",
+      "model": "gpt-5.3-chat-latest",
+      "full_name": "gpt-5.3-chat-latest",
+      "raw": {
+        "input_cost_per_token": 1.75e-06,
+        "output_cost_per_token": 1.4e-05,
+        "litellm_provider": "openai",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 16384,
+        "max_tokens": 16384,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 1.75,
+        "output_price_per_million": 14.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 16384
+      }
+    },
+    {
+      "vendor": "unknown",
       "model": "gpt-5.2-pro",
       "full_name": "gpt-5.2-pro",
       "raw": {
@@ -33900,6 +33925,31 @@
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": "N/A"
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "mistral.devstral-2-123b",
+      "full_name": "mistral.devstral-2-123b",
+      "raw": {
+        "input_cost_per_token": 4e-07,
+        "output_cost_per_token": 2e-06,
+        "litellm_provider": "bedrock_converse",
+        "max_input_tokens": 256000,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.39999999999999997,
+        "output_price_per_million": 2.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
       }
     },
     {
@@ -48603,6 +48653,31 @@
       }
     },
     {
+      "vendor": "together_ai",
+      "model": "Qwen/Qwen3.5-397B-A17B",
+      "full_name": "together_ai/Qwen/Qwen3.5-397B-A17B",
+      "raw": {
+        "input_cost_per_token": 6e-07,
+        "output_cost_per_token": 3.6e-06,
+        "litellm_provider": "together_ai",
+        "max_input_tokens": 262144,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.6,
+        "output_price_per_million": 3.5999999999999996,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
       "vendor": "unknown",
       "model": "tts-1",
       "full_name": "tts-1",
@@ -57097,6 +57172,31 @@
       "processed": {
         "input_price_per_million": 0.6,
         "output_price_per_million": 2.2,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "zai.glm-4.7-flash",
+      "full_name": "zai.glm-4.7-flash",
+      "raw": {
+        "input_cost_per_token": 7e-08,
+        "output_cost_per_token": 4e-07,
+        "litellm_provider": "bedrock_converse",
+        "max_input_tokens": 200000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": null,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.07,
+        "output_price_per_million": 0.39999999999999997,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 128000
