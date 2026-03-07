@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-06T02:36:10.537215",
-  "total_models": 2680,
+  "updated_at": "2026-03-07T02:29:43.866995",
+  "total_models": 2690,
   "models": [
     {
       "vendor": "unknown",
@@ -8841,6 +8841,56 @@
         "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.19999999999999998,
+        "output_price_per_million": 0.5,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 131072
+      }
+    },
+    {
+      "vendor": "azure_ai",
+      "model": "grok-4-1-fast-non-reasoning",
+      "full_name": "azure_ai/grok-4-1-fast-non-reasoning",
+      "raw": {
+        "input_cost_per_token": 2e-07,
+        "output_cost_per_token": 5e-07,
+        "litellm_provider": "azure_ai",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "max_tokens": 131072,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 0.19999999999999998,
+        "output_price_per_million": 0.5,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 131072
+      }
+    },
+    {
+      "vendor": "azure_ai",
+      "model": "grok-4-1-fast-reasoning",
+      "full_name": "azure_ai/grok-4-1-fast-reasoning",
+      "raw": {
+        "input_cost_per_token": 2e-07,
+        "output_cost_per_token": 5e-07,
+        "litellm_provider": "azure_ai",
+        "max_input_tokens": 131072,
+        "max_output_tokens": 131072,
+        "max_tokens": 131072,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
         "supports_response_schema": true,
         "supports_tool_choice": true
       },
@@ -26279,6 +26329,156 @@
     },
     {
       "vendor": "chatgpt",
+      "model": "gpt-5.4",
+      "full_name": "chatgpt/gpt-5.4",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "chatgpt",
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "chatgpt",
+      "model": "gpt-5.4-pro",
+      "full_name": "chatgpt/gpt-5.4-pro",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "chatgpt",
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "chatgpt",
+      "model": "gpt-5.3-codex",
+      "full_name": "chatgpt/gpt-5.3-codex",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "chatgpt",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "chatgpt",
+      "model": "gpt-5.3-codex-spark",
+      "full_name": "chatgpt/gpt-5.3-codex-spark",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "chatgpt",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "responses",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "chatgpt",
+      "model": "gpt-5.3-instant",
+      "full_name": "chatgpt/gpt-5.3-instant",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "chatgpt",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 64000,
+        "max_tokens": 64000,
+        "mode": "responses",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 64000
+      }
+    },
+    {
+      "vendor": "chatgpt",
+      "model": "gpt-5.3-chat-latest",
+      "full_name": "chatgpt/gpt-5.3-chat-latest",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "chatgpt",
+        "max_input_tokens": 128000,
+        "max_output_tokens": 64000,
+        "max_tokens": 64000,
+        "mode": "responses",
+        "supports_function_calling": true,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 64000
+      }
+    },
+    {
+      "vendor": "chatgpt",
       "model": "gpt-5.2-codex",
       "full_name": "chatgpt/gpt-5.2-codex",
       "raw": {
@@ -29738,7 +29938,7 @@
         "max_input_tokens": 1050000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
-        "mode": "responses",
+        "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
         "supports_response_schema": true,
@@ -29763,7 +29963,7 @@
         "max_input_tokens": 1050000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
-        "mode": "responses",
+        "mode": "chat",
         "supports_function_calling": true,
         "supports_reasoning": true,
         "supports_response_schema": true,
@@ -29772,6 +29972,56 @@
       "processed": {
         "input_price_per_million": 2.5,
         "output_price_per_million": 15.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "gpt-5.4-pro",
+      "full_name": "gpt-5.4-pro",
+      "raw": {
+        "input_cost_per_token": 3e-05,
+        "output_cost_per_token": 0.00018,
+        "litellm_provider": "openai",
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": false,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 30.0,
+        "output_price_per_million": 180.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 128000
+      }
+    },
+    {
+      "vendor": "unknown",
+      "model": "gpt-5.4-pro-2026-03-05",
+      "full_name": "gpt-5.4-pro-2026-03-05",
+      "raw": {
+        "input_cost_per_token": 3e-05,
+        "output_cost_per_token": 0.00018,
+        "litellm_provider": "openai",
+        "max_input_tokens": 1050000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_response_schema": false,
+        "supports_tool_choice": true
+      },
+      "processed": {
+        "input_price_per_million": 30.0,
+        "output_price_per_million": 180.0,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 128000
