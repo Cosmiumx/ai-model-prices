@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-09T02:44:24.803885",
-  "total_models": 2690,
+  "updated_at": "2026-03-10T02:34:50.673063",
+  "total_models": 2692,
   "models": [
     {
       "vendor": "unknown",
@@ -19428,6 +19428,31 @@
       }
     },
     {
+      "vendor": "serper",
+      "model": "search",
+      "full_name": "serper/search",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "serper",
+        "max_input_tokens": null,
+        "max_output_tokens": null,
+        "max_tokens": null,
+        "mode": "search",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": "N/A"
+      }
+    },
+    {
       "vendor": "elevenlabs",
       "model": "scribe_v1",
       "full_name": "elevenlabs/scribe_v1",
@@ -24447,6 +24472,31 @@
       "processed": {
         "input_price_per_million": 2.0,
         "output_price_per_million": 12.0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 32768
+      }
+    },
+    {
+      "vendor": "gemini",
+      "model": "gemini-3.1-flash-image-preview",
+      "full_name": "gemini/gemini-3.1-flash-image-preview",
+      "raw": {
+        "input_cost_per_token": 2.5e-07,
+        "output_cost_per_token": 1.5e-06,
+        "litellm_provider": "gemini",
+        "max_input_tokens": 65536,
+        "max_output_tokens": 32768,
+        "max_tokens": 32768,
+        "mode": "image_generation",
+        "supports_function_calling": false,
+        "supports_reasoning": null,
+        "supports_response_schema": true,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.25,
+        "output_price_per_million": 1.5,
         "currency": "USD",
         "unit": "per_1M_tokens",
         "context_window": 32768
@@ -29988,7 +30038,7 @@
         "max_input_tokens": 1050000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
-        "mode": "chat",
+        "mode": "responses",
         "supports_function_calling": true,
         "supports_reasoning": true,
         "supports_response_schema": false,
@@ -30013,7 +30063,7 @@
         "max_input_tokens": 1050000,
         "max_output_tokens": 128000,
         "max_tokens": 128000,
-        "mode": "chat",
+        "mode": "responses",
         "supports_function_calling": true,
         "supports_reasoning": true,
         "supports_response_schema": false,
