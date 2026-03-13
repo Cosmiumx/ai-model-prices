@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-12T02:40:28.639486",
-  "total_models": 2580,
+  "updated_at": "2026-03-13T02:38:14.834138",
+  "total_models": 2582,
   "models": [
     {
       "vendor": "unknown",
@@ -22528,6 +22528,31 @@
       }
     },
     {
+      "vendor": "unknown",
+      "model": "gemini-flash-experimental",
+      "full_name": "gemini-flash-experimental",
+      "raw": {
+        "input_cost_per_token": 0,
+        "output_cost_per_token": 0,
+        "litellm_provider": "vertex_ai-language-models",
+        "max_input_tokens": 1000000,
+        "max_output_tokens": 8192,
+        "max_tokens": 8192,
+        "mode": "embedding",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
       "vendor": "gemini",
       "model": "gemini-embedding-001",
       "full_name": "gemini/gemini-embedding-001",
@@ -22557,7 +22582,7 @@
       "model": "gemini-embedding-2-preview",
       "full_name": "gemini/gemini-embedding-2-preview",
       "raw": {
-        "input_cost_per_token": 1.5e-07,
+        "input_cost_per_token": 2e-07,
         "output_cost_per_token": 0,
         "litellm_provider": "gemini",
         "max_input_tokens": 8192,
@@ -22570,7 +22595,32 @@
         "supports_tool_choice": null
       },
       "processed": {
-        "input_price_per_million": 0.15,
+        "input_price_per_million": 0.19999999999999998,
+        "output_price_per_million": 0,
+        "currency": "USD",
+        "unit": "per_1M_tokens",
+        "context_window": 8192
+      }
+    },
+    {
+      "vendor": "gemini",
+      "model": "gemini-1.5-flash",
+      "full_name": "gemini/gemini-1.5-flash",
+      "raw": {
+        "input_cost_per_token": 7.5e-08,
+        "output_cost_per_token": 0,
+        "litellm_provider": "gemini",
+        "max_input_tokens": 8192,
+        "max_output_tokens": null,
+        "max_tokens": 8192,
+        "mode": "embedding",
+        "supports_function_calling": null,
+        "supports_reasoning": null,
+        "supports_response_schema": null,
+        "supports_tool_choice": null
+      },
+      "processed": {
+        "input_price_per_million": 0.075,
         "output_price_per_million": 0,
         "currency": "USD",
         "unit": "per_1M_tokens",
