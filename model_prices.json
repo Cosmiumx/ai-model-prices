@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-14T02:36:21.272368",
+  "updated_at": "2026-03-15T02:57:13.430511",
   "total_models": 2582,
   "models": [
     {
@@ -33765,7 +33765,7 @@
         "max_tokens": 262144,
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_reasoning": null,
+        "supports_reasoning": true,
         "supports_response_schema": null,
         "supports_tool_choice": true
       },
@@ -33915,7 +33915,7 @@
         "max_tokens": 262144,
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_reasoning": null,
+        "supports_reasoning": true,
         "supports_response_schema": null,
         "supports_tool_choice": true
       },
@@ -33940,7 +33940,7 @@
         "max_tokens": 262144,
         "mode": "chat",
         "supports_function_calling": true,
-        "supports_reasoning": null,
+        "supports_reasoning": true,
         "supports_response_schema": null,
         "supports_tool_choice": true
       },
